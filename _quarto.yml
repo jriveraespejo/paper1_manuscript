@@ -3,11 +3,17 @@ project:
 
 manuscript:
   article: index.qmd
-  code-links:
-    - text: User-defined functions
-      icon: file-code
-      href: code/user-defined-functions.R
   meca-bundle: "manuscript1-meca.zip"
+  code-links:
+  - text: Additional Notebook
+    icon: filetype-html
+    href: https://jriveraespejo.github.io/betaprop.walkthrough.github.io/
+  - text: Github repository
+    icon: filetype-html
+    href: https://github.com/jriveraespejo/paper1_manuscript.git
+  - text: User-defined functions
+    icon: file-code-fill
+    href: code/user-defined-functions.R
 
 execute:
   freeze: auto
@@ -23,7 +29,7 @@ format:
     toc-location: left
     fontsize: 11pt
     number-sections: true
-    code-fold: show
+    code-fold: true
     code-summary: "code"
     code-overflow: scroll
     #code-annotations: hover
