@@ -1,8 +1,9 @@
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
 /.quarto/
 /_manuscript
+/index_cache
+/index_files
+/notebooks/interludes_cache
+/notebooks/interludes_files
 
 /agujournal2019.cls
 /trackchanges.sty

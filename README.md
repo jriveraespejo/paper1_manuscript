@@ -1,4 +1,4 @@
-## A Quarto Manuscript Template
+## Quarto Manuscript
 
-This is a template repo for generating a manuscript from Quarto that accompanies the tutorial at: [Quarto Manuscripts: RStudio](https://quarto.org/docs/manuscripts/authoring/rstudio.html)
+This is the repository for generating the Quarto manuscript from the study: *Everything, altogether, all at once: Addressing data challenges when measuring speech intelligibility through entropy scores*
 
