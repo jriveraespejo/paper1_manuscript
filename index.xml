@@ -129,10 +129,10 @@ acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/fu
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-05">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-06">
 <year>2024</year>
 <month>4</month>
-<day>5</day>
+<day>6</day>
 </pub-date>
 
 
@@ -3003,14 +3003,15 @@ the University of Antwerp (BOF).</funding-statement>
   <p><bold>Consent to participate:</bold> Not applicable</p>
   <p><bold>Consent for publication:</bold> All authors have read and
   agreed to the published version of the manuscript.</p>
-  <p><bold>Availability of data and materials:</bold> The data is
-  delivered upon request, while the user-defined functions are available
-  in the <monospace>code</monospace> folder from this walk-through
-  located at:
-  <ext-link ext-link-type="uri" xlink:href="https://github.com/jriveraespejo/paper1_manuscript">https://github.com/jriveraespejo/paper1_manuscript</ext-link></p>
-  <p><bold>Code availability:</bold> The code is available in the
-  different notebooks of this document located at:
-  <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
+  <p><bold>Availability of data and materials:</bold>
+  <styled-content style="color:red;">The data is delivered upon
+  request.</styled-content></p>
+  <p><bold>Code availability:</bold>
+  <styled-content style="color:red;">All the code utilized in this
+  research is available in the different notebooks and
+  <monospace>CODE LINKS</monospace> referenced in the digital document.
+  The digital document is located at:</styled-content>
+  <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link>.</p>
   <p><bold>Authors’ contributions:</bold>
   <italic>Conceptualization:</italic> S.G., S.dM., and J.M.R.E;
   <italic>Data curation:</italic> J.M.R.E.; <italic>Formal
@@ -8222,14 +8223,15 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
   <p><bold>Consent to participate:</bold> Not applicable</p>
   <p><bold>Consent for publication:</bold> All authors have read and
   agreed to the published version of the manuscript.</p>
-  <p><bold>Availability of data and materials:</bold> The data is
-  delivered upon request, while the user-defined functions are available
-  in the <monospace>code</monospace> folder from this walk-through
-  located at:
-  <ext-link ext-link-type="uri" xlink:href="https://github.com/jriveraespejo/paper1_manuscript">https://github.com/jriveraespejo/paper1_manuscript</ext-link></p>
-  <p><bold>Code availability:</bold> The code is available in the
-  different notebooks of this document located at:
-  <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
+  <p><bold>Availability of data and materials:</bold>
+  <styled-content style="color:red;">The data is delivered upon
+  request.</styled-content></p>
+  <p><bold>Code availability:</bold>
+  <styled-content style="color:red;">All the code utilized in this
+  research is available in the different notebooks and
+  <monospace>CODE LINKS</monospace> referenced in the digital document.
+  The digital document is located at:</styled-content>
+  <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link>.</p>
   <p><bold>Authors’ contributions:</bold>
   <italic>Conceptualization:</italic> S.G., S.dM., and J.M.R.E;
   <italic>Data curation:</italic> J.M.R.E.; <italic>Formal
