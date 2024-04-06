@@ -973,9 +973,9 @@ par(mfrow=c(1,1))
 
 **Consent for publication:** All authors have read and agreed to the published version of the manuscript.
 
-**Availability of data and materials:** The data is delivered upon request, while the user-defined functions are available in the `code` folder from this walk-through located at: [https://github.com/jriveraespejo/paper1_manuscript](https://github.com/jriveraespejo/paper1_manuscript)
+**Availability of data and materials:** [The data is delivered upon request.]{style="color:red;"} 
 
-**Code availability:** The code is available in the different notebooks of this document located at: [https://jriveraespejo.github.io/paper1_manuscript/](https://jriveraespejo.github.io/paper1_manuscript/)
+**Code availability:** [All the code utilized in this research is available in the different notebooks and `CODE LINKS` referenced in the digital document. The digital document is located at:]{style="color:red;"} [https://jriveraespejo.github.io/paper1_manuscript/](https://jriveraespejo.github.io/paper1_manuscript/).  
 
 **Authors' contributions:** *Conceptualization:* S.G., S.dM., and J.M.R.E; *Data curation:* J.M.R.E.; *Formal Analysis:* J.M.R.E.; *Funding acquisition:* S.G. and S.dM; *Investigation:* S.G.; *Methodology:* S.G., S.dM., and J.M.R.E; *Project administration:* S.G. and S.dM.; *Resources:* S.G. and S.dM.; *Software: J.M.R.E.*; *Supervision:* S.G. and S.dM.; *Validation:* J.M.R.E.; *Visualization:* J.M.R.E.; *Writing - original draft:* J.M.R.E.; *Writing - review & editing:* S.G. and S.dM.
 
