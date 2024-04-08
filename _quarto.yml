@@ -39,7 +39,9 @@ format:
     default image extension: png
   docx: default
   jats: default
-  agu-pdf: 
+  #agu-pdf: default
+  nature-pdf: 
+    journal: sn-apacite
     keep-tex: true
 
 
