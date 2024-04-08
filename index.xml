@@ -100,7 +100,8 @@ acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/fu
 </contrib>
 </contrib-group>
 <aff id="aff-1">
-<institution content-type="dept">Education sciences</institution>
+<institution content-type="dept">Department of Training and Education
+Sciences</institution>
 <institution-wrap>
 <institution>University of Antwerp</institution>
 </institution-wrap>
@@ -113,7 +114,7 @@ acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/fu
 
 </aff>
 <aff id="aff-2">
-<institution content-type="dept">Linguistics</institution>
+<institution content-type="dept">Department of Linguistics</institution>
 <institution-wrap>
 <institution>University of Antwerp</institution>
 </institution-wrap>
@@ -129,10 +130,10 @@ acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/fu
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-06">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-08">
 <year>2024</year>
 <month>4</month>
-<day>6</day>
+<day>8</day>
 </pub-date>
 
 
@@ -275,23 +276,33 @@ the University of Antwerp (BOF).</funding-statement>
   (<xref alt="Cox et al. 1989" rid="ref-Cox_et_al_1989" ref-type="bibr">Cox
   et al. 1989</xref>;
   <xref alt="Ertmer 2011" rid="ref-Ertmer_2011" ref-type="bibr">Ertmer
-  2011</xref>). In contrast, spontaneous speech samples offer a more
-  ecologically valid means for assessing intelligibility, as they
-  resemble everyday informal speech more compared to read-aloud or
-  imitated speech
+  2011</xref>). <styled-content style="color:blue;">In contrast,
+  spontaneous speech samples offer a more ecologically valid approach to
+  assess intelligibility, resembling everyday informal speech more than
+  read-aloud or imitated speech samples
   (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-  et al. 2021</xref>). However, establishing a straightforward
-  comparison between a predetermined word target and a listener’s
-  identification of it using spontaneous speech is no longer possible,
-  since such a target is non-existent. Therefore, the link between a
-  word target and a listener’s identification of it can only be inferred
-  indirectly
+  et al. 2021</xref>). However, due to the significant uncertainty
+  surrounding the speaker’s intended word production, it is
+  time-consuming or straight unfeasible to establish a word target for
+  these samples
   (<xref alt="Flipsen 2006" rid="ref-Flipsen_2006" ref-type="bibr">Flipsen
   2006</xref>;
   <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014" ref-type="bibr">Lagerberg
-  et al. 2014</xref>).</p>
-  <p>Yet, a metric of intelligibility can still be derived from
-  transcriptions of spontaneous speech samples. In this approach,
+  et al. 2014</xref>). This renders conventional accuracy metrics from
+  imitated speech, such as the percentage of read or imitated words,
+  impractical
+  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
+  et al. 2021</xref>).</styled-content></p>
+  <p><styled-content style="color:blue;">Yet, various metrics of
+  intelligibility can still be derived from transcriptions of
+  spontaneous speech samples, including the percentage of
+  (un)intelligible words or syllables
+  (<xref alt="Flipsen 2006" rid="ref-Flipsen_2006" ref-type="bibr">Flipsen
+  2006</xref>;
+  <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014" ref-type="bibr">Lagerberg
+  et al. 2014</xref>), as well as entropy scores
+  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
+  et al. 2021</xref>). In the latter approach,</styled-content>
   listeners transcribe orthographically multiple spontaneous speech
   samples produced by various speakers. These transcriptions are then
   aggregated into entropy scores, where lower scores indicate a higher
@@ -413,9 +424,11 @@ the University of Antwerp (BOF).</funding-statement>
   <xref alt="Lopes et al. 2023" rid="ref-Lopes_et_al_2023" ref-type="bibr">Lopes
   et al. 2023</xref>), education
   (<xref alt="Pereira et al. 2020" rid="ref-Pereira_et_al_2020" ref-type="bibr">Pereira
-  et al. 2020</xref>), health care [Ghosh
-  (<xref alt="2019" rid="ref-Ghosh_2019" ref-type="bibr">2019</xref>);
-  Kangmennaang_et_al_2023], chemistry
+  et al. 2020</xref>), health care
+  (<xref alt="Ghosh 2019" rid="ref-Ghosh_2019" ref-type="bibr">Ghosh
+  2019</xref>;
+  <xref alt="Kangmennaang, Siiba, and Bisung 2023" rid="ref-Kangmennaang_et_al_2023" ref-type="bibr">Kangmennaang,
+  Siiba, and Bisung 2023</xref>), chemistry
   (<xref alt="de Brito Trindade et al. 2021" rid="ref-de_Brito_et_al_2021" ref-type="bibr">de
   Brito Trindade et al. 2021</xref>), and policy analysis
   (<xref alt="Dieteren et al. 2023" rid="ref-Dieteren_et_al_2023" ref-type="bibr">Dieteren
@@ -436,8 +449,43 @@ the University of Antwerp (BOF).</funding-statement>
   health care access, respectively. Remarkably, despite these individual
   efforts, there is, to the best of the authors’ knowledge, no study
   comprehensively addressing all of these data features in a principled
-  way while also transparently and systematically documenting the
+  way, while also transparently and systematically documenting the
   Bayesian estimation of the resulting statistical models.</p>
+  <p><styled-content style="color:blue;">This study employed Bayesian
+  procedures due to three primary properties. Firstly, prior research
+  consistently shows that Bayesian methods outperforms frequentist
+  methods when handling complex and over-parameterized models
+  (<xref alt="Baker 1998" rid="ref-Baker_1998" ref-type="bibr">Baker
+  1998</xref>;
+  <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999" ref-type="bibr">Kim
+  and Cohen 1999</xref>). This property is particularly relevant when
+  dealing with models like the proposed Generalized Linear Latent and
+  Mixed Models (GLLAMM), which may be challenging to program or may not
+  be viable under frequentist methods
+  (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014" ref-type="bibr">Depaoli
+  2014</xref>). Secondly, the Bayesian approach enables the
+  incorporation of prior information, thereby constraining certain
+  parameters within specified bounds. This feature helps to address
+  issues such as non-convergence or improper parameter estimation
+  commonly encountered in complex models under frequentist methods
+  (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975" ref-type="bibr">Martin
+  and McDonald 1975</xref>;
+  <xref alt="Seaman and Stamey 2011" rid="ref-Seaman_et_al_2011" ref-type="bibr">Seaman
+  and Stamey 2011</xref>). In this study, for example, this feature was
+  leveraged to constraint the variances of random effects to be
+  positive. Lastly, Bayesian methods have shown proficiency in handling
+  relatively small sample sizes
+  (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013" ref-type="bibr">Baldwin
+  and Fellingham 2013</xref>;
+  <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005" ref-type="bibr">Lambert
+  et al. 2006</xref>;
+  <xref alt="Depaoli 2014" rid="ref-Depaoli_2014" ref-type="bibr">Depaoli
+  2014</xref>). Although this study models 2,263 entropy scores, they
+  are derived from a modest sample size of 32 speakers, from which
+  inferences are drawn. Consequently, relying solely on the asymptotic
+  properties of frequentist methods may not be justified in this
+  context, highlighting the relevance of this property for the
+  study.</styled-content></p>
   <sec id="sec-I-RQ">
     <title>Research questions</title>
     <p>Considering the imperative need to comprehensively address all
@@ -474,15 +522,17 @@ the University of Antwerp (BOF).</funding-statement>
     framework. Specifically, RQ3 assesses the influence of
     speaker-related factors on the newly estimated latent
     intelligibility.</p>
-    <p>The findings of this study will equip researchers investigating
-    speech intelligibility using entropy scores, or those grappling with
+    <p><styled-content style="color:blue;">Ultimately, this study
+    provides researchers investigating speech intelligibility using
+    entropy scores or percentages of (un)intelligible words or
+    syllables, as well as researchers in other fields grappling with
     similar data challenges, with a statistical tool that improves upon
-    existing research models. The tool will provide an assessment of the
-    predictability of empirical phenomena, along with the capability to
-    develop a quantitative measure for the latent variable of interest.
-    The latter, in turn, will facilitate the appropriate comparison of
-    existing theories related to the latent variable, and even the
-    development of new ones.</p>
+    existing research models. The tool is capable of assessing the
+    predictability of empirical phenomena and developing a quantitative
+    measure for the latent variable of interest. This quantitative
+    measure, in turn, facilitates the appropriate comparison of existing
+    theories related to the latent variable, and even promotes the
+    development of new ones.</styled-content></p>
   </sec>
 </sec>
 <sec id="sec-methods">
@@ -533,14 +583,18 @@ the University of Antwerp (BOF).</funding-statement>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>M</mml:mi><mml:mo>=</mml:mo><mml:mn>86.3</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
       <inline-formula><alternatives>
       <tex-math><![CDATA[SD=6.7]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>S</mml:mi><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mn>6.7</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).</p>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>S</mml:mi><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mn>6.7</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).
+      <styled-content style="color:blue;">All children were native
+      speakers of Belgian Dutch.</styled-content></p>
     </sec>
     <sec id="sec-M-SS">
       <title>Speech samples</title>
       <p>Boonen and colleagues selected speech samples from a large
       corpus of children’s spontaneously spoken speech recordings. These
-      recordings were obtained as the children narrated a story prompted
-      by the picture book “Frog, Where Are You?”
+      recordings were <styled-content style="color:blue;">made in
+      Belgian Dutch and obtained while</styled-content> the children
+      narrated a story prompted by the picture book “Frog, Where Are
+      You?”
       (<xref alt="Mayer 1969" rid="ref-Mayer_1969" ref-type="bibr">Mayer
       1969</xref>) to a caregiver ‘unfamiliar with the story’. Before
       recording, the children were allowed to skim over the booklet and
@@ -586,21 +640,24 @@ the University of Antwerp (BOF).</funding-statement>
     </sec>
     <sec id="sec-M-TS">
       <title>Transcription task and entropy scores</title>
-      <p>The <inline-formula><alternatives>
+      <p><styled-content style="color:blue;">Boonen et al.
+      (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>)
+      randomly allocated the <inline-formula><alternatives>
       <tex-math><![CDATA[320]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>320</mml:mn></mml:math></alternatives></inline-formula>
       speech samples and <inline-formula><alternatives>
       <tex-math><![CDATA[105]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>105</mml:mn></mml:math></alternatives></inline-formula>
-      listeners were randomly assigned to five blocks, with each block
-      consisting of approximately <inline-formula><alternatives>
+      listeners into five blocks. Each block consisted approximately of
+      <inline-formula><alternatives>
       <tex-math><![CDATA[21]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>21</mml:mn></mml:math></alternatives></inline-formula>
-      listeners who transcribed <inline-formula><alternatives>
+      listeners, who were responsible for transcribing all
+      <inline-formula><alternatives>
       <tex-math><![CDATA[64]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>64</mml:mn></mml:math></alternatives></inline-formula>
-      sentences presented in random order. This resulted in a total of
-      <inline-formula><alternatives>
+      unique sentences presented in random order.</styled-content> This
+      resulted in a total of <inline-formula><alternatives>
       <tex-math><![CDATA[47,514]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>47</mml:mn><mml:mo>,</mml:mo><mml:mn>514</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
       transcribed words from the original <inline-formula><alternatives>
@@ -615,9 +672,9 @@ the University of Antwerp (BOF).</funding-statement>
       alignment process was repeated for each sentence within each
       speaker and block, and the output was manually checked and
       adjusted (if needed) in order to appropriately align the words.
-      For more details on the random assignment and alignment procedures
-      refer to Boonen et al.
-      (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>).</p>
+      <styled-content style="color:blue;">For more details on the random
+      assignment and alignment procedures refer to the aforementioned
+      authors.</styled-content></p>
       <p>Next, this study aggregated the aligned transcriptions by
       listener yielding <inline-formula><alternatives>
       <tex-math><![CDATA[2,2634]]></tex-math>
@@ -627,9 +684,9 @@ the University of Antwerp (BOF).</funding-statement>
       (<xref alt="1948" rid="ref-Shannon_1948" ref-type="bibr">1948</xref>):</p>
       <p><styled-content id="eq-entropy"><disp-formula><alternatives>
       <tex-math><![CDATA[
-      H_{wsib} = \frac{ \sum_{k=1}^{K} p_{k} \cdot log_{2}(p_{k}) }{ log_{2}(J)}
+      H_{wsib} = \frac{ -\left[ \sum_{k=1}^{K}  p_{k} \cdot log_{2}(p_{k}) \right] }{ log_{2}(J)}
        \qquad(1)]]></tex-math>
-      <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>w</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>K</mml:mi></mml:munderover><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>J</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
+      <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>w</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>K</mml:mi></mml:munderover><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>J</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
       <p>where <inline-formula><alternatives>
       <tex-math><![CDATA[H_{wsib}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>w</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
@@ -848,41 +905,6 @@ the University of Antwerp (BOF).</funding-statement>
     with the criteria employed to assess the quality of the Bayesian
     inference results. Lastly, the section outlines the methodology
     employed for model comparison.</p>
-    <p>The selection of the Bayesian approach was based on three key
-    properties. Firstly, empirical evidence from prior research
-    demonstrates that Bayesian methods outperform frequentist methods,
-    particularly in handling complex and over-parameterized models
-    (<xref alt="Baker 1998" rid="ref-Baker_1998" ref-type="bibr">Baker
-    1998</xref>;
-    <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999" ref-type="bibr">Kim
-    and Cohen 1999</xref>). This superiority is evident when dealing
-    with complex models, like the proposed GLLAMM, that are challenging
-    to program or are not viable under frequentist methods
-    (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014" ref-type="bibr">Depaoli
-    2014</xref>). Secondly, the approach allows for the incorporation of
-    prior information, ensuring that certain parameters are confined
-    within specified boundaries. This helps mitigate non-convergence or
-    improper parameter estimation issues commonly observed in complex
-    models under frequentist methods
-    (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975" ref-type="bibr">Martin
-    and McDonald 1975</xref>;
-    <xref alt="Seaman and Stamey 2011" rid="ref-Seaman_et_al_2011" ref-type="bibr">Seaman
-    and Stamey 2011</xref>). In this study, for example, this property
-    was leveraged to incorporate information about the variances of
-    random effects and constrain them to be positive. Lastly, the
-    Bayesian approach demonstrates proficiency in handling relatively
-    small sample sizes
-    (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013" ref-type="bibr">Baldwin
-    and Fellingham 2013</xref>;
-    <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005" ref-type="bibr">Lambert
-    et al. 2006</xref>;
-    <xref alt="Depaoli 2014" rid="ref-Depaoli_2014" ref-type="bibr">Depaoli
-    2014</xref>). In this case, despite the study dealing with 2,263
-    entropy scores, these were derived from a modest sample size of 32
-    speakers, from whom the inferences are drawn. Consequently, reliance
-    on the asymptotic properties of frequentist methods may not be
-    warranted in this context, underscoring the pertinence of this
-    property to the current study.</p>
     <sec id="sec-M-SM-NLMM">
       <title>Normal LMM</title>
       <p>The general mathematical formalism of the Normal LMM posits
@@ -1495,7 +1517,8 @@ the University of Antwerp (BOF).</funding-statement>
       (<xref alt="2017" rid="ref-Depaoli_et_al_2017" ref-type="bibr">2017</xref>).
       This checklist outlines the ten crucial points that need careful
       scrutiny when employing Bayesian inference procedures. The digital
-      walk-through is available at the following URL:
+      walk-through is available at the following
+      <styled-content style="color:blue;">URL</styled-content>:
       <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
     </sec>
   </sec>
@@ -2345,8 +2368,10 @@ the University of Antwerp (BOF).</funding-statement>
     assessment, with several studies providing evidence for its validity
     in assessing various task within student works, as demonstrated by
     examples in Pollitt
-    (<xref alt="2012" rid="ref-Pollitt_2012a" ref-type="bibr">2012</xref>);
-    Pollitt_2012b, Lesterhuis
+    (<xref alt="2012a" rid="ref-Pollitt_2012a" ref-type="bibr">2012a</xref>);
+    Pollitt
+    (<xref alt="2012b" rid="ref-Pollitt_2012b" ref-type="bibr">2012b</xref>),
+    Lesterhuis
     (<xref alt="2018" rid="ref-Lesterhuis_2018" ref-type="bibr">2018</xref>),
     van Daal
     (<xref alt="2020" rid="ref-vanDaal_2020" ref-type="bibr">2020</xref>),
@@ -2404,19 +2429,56 @@ the University of Antwerp (BOF).</funding-statement>
   and testing theories related to nuanced, unobservable constructs,
   while also considering the appropriate prediction of the empirical
   phenomena.</p>
+  <p></p>
+</sec>
+<sec id="declarations">
+  <title>Declarations</title>
+  <p><bold>Funding:</bold> The project was founded through the Research
+  Fund of the University of Antwerp (BOF).</p>
+  <p><bold>Conflict of interests:</bold> The authors declare no conflict
+  of interest.</p>
+  <p><bold>Ethics approval:</bold> This is an observational study. The
+  University of Antwerp Research Ethics Committee has confirmed that no
+  ethical approval is required.</p>
+  <p><bold>Consent to participate:</bold> Not applicable</p>
+  <p><bold>Consent for publication:</bold> All authors have read and
+  agreed to the published version of the manuscript.</p>
+  <p><bold>Availability of data and materials:</bold>
+  <styled-content style="color:blue;">The data is delivered upon
+  request.</styled-content></p>
+  <p><bold>Code availability:</bold>
+  <styled-content style="color:blue;">All the code utilized in this
+  research is available in the different notebooks and
+  <monospace>CODE LINKS</monospace> referenced in the digital document.
+  The digital document is located at:</styled-content>
+  <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link>.</p>
+  <p><bold>Authors’ contributions:</bold>
+  <italic>Conceptualization:</italic> S.G., S.dM., and J.M.R.E;
+  <italic>Data curation:</italic> J.M.R.E.; <italic>Formal
+  Analysis:</italic> J.M.R.E.; <italic>Funding acquisition:</italic>
+  S.G. and S.dM; <italic>Investigation:</italic> S.G.;
+  <italic>Methodology:</italic> S.G., S.dM., and J.M.R.E;
+  <italic>Project administration:</italic> S.G. and S.dM.;
+  <italic>Resources:</italic> S.G. and S.dM.; <italic>Software:
+  J.M.R.E.</italic>; <italic>Supervision:</italic> S.G. and S.dM.;
+  <italic>Validation:</italic> J.M.R.E.; <italic>Visualization:</italic>
+  J.M.R.E.; <italic>Writing - original draft:</italic> J.M.R.E.;
+  <italic>Writing - review &amp; editing:</italic> S.G. and S.dM.</p>
+  <p></p>
 </sec>
 <sec id="sec-appendix">
   <title>Appendix</title>
   <sec id="sec-appA">
     <title>Entropy scores calculation</title>
-    <p>This section exemplifies the entropy calculation procedure. For
-    that purpose, the words in position two, four and five observed in
+    <p>This section exemplifies the entropy calculation procedure.
+    <styled-content style="color:blue;">For that purpose, the words in
+    position two, three, four and five observed in
     <xref alt="Table 1" rid="tbl-alignment">Table 1</xref> were used.
     These words were assumed present in the first sentence, produced by
     the first speaker assigned to the first block, and transcribed by
     five listeners (<inline-formula><alternatives>
-    <tex-math><![CDATA[w=\{2,4,5\}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>w</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    <tex-math><![CDATA[w=\{2,3,4,5\}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>w</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     <inline-formula><alternatives>
     <tex-math><![CDATA[s=1]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
@@ -2429,11 +2491,9 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[J=5]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).
-    For the word <inline-formula><alternatives>
-    <tex-math><![CDATA[2]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>2</mml:mn></mml:math></alternatives></inline-formula>,
-    the first four listeners identified the word type
-    <italic>jongen</italic> <inline-formula><alternatives>
+    For second word,</styled-content> the first four listeners
+    identified the word type <italic>jongen</italic>
+    <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     while the last identified the word type <italic>hond</italic>
@@ -2445,19 +2505,29 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[K=2]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
     with proportions equal to <inline-formula><alternatives>
-    <tex-math><![CDATA[\{ p_{1}, p_{2} \} = \{ 4/5, 1/5 \} = \{ 0.8, 0.2 \}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>4</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    <tex-math><![CDATA[\{ p_{1}, p_{2} \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 4/5, 1/5 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>4</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 0.8, 0.2 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     and entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
-    H_{2111} = \frac{ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) }{ log_{2}(5)} \approx 0.3109
+    H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
     ]]></tex-math>
-    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>0.8</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.3109</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
-    For the word <inline-formula><alternatives>
-    <tex-math><![CDATA[4]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>,
-    two listeners identified the word type <italic>een</italic>
-    <inline-formula><alternatives>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.8</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.3109</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p><styled-content style="color:blue;">For the fourth
+    word,</styled-content> two listeners identified the word type
+    <italic>een</italic> <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     one listener the word type <italic>de</italic>
@@ -2478,27 +2548,38 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[K=4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
     with proportions equal to <inline-formula><alternatives>
-    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3}, p_{4} \} = \{ 2/5, 1/5, 1/5, 1/5 \} = \{ 0.4, 0.2, 0.2, 0.2 \}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3}, p_{4} \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 2/5, 1/5, 1/5, 1/5 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 0.4, 0.2, 0.2, 0.2 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
     and entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
-    H_{4111} = \frac{ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) }{ log_{2}(5)} \approx 0.8277
+    H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
     ]]></tex-math>
-    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
-    Lastly, for word <inline-formula><alternatives>
-    <tex-math><![CDATA[5]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>5</mml:mn></mml:math></alternatives></inline-formula>,
-    each listener transcribed a different word. it is important to
-    highlight that when a listener does not identify a complete word, or
-    part of it, (s)he is instructed to write <italic>[X]</italic> in
-    that position. However, for the calculation of the entropy score, if
-    more than one listener marks an unidentifiable word with
-    <italic>[X]</italic>, each one of them is considered a different
-    word type. This is done to avoid the artificial reduction of the
-    entropy score, as <italic>[X]</italic> values already indicate the
-    word’s lack of intelligibility. . Consequently, five word types were
-    observed, <inline-formula><alternatives>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
+    <styled-content style="color:blue;">For the fifth
+    word,</styled-content> each listener transcribed a different word.
+    it is important to highlight that when a listener does not identify
+    a complete word, or part of it, (s)he is instructed to write
+    <italic>[X]</italic> in that position. However, for the calculation
+    of the entropy score, if more than one listener marks an
+    unidentifiable word with <italic>[X]</italic>, each one of them is
+    considered a different word type. This is done to avoid the
+    artificial reduction of the entropy score, as <italic>[X]</italic>
+    values already indicate the word’s lack of intelligibility. .
+    Consequently, five word types were observed,
+    <inline-formula><alternatives>
     <tex-math><![CDATA[T_{j1}=]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><italic>kikker</italic>,
     <inline-formula><alternatives>
@@ -2517,14 +2598,83 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[K=5]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
     with proportions equal to <inline-formula><alternatives>
-    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3}, p_{4}, p_{5} \} = \{ 1/5, 1/5, 1/5, 1/5, 1/5 \} = \{ 0.2, 0.2, 0.2, 0.2, 0.2 \}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>5</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3}, p_{4}, p_{5} \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>5</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 1/5, 1/5, 1/5, 1/5, 1/5 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 0.2, 0.2, 0.2, 0.2, 0.2 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     and entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
-    H_{5111} = \frac{ 5 \cdot 0.2 \cdot log_{2}(0.2) }{ log_{2}(5)} = 1
+    H_{5111} = \frac{ -\left[ 5 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} = 1
     ]]></tex-math>
-    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>5111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>5</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>5111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>5</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p><styled-content style="color:blue;">Lastly, for the third word,
+    the first two listeners identified the word type
+    <italic>ziet</italic> <inline-formula><alternatives>
+    <tex-math><![CDATA[(T_{j1})]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    the next two listeners identified the word type <italic>zag</italic>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[(T_{j2})]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    while the last one identified the word type <italic>zoekt</italic>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[(T_{j3})]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
+    Consequently, three word types were identified
+    (<inline-formula><alternatives>
+    <tex-math><![CDATA[K=3]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
+    with proportions equal to <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3} \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 2/5, 2/5, 1/5 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 0.4, 0.4, 0.2 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    and entropy score equal to:</styled-content></p>
+    <p><disp-formula><alternatives>
+    <tex-math><![CDATA[
+    H_{2111} = \frac{ -\left[ 2 \cdot 0.4 \cdot log_{2}(0.4) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.6555
+    ]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.6555</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p><styled-content style="color:blue;">Importantly, this last
+    example showcases the major difference between entropy and measures
+    of accuracy based on the percentage of (un)intelligible words:
+    entropy scores employ all word type proportions in their
+    calculations, effectively capturing the agreement and disagreement
+    among listeners’ word transcriptions. In contrast, the percentage of
+    (un)intelligible words mostly discards some word type proportions in
+    favor of <italic>simpler</italic> agreement or disagreement
+    percentages. For example, an agreement percentage could be reflected
+    by the proportion of the most frequent word, i.e.,
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\text{max}\{ 0.4, 0.4, 0.2 \}=0.4]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtext mathvariant="normal">max</mml:mtext><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mn>0.4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
+    or by other similar percentages as the ones detailed in the works of
+    Flipsen
+    (<xref alt="2006" rid="ref-Flipsen_2006" ref-type="bibr">2006</xref>)
+    and Lagerberg et al.
+    (<xref alt="2014" rid="ref-Lagerberg_et_al_2014" ref-type="bibr">2014</xref>).</styled-content></p>
+    <p></p>
   </sec>
   <sec id="sec-appB">
     <title>Tables</title>
@@ -2934,6 +3084,7 @@ the University of Antwerp (BOF).</funding-statement>
         </table>
       </table-wrap>
     </fig>
+    <p></p>
   </sec>
   <sec id="sec-appC">
     <title>Figures</title>
@@ -2991,41 +3142,6 @@ the University of Antwerp (BOF).</funding-statement>
     <p></p>
   </sec>
 </sec>
-<sec id="declarations">
-  <title>Declarations</title>
-  <p><bold>Funding:</bold> The project was founded through the Research
-  Fund of the University of Antwerp (BOF).</p>
-  <p><bold>Conflict of interests:</bold> The authors declare no conflict
-  of interest.</p>
-  <p><bold>Ethics approval:</bold> This is an observational study. The
-  University of Antwerp Research Ethics Committee has confirmed that no
-  ethical approval is required.</p>
-  <p><bold>Consent to participate:</bold> Not applicable</p>
-  <p><bold>Consent for publication:</bold> All authors have read and
-  agreed to the published version of the manuscript.</p>
-  <p><bold>Availability of data and materials:</bold>
-  <styled-content style="color:red;">The data is delivered upon
-  request.</styled-content></p>
-  <p><bold>Code availability:</bold>
-  <styled-content style="color:red;">All the code utilized in this
-  research is available in the different notebooks and
-  <monospace>CODE LINKS</monospace> referenced in the digital document.
-  The digital document is located at:</styled-content>
-  <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link>.</p>
-  <p><bold>Authors’ contributions:</bold>
-  <italic>Conceptualization:</italic> S.G., S.dM., and J.M.R.E;
-  <italic>Data curation:</italic> J.M.R.E.; <italic>Formal
-  Analysis:</italic> J.M.R.E.; <italic>Funding acquisition:</italic>
-  S.G. and S.dM; <italic>Investigation:</italic> S.G.;
-  <italic>Methodology:</italic> S.G., S.dM., and J.M.R.E;
-  <italic>Project administration:</italic> S.G. and S.dM.;
-  <italic>Resources:</italic> S.G. and S.dM.; <italic>Software:
-  J.M.R.E.</italic>; <italic>Supervision:</italic> S.G. and S.dM.;
-  <italic>Validation:</italic> J.M.R.E.; <italic>Visualization:</italic>
-  J.M.R.E.; <italic>Writing - original draft:</italic> J.M.R.E.;
-  <italic>Writing - review &amp; editing:</italic> S.G. and S.dM.</p>
-  <p></p>
-</sec>
 </body>
 
 <back>
@@ -3074,7 +3190,7 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="1951">1951</year>
       <volume>22</volume>
       <issue>1</issue>
-      <uri>\url{http://www.jstor.org/stable/2236703}</uri>
+      <uri>http://www.jstor.org/stable/2236703</uri>
       <pub-id pub-id-type="doi"></pub-id>
       <fpage>79</fpage>
       <lpage>86</lpage>
@@ -3125,7 +3241,7 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="1985-04">1985</year><month>04</month>
       <volume>6</volume>
       <issue>1</issue>
-      <uri>\url{https://academic.oup.com/applij/article-pdf/6/1/71/9741729/71.pdf}</uri>
+      <uri>https://academic.oup.com/applij/article-pdf/6/1/71/9741729/71.pdf</uri>
       <pub-id pub-id-type="doi">10.1093/applin/6.1.71</pub-id>
       <fpage>71</fpage>
       <lpage>90</lpage>
@@ -3230,7 +3346,7 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="1998">1998</year>
       <volume>48</volume>
       <issue>2</issue>
-      <uri>\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9922.00038}</uri>
+      <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9922.00038</uri>
       <pub-id pub-id-type="doi">10.1111/1467-9922.00038</pub-id>
       <fpage>159</fpage>
       <lpage>182</lpage>
@@ -3246,7 +3362,7 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="2000">2000</year>
       <volume>24</volume>
       <issue>4</issue>
-      <uri>\url{https://www.sciencedirect.com/science/article/pii/S0147176700000110}</uri>
+      <uri>https://www.sciencedirect.com/science/article/pii/S0147176700000110</uri>
       <pub-id pub-id-type="doi">10.1016/S0147-1767(00)00011-0</pub-id>
       <fpage>477</fpage>
       <lpage>501</lpage>
@@ -3265,7 +3381,7 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="2002-10">2002</year><month>10</month>
       <volume>64</volume>
       <issue>4</issue>
-      <uri>\url{https://academic.oup.com/jrsssb/article-pdf/64/4/583/49723641/jrsssb\_64\_4\_583.pdf}</uri>
+      <uri>https://academic.oup.com/jrsssb/article-pdf/64/4/583/49723641/jrsssb\_64\_4\_583.pdf</uri>
       <pub-id pub-id-type="doi">10.1111/1467-9868.00353</pub-id>
       <fpage>583</fpage>
       <lpage>639</lpage>
@@ -3335,7 +3451,7 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="2004">2004</year>
       <volume>128</volume>
       <issue>2</issue>
-      <uri>\url{http://www.sciencedirect.com/science/article/pii/S0304407604001599}</uri>
+      <uri>http://www.sciencedirect.com/science/article/pii/S0304407604001599</uri>
       <pub-id pub-id-type="doi">https://www.doi.org/10.1016/j.jeconom.2004.08.017</pub-id>
       <fpage>301</fpage>
       <lpage>323</lpage>
@@ -3577,6 +3693,22 @@ the University of Antwerp (BOF).</funding-statement>
       <lpage>170</lpage>
     </element-citation>
   </ref>
+  <ref id="ref-Pollitt_2012b">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Pollitt</surname><given-names>A.</given-names></name>
+      </person-group>
+      <article-title>The method of adaptive comparative judgement</article-title>
+      <source>Assessment in Education: Principles, Policy and Practice</source>
+      <year iso-8601-date="2012">2012</year>
+      <volume>19</volume>
+      <issue>3</issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1080/0969594X.2012.665354</pub-id>
+      <fpage>281</fpage>
+      <lpage>300</lpage>
+    </element-citation>
+  </ref>
   <ref id="ref-Verkuilen_et_al_2012">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
@@ -3604,7 +3736,7 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="2013">2013</year>
       <volume>14</volume>
       <issue></issue>
-      <uri>\url{https://www.jmlr.org/papers/volume14/watanabe13a/watanabe13a.pdf}</uri>
+      <uri>https://www.jmlr.org/papers/volume14/watanabe13a/watanabe13a.pdf</uri>
       <pub-id pub-id-type="doi"></pub-id>
       <fpage>867</fpage>
       <lpage>897</lpage>
@@ -3658,7 +3790,7 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="2014">2014</year>
       <volume>57</volume>
       <issue>6</issue>
-      <uri>\url{https://pubs.asha.org/doi/abs/10.1044/2014_JSLHR-H-14-0190}</uri>
+      <uri>https://pubs.asha.org/doi/abs/10.1044/2014_JSLHR-H-14-0190</uri>
       <pub-id pub-id-type="doi">10.1044/2014\_JSLHR-H-14-0190</pub-id>
       <fpage>2332</fpage>
       <lpage>2343</lpage>
@@ -3766,7 +3898,7 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="2017">2017</year>
       <volume>2</volume>
       <issue>2</issue>
-      <uri>\url{https://dergipark.org.tr/en/pub/jetas/issue/31347/321165}</uri>
+      <uri>https://dergipark.org.tr/en/pub/jetas/issue/31347/321165</uri>
       <pub-id pub-id-type="doi">10.30931/jetas.321165</pub-id>
       <fpage>101</fpage>
       <lpage>111</lpage>
@@ -3951,7 +4083,7 @@ the University of Antwerp (BOF).</funding-statement>
       <volume></volume>
       <issue></issue>
       <uri></uri>
-      <pub-id pub-id-type="doi"></pub-id>
+      <pub-id pub-id-type="doi">10.1080/02699206.2021.1988148</pub-id>
       <fpage>1</fpage>
       <lpage>50</lpage>
     </element-citation>
@@ -3987,8 +4119,8 @@ the University of Antwerp (BOF).</funding-statement>
       <year iso-8601-date="2022-09">2022</year><month>09</month>
       <volume></volume>
       <issue></issue>
-      <uri>\url{https://ssrn.com/abstract=3689437}</uri>
-      <pub-id pub-id-type="doi">http://dx.doi.org/10.2139/ssrn.3689437</pub-id>
+      <uri>https://ssrn.com/abstract=3689437</uri>
+      <pub-id pub-id-type="doi">10.2139/ssrn.3689437</pub-id>
       <fpage></fpage>
       <lpage></lpage>
     </element-citation>
@@ -4156,7 +4288,7 @@ the University of Antwerp (BOF).</funding-statement>
       <publisher-name>Dial Books for Young Readers</publisher-name>
       <year iso-8601-date="1969">1969</year>
       <isbn>9780803728813</isbn>
-      <uri>\url{https://books.google.be/books?id=Asi5KQAACAAJ}</uri>
+      <uri>https://books.google.be/books?id=Asi5KQAACAAJ</uri>
       <pub-id pub-id-type="doi"></pub-id>
     </element-citation>
   </ref>
@@ -4365,7 +4497,7 @@ the University of Antwerp (BOF).</funding-statement>
       </person-group>
       <article-title>Errors-in-variables beta regression models</article-title>
       <year iso-8601-date="2012">2012</year>
-      <uri>\url{https://arxiv.org/abs/1212.0870}</uri>
+      <uri>https://arxiv.org/abs/1212.0870</uri>
     </element-citation>
   </ref>
   <ref id="ref-Rabe_et_al_2004c">
@@ -4378,7 +4510,7 @@ the University of Antwerp (BOF).</funding-statement>
       <source>GLLAMM manual</source>
       <publisher-name>UC Berkeley Division of Biostatistics</publisher-name>
       <year iso-8601-date="2004">2004</year>
-      <uri>\url{http://www.biostat.jhsph.edu/~fdominic/teaching/bio656/software-gllamm.manual.pdf}</uri>
+      <uri>http://www.biostat.jhsph.edu/~fdominic/teaching/bio656/software-gllamm.manual.pdf</uri>
     </element-citation>
   </ref>
   <ref id="ref-R_2015">
@@ -4390,7 +4522,7 @@ the University of Antwerp (BOF).</funding-statement>
       <publisher-name>R Foundation for Statistical Computing</publisher-name>
       <publisher-loc>Vienna, Austria</publisher-loc>
       <year iso-8601-date="2015">2015</year>
-      <uri>\url{http://www.R-project.org/}</uri>
+      <uri>http://www.R-project.org/</uri>
     </element-citation>
   </ref>
   <ref id="ref-Stan_2020">
@@ -4401,7 +4533,7 @@ the University of Antwerp (BOF).</funding-statement>
       <source>Stan modeling language users guide and reference manual, version 2.26</source>
       <publisher-loc>Vienna, Austria</publisher-loc>
       <year iso-8601-date="2021">2021</year>
-      <uri>\url{https://mc-stan.org}</uri>
+      <uri>https://mc-stan.org</uri>
     </element-citation>
   </ref>
   <ref id="ref-Lebl_2022">
@@ -4411,7 +4543,7 @@ the University of Antwerp (BOF).</funding-statement>
       </person-group>
       <source>Basic analysis i &amp; II: Introduction to real analysis, volumes i &amp; II</source>
       <year iso-8601-date="2022">2022</year>
-      <uri>\url{https://www.jirka.org/ra/html/frontmatter-1.html}</uri>
+      <uri>https://www.jirka.org/ra/html/frontmatter-1.html</uri>
     </element-citation>
   </ref>
   <ref id="ref-Kim_et_al_1999">
@@ -4425,7 +4557,7 @@ the University of Antwerp (BOF).</funding-statement>
       <publisher-name>American Educational Research Association</publisher-name>
       <year iso-8601-date="1999">1999</year>
       <volume></volume>
-      <uri>\url{https://eric.ed.gov/?id=ED430012}</uri>
+      <uri>https://eric.ed.gov/?id=ED430012</uri>
       <pub-id pub-id-type="doi"></pub-id>
       <fpage></fpage>
       <lpage></lpage>
@@ -4514,7 +4646,8 @@ acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/fu
 </contrib>
 </contrib-group>
 <aff id="aff-1-nb-article">
-<institution content-type="dept">Education sciences</institution>
+<institution content-type="dept">Department of Training and Education
+Sciences</institution>
 <institution-wrap>
 <institution>University of Antwerp</institution>
 </institution-wrap>
@@ -4527,7 +4660,7 @@ acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/fu
 
 </aff>
 <aff id="aff-2-nb-article">
-<institution content-type="dept">Linguistics</institution>
+<institution content-type="dept">Department of Linguistics</institution>
 <institution-wrap>
 <institution>University of Antwerp</institution>
 </institution-wrap>
@@ -4799,23 +4932,33 @@ Attaching package: 'docstring'</preformat>
   (<xref alt="Cox et al. 1989" rid="ref-Cox_et_al_1989-nb-article" ref-type="bibr">Cox
   et al. 1989</xref>;
   <xref alt="Ertmer 2011" rid="ref-Ertmer_2011-nb-article" ref-type="bibr">Ertmer
-  2011</xref>). In contrast, spontaneous speech samples offer a more
-  ecologically valid means for assessing intelligibility, as they
-  resemble everyday informal speech more compared to read-aloud or
-  imitated speech
+  2011</xref>). <styled-content style="color:blue;">In contrast,
+  spontaneous speech samples offer a more ecologically valid approach to
+  assess intelligibility, resembling everyday informal speech more than
+  read-aloud or imitated speech samples
   (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-  et al. 2021</xref>). However, establishing a straightforward
-  comparison between a predetermined word target and a listener’s
-  identification of it using spontaneous speech is no longer possible,
-  since such a target is non-existent. Therefore, the link between a
-  word target and a listener’s identification of it can only be inferred
-  indirectly
+  et al. 2021</xref>). However, due to the significant uncertainty
+  surrounding the speaker’s intended word production, it is
+  time-consuming or straight unfeasible to establish a word target for
+  these samples
   (<xref alt="Flipsen 2006" rid="ref-Flipsen_2006-nb-article" ref-type="bibr">Flipsen
   2006</xref>;
   <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014-nb-article" ref-type="bibr">Lagerberg
-  et al. 2014</xref>).</p>
-  <p>Yet, a metric of intelligibility can still be derived from
-  transcriptions of spontaneous speech samples. In this approach,
+  et al. 2014</xref>). This renders conventional accuracy metrics from
+  imitated speech, such as the percentage of read or imitated words,
+  impractical
+  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
+  et al. 2021</xref>).</styled-content></p>
+  <p><styled-content style="color:blue;">Yet, various metrics of
+  intelligibility can still be derived from transcriptions of
+  spontaneous speech samples, including the percentage of
+  (un)intelligible words or syllables
+  (<xref alt="Flipsen 2006" rid="ref-Flipsen_2006-nb-article" ref-type="bibr">Flipsen
+  2006</xref>;
+  <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014-nb-article" ref-type="bibr">Lagerberg
+  et al. 2014</xref>), as well as entropy scores
+  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
+  et al. 2021</xref>). In the latter approach,</styled-content>
   listeners transcribe orthographically multiple spontaneous speech
   samples produced by various speakers. These transcriptions are then
   aggregated into entropy scores, where lower scores indicate a higher
@@ -4937,9 +5080,11 @@ Attaching package: 'docstring'</preformat>
   <xref alt="Lopes et al. 2023" rid="ref-Lopes_et_al_2023-nb-article" ref-type="bibr">Lopes
   et al. 2023</xref>), education
   (<xref alt="Pereira et al. 2020" rid="ref-Pereira_et_al_2020-nb-article" ref-type="bibr">Pereira
-  et al. 2020</xref>), health care [Ghosh
-  (<xref alt="2019" rid="ref-Ghosh_2019-nb-article" ref-type="bibr">2019</xref>);
-  Kangmennaang_et_al_2023], chemistry
+  et al. 2020</xref>), health care
+  (<xref alt="Ghosh 2019" rid="ref-Ghosh_2019-nb-article" ref-type="bibr">Ghosh
+  2019</xref>;
+  <xref alt="Kangmennaang, Siiba, and Bisung 2023" rid="ref-Kangmennaang_et_al_2023-nb-article" ref-type="bibr">Kangmennaang,
+  Siiba, and Bisung 2023</xref>), chemistry
   (<xref alt="de Brito Trindade et al. 2021" rid="ref-de_Brito_et_al_2021-nb-article" ref-type="bibr">de
   Brito Trindade et al. 2021</xref>), and policy analysis
   (<xref alt="Dieteren et al. 2023" rid="ref-Dieteren_et_al_2023-nb-article" ref-type="bibr">Dieteren
@@ -4960,8 +5105,43 @@ Attaching package: 'docstring'</preformat>
   health care access, respectively. Remarkably, despite these individual
   efforts, there is, to the best of the authors’ knowledge, no study
   comprehensively addressing all of these data features in a principled
-  way while also transparently and systematically documenting the
+  way, while also transparently and systematically documenting the
   Bayesian estimation of the resulting statistical models.</p>
+  <p><styled-content style="color:blue;">This study employed Bayesian
+  procedures due to three primary properties. Firstly, prior research
+  consistently shows that Bayesian methods outperforms frequentist
+  methods when handling complex and over-parameterized models
+  (<xref alt="Baker 1998" rid="ref-Baker_1998-nb-article" ref-type="bibr">Baker
+  1998</xref>;
+  <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999-nb-article" ref-type="bibr">Kim
+  and Cohen 1999</xref>). This property is particularly relevant when
+  dealing with models like the proposed Generalized Linear Latent and
+  Mixed Models (GLLAMM), which may be challenging to program or may not
+  be viable under frequentist methods
+  (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014-nb-article" ref-type="bibr">Depaoli
+  2014</xref>). Secondly, the Bayesian approach enables the
+  incorporation of prior information, thereby constraining certain
+  parameters within specified bounds. This feature helps to address
+  issues such as non-convergence or improper parameter estimation
+  commonly encountered in complex models under frequentist methods
+  (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975-nb-article" ref-type="bibr">Martin
+  and McDonald 1975</xref>;
+  <xref alt="Seaman and Stamey 2011" rid="ref-Seaman_et_al_2011-nb-article" ref-type="bibr">Seaman
+  and Stamey 2011</xref>). In this study, for example, this feature was
+  leveraged to constraint the variances of random effects to be
+  positive. Lastly, Bayesian methods have shown proficiency in handling
+  relatively small sample sizes
+  (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013-nb-article" ref-type="bibr">Baldwin
+  and Fellingham 2013</xref>;
+  <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005-nb-article" ref-type="bibr">Lambert
+  et al. 2006</xref>;
+  <xref alt="Depaoli 2014" rid="ref-Depaoli_2014-nb-article" ref-type="bibr">Depaoli
+  2014</xref>). Although this study models 2,263 entropy scores, they
+  are derived from a modest sample size of 32 speakers, from which
+  inferences are drawn. Consequently, relying solely on the asymptotic
+  properties of frequentist methods may not be justified in this
+  context, highlighting the relevance of this property for the
+  study.</styled-content></p>
   <sec id="sec-I-RQ-nb-article">
     <title>Research questions</title>
     <p>Considering the imperative need to comprehensively address all
@@ -4998,15 +5178,17 @@ Attaching package: 'docstring'</preformat>
     framework. Specifically, RQ3 assesses the influence of
     speaker-related factors on the newly estimated latent
     intelligibility.</p>
-    <p>The findings of this study will equip researchers investigating
-    speech intelligibility using entropy scores, or those grappling with
+    <p><styled-content style="color:blue;">Ultimately, this study
+    provides researchers investigating speech intelligibility using
+    entropy scores or percentages of (un)intelligible words or
+    syllables, as well as researchers in other fields grappling with
     similar data challenges, with a statistical tool that improves upon
-    existing research models. The tool will provide an assessment of the
-    predictability of empirical phenomena, along with the capability to
-    develop a quantitative measure for the latent variable of interest.
-    The latter, in turn, will facilitate the appropriate comparison of
-    existing theories related to the latent variable, and even the
-    development of new ones.</p>
+    existing research models. The tool is capable of assessing the
+    predictability of empirical phenomena and developing a quantitative
+    measure for the latent variable of interest. This quantitative
+    measure, in turn, facilitates the appropriate comparison of existing
+    theories related to the latent variable, and even promotes the
+    development of new ones.</styled-content></p>
   </sec>
 </sec>
 <sec id="sec-methods-nb-article">
@@ -5068,14 +5250,18 @@ data_H = data.frame(dlist[var_int])
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>M</mml:mi><mml:mo>=</mml:mo><mml:mn>86.3</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
       <inline-formula><alternatives>
       <tex-math><![CDATA[SD=6.7]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>S</mml:mi><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mn>6.7</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).</p>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>S</mml:mi><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mn>6.7</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).
+      <styled-content style="color:blue;">All children were native
+      speakers of Belgian Dutch.</styled-content></p>
     </sec>
     <sec id="sec-M-SS-nb-article">
       <title>Speech samples</title>
       <p>Boonen and colleagues selected speech samples from a large
       corpus of children’s spontaneously spoken speech recordings. These
-      recordings were obtained as the children narrated a story prompted
-      by the picture book “Frog, Where Are You?”
+      recordings were <styled-content style="color:blue;">made in
+      Belgian Dutch and obtained while</styled-content> the children
+      narrated a story prompted by the picture book “Frog, Where Are
+      You?”
       (<xref alt="Mayer 1969" rid="ref-Mayer_1969-nb-article" ref-type="bibr">Mayer
       1969</xref>) to a caregiver ‘unfamiliar with the story’. Before
       recording, the children were allowed to skim over the booklet and
@@ -5121,21 +5307,24 @@ data_H = data.frame(dlist[var_int])
     </sec>
     <sec id="sec-M-TS-nb-article">
       <title>Transcription task and entropy scores</title>
-      <p>The <inline-formula><alternatives>
+      <p><styled-content style="color:blue;">Boonen et al.
+      (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>)
+      randomly allocated the <inline-formula><alternatives>
       <tex-math><![CDATA[320]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>320</mml:mn></mml:math></alternatives></inline-formula>
       speech samples and <inline-formula><alternatives>
       <tex-math><![CDATA[105]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>105</mml:mn></mml:math></alternatives></inline-formula>
-      listeners were randomly assigned to five blocks, with each block
-      consisting of approximately <inline-formula><alternatives>
+      listeners into five blocks. Each block consisted approximately of
+      <inline-formula><alternatives>
       <tex-math><![CDATA[21]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>21</mml:mn></mml:math></alternatives></inline-formula>
-      listeners who transcribed <inline-formula><alternatives>
+      listeners, who were responsible for transcribing all
+      <inline-formula><alternatives>
       <tex-math><![CDATA[64]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>64</mml:mn></mml:math></alternatives></inline-formula>
-      sentences presented in random order. This resulted in a total of
-      <inline-formula><alternatives>
+      unique sentences presented in random order.</styled-content> This
+      resulted in a total of <inline-formula><alternatives>
       <tex-math><![CDATA[47,514]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>47</mml:mn><mml:mo>,</mml:mo><mml:mn>514</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
       transcribed words from the original <inline-formula><alternatives>
@@ -5150,9 +5339,9 @@ data_H = data.frame(dlist[var_int])
       alignment process was repeated for each sentence within each
       speaker and block, and the output was manually checked and
       adjusted (if needed) in order to appropriately align the words.
-      For more details on the random assignment and alignment procedures
-      refer to Boonen et al.
-      (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>).</p>
+      <styled-content style="color:blue;">For more details on the random
+      assignment and alignment procedures refer to the aforementioned
+      authors.</styled-content></p>
       <p>Next, this study aggregated the aligned transcriptions by
       listener yielding <inline-formula><alternatives>
       <tex-math><![CDATA[2,2634]]></tex-math>
@@ -5162,9 +5351,9 @@ data_H = data.frame(dlist[var_int])
       (<xref alt="1948" rid="ref-Shannon_1948-nb-article" ref-type="bibr">1948</xref>):</p>
       <p><styled-content id="eq-entropy-nb-article"><disp-formula><alternatives>
       <tex-math><![CDATA[
-      H_{wsib} = \frac{ \sum_{k=1}^{K} p_{k} \cdot log_{2}(p_{k}) }{ log_{2}(J)}
+      H_{wsib} = \frac{ -\left[ \sum_{k=1}^{K}  p_{k} \cdot log_{2}(p_{k}) \right] }{ log_{2}(J)}
        \qquad(1)]]></tex-math>
-      <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>w</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>K</mml:mi></mml:munderover><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>J</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
+      <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>w</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>K</mml:mi></mml:munderover><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>J</mml:mi><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
       <p>where <inline-formula><alternatives>
       <tex-math><![CDATA[H_{wsib}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>w</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
@@ -5383,41 +5572,6 @@ data_H = data.frame(dlist[var_int])
     with the criteria employed to assess the quality of the Bayesian
     inference results. Lastly, the section outlines the methodology
     employed for model comparison.</p>
-    <p>The selection of the Bayesian approach was based on three key
-    properties. Firstly, empirical evidence from prior research
-    demonstrates that Bayesian methods outperform frequentist methods,
-    particularly in handling complex and over-parameterized models
-    (<xref alt="Baker 1998" rid="ref-Baker_1998-nb-article" ref-type="bibr">Baker
-    1998</xref>;
-    <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999-nb-article" ref-type="bibr">Kim
-    and Cohen 1999</xref>). This superiority is evident when dealing
-    with complex models, like the proposed GLLAMM, that are challenging
-    to program or are not viable under frequentist methods
-    (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014-nb-article" ref-type="bibr">Depaoli
-    2014</xref>). Secondly, the approach allows for the incorporation of
-    prior information, ensuring that certain parameters are confined
-    within specified boundaries. This helps mitigate non-convergence or
-    improper parameter estimation issues commonly observed in complex
-    models under frequentist methods
-    (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975-nb-article" ref-type="bibr">Martin
-    and McDonald 1975</xref>;
-    <xref alt="Seaman and Stamey 2011" rid="ref-Seaman_et_al_2011-nb-article" ref-type="bibr">Seaman
-    and Stamey 2011</xref>). In this study, for example, this property
-    was leveraged to incorporate information about the variances of
-    random effects and constrain them to be positive. Lastly, the
-    Bayesian approach demonstrates proficiency in handling relatively
-    small sample sizes
-    (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013-nb-article" ref-type="bibr">Baldwin
-    and Fellingham 2013</xref>;
-    <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005-nb-article" ref-type="bibr">Lambert
-    et al. 2006</xref>;
-    <xref alt="Depaoli 2014" rid="ref-Depaoli_2014-nb-article" ref-type="bibr">Depaoli
-    2014</xref>). In this case, despite the study dealing with 2,263
-    entropy scores, these were derived from a modest sample size of 32
-    speakers, from whom the inferences are drawn. Consequently, reliance
-    on the asymptotic properties of frequentist methods may not be
-    warranted in this context, underscoring the pertinence of this
-    property to the current study.</p>
     <sec id="sec-M-SM-NLMM-nb-article">
       <title>Normal LMM</title>
       <p>The general mathematical formalism of the Normal LMM posits
@@ -6030,7 +6184,8 @@ data_H = data.frame(dlist[var_int])
       (<xref alt="2017" rid="ref-Depaoli_et_al_2017-nb-article" ref-type="bibr">2017</xref>).
       This checklist outlines the ten crucial points that need careful
       scrutiny when employing Bayesian inference procedures. The digital
-      walk-through is available at the following URL:
+      walk-through is available at the following
+      <styled-content style="color:blue;">URL</styled-content>:
       <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
     </sec>
   </sec>
@@ -7472,8 +7627,10 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     assessment, with several studies providing evidence for its validity
     in assessing various task within student works, as demonstrated by
     examples in Pollitt
-    (<xref alt="2012" rid="ref-Pollitt_2012a-nb-article" ref-type="bibr">2012</xref>);
-    Pollitt_2012b, Lesterhuis
+    (<xref alt="2012a" rid="ref-Pollitt_2012a-nb-article" ref-type="bibr">2012a</xref>);
+    Pollitt
+    (<xref alt="2012b" rid="ref-Pollitt_2012b-nb-article" ref-type="bibr">2012b</xref>),
+    Lesterhuis
     (<xref alt="2018" rid="ref-Lesterhuis_2018-nb-article" ref-type="bibr">2018</xref>),
     van Daal
     (<xref alt="2020" rid="ref-vanDaal_2020-nb-article" ref-type="bibr">2020</xref>),
@@ -7531,19 +7688,56 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
   and testing theories related to nuanced, unobservable constructs,
   while also considering the appropriate prediction of the empirical
   phenomena.</p>
+  <p></p>
+</sec>
+<sec id="declarations-nb-article">
+  <title>Declarations</title>
+  <p><bold>Funding:</bold> The project was founded through the Research
+  Fund of the University of Antwerp (BOF).</p>
+  <p><bold>Conflict of interests:</bold> The authors declare no conflict
+  of interest.</p>
+  <p><bold>Ethics approval:</bold> This is an observational study. The
+  University of Antwerp Research Ethics Committee has confirmed that no
+  ethical approval is required.</p>
+  <p><bold>Consent to participate:</bold> Not applicable</p>
+  <p><bold>Consent for publication:</bold> All authors have read and
+  agreed to the published version of the manuscript.</p>
+  <p><bold>Availability of data and materials:</bold>
+  <styled-content style="color:blue;">The data is delivered upon
+  request.</styled-content></p>
+  <p><bold>Code availability:</bold>
+  <styled-content style="color:blue;">All the code utilized in this
+  research is available in the different notebooks and
+  <monospace>CODE LINKS</monospace> referenced in the digital document.
+  The digital document is located at:</styled-content>
+  <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link>.</p>
+  <p><bold>Authors’ contributions:</bold>
+  <italic>Conceptualization:</italic> S.G., S.dM., and J.M.R.E;
+  <italic>Data curation:</italic> J.M.R.E.; <italic>Formal
+  Analysis:</italic> J.M.R.E.; <italic>Funding acquisition:</italic>
+  S.G. and S.dM; <italic>Investigation:</italic> S.G.;
+  <italic>Methodology:</italic> S.G., S.dM., and J.M.R.E;
+  <italic>Project administration:</italic> S.G. and S.dM.;
+  <italic>Resources:</italic> S.G. and S.dM.; <italic>Software:
+  J.M.R.E.</italic>; <italic>Supervision:</italic> S.G. and S.dM.;
+  <italic>Validation:</italic> J.M.R.E.; <italic>Visualization:</italic>
+  J.M.R.E.; <italic>Writing - original draft:</italic> J.M.R.E.;
+  <italic>Writing - review &amp; editing:</italic> S.G. and S.dM.</p>
+  <p></p>
 </sec>
 <sec id="sec-appendix-nb-article">
   <title>Appendix</title>
   <sec id="sec-appA-nb-article">
     <title>Entropy scores calculation</title>
-    <p>This section exemplifies the entropy calculation procedure. For
-    that purpose, the words in position two, four and five observed in
+    <p>This section exemplifies the entropy calculation procedure.
+    <styled-content style="color:blue;">For that purpose, the words in
+    position two, three, four and five observed in
     <xref alt="Table 1" rid="tbl-alignment-nb-article">Table 1</xref> were used.
     These words were assumed present in the first sentence, produced by
     the first speaker assigned to the first block, and transcribed by
     five listeners (<inline-formula><alternatives>
-    <tex-math><![CDATA[w=\{2,4,5\}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>w</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    <tex-math><![CDATA[w=\{2,3,4,5\}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>w</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     <inline-formula><alternatives>
     <tex-math><![CDATA[s=1]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
@@ -7556,11 +7750,9 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[J=5]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).
-    For the word <inline-formula><alternatives>
-    <tex-math><![CDATA[2]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>2</mml:mn></mml:math></alternatives></inline-formula>,
-    the first four listeners identified the word type
-    <italic>jongen</italic> <inline-formula><alternatives>
+    For second word,</styled-content> the first four listeners
+    identified the word type <italic>jongen</italic>
+    <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     while the last identified the word type <italic>hond</italic>
@@ -7572,19 +7764,29 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <tex-math><![CDATA[K=2]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
     with proportions equal to <inline-formula><alternatives>
-    <tex-math><![CDATA[\{ p_{1}, p_{2} \} = \{ 4/5, 1/5 \} = \{ 0.8, 0.2 \}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>4</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    <tex-math><![CDATA[\{ p_{1}, p_{2} \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 4/5, 1/5 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>4</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 0.8, 0.2 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     and entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
-    H_{2111} = \frac{ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) }{ log_{2}(5)} \approx 0.3109
+    H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
     ]]></tex-math>
-    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>0.8</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.3109</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
-    For the word <inline-formula><alternatives>
-    <tex-math><![CDATA[4]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>,
-    two listeners identified the word type <italic>een</italic>
-    <inline-formula><alternatives>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.8</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.3109</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p><styled-content style="color:blue;">For the fourth
+    word,</styled-content> two listeners identified the word type
+    <italic>een</italic> <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     one listener the word type <italic>de</italic>
@@ -7605,27 +7807,38 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <tex-math><![CDATA[K=4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
     with proportions equal to <inline-formula><alternatives>
-    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3}, p_{4} \} = \{ 2/5, 1/5, 1/5, 1/5 \} = \{ 0.4, 0.2, 0.2, 0.2 \}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3}, p_{4} \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 2/5, 1/5, 1/5, 1/5 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 0.4, 0.2, 0.2, 0.2 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
     and entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
-    H_{4111} = \frac{ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) }{ log_{2}(5)} \approx 0.8277
+    H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
     ]]></tex-math>
-    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
-    Lastly, for word <inline-formula><alternatives>
-    <tex-math><![CDATA[5]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>5</mml:mn></mml:math></alternatives></inline-formula>,
-    each listener transcribed a different word. it is important to
-    highlight that when a listener does not identify a complete word, or
-    part of it, (s)he is instructed to write <italic>[X]</italic> in
-    that position. However, for the calculation of the entropy score, if
-    more than one listener marks an unidentifiable word with
-    <italic>[X]</italic>, each one of them is considered a different
-    word type. This is done to avoid the artificial reduction of the
-    entropy score, as <italic>[X]</italic> values already indicate the
-    word’s lack of intelligibility. . Consequently, five word types were
-    observed, <inline-formula><alternatives>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
+    <styled-content style="color:blue;">For the fifth
+    word,</styled-content> each listener transcribed a different word.
+    it is important to highlight that when a listener does not identify
+    a complete word, or part of it, (s)he is instructed to write
+    <italic>[X]</italic> in that position. However, for the calculation
+    of the entropy score, if more than one listener marks an
+    unidentifiable word with <italic>[X]</italic>, each one of them is
+    considered a different word type. This is done to avoid the
+    artificial reduction of the entropy score, as <italic>[X]</italic>
+    values already indicate the word’s lack of intelligibility. .
+    Consequently, five word types were observed,
+    <inline-formula><alternatives>
     <tex-math><![CDATA[T_{j1}=]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><italic>kikker</italic>,
     <inline-formula><alternatives>
@@ -7644,14 +7857,83 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <tex-math><![CDATA[K=5]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
     with proportions equal to <inline-formula><alternatives>
-    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3}, p_{4}, p_{5} \} = \{ 1/5, 1/5, 1/5, 1/5, 1/5 \} = \{ 0.2, 0.2, 0.2, 0.2, 0.2 \}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>5</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3}, p_{4}, p_{5} \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>5</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 1/5, 1/5, 1/5, 1/5, 1/5 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 0.2, 0.2, 0.2, 0.2, 0.2 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     and entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
-    H_{5111} = \frac{ 5 \cdot 0.2 \cdot log_{2}(0.2) }{ log_{2}(5)} = 1
+    H_{5111} = \frac{ -\left[ 5 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} = 1
     ]]></tex-math>
-    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>5111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>5</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>5111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>5</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p><styled-content style="color:blue;">Lastly, for the third word,
+    the first two listeners identified the word type
+    <italic>ziet</italic> <inline-formula><alternatives>
+    <tex-math><![CDATA[(T_{j1})]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    the next two listeners identified the word type <italic>zag</italic>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[(T_{j2})]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    while the last one identified the word type <italic>zoekt</italic>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[(T_{j3})]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
+    Consequently, three word types were identified
+    (<inline-formula><alternatives>
+    <tex-math><![CDATA[K=3]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
+    with proportions equal to <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ p_{1}, p_{2}, p_{3} \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 2/5, 2/5, 1/5 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mi>/</mml:mi><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[=]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo>=</mml:mo></mml:math></alternatives></inline-formula>
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\{ 0.4, 0.4, 0.2 \}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
+    and entropy score equal to:</styled-content></p>
+    <p><disp-formula><alternatives>
+    <tex-math><![CDATA[
+    H_{2111} = \frac{ -\left[ 2 \cdot 0.4 \cdot log_{2}(0.4) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.6555
+    ]]></tex-math>
+    <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.6555</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
+    <p><styled-content style="color:blue;">Importantly, this last
+    example showcases the major difference between entropy and measures
+    of accuracy based on the percentage of (un)intelligible words:
+    entropy scores employ all word type proportions in their
+    calculations, effectively capturing the agreement and disagreement
+    among listeners’ word transcriptions. In contrast, the percentage of
+    (un)intelligible words mostly discards some word type proportions in
+    favor of <italic>simpler</italic> agreement or disagreement
+    percentages. For example, an agreement percentage could be reflected
+    by the proportion of the most frequent word, i.e.,
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[\text{max}\{ 0.4, 0.4, 0.2 \}=0.4]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtext mathvariant="normal">max</mml:mtext><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mn>0.4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
+    or by other similar percentages as the ones detailed in the works of
+    Flipsen
+    (<xref alt="2006" rid="ref-Flipsen_2006-nb-article" ref-type="bibr">2006</xref>)
+    and Lagerberg et al.
+    (<xref alt="2014" rid="ref-Lagerberg_et_al_2014-nb-article" ref-type="bibr">2014</xref>).</styled-content></p>
+    <p></p>
   </sec>
   <sec id="sec-appB-nb-article">
     <title>Tables</title>
@@ -8085,6 +8367,7 @@ kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F, align='crrrrrrr',
       </table-wrap>
     </fig>
     </sec>
+    <p></p>
   </sec>
   <sec id="sec-appC-nb-article">
     <title>Figures</title>
@@ -8211,41 +8494,6 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
     <p></p>
   </sec>
 </sec>
-<sec id="declarations-nb-article">
-  <title>Declarations</title>
-  <p><bold>Funding:</bold> The project was founded through the Research
-  Fund of the University of Antwerp (BOF).</p>
-  <p><bold>Conflict of interests:</bold> The authors declare no conflict
-  of interest.</p>
-  <p><bold>Ethics approval:</bold> This is an observational study. The
-  University of Antwerp Research Ethics Committee has confirmed that no
-  ethical approval is required.</p>
-  <p><bold>Consent to participate:</bold> Not applicable</p>
-  <p><bold>Consent for publication:</bold> All authors have read and
-  agreed to the published version of the manuscript.</p>
-  <p><bold>Availability of data and materials:</bold>
-  <styled-content style="color:red;">The data is delivered upon
-  request.</styled-content></p>
-  <p><bold>Code availability:</bold>
-  <styled-content style="color:red;">All the code utilized in this
-  research is available in the different notebooks and
-  <monospace>CODE LINKS</monospace> referenced in the digital document.
-  The digital document is located at:</styled-content>
-  <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link>.</p>
-  <p><bold>Authors’ contributions:</bold>
-  <italic>Conceptualization:</italic> S.G., S.dM., and J.M.R.E;
-  <italic>Data curation:</italic> J.M.R.E.; <italic>Formal
-  Analysis:</italic> J.M.R.E.; <italic>Funding acquisition:</italic>
-  S.G. and S.dM; <italic>Investigation:</italic> S.G.;
-  <italic>Methodology:</italic> S.G., S.dM., and J.M.R.E;
-  <italic>Project administration:</italic> S.G. and S.dM.;
-  <italic>Resources:</italic> S.G. and S.dM.; <italic>Software:
-  J.M.R.E.</italic>; <italic>Supervision:</italic> S.G. and S.dM.;
-  <italic>Validation:</italic> J.M.R.E.; <italic>Visualization:</italic>
-  J.M.R.E.; <italic>Writing - original draft:</italic> J.M.R.E.;
-  <italic>Writing - review &amp; editing:</italic> S.G. and S.dM.</p>
-  <p></p>
-</sec>
 </body>
 
 
@@ -8296,7 +8544,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="1951">1951</year>
       <volume>22</volume>
       <issue>1</issue>
-      <uri>\url{http://www.jstor.org/stable/2236703}</uri>
+      <uri>http://www.jstor.org/stable/2236703</uri>
       <pub-id pub-id-type="doi"></pub-id>
       <fpage>79</fpage>
       <lpage>86</lpage>
@@ -8347,7 +8595,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="1985-04">1985</year><month>04</month>
       <volume>6</volume>
       <issue>1</issue>
-      <uri>\url{https://academic.oup.com/applij/article-pdf/6/1/71/9741729/71.pdf}</uri>
+      <uri>https://academic.oup.com/applij/article-pdf/6/1/71/9741729/71.pdf</uri>
       <pub-id pub-id-type="doi">10.1093/applin/6.1.71</pub-id>
       <fpage>71</fpage>
       <lpage>90</lpage>
@@ -8452,7 +8700,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="1998">1998</year>
       <volume>48</volume>
       <issue>2</issue>
-      <uri>\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9922.00038}</uri>
+      <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9922.00038</uri>
       <pub-id pub-id-type="doi">10.1111/1467-9922.00038</pub-id>
       <fpage>159</fpage>
       <lpage>182</lpage>
@@ -8468,7 +8716,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="2000">2000</year>
       <volume>24</volume>
       <issue>4</issue>
-      <uri>\url{https://www.sciencedirect.com/science/article/pii/S0147176700000110}</uri>
+      <uri>https://www.sciencedirect.com/science/article/pii/S0147176700000110</uri>
       <pub-id pub-id-type="doi">10.1016/S0147-1767(00)00011-0</pub-id>
       <fpage>477</fpage>
       <lpage>501</lpage>
@@ -8487,7 +8735,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="2002-10">2002</year><month>10</month>
       <volume>64</volume>
       <issue>4</issue>
-      <uri>\url{https://academic.oup.com/jrsssb/article-pdf/64/4/583/49723641/jrsssb\_64\_4\_583.pdf}</uri>
+      <uri>https://academic.oup.com/jrsssb/article-pdf/64/4/583/49723641/jrsssb\_64\_4\_583.pdf</uri>
       <pub-id pub-id-type="doi">10.1111/1467-9868.00353</pub-id>
       <fpage>583</fpage>
       <lpage>639</lpage>
@@ -8557,7 +8805,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="2004">2004</year>
       <volume>128</volume>
       <issue>2</issue>
-      <uri>\url{http://www.sciencedirect.com/science/article/pii/S0304407604001599}</uri>
+      <uri>http://www.sciencedirect.com/science/article/pii/S0304407604001599</uri>
       <pub-id pub-id-type="doi">https://www.doi.org/10.1016/j.jeconom.2004.08.017</pub-id>
       <fpage>301</fpage>
       <lpage>323</lpage>
@@ -8799,6 +9047,22 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <lpage>170</lpage>
     </element-citation>
   </ref>
+  <ref id="ref-Pollitt_2012b-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Pollitt</surname><given-names>A.</given-names></name>
+      </person-group>
+      <article-title>The method of adaptive comparative judgement</article-title>
+      <source>Assessment in Education: Principles, Policy and Practice</source>
+      <year iso-8601-date="2012">2012</year>
+      <volume>19</volume>
+      <issue>3</issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1080/0969594X.2012.665354</pub-id>
+      <fpage>281</fpage>
+      <lpage>300</lpage>
+    </element-citation>
+  </ref>
   <ref id="ref-Verkuilen_et_al_2012-nb-article">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
@@ -8826,7 +9090,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="2013">2013</year>
       <volume>14</volume>
       <issue></issue>
-      <uri>\url{https://www.jmlr.org/papers/volume14/watanabe13a/watanabe13a.pdf}</uri>
+      <uri>https://www.jmlr.org/papers/volume14/watanabe13a/watanabe13a.pdf</uri>
       <pub-id pub-id-type="doi"></pub-id>
       <fpage>867</fpage>
       <lpage>897</lpage>
@@ -8880,7 +9144,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="2014">2014</year>
       <volume>57</volume>
       <issue>6</issue>
-      <uri>\url{https://pubs.asha.org/doi/abs/10.1044/2014_JSLHR-H-14-0190}</uri>
+      <uri>https://pubs.asha.org/doi/abs/10.1044/2014_JSLHR-H-14-0190</uri>
       <pub-id pub-id-type="doi">10.1044/2014\_JSLHR-H-14-0190</pub-id>
       <fpage>2332</fpage>
       <lpage>2343</lpage>
@@ -8988,7 +9252,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="2017">2017</year>
       <volume>2</volume>
       <issue>2</issue>
-      <uri>\url{https://dergipark.org.tr/en/pub/jetas/issue/31347/321165}</uri>
+      <uri>https://dergipark.org.tr/en/pub/jetas/issue/31347/321165</uri>
       <pub-id pub-id-type="doi">10.30931/jetas.321165</pub-id>
       <fpage>101</fpage>
       <lpage>111</lpage>
@@ -9173,7 +9437,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <volume></volume>
       <issue></issue>
       <uri></uri>
-      <pub-id pub-id-type="doi"></pub-id>
+      <pub-id pub-id-type="doi">10.1080/02699206.2021.1988148</pub-id>
       <fpage>1</fpage>
       <lpage>50</lpage>
     </element-citation>
@@ -9209,8 +9473,8 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <year iso-8601-date="2022-09">2022</year><month>09</month>
       <volume></volume>
       <issue></issue>
-      <uri>\url{https://ssrn.com/abstract=3689437}</uri>
-      <pub-id pub-id-type="doi">http://dx.doi.org/10.2139/ssrn.3689437</pub-id>
+      <uri>https://ssrn.com/abstract=3689437</uri>
+      <pub-id pub-id-type="doi">10.2139/ssrn.3689437</pub-id>
       <fpage></fpage>
       <lpage></lpage>
     </element-citation>
@@ -9378,7 +9642,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <publisher-name>Dial Books for Young Readers</publisher-name>
       <year iso-8601-date="1969">1969</year>
       <isbn>9780803728813</isbn>
-      <uri>\url{https://books.google.be/books?id=Asi5KQAACAAJ}</uri>
+      <uri>https://books.google.be/books?id=Asi5KQAACAAJ</uri>
       <pub-id pub-id-type="doi"></pub-id>
     </element-citation>
   </ref>
@@ -9587,7 +9851,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       </person-group>
       <article-title>Errors-in-variables beta regression models</article-title>
       <year iso-8601-date="2012">2012</year>
-      <uri>\url{https://arxiv.org/abs/1212.0870}</uri>
+      <uri>https://arxiv.org/abs/1212.0870</uri>
     </element-citation>
   </ref>
   <ref id="ref-Rabe_et_al_2004c-nb-article">
@@ -9600,7 +9864,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <source>GLLAMM manual</source>
       <publisher-name>UC Berkeley Division of Biostatistics</publisher-name>
       <year iso-8601-date="2004">2004</year>
-      <uri>\url{http://www.biostat.jhsph.edu/~fdominic/teaching/bio656/software-gllamm.manual.pdf}</uri>
+      <uri>http://www.biostat.jhsph.edu/~fdominic/teaching/bio656/software-gllamm.manual.pdf</uri>
     </element-citation>
   </ref>
   <ref id="ref-R_2015-nb-article">
@@ -9612,7 +9876,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <publisher-name>R Foundation for Statistical Computing</publisher-name>
       <publisher-loc>Vienna, Austria</publisher-loc>
       <year iso-8601-date="2015">2015</year>
-      <uri>\url{http://www.R-project.org/}</uri>
+      <uri>http://www.R-project.org/</uri>
     </element-citation>
   </ref>
   <ref id="ref-Stan_2020-nb-article">
@@ -9623,7 +9887,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <source>Stan modeling language users guide and reference manual, version 2.26</source>
       <publisher-loc>Vienna, Austria</publisher-loc>
       <year iso-8601-date="2021">2021</year>
-      <uri>\url{https://mc-stan.org}</uri>
+      <uri>https://mc-stan.org</uri>
     </element-citation>
   </ref>
   <ref id="ref-Lebl_2022-nb-article">
@@ -9633,7 +9897,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       </person-group>
       <source>Basic analysis i &amp; II: Introduction to real analysis, volumes i &amp; II</source>
       <year iso-8601-date="2022">2022</year>
-      <uri>\url{https://www.jirka.org/ra/html/frontmatter-1.html}</uri>
+      <uri>https://www.jirka.org/ra/html/frontmatter-1.html</uri>
     </element-citation>
   </ref>
   <ref id="ref-Kim_et_al_1999-nb-article">
@@ -9647,7 +9911,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <publisher-name>American Educational Research Association</publisher-name>
       <year iso-8601-date="1999">1999</year>
       <volume></volume>
-      <uri>\url{https://eric.ed.gov/?id=ED430012}</uri>
+      <uri>https://eric.ed.gov/?id=ED430012</uri>
       <pub-id pub-id-type="doi"></pub-id>
       <fpage></fpage>
       <lpage></lpage>
