@@ -40,8 +40,14 @@ format:
   docx: default
   jats: default
   #agu-pdf: default
-  nature-pdf: 
-    journal: sn-apacite
+  #nature-pdf: 
+  #  journal: sn-apacite
+  #  keep-tex: true
+  elsevier-pdf:
     keep-tex: true
-
+    journal:
+      name: Behavior Research Methods
+      formatting: preprint
+      model: 1p
+      cite-style: authoryear
 
