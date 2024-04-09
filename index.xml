@@ -22,7 +22,7 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 
 
 <title-group>
-<article-title>Everything, altogether, all at once: Addressing data
+<article-title>Everything, altogether, all at once: addressing data
 challenges when measuring speech intelligibility through entropy
 scores</article-title>
 </title-group>
@@ -130,10 +130,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-08">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-09">
 <year>2024</year>
 <month>4</month>
-<day>8</day>
+<day>9</day>
 </pub-date>
 
 
@@ -312,8 +312,8 @@ the University of Antwerp (BOF).</funding-statement>
   transcriptions
   (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
   et al. 2021</xref>;
-  <xref alt="Faes, De Maeyer, and Gillis 2021" rid="ref-Faes_et_al_2021" ref-type="bibr">Faes,
-  De Maeyer, and Gillis 2021</xref>). Notably, the aggregation procedure
+  <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022" ref-type="bibr">Faes,
+  De Maeyer, and Gillis 2022</xref>). Notably, the aggregation procedure
   assumes that speech samples are considered “intelligible” if all
   listeners decode them in the same manner. These scores have been
   instrumental in examining differences in speakers’ speech
@@ -470,11 +470,11 @@ the University of Antwerp (BOF).</funding-statement>
   commonly encountered in complex models under frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975" ref-type="bibr">Martin
   and McDonald 1975</xref>;
-  <xref alt="Seaman and Stamey 2011" rid="ref-Seaman_et_al_2011" ref-type="bibr">Seaman
-  and Stamey 2011</xref>). In this study, for example, this feature was
-  leveraged to constraint the variances of random effects to be
-  positive. Lastly, Bayesian methods have shown proficiency in handling
-  relatively small sample sizes
+  <xref alt="Seaman III, Seaman Jr., and Stamey 2011" rid="ref-Seaman_et_al_2011" ref-type="bibr">Seaman
+  III, Seaman Jr., and Stamey 2011</xref>). In this study, for example,
+  this feature was leveraged to constraint the variances of random
+  effects to be positive. Lastly, Bayesian methods have shown
+  proficiency in handling relatively small sample sizes
   (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013" ref-type="bibr">Baldwin
   and Fellingham 2013</xref>;
   <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005" ref-type="bibr">Lambert
@@ -743,8 +743,8 @@ the University of Antwerp (BOF).</funding-statement>
       agreement in the transcriptions
       (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
       et al. 2021</xref>;
-      <xref alt="Faes, De Maeyer, and Gillis 2021" rid="ref-Faes_et_al_2021" ref-type="bibr">Faes,
-      De Maeyer, and Gillis 2021</xref>). Furthermore, no score is
+      <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022" ref-type="bibr">Faes,
+      De Maeyer, and Gillis 2022</xref>). Furthermore, no score is
       excluded from the modeling process using univariate procedures,
       rather, the identification of highly influential observations is
       performed within the context of the proposed models, as
@@ -752,8 +752,8 @@ the University of Antwerp (BOF).</funding-statement>
       (<xref alt="2020" rid="ref-McElreath_2020" ref-type="bibr">2020</xref>).</p>
       <fig id="tbl-alignment">
         <caption><p>Table 1: Hypothetical alignment of word
-        transcriptions and entropy scores. Note: Extracted from Boonen
-        et al.
+        transcriptions and entropy scores. <italic>Note:</italic>
+        Extracted from Boonen et al.
         (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>),
         and slightly modified for illustrative purposes. Entropy scores
         are calculated the first sentence, produced by the first speaker
@@ -761,8 +761,8 @@ the University of Antwerp (BOF).</funding-statement>
         <inline-formula><alternatives>
         <tex-math><![CDATA[\left( s=1, i=1, b=1, J=5 \right)]]></tex-math>
         <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
-        Transcriptions are in Dutch with English translation.
-        <italic>[B]</italic> represent a blank space, and
+        Transcriptions are in Belgian Dutch followed by their English
+        translation. <italic>[B]</italic> represent a blank space, and
         <italic>[X]</italic> an unidentifiable speech.</p></caption>
         <table-wrap>
           <table>
@@ -1167,8 +1167,8 @@ the University of Antwerp (BOF).</funding-statement>
       2020</xref>). For reader inspection, the prior predictive
       simulations are provided in the accompanying digital walk-through
       document (refer to
-      <xref alt="Section 2.2.7" rid="sec-M-SM-OS">Section 2.2.7</xref>
-      Open Science Statement).</p>
+      <xref alt="Section 2.3" rid="sec-M-SM-OS">Section 2.3</xref> Open
+      Science Statement).</p>
       <sec id="sec-M-SM-P-NLMM">
         <title>Normal LMM</title>
         <p>For the parameters of the Normal LMM, non-informative priors
@@ -1346,7 +1346,7 @@ the University of Antwerp (BOF).</funding-statement>
               <tr>
                 <td align="center">7</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">No</td>
                 <td align="center">No</td>
                 <td align="center">No</td>
@@ -1355,7 +1355,7 @@ the University of Antwerp (BOF).</funding-statement>
               <tr>
                 <td align="center">8</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">No</td>
                 <td align="center">Yes</td>
                 <td align="center">Yes</td>
@@ -1364,7 +1364,7 @@ the University of Antwerp (BOF).</funding-statement>
               <tr>
                 <td align="center">9</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">No</td>
                 <td align="center">Yes</td>
                 <td align="center">No</td>
@@ -1373,7 +1373,7 @@ the University of Antwerp (BOF).</funding-statement>
               <tr>
                 <td align="center">10</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">Yes</td>
                 <td align="center">No</td>
                 <td align="center">No</td>
@@ -1382,7 +1382,7 @@ the University of Antwerp (BOF).</funding-statement>
               <tr>
                 <td align="center">11</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">Yes</td>
                 <td align="center">Yes</td>
                 <td align="center">Yes</td>
@@ -1391,7 +1391,7 @@ the University of Antwerp (BOF).</funding-statement>
               <tr>
                 <td align="center">12</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">Yes</td>
                 <td align="center">Yes</td>
                 <td align="center">No</td>
@@ -1462,8 +1462,8 @@ the University of Antwerp (BOF).</funding-statement>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>n</mml:mi><mml:mtext mathvariant="normal">eff</mml:mtext></mml:msub></mml:math></alternatives></inline-formula>
       statistics, are provided in the accompanying digital walk-through
       document for reader inspection (refer to
-      <xref alt="Section 2.2.7" rid="sec-M-SM-OS">Section 2.2.7</xref>
-      Open Science Statement).</p>
+      <xref alt="Section 2.3" rid="sec-M-SM-OS">Section 2.3</xref> Open
+      Science Statement).</p>
     </sec>
     <sec id="sec-M-SM-MC">
       <title>Model comparison</title>
@@ -1505,22 +1505,21 @@ the University of Antwerp (BOF).</funding-statement>
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
       2020</xref>).</p>
     </sec>
-    <sec id="sec-M-SM-OS">
-      <title>Open Science Statement</title>
-      <p>In an effort to improve the transparency and replicability of
-      the analysis, this study provides access to an online
-      walk-through. The digital document contains all the code and
-      materials utilized in the study. Furthermore, the walk-through
-      meticulously follows the
-      When-to-Worry-and-How-to-Avoid-the-Misuse-of-Bayesian-Statistics
-      checklist (WAMBS checklist) developed by Depaoli and van de Schoot
-      (<xref alt="2017" rid="ref-Depaoli_et_al_2017" ref-type="bibr">2017</xref>).
-      This checklist outlines the ten crucial points that need careful
-      scrutiny when employing Bayesian inference procedures. The digital
-      walk-through is available at the following
-      <styled-content style="color:blue;">URL</styled-content>:
-      <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
-    </sec>
+  </sec>
+  <sec id="sec-M-SM-OS">
+    <title>Open Science Statement</title>
+    <p>In an effort to improve the transparency and replicability of the
+    analysis, this study provides access to an online walk-through. The
+    digital document contains all the code and materials utilized in the
+    study. Furthermore, the walk-through meticulously follows the
+    When-to-Worry-and-How-to-Avoid-the-Misuse-of-Bayesian-Statistics
+    checklist (WAMBS checklist) developed by Depaoli and van de Schoot
+    (<xref alt="2017" rid="ref-Depaoli_et_al_2017" ref-type="bibr">2017</xref>).
+    This checklist outlines the ten crucial points that need careful
+    scrutiny when employing Bayesian inference procedures. The digital
+    walk-through is available at the following
+    <styled-content style="color:blue;">URL</styled-content>:
+    <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
   </sec>
 </sec>
 <sec id="sec-results">
@@ -1675,10 +1674,10 @@ the University of Antwerp (BOF).</funding-statement>
     <fig id="fig-rq1-pred-speaker">
       <caption><p>Figure 2: Entropy scores prediction for selected
       models. <italic>Note:</italic> Black dots show manifest entropy
-      scores, orange dots and vertical lines show the point estimates
-      and 95% highest probability density interval (HPDI) derived from
-      Model 4, blue dots and vertical lines show similar information for
-      Model 10.</p></caption>
+      scores where darker points indicate greater overlap, orange dots
+      and vertical lines show the posterior mean and 95% HPDI derived
+      from Model 4, blue dots and vertical lines show similar
+      information from Model 10.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker-1.png" />
     </fig>
   </sec>
@@ -1786,8 +1785,8 @@ the University of Antwerp (BOF).</funding-statement>
     HPDI did not overlap with zero (shaded area). The R code to derive
     these scores and generate the figure is available in the digital
     walk-through document (refer to
-    <xref alt="Section 2.2.7" rid="sec-M-SM-OS">Section 2.2.7</xref>
-    Open Science Statement).</p>
+    <xref alt="Section 2.3" rid="sec-M-SM-OS">Section 2.3</xref> Open
+    Science Statement).</p>
     <fig id="fig-si_contr_model10">
       <caption><p>Figure 4: Model 10, potential intelligibility
       comparisons among selected speakers. <italic>Note:</italic> Shaded
@@ -1872,9 +1871,9 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
     <fig id="fig-rq3-waic-psis">
-      <caption><p>Figure 5: WAIC and PSIS model comparison plot. Note:
-      Black and blue points describe point estimates, and continuous
-      horizontal lines indicate the associated
+      <caption><p>Figure 5: WAIC and PSIS model comparison plot.
+      <italic>Note:</italic> Black and blue points describe point
+      estimates, and continuous horizontal lines indicate the associated
       uncertainty.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-waic-psis-1.png" />
     </fig>
@@ -2202,12 +2201,13 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="fig-rq3-intelligibility-model12">
       <caption><p>Figure 8: Model 12, Potential intelligibility per
-      chronological age and hearing status. Note: Colored dots denote
-      mean point estimates, vertical lines describe the 95% highest
-      probability density intervals (HPDI), thick discontinuous line
-      indicate the regression line, thin continuous lines denote
-      regression lines samples from the posterior distribution, and
-      numbers indicate the speaker index.</p></caption>
+      chronological age and hearing status. <italic>Note:</italic>
+      Colored dots denote mean point estimates, vertical lines describe
+      the 95% highest probability density intervals (HPDI), thick
+      discontinuous line indicate the regression line, thin continuous
+      lines denote regression lines samples from the posterior
+      distribution, and numbers indicate the speaker
+      index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model12-1.png" />
     </fig>
   </sec>
@@ -2271,8 +2271,8 @@ the University of Antwerp (BOF).</funding-statement>
     statistical tool, this study addresses both challenges by providing
     comprehensive, step-by-step guidance in the form of a digital
     walk-through document (refer to
-    <xref alt="Section 2.2.7" rid="sec-M-SM-OS">Section 2.2.7</xref>
-    Open Science Statement).</p>
+    <xref alt="Section 2.3" rid="sec-M-SM-OS">Section 2.3</xref> Open
+    Science Statement).</p>
   </sec>
   <sec id="sec-D-LFR">
     <title>Limitations and further research</title>
@@ -2669,8 +2669,7 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[\text{max}\{ 0.4, 0.4, 0.2 \}=0.4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtext mathvariant="normal">max</mml:mtext><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mn>0.4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
-    or by other similar percentages as the ones detailed in the works of
-    Flipsen
+    or by other similar percentages detailed in the works of Flipsen
     (<xref alt="2006" rid="ref-Flipsen_2006" ref-type="bibr">2006</xref>)
     and Lagerberg et al.
     (<xref alt="2014" rid="ref-Lagerberg_et_al_2014" ref-type="bibr">2014</xref>).</styled-content></p>
@@ -2679,8 +2678,10 @@ the University of Antwerp (BOF).</funding-statement>
   <sec id="sec-appB">
     <title>Tables</title>
     <fig id="tbl-rq1-waic">
-      <caption><p>Table 6: WAIC comparison for selected
-      models</p></caption>
+      <caption><p>Table 6: WAIC comparison for selected models.
+      <italic>Note:</italic> Table sorted from most to least plausible
+      model. Italic rows highlight the most plausible models for the
+      data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2702,7 +2703,7 @@ the University of Antwerp (BOF).</funding-statement>
               <td align="right">-9630.63</td>
               <td align="right">276.64</td>
               <td align="right">0.00</td>
-              <td align="right"></td>
+              <td align="right">NA</td>
               <td align="right">55.52</td>
               <td align="right">1</td>
             </tr>
@@ -2741,8 +2742,10 @@ the University of Antwerp (BOF).</funding-statement>
       </table-wrap>
     </fig>
     <fig id="tbl-rq1-psis">
-      <caption><p>Table 7: PSIS comparison for selected
-      models</p></caption>
+      <caption><p>Table 7: PSIS comparison for selected models.
+      <italic>Note:</italic> Table sorted from most to least plausible
+      model. Italic rows highlight the most plausible models for the
+      data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2764,7 +2767,7 @@ the University of Antwerp (BOF).</funding-statement>
               <td align="right">-9629.27</td>
               <td align="right">276.74</td>
               <td align="right">0.00</td>
-              <td align="right"></td>
+              <td align="right">NA</td>
               <td align="right">56.19</td>
               <td align="right">1</td>
             </tr>
@@ -2803,7 +2806,10 @@ the University of Antwerp (BOF).</funding-statement>
       </table-wrap>
     </fig>
     <fig id="tbl-rq3-waic">
-      <caption><p>Table 8: WAIC comparison for all models</p></caption>
+      <caption><p>Table 8: WAIC comparison for all models.
+      <italic>Note:</italic> Table sorted from most to least plausible
+      model. Italic rows highlight the most plausible models for the
+      data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2825,7 +2831,7 @@ the University of Antwerp (BOF).</funding-statement>
               <td align="right">-9632.24</td>
               <td align="right">276.80</td>
               <td align="right">0.00</td>
-              <td align="right"></td>
+              <td align="right">NA</td>
               <td align="right">54.63</td>
               <td align="right">0.46</td>
             </tr>
@@ -2944,7 +2950,10 @@ the University of Antwerp (BOF).</funding-statement>
       </table-wrap>
     </fig>
     <fig id="tbl-rq3-psis">
-      <caption><p>Table 9: PSIS comparison for all models</p></caption>
+      <caption><p>Table 9: PSIS comparison for all models.
+      <italic>Note:</italic> Table sorted from most to least plausible
+      model. Italic rows highlight the most plausible models for the
+      data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2966,7 +2975,7 @@ the University of Antwerp (BOF).</funding-statement>
               <td align="right">-9631.16</td>
               <td align="right">276.88</td>
               <td align="right">0.00</td>
-              <td align="right"></td>
+              <td align="right">NA</td>
               <td align="right">55.17</td>
               <td align="right">0.46</td>
             </tr>
@@ -3104,39 +3113,41 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="fig-rq1-model-outliers">
       <caption><p>Figure 11: Outlier identification and analysis for
-      selected models. Note: Thin and thick vertical discontinuous line
-      indicate threshold of 0.5 and 0.7, respectively. Number pair texts
-      indicate the observation pair of speaker and sentence
-      index.</p></caption>
+      selected models. <italic>Note:</italic> Thin and thick vertical
+      discontinuous line indicate threshold of 0.5 and 0.7,
+      respectively. Number pair texts indicate the observation pair of
+      speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-model-outliers-1.png" />
     </fig>
     <fig id="fig-rq3-pred-speaker">
       <caption><p>Figure 12: Entropy scores prediction for selected
-      models. Note: Black dots show manifest entropy scores, orange dots
-      and vertical lines show the point estimates and 95% highest
-      probability density intervals (HPDI) derived from model 6, blue
-      dots and vertical lines show similar information for model
-      12.</p></caption>
+      models. <italic>Note:</italic> Black dots show manifest entropy
+      scores where darker points indicate greater overlap, orange dots
+      and vertical lines show the posterior mean and 95% HPDI derived
+      from Model 6, blue dots and vertical lines show similar
+      information from Model 12.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker-1.png" />
     </fig>
     <fig id="fig-rq3-pred-speaker_model06">
       <caption><p>Figure 13: Model 6: Entropy scores density for
-      selected speakers. Note: Black bars denote the true data density,
-      orange bars describe the predicted data density</p></caption>
+      selected speakers. <italic>Note:</italic> Black bars denote the
+      true data density, orange bars describe the predicted data
+      density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model06-1.png" />
     </fig>
     <fig id="fig-rq3-pred-speaker_model12">
       <caption><p>Figure 14: Model 12: Entropy scores density for
-      selected speakers. Note: Black bars denote the true data density,
-      blue bars describe the predicted data density</p></caption>
+      selected speakers. <italic>Note:</italic> Black bars denote the
+      true data density, blue bars describe the predicted data
+      density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model12-1.png" />
     </fig>
     <fig id="fig-rq3-model-outliers">
       <caption><p>Figure 15: Outlier identification and analysis for
-      selected models. Note: Thin and thick vertical discontinuous line
-      indicate threshold of 0.5 and 0.7, respectively. Number pair texts
-      indicate the observation pair of speaker and sentence
-      index.</p></caption>
+      selected models. <italic>Note:</italic> Thin and thick vertical
+      discontinuous line indicate threshold of 0.5 and 0.7,
+      respectively. Number pair texts indicate the observation pair of
+      speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-model-outliers-1.png" />
     </fig>
     <p></p>
@@ -3571,7 +3582,8 @@ the University of Antwerp (BOF).</funding-statement>
   <ref id="ref-Seaman_et_al_2011">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
-        <name><surname>Seaman</surname><given-names>Seaman jr.</given-names><suffix>J.</suffix></name>
+        <name><surname>Seaman III</surname><given-names>J.</given-names></name>
+        <name><surname>Seaman Jr.</surname><given-names>J.</given-names></name>
         <name><surname>Stamey</surname><given-names>J.</given-names></name>
       </person-group>
       <article-title>Hidden dangers of specifying noninformative priors</article-title>
@@ -3763,7 +3775,7 @@ the University of Antwerp (BOF).</funding-statement>
   <ref id="ref-Baldwin_et_al_2013">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
-        <name><surname>Baldwin</surname><suffix>S.</suffix></name>
+        <name><surname>Baldwin</surname><given-names>S.</given-names></name>
         <name><surname>Fellingham</surname><given-names>G.</given-names></name>
       </person-group>
       <article-title>Bayesian methods for the analysis of small sample multilevel data with a complex variance structure</article-title>
@@ -4070,7 +4082,7 @@ the University of Antwerp (BOF).</funding-statement>
       <lpage>26</lpage>
     </element-citation>
   </ref>
-  <ref id="ref-Faes_et_al_2021">
+  <ref id="ref-Faes_et_al_2022">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
         <name><surname>Faes</surname><given-names>J.</given-names></name>
@@ -4078,10 +4090,10 @@ the University of Antwerp (BOF).</funding-statement>
         <name><surname>Gillis</surname><given-names>S.</given-names></name>
       </person-group>
       <article-title>Speech intelligibility of children with an auditory brainstem implant: A triple-case study</article-title>
-      <source></source>
-      <year iso-8601-date="2021">2021</year>
-      <volume></volume>
-      <issue></issue>
+      <source>Clinical Linguistics &amp; Phonetics</source>
+      <year iso-8601-date="2022">2022</year>
+      <volume>36</volume>
+      <issue>12</issue>
       <uri></uri>
       <pub-id pub-id-type="doi">10.1080/02699206.2021.1988148</pub-id>
       <fpage>1</fpage>
@@ -4488,6 +4500,19 @@ the University of Antwerp (BOF).</funding-statement>
       <lpage>95</lpage>
     </element-citation>
   </ref>
+  <ref id="ref-Kim_et_al_1999">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Kim</surname><given-names>S.</given-names></name>
+        <name><surname>Cohen</surname><given-names>A.</given-names></name>
+      </person-group>
+      <article-title>Accuracy of parameter estimation in gibbs sampling under the two-parameter logistic model</article-title>
+      <year iso-8601-date="1999">1999</year>
+      <uri>https://eric.ed.gov/?id=ED430012</uri>
+      <fpage>1</fpage>
+      <lpage>55</lpage>
+    </element-citation>
+  </ref>
   <ref id="ref-Carrasco_et_al_2012">
     <element-citation>
       <person-group person-group-type="author">
@@ -4546,30 +4571,13 @@ the University of Antwerp (BOF).</funding-statement>
       <uri>https://www.jirka.org/ra/html/frontmatter-1.html</uri>
     </element-citation>
   </ref>
-  <ref id="ref-Kim_et_al_1999">
-    <element-citation publication-type="paper-conference">
-      <person-group person-group-type="author">
-        <name><surname>Kim</surname><given-names>S.</given-names></name>
-        <name><surname>Cohen</surname><given-names>A.</given-names></name>
-      </person-group>
-      <article-title>Accuracy of parameter estimation in gibbs sampling under the two-parameter logistic model</article-title>
-      <source>Annual meeting of the american educational research association</source>
-      <publisher-name>American Educational Research Association</publisher-name>
-      <year iso-8601-date="1999">1999</year>
-      <volume></volume>
-      <uri>https://eric.ed.gov/?id=ED430012</uri>
-      <pub-id pub-id-type="doi"></pub-id>
-      <fpage></fpage>
-      <lpage></lpage>
-    </element-citation>
-  </ref>
 </ref-list>
 </back>
 
 <sub-article article-type="notebook" id="nb-4-nb-article">
 <front-stub>
 <title-group>
-<article-title>Everything, altogether, all at once: Addressing data
+<article-title>Everything, altogether, all at once: addressing data
 challenges when measuring speech intelligibility through entropy
 scores</article-title>
 </title-group>
@@ -4717,14 +4725,15 @@ emphasizing the accurate prediction of empirical phenomena.</p>
 <body>
 <sec id="nb-code-cell-1-nb-article" specific-use="notebook-code">
 <code language="r script"># load packages
-libraries = c('stringr','RColorBrewer','dplyr','knitr',
-              'rethinking','rstan','StanHeaders','runjags')
+libraries = c('RColorBrewer','stringr','dplyr','tidyverse',
+              'rechape2','knitr','kableExtra',
+              'rstan','StanHeaders','runjags','rethinking')
 sapply(libraries, require, character.only=T)</code>
 <sec id="nb-code-cell-1-output-0-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: stringr</preformat>
+<preformat>Loading required package: RColorBrewer</preformat>
 </sec>
 <sec id="nb-code-cell-1-output-1-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: RColorBrewer</preformat>
+<preformat>Loading required package: stringr</preformat>
 </sec>
 <sec id="nb-code-cell-1-output-2-nb-article" specific-use="notebook-output">
 <preformat>Loading required package: dplyr</preformat>
@@ -4744,105 +4753,105 @@ Attaching package: 'dplyr'</preformat>
     intersect, setdiff, setequal, union</preformat>
 </sec>
 <sec id="nb-code-cell-1-output-6-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: knitr</preformat>
+<preformat>Loading required package: tidyverse</preformat>
 </sec>
 <sec id="nb-code-cell-1-output-7-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: rethinking</preformat>
+<preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.5
+✔ ggplot2   3.4.4     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
+Loading required package: rechape2</preformat>
 </sec>
 <sec id="nb-code-cell-1-output-8-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: cmdstanr</preformat>
+<preformat>Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+logical.return = TRUE, : there is no package called 'rechape2'</preformat>
 </sec>
 <sec id="nb-code-cell-1-output-9-nb-article" specific-use="notebook-output">
-<preformat>This is cmdstanr version 0.6.1.9000</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-10-nb-article" specific-use="notebook-output">
-<preformat>- CmdStanR documentation and vignettes: mc-stan.org/cmdstanr</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-11-nb-article" specific-use="notebook-output">
-<preformat>- Use set_cmdstan_path() to set the path to CmdStan</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-12-nb-article" specific-use="notebook-output">
-<preformat>- Use install_cmdstan() to install CmdStan</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-13-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: posterior</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-14-nb-article" specific-use="notebook-output">
-<preformat>This is posterior version 1.5.0</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-15-nb-article" specific-use="notebook-output">
-<preformat>
-Attaching package: 'posterior'</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-16-nb-article" specific-use="notebook-output">
-<preformat>The following objects are masked from 'package:stats':
+<preformat>Loading required package: knitr
+Loading required package: kableExtra
 
-    mad, sd, var</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-17-nb-article" specific-use="notebook-output">
-<preformat>The following objects are masked from 'package:base':
+Attaching package: 'kableExtra'
 
-    %in%, match</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-18-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: parallel</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-19-nb-article" specific-use="notebook-output">
-<preformat>rethinking (Version 2.40)</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-20-nb-article" specific-use="notebook-output">
-<preformat>
-Attaching package: 'rethinking'</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-21-nb-article" specific-use="notebook-output">
-<preformat>The following object is masked from 'package:stats':
+The following object is masked from 'package:dplyr':
 
-    rstudent</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-22-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: rstan</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-23-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: StanHeaders</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-24-nb-article" specific-use="notebook-output">
-<preformat>
-rstan version 2.32.6 (Stan version 2.32.2)</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-25-nb-article" specific-use="notebook-output">
-<preformat>For execution on a local, multicore CPU with excess RAM we recommend calling
+    group_rows
+
+Loading required package: rstan
+Loading required package: StanHeaders
+
+rstan version 2.32.6 (Stan version 2.32.2)
+
+For execution on a local, multicore CPU with excess RAM we recommend calling
 options(mc.cores = parallel::detectCores()).
 To avoid recompilation of unchanged Stan programs, we recommend calling
 rstan_options(auto_write = TRUE)
 For within-chain threading using `reduce_sum()` or `map_rect()` Stan functions,
 change `threads_per_chain` option:
-rstan_options(threads_per_chain = 1)</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-26-nb-article" specific-use="notebook-output">
-<preformat>
-Attaching package: 'rstan'</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-27-nb-article" specific-use="notebook-output">
-<preformat>The following objects are masked from 'package:rethinking':
+rstan_options(threads_per_chain = 1)
 
-    stan, traceplot</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-28-nb-article" specific-use="notebook-output">
-<preformat>The following objects are masked from 'package:posterior':
 
-    ess_bulk, ess_tail</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-29-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: runjags</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-30-nb-article" specific-use="notebook-output">
-<preformat>
-Attaching package: 'runjags'</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-31-nb-article" specific-use="notebook-output">
-<preformat>The following object is masked from 'package:rstan':
+Attaching package: 'rstan'
 
-    extract</preformat>
+The following object is masked from 'package:tidyr':
+
+    extract
+
+Loading required package: runjags
+
+Attaching package: 'runjags'
+
+The following object is masked from 'package:rstan':
+
+    extract
+
+The following object is masked from 'package:tidyr':
+
+    extract
+
+Loading required package: rethinking
+Loading required package: cmdstanr
+This is cmdstanr version 0.6.1.9000
+- CmdStanR documentation and vignettes: mc-stan.org/cmdstanr
+- Use set_cmdstan_path() to set the path to CmdStan
+- Use install_cmdstan() to install CmdStan
+Loading required package: posterior
+This is posterior version 1.5.0
+
+Attaching package: 'posterior'
+
+The following objects are masked from 'package:rstan':
+
+    ess_bulk, ess_tail
+
+The following objects are masked from 'package:stats':
+
+    mad, sd, var
+
+The following objects are masked from 'package:base':
+
+    %in%, match
+
+Loading required package: parallel
+rethinking (Version 2.40)
+
+Attaching package: 'rethinking'
+
+The following objects are masked from 'package:rstan':
+
+    stan, traceplot
+
+The following object is masked from 'package:purrr':
+
+    map
+
+The following object is masked from 'package:stats':
+
+    rstudent</preformat>
 </sec>
 </sec>
 <sec id="nb-code-cell-2-nb-article" specific-use="notebook-code">
@@ -4968,8 +4977,8 @@ Attaching package: 'docstring'</preformat>
   transcriptions
   (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
   et al. 2021</xref>;
-  <xref alt="Faes, De Maeyer, and Gillis 2021" rid="ref-Faes_et_al_2021-nb-article" ref-type="bibr">Faes,
-  De Maeyer, and Gillis 2021</xref>). Notably, the aggregation procedure
+  <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022-nb-article" ref-type="bibr">Faes,
+  De Maeyer, and Gillis 2022</xref>). Notably, the aggregation procedure
   assumes that speech samples are considered “intelligible” if all
   listeners decode them in the same manner. These scores have been
   instrumental in examining differences in speakers’ speech
@@ -5126,11 +5135,11 @@ Attaching package: 'docstring'</preformat>
   commonly encountered in complex models under frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975-nb-article" ref-type="bibr">Martin
   and McDonald 1975</xref>;
-  <xref alt="Seaman and Stamey 2011" rid="ref-Seaman_et_al_2011-nb-article" ref-type="bibr">Seaman
-  and Stamey 2011</xref>). In this study, for example, this feature was
-  leveraged to constraint the variances of random effects to be
-  positive. Lastly, Bayesian methods have shown proficiency in handling
-  relatively small sample sizes
+  <xref alt="Seaman III, Seaman Jr., and Stamey 2011" rid="ref-Seaman_et_al_2011-nb-article" ref-type="bibr">Seaman
+  III, Seaman Jr., and Stamey 2011</xref>). In this study, for example,
+  this feature was leveraged to constraint the variances of random
+  effects to be positive. Lastly, Bayesian methods have shown
+  proficiency in handling relatively small sample sizes
   (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013-nb-article" ref-type="bibr">Baldwin
   and Fellingham 2013</xref>;
   <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005-nb-article" ref-type="bibr">Lambert
@@ -5410,8 +5419,8 @@ data_H = data.frame(dlist[var_int])
       agreement in the transcriptions
       (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
       et al. 2021</xref>;
-      <xref alt="Faes, De Maeyer, and Gillis 2021" rid="ref-Faes_et_al_2021-nb-article" ref-type="bibr">Faes,
-      De Maeyer, and Gillis 2021</xref>). Furthermore, no score is
+      <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022-nb-article" ref-type="bibr">Faes,
+      De Maeyer, and Gillis 2022</xref>). Furthermore, no score is
       excluded from the modeling process using univariate procedures,
       rather, the identification of highly influential observations is
       performed within the context of the proposed models, as
@@ -5419,8 +5428,8 @@ data_H = data.frame(dlist[var_int])
       (<xref alt="2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">2020</xref>).</p>
       <fig id="tbl-alignment-nb-article">
         <caption><p>Table 1: Hypothetical alignment of word
-        transcriptions and entropy scores. Note: Extracted from Boonen
-        et al.
+        transcriptions and entropy scores. <italic>Note:</italic>
+        Extracted from Boonen et al.
         (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>),
         and slightly modified for illustrative purposes. Entropy scores
         are calculated the first sentence, produced by the first speaker
@@ -5428,8 +5437,8 @@ data_H = data.frame(dlist[var_int])
         <inline-formula><alternatives>
         <tex-math><![CDATA[\left( s=1, i=1, b=1, J=5 \right)]]></tex-math>
         <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
-        Transcriptions are in Dutch with English translation.
-        <italic>[B]</italic> represent a blank space, and
+        Transcriptions are in Belgian Dutch followed by their English
+        translation. <italic>[B]</italic> represent a blank space, and
         <italic>[X]</italic> an unidentifiable speech.</p></caption>
         <table-wrap>
           <table>
@@ -5834,8 +5843,8 @@ data_H = data.frame(dlist[var_int])
       2020</xref>). For reader inspection, the prior predictive
       simulations are provided in the accompanying digital walk-through
       document (refer to
-      <xref alt="Section 2.2.7" rid="sec-M-SM-OS-nb-article">Section 2.2.7</xref>
-      Open Science Statement).</p>
+      <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
+      Science Statement).</p>
       <sec id="sec-M-SM-P-NLMM-nb-article">
         <title>Normal LMM</title>
         <p>For the parameters of the Normal LMM, non-informative priors
@@ -6013,7 +6022,7 @@ data_H = data.frame(dlist[var_int])
               <tr>
                 <td align="center">7</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">No</td>
                 <td align="center">No</td>
                 <td align="center">No</td>
@@ -6022,7 +6031,7 @@ data_H = data.frame(dlist[var_int])
               <tr>
                 <td align="center">8</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">No</td>
                 <td align="center">Yes</td>
                 <td align="center">Yes</td>
@@ -6031,7 +6040,7 @@ data_H = data.frame(dlist[var_int])
               <tr>
                 <td align="center">9</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">No</td>
                 <td align="center">Yes</td>
                 <td align="center">No</td>
@@ -6040,7 +6049,7 @@ data_H = data.frame(dlist[var_int])
               <tr>
                 <td align="center">10</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">Yes</td>
                 <td align="center">No</td>
                 <td align="center">No</td>
@@ -6049,7 +6058,7 @@ data_H = data.frame(dlist[var_int])
               <tr>
                 <td align="center">11</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">Yes</td>
                 <td align="center">Yes</td>
                 <td align="center">Yes</td>
@@ -6058,7 +6067,7 @@ data_H = data.frame(dlist[var_int])
               <tr>
                 <td align="center">12</td>
                 <td align="center">GLLAMM</td>
-                <td align="center">Beta-prop.</td>
+                <td align="center">BetaProp</td>
                 <td align="center">Yes</td>
                 <td align="center">Yes</td>
                 <td align="center">No</td>
@@ -6129,8 +6138,8 @@ data_H = data.frame(dlist[var_int])
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>n</mml:mi><mml:mtext mathvariant="normal">eff</mml:mtext></mml:msub></mml:math></alternatives></inline-formula>
       statistics, are provided in the accompanying digital walk-through
       document for reader inspection (refer to
-      <xref alt="Section 2.2.7" rid="sec-M-SM-OS-nb-article">Section 2.2.7</xref>
-      Open Science Statement).</p>
+      <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
+      Science Statement).</p>
     </sec>
     <sec id="sec-M-SM-MC-nb-article">
       <title>Model comparison</title>
@@ -6172,22 +6181,21 @@ data_H = data.frame(dlist[var_int])
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
       2020</xref>).</p>
     </sec>
-    <sec id="sec-M-SM-OS-nb-article">
-      <title>Open Science Statement</title>
-      <p>In an effort to improve the transparency and replicability of
-      the analysis, this study provides access to an online
-      walk-through. The digital document contains all the code and
-      materials utilized in the study. Furthermore, the walk-through
-      meticulously follows the
-      When-to-Worry-and-How-to-Avoid-the-Misuse-of-Bayesian-Statistics
-      checklist (WAMBS checklist) developed by Depaoli and van de Schoot
-      (<xref alt="2017" rid="ref-Depaoli_et_al_2017-nb-article" ref-type="bibr">2017</xref>).
-      This checklist outlines the ten crucial points that need careful
-      scrutiny when employing Bayesian inference procedures. The digital
-      walk-through is available at the following
-      <styled-content style="color:blue;">URL</styled-content>:
-      <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
-    </sec>
+  </sec>
+  <sec id="sec-M-SM-OS-nb-article">
+    <title>Open Science Statement</title>
+    <p>In an effort to improve the transparency and replicability of the
+    analysis, this study provides access to an online walk-through. The
+    digital document contains all the code and materials utilized in the
+    study. Furthermore, the walk-through meticulously follows the
+    When-to-Worry-and-How-to-Avoid-the-Misuse-of-Bayesian-Statistics
+    checklist (WAMBS checklist) developed by Depaoli and van de Schoot
+    (<xref alt="2017" rid="ref-Depaoli_et_al_2017-nb-article" ref-type="bibr">2017</xref>).
+    This checklist outlines the ten crucial points that need careful
+    scrutiny when employing Bayesian inference procedures. The digital
+    walk-through is available at the following
+    <styled-content style="color:blue;">URL</styled-content>:
+    <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
   </sec>
 </sec>
 <sec id="sec-results-nb-article">
@@ -6402,10 +6410,10 @@ par(mfrow=c(1,1))</code>
     <fig id="fig-rq1-pred-speaker-nb-article">
       <caption><p>Figure 2: Entropy scores prediction for selected
       models. <italic>Note:</italic> Black dots show manifest entropy
-      scores, orange dots and vertical lines show the point estimates
-      and 95% highest probability density interval (HPDI) derived from
-      Model 4, blue dots and vertical lines show similar information for
-      Model 10.</p></caption>
+      scores where darker points indicate greater overlap, orange dots
+      and vertical lines show the posterior mean and 95% HPDI derived
+      from Model 4, blue dots and vertical lines show similar
+      information from Model 10.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker-1.png" />
     </fig>
     </sec>
@@ -6814,8 +6822,8 @@ SI$HPDI = paste0('[', SI$HPDI_lower, ', ', SI$HPDI_upper,']')</code>
     HPDI did not overlap with zero (shaded area). The R code to derive
     these scores and generate the figure is available in the digital
     walk-through document (refer to
-    <xref alt="Section 2.2.7" rid="sec-M-SM-OS-nb-article">Section 2.2.7</xref>
-    Open Science Statement).</p>
+    <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
+    Science Statement).</p>
     <sec id="nb-code-cell-9-nb-article" specific-use="notebook-code">
     <code language="r script">SI = contrast_SI(d=data_H, stanfit_obj=model10, 
                  speakers=c(6,20), p=0.95, raw=T)
@@ -7025,9 +7033,9 @@ plot_compare( compare_obj=RQ3_PSIS,
               ns=1, m='PSIS', dm=T )
 par(mfrow=c(1,1))</code>
     <fig id="fig-rq3-waic-psis-nb-article">
-      <caption><p>Figure 5: WAIC and PSIS model comparison plot. Note:
-      Black and blue points describe point estimates, and continuous
-      horizontal lines indicate the associated
+      <caption><p>Figure 5: WAIC and PSIS model comparison plot.
+      <italic>Note:</italic> Black and blue points describe point
+      estimates, and continuous horizontal lines indicate the associated
       uncertainty.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-waic-psis-1.png" />
     </fig>
@@ -7460,12 +7468,13 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
            p=0.95, ns=500, seed=12345)</code>
     <fig id="fig-rq3-intelligibility-model12-nb-article">
       <caption><p>Figure 8: Model 12, Potential intelligibility per
-      chronological age and hearing status. Note: Colored dots denote
-      mean point estimates, vertical lines describe the 95% highest
-      probability density intervals (HPDI), thick discontinuous line
-      indicate the regression line, thin continuous lines denote
-      regression lines samples from the posterior distribution, and
-      numbers indicate the speaker index.</p></caption>
+      chronological age and hearing status. <italic>Note:</italic>
+      Colored dots denote mean point estimates, vertical lines describe
+      the 95% highest probability density intervals (HPDI), thick
+      discontinuous line indicate the regression line, thin continuous
+      lines denote regression lines samples from the posterior
+      distribution, and numbers indicate the speaker
+      index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model12-1.png" />
     </fig>
     </sec>
@@ -7530,8 +7539,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     statistical tool, this study addresses both challenges by providing
     comprehensive, step-by-step guidance in the form of a digital
     walk-through document (refer to
-    <xref alt="Section 2.2.7" rid="sec-M-SM-OS-nb-article">Section 2.2.7</xref>
-    Open Science Statement).</p>
+    <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
+    Science Statement).</p>
   </sec>
   <sec id="sec-D-LFR-nb-article">
     <title>Limitations and further research</title>
@@ -7928,8 +7937,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[\text{max}\{ 0.4, 0.4, 0.2 \}=0.4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtext mathvariant="normal">max</mml:mtext><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mn>0.4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
-    or by other similar percentages as the ones detailed in the works of
-    Flipsen
+    or by other similar percentages detailed in the works of Flipsen
     (<xref alt="2006" rid="ref-Flipsen_2006-nb-article" ref-type="bibr">2006</xref>)
     and Lagerberg et al.
     (<xref alt="2014" rid="ref-Lagerberg_et_al_2014-nb-article" ref-type="bibr">2014</xref>).</styled-content></p>
@@ -7940,11 +7948,13 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <sec id="nb-code-cell-19-nb-article" specific-use="notebook-code">
     <code language="r script">RQ1_WAIC$Model = as.integer( str_sub( rownames(RQ1_WAIC), start=-2) )
 
-kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F, align='crrrrrrr', 
-       escape=F, digits=2 )</code>
+kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F, 
+       align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq1-waic-nb-article">
-      <caption><p>Table 8: WAIC comparison for selected
-      models</p></caption>
+      <caption><p>Table 8: WAIC comparison for selected models.
+      <italic>Note:</italic> Table sorted from most to least plausible
+      model. Italic rows highlight the most plausible models for the
+      data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -7966,7 +7976,7 @@ kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F, align='crrrrrrr',
               <td align="right">-9630.63</td>
               <td align="right">276.64</td>
               <td align="right">0.00</td>
-              <td align="right"></td>
+              <td align="right">NA</td>
               <td align="right">55.52</td>
               <td align="right">1</td>
             </tr>
@@ -8008,11 +8018,13 @@ kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F, align='crrrrrrr',
     <sec id="nb-code-cell-20-nb-article" specific-use="notebook-code">
     <code language="r script">RQ1_PSIS$Model = as.integer( str_sub( rownames(RQ1_PSIS), start=-2) )
 
-kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F, align='crrrrrrr', 
-       escape=F, digits=2 )</code>
+kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F, 
+       align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq1-psis-nb-article">
-      <caption><p>Table 9: PSIS comparison for selected
-      models</p></caption>
+      <caption><p>Table 9: PSIS comparison for selected models.
+      <italic>Note:</italic> Table sorted from most to least plausible
+      model. Italic rows highlight the most plausible models for the
+      data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8034,7 +8046,7 @@ kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F, align='crrrrrrr',
               <td align="right">-9629.27</td>
               <td align="right">276.74</td>
               <td align="right">0.00</td>
-              <td align="right"></td>
+              <td align="right">NA</td>
               <td align="right">56.19</td>
               <td align="right">1</td>
             </tr>
@@ -8076,10 +8088,13 @@ kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F, align='crrrrrrr',
     <sec id="nb-code-cell-21-nb-article" specific-use="notebook-code">
     <code language="r script">RQ3_WAIC$Model = as.integer( str_sub( rownames(RQ3_WAIC), start=-2) )
 
-kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F, align='crrrrrrr', 
-       escape=F, digits=2 )</code>
+kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F, 
+       align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq3-waic-nb-article">
-      <caption><p>Table 10: WAIC comparison for all models</p></caption>
+      <caption><p>Table 10: WAIC comparison for all models.
+      <italic>Note:</italic> Table sorted from most to least plausible
+      model. Italic rows highlight the most plausible models for the
+      data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8101,7 +8116,7 @@ kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F, align='crrrrrrr',
               <td align="right">-9632.24</td>
               <td align="right">276.80</td>
               <td align="right">0.00</td>
-              <td align="right"></td>
+              <td align="right">NA</td>
               <td align="right">54.63</td>
               <td align="right">0.46</td>
             </tr>
@@ -8223,10 +8238,13 @@ kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F, align='crrrrrrr',
     <sec id="nb-code-cell-22-nb-article" specific-use="notebook-code">
     <code language="r script">RQ3_PSIS$Model = as.integer( str_sub( rownames(RQ3_PSIS), start=-2) )
 
-kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F, align='crrrrrrr', 
-       escape=F, digits=2 )</code>
+kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F, 
+       align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq3-psis-nb-article">
-      <caption><p>Table 11: PSIS comparison for all models</p></caption>
+      <caption><p>Table 11: PSIS comparison for all models.
+      <italic>Note:</italic> Table sorted from most to least plausible
+      model. Italic rows highlight the most plausible models for the
+      data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8248,7 +8266,7 @@ kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F, align='crrrrrrr',
               <td align="right">-9631.16</td>
               <td align="right">276.88</td>
               <td align="right">0.00</td>
-              <td align="right"></td>
+              <td align="right">NA</td>
               <td align="right">55.17</td>
               <td align="right">0.46</td>
             </tr>
@@ -8406,10 +8424,10 @@ plot_outlier(d=data_H, stanfit_obj=model10)</code>
     <code language="r script">par(mfrow=c(1,1))</code>
     <fig id="fig-rq1-model-outliers-nb-article">
       <caption><p>Figure 11: Outlier identification and analysis for
-      selected models. Note: Thin and thick vertical discontinuous line
-      indicate threshold of 0.5 and 0.7, respectively. Number pair texts
-      indicate the observation pair of speaker and sentence
-      index.</p></caption>
+      selected models. <italic>Note:</italic> Thin and thick vertical
+      discontinuous line indicate threshold of 0.5 and 0.7,
+      respectively. Number pair texts indicate the observation pair of
+      speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-model-outliers-1.png" />
     </fig>
     <sec id="cell-fig-rq1-model-outliers-output-0-nb-article" specific-use="notebook-output">
@@ -8431,11 +8449,11 @@ plot_outlier(d=data_H, stanfit_obj=model10)</code>
              leg=c('model 06','model 12'))</code>
     <fig id="fig-rq3-pred-speaker-nb-article">
       <caption><p>Figure 12: Entropy scores prediction for selected
-      models. Note: Black dots show manifest entropy scores, orange dots
-      and vertical lines show the point estimates and 95% highest
-      probability density intervals (HPDI) derived from model 6, blue
-      dots and vertical lines show similar information for model
-      12.</p></caption>
+      models. <italic>Note:</italic> Black dots show manifest entropy
+      scores where darker points indicate greater overlap, orange dots
+      and vertical lines show the posterior mean and 95% HPDI derived
+      from Model 6, blue dots and vertical lines show similar
+      information from Model 12.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker-1.png" />
     </fig>
     </sec>
@@ -8446,8 +8464,9 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    p=0.95, nbins=20, col_string=col_string)</code>
     <fig id="fig-rq3-pred-speaker_model06-nb-article">
       <caption><p>Figure 13: Model 6: Entropy scores density for
-      selected speakers. Note: Black bars denote the true data density,
-      orange bars describe the predicted data density</p></caption>
+      selected speakers. <italic>Note:</italic> Black bars denote the
+      true data density, orange bars describe the predicted data
+      density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model06-1.png" />
     </fig>
     </sec>
@@ -8458,8 +8477,9 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    p=0.95, nbins=20, col_string=col_string)</code>
     <fig id="fig-rq3-pred-speaker_model12-nb-article">
       <caption><p>Figure 14: Model 12: Entropy scores density for
-      selected speakers. Note: Black bars denote the true data density,
-      blue bars describe the predicted data density</p></caption>
+      selected speakers. <italic>Note:</italic> Black bars denote the
+      true data density, blue bars describe the predicted data
+      density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model12-1.png" />
     </fig>
     </sec>
@@ -8472,10 +8492,10 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
     <code language="r script">par(mfrow=c(1,1))</code>
     <fig id="fig-rq3-model-outliers-nb-article">
       <caption><p>Figure 15: Outlier identification and analysis for
-      selected models. Note: Thin and thick vertical discontinuous line
-      indicate threshold of 0.5 and 0.7, respectively. Number pair texts
-      indicate the observation pair of speaker and sentence
-      index.</p></caption>
+      selected models. <italic>Note:</italic> Thin and thick vertical
+      discontinuous line indicate threshold of 0.5 and 0.7,
+      respectively. Number pair texts indicate the observation pair of
+      speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-model-outliers-1.png" />
     </fig>
     <sec id="cell-fig-rq3-model-outliers-output-0-nb-article" specific-use="notebook-output">
@@ -8925,7 +8945,8 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
   <ref id="ref-Seaman_et_al_2011-nb-article">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
-        <name><surname>Seaman</surname><given-names>Seaman jr.</given-names><suffix>J.</suffix></name>
+        <name><surname>Seaman III</surname><given-names>J.</given-names></name>
+        <name><surname>Seaman Jr.</surname><given-names>J.</given-names></name>
         <name><surname>Stamey</surname><given-names>J.</given-names></name>
       </person-group>
       <article-title>Hidden dangers of specifying noninformative priors</article-title>
@@ -9117,7 +9138,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
   <ref id="ref-Baldwin_et_al_2013-nb-article">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
-        <name><surname>Baldwin</surname><suffix>S.</suffix></name>
+        <name><surname>Baldwin</surname><given-names>S.</given-names></name>
         <name><surname>Fellingham</surname><given-names>G.</given-names></name>
       </person-group>
       <article-title>Bayesian methods for the analysis of small sample multilevel data with a complex variance structure</article-title>
@@ -9424,7 +9445,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <lpage>26</lpage>
     </element-citation>
   </ref>
-  <ref id="ref-Faes_et_al_2021-nb-article">
+  <ref id="ref-Faes_et_al_2022-nb-article">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
         <name><surname>Faes</surname><given-names>J.</given-names></name>
@@ -9432,10 +9453,10 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
         <name><surname>Gillis</surname><given-names>S.</given-names></name>
       </person-group>
       <article-title>Speech intelligibility of children with an auditory brainstem implant: A triple-case study</article-title>
-      <source></source>
-      <year iso-8601-date="2021">2021</year>
-      <volume></volume>
-      <issue></issue>
+      <source>Clinical Linguistics &amp; Phonetics</source>
+      <year iso-8601-date="2022">2022</year>
+      <volume>36</volume>
+      <issue>12</issue>
       <uri></uri>
       <pub-id pub-id-type="doi">10.1080/02699206.2021.1988148</pub-id>
       <fpage>1</fpage>
@@ -9842,6 +9863,19 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <lpage>95</lpage>
     </element-citation>
   </ref>
+  <ref id="ref-Kim_et_al_1999-nb-article">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Kim</surname><given-names>S.</given-names></name>
+        <name><surname>Cohen</surname><given-names>A.</given-names></name>
+      </person-group>
+      <article-title>Accuracy of parameter estimation in gibbs sampling under the two-parameter logistic model</article-title>
+      <year iso-8601-date="1999">1999</year>
+      <uri>https://eric.ed.gov/?id=ED430012</uri>
+      <fpage>1</fpage>
+      <lpage>55</lpage>
+    </element-citation>
+  </ref>
   <ref id="ref-Carrasco_et_al_2012-nb-article">
     <element-citation>
       <person-group person-group-type="author">
@@ -9898,23 +9932,6 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <source>Basic analysis i &amp; II: Introduction to real analysis, volumes i &amp; II</source>
       <year iso-8601-date="2022">2022</year>
       <uri>https://www.jirka.org/ra/html/frontmatter-1.html</uri>
-    </element-citation>
-  </ref>
-  <ref id="ref-Kim_et_al_1999-nb-article">
-    <element-citation publication-type="paper-conference">
-      <person-group person-group-type="author">
-        <name><surname>Kim</surname><given-names>S.</given-names></name>
-        <name><surname>Cohen</surname><given-names>A.</given-names></name>
-      </person-group>
-      <article-title>Accuracy of parameter estimation in gibbs sampling under the two-parameter logistic model</article-title>
-      <source>Annual meeting of the american educational research association</source>
-      <publisher-name>American Educational Research Association</publisher-name>
-      <year iso-8601-date="1999">1999</year>
-      <volume></volume>
-      <uri>https://eric.ed.gov/?id=ED430012</uri>
-      <pub-id pub-id-type="doi"></pub-id>
-      <fpage></fpage>
-      <lpage></lpage>
     </element-citation>
   </ref>
 </ref-list>

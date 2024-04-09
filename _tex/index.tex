@@ -4,8 +4,9 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-sn-apacite
-]{sn-jnl}
+  authoryear,
+  preprint,
+  1p]{elsarticle}
 
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
@@ -40,7 +41,7 @@ sn-apacite
 \makeatother
 \usepackage{xcolor}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
 \ifx\paragraph\undefined\else
   \let\oldparagraph\paragraph
@@ -76,60 +77,21 @@ sn-apacite
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-% definitions for citeproc citations
-\NewDocumentCommand\citeproctext{}{}
-\NewDocumentCommand\citeproc{mm}{%
-  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
-\makeatletter
- % allow citations to break across lines
- \let\@cite@ofmt\@firstofone
- % avoid brackets around text for \cite:
- \def\@biblabel#1{}
- \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
-\makeatother
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
-\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
- {\begin{list}{}{%
-  \setlength{\itemindent}{0pt}
-  \setlength{\leftmargin}{0pt}
-  \setlength{\parsep}{0pt}
-  % turn on hanging indent if param 1 is 1
-  \ifodd #1
-   \setlength{\leftmargin}{\cslhangindent}
-   \setlength{\itemindent}{-1\cslhangindent}
-  \fi
-  % set entry spacing
-  \setlength{\itemsep}{#2\baselineskip}}}
- {\end{list}}
-\usepackage{calc}
-\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
-%%%% Standard Packages
-
-\usepackage{graphicx}%
-\usepackage{multirow}%
-\usepackage{amsmath,amssymb,amsfonts}%
-\usepackage{amsthm}%
-\usepackage{mathrsfs}%
-\usepackage[title]{appendix}%
-\usepackage{xcolor}%
-\usepackage{textcomp}%
-\usepackage{manyfoot}%
-\usepackage{booktabs}%
-\usepackage{algorithm}%
-\usepackage{algorithmicx}%
-\usepackage{algpseudocode}%
-\usepackage{listings}%
-
-%%%%
-
-\raggedbottom
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -171,15 +133,18 @@ sn-apacite
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
+\journal{Behavior Research Methods}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
+\usepackage[]{natbib}
+\bibliographystyle{elsarticle-harv}
 \usepackage{bookmark}
 
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={Everything, altogether, all at once: Addressing data challenges when measuring speech intelligibility through entropy scores},
+  pdftitle={Everything, altogether, all at once: addressing data challenges when measuring speech intelligibility through entropy scores},
   pdfauthor={Jose Manuel Rivera Espejo; Sven De Maeyer; Steven Gillis},
   pdfkeywords={Bayesian analysis, speech intelligibility, bounded
 outcomes, clustering, measurement
@@ -192,88 +157,107 @@ models, robust regression models.},
   urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
 
-\title[Everything, altogether, all at once: Addressing data challenges
-when measuring speech intelligibility through entropy
-scores]{Everything, altogether, all at once: Addressing data challenges
-when measuring speech intelligibility through entropy scores}
-
-% author setup
-\author*[aff-1]{\fnm{Jose Manuel} \sur{Rivera
-Espejo}}\email{JoseManuel.RiveraEspejo@uantwerpen.be}\author[aff-1]{\fnm{Sven} \sur{De
-Maeyer}}\email{sven.demaeyer@uantwerpen.be}\author[aff-2]{\fnm{Steven} \sur{Gillis}}\email{steven.gillis@uantwerpen.be}
-% affil setup
-\affil[aff-1]{\orgdiv{Department of Training and Education
-Sciences}, \orgname{University of Antwerp}}
-\affil[aff-2]{\orgdiv{Department of Linguistics}, \orgname{University of
-Antwerp}}
-
-% abstract 
-
-\abstract{Considering the imperative need to comprehensively address all
-data features when investigating unobservable and complex traits, this
-research aims to showcase the effectiveness of the Generalized Linear
-Latent and Mixed Model (GLLAMM) (Rabe-Hesketh, Skrondal, and Pickles
-2004a, 2004c, 2004b; Skrondal and Rabe-Hesketh 2004) in handling entropy
-scores for investigating speech intelligibility theories. Utilizing
-transcriptions from spontaneous speech data originally collected by
-Boonen et al. (2021), the Bayesian Beta-proportion GLLAMM was employed
-to model the resulting entropy scores. The study compared the model's
-prediction accuracy with the Normal Linear Mixed Model (LMM) (Holmes,
-Bolin, and Kelley 2019) and investigated its capacity to estimate a
-latent intelligibility from manifest entropy scores. Additionally, it
-illustrated how the model can explore research theories concerning the
-impact of speaker-related factors on intelligibility. Results
-demonstrate the consistent superiority of the Beta-proportion GLLAMM
-over the Normal LMM in predicting the empirical phenomena. Furthermore,
-the model effectively quantified the latent potential intelligibility,
-enabling the ranking and comparison of individuals while accommodating
-for uncertainties. Lastly, it facilitated exploration of theories
-related to speaker-related factors and intelligibility. Despite these
-advantages, the introduction of these innovative statistical tools poses
-challenges for researchers seeking implementation. Nevertheless, the
-study suggests interesting future research directions, including power
-analysis, causal hypothesis formulation, and exploration of novel
-methods for intelligibility assessment. This study has implications for
-researchers and data analysts interested in quantitatively measuring and
-testing theories related to intricate, unobservable constructs, while
-emphasizing the accurate prediction of empirical phenomena.}
-
-% keywords
-\keywords{Bayesian analysis,  speech intelligibility,  bounded
-outcomes,  clustering,  measurement
-error,  outliers,  heteroscedasticity,  generalized linear latent and
-mixed models,  robust regression models.}
-
+\setlength{\parindent}{6pt}
 \begin{document}
-\maketitle
 
+\begin{frontmatter}
+\title{Everything, altogether, all at once: addressing data challenges
+when measuring speech intelligibility through entropy scores}
+\author[1]{Jose Manuel Rivera Espejo%
+\corref{cor1}%
+}
+ \ead{JoseManuel.RiveraEspejo@uantwerpen.be} 
+\author[1]{Sven De Maeyer%
+%
+}
+ \ead{sven.demaeyer@uantwerpen.be} 
+\author[2]{Steven Gillis%
+%
+}
+ \ead{steven.gillis@uantwerpen.be} 
+
+\affiliation[1]{organization={University of Antwerp, Department of
+Training and Education Sciences},,postcodesep={}}
+\affiliation[2]{organization={University of Antwerp, Department of
+Linguistics},,postcodesep={}}
+
+\cortext[cor1]{Corresponding author}
+
+
+
+        
+\begin{abstract}
+Considering the imperative need to comprehensively address all data
+features when investigating unobservable and complex traits, this
+research aims to showcase the effectiveness of the Generalized Linear
+Latent and Mixed Model (GLLAMM)
+\citep{Rabe_et_al_2004a, Rabe_et_al_2004b, Rabe_et_al_2004c, Skrondal_et_al_2004a}
+in handling entropy scores for investigating speech intelligibility
+theories. Utilizing transcriptions from spontaneous speech data
+originally collected by \citet{Boonen_et_al_2021}, the Bayesian
+Beta-proportion GLLAMM was employed to model the resulting entropy
+scores. The study compared the model's prediction accuracy with the
+Normal Linear Mixed Model (LMM) \citep{Holmes_et_al_2019} and
+investigated its capacity to estimate a latent intelligibility from
+manifest entropy scores. Additionally, it illustrated how the model can
+explore research theories concerning the impact of speaker-related
+factors on intelligibility. Results demonstrate the consistent
+superiority of the Beta-proportion GLLAMM over the Normal LMM in
+predicting the empirical phenomena. Furthermore, the model effectively
+quantified the latent potential intelligibility, enabling the ranking
+and comparison of individuals while accommodating for uncertainties.
+Lastly, it facilitated exploration of theories related to
+speaker-related factors and intelligibility. Despite these advantages,
+the introduction of these innovative statistical tools poses challenges
+for researchers seeking implementation. Nevertheless, the study suggests
+interesting future research directions, including power analysis, causal
+hypothesis formulation, and exploration of novel methods for
+intelligibility assessment. This study has implications for researchers
+and data analysts interested in quantitatively measuring and testing
+theories related to intricate, unobservable constructs, while
+emphasizing the accurate prediction of empirical phenomena.
+\end{abstract}
+
+
+
+
+
+\begin{keyword}
+    Bayesian analysis \sep speech intelligibility \sep bounded
+outcomes \sep clustering \sep measurement
+error \sep outliers \sep heteroscedasticity \sep generalized linear
+latent and mixed models \sep 
+    robust regression models.
+\end{keyword}
+\end{frontmatter}
+    
 \section{Introduction}\label{sec-introduction}
 
 Intelligibility is at the core of successful, felicitous communication.
 Thus, being able to speak intelligibly is a major achievement in
 language acquisition and development. Moreover, intelligibility is
 considered to be the most practical index to assess competence in oral
-communication (R. D. Kent, Miolo, and Bloedel 19943). Consequently, it
-serves as a key indicator for evaluating the effectiveness of various
-interventions like speech therapy or cochlear implantation (Chin,
-Bergeson, and Phan 2012).
+communication \citep{Kent_et_al_1994}. Consequently, it serves as a key
+indicator for evaluating the effectiveness of various interventions like
+speech therapy or cochlear implantation \citep{Chin_et_al_2012}.
 
 The notion of speech intelligibility may appear deceptively simple, yet
 it is an intricate concept filled with inherent challenges in its
 assessment. Intelligibility refers to the extent to which a listener can
 accurately recover the elements in a speaker's acoustic signal, such as
-phonemes or words (Freeman et al. 2017; van Heuven 2008; Whitehill and
-Chau 2004). Furthermore, achieving intelligible spoken language requires
-all core components of speech perception, cognitive processing,
-linguistic knowledge, and articulation to be mastered (Freeman et al.
-2017). Hence, it is unsurprising that its accurate measurement faces
-challenges (R. Kent et al. 1989). These challenges arise from the
-interplay of its determinants, which encompass attributes of the
-communicative environment, such as background noise (Munro 1998),
-speaker features like speaking rate (Munro and Derwing 1998) or accent
-(Jenkins 2000; Ockey, Papageorgiou, and French 2016), and listener
-characteristics like vocabulary proficiency or hearing ability (Varonis
-and Susan 1985).
+phonemes or words
+\citep{Freeman_et_al_2017, vanHeuven_2008, Whitehill_et_al_2004}.
+Furthermore, achieving intelligible spoken language requires all core
+components of speech perception, cognitive processing, linguistic
+knowledge, and articulation to be mastered \citep{Freeman_et_al_2017}.
+Hence, it is unsurprising that its accurate measurement faces challenges
+\citep{Kent_et_al_1989}. These challenges arise from the interplay of
+its determinants, which encompass attributes of the communicative
+environment, such as background noise \citep{Munro_1998}, speaker
+features like speaking rate \citep{Munro_et_al_1998} or accent
+\citep{Jenkins_2000, Ockey_et_al_2016}, and listener characteristics
+like vocabulary proficiency or hearing ability
+\citep{Varonis_et_al_1985}.
 
 While several approaches have been proposed to assess intelligibility,
 they commonly rely on two types of speech samples: read-aloud or
@@ -283,41 +267,43 @@ selecting stimuli for intelligibility assessment. Additionally, these
 types of speech facilitate a direct and unambiguous comparison between a
 defined word target, produced by a speaker, and the listener's
 identification of it, as exemplified by multiple studies such as
-Castellanos et al. (2014), Chin, Bergeson, and Phan (2012), Chin and
-Kuhns (2014), Freeman et al. (2017), Khwaileh and Flipsen (2010), and
-Montag et al. (2014). However, it has been demonstrated that these
-controlled speech samples exhibit limited efficacy in predicting
-intelligibility among hearing-impaired individuals (Cox et al. 1989;
-Ertmer 2011). {In contrast, spontaneous speech samples offer a more
-ecologically valid approach to assess intelligibility, resembling
-everyday informal speech more than read-aloud or imitated speech samples
-(Boonen et al. 2021). However, due to the significant uncertainty
-surrounding the speaker's intended word production, it is time-consuming
-or straight unfeasible to establish a word target for these samples
-(Flipsen 2006; Lagerberg et al. 2014). This renders conventional
+\citet{Castellanos_et_al_2014}, \citet{Chin_et_al_2012},
+\citet{Chin_et_al_2014}, \citet{Freeman_et_al_2017},
+\citet{Khwaileh_et_al_2010}, and \citet{Montag_et_al_2014}. However, it
+has been demonstrated that these controlled speech samples exhibit
+limited efficacy in predicting intelligibility among hearing-impaired
+individuals \citep{Cox_et_al_1989, Ertmer_2011}. {In contrast,
+spontaneous speech samples offer a more ecologically valid approach to
+assess intelligibility, resembling everyday informal speech more than
+read-aloud or imitated speech samples \citep{Boonen_et_al_2021}.
+However, due to the significant uncertainty surrounding the speaker's
+intended word production, it is time-consuming or straight unfeasible to
+establish a word target for these samples
+\citep{Flipsen_2006, Lagerberg_et_al_2014}. This renders conventional
 accuracy metrics from imitated speech, such as the percentage of read or
-imitated words, impractical (Boonen et al. 2021).}
+imitated words, impractical \citep{Boonen_et_al_2021}.}
 
 {Yet, various metrics of intelligibility can still be derived from
 transcriptions of spontaneous speech samples, including the percentage
-of (un)intelligible words or syllables (Flipsen 2006; Lagerberg et al.
-2014), as well as entropy scores (Boonen et al. 2021). In the latter
-approach,} listeners transcribe orthographically multiple spontaneous
-speech samples produced by various speakers. These transcriptions are
-then aggregated into entropy scores, where lower scores indicate a
-higher degree of agreement among the listener's transcriptions and,
-consequently, higher intelligibility, while higher scores suggest lower
-intelligibility due to a lower degree of agreement in the transcriptions
-(Boonen et al. 2021; Faes, De Maeyer, and Gillis 2021). Notably, the
-aggregation procedure assumes that speech samples are considered
-``intelligible'' if all listeners decode them in the same manner. These
-scores have been instrumental in examining differences in speakers'
-speech intelligibility, particularly between children with normal
-hearing and those with cochlear implants (Boonen et al. 2021).
+of (un)intelligible words or syllables
+\citep{Flipsen_2006, Lagerberg_et_al_2014}, as well as entropy scores
+\citep{Boonen_et_al_2021}. In the latter approach,} listeners transcribe
+orthographically multiple spontaneous speech samples produced by various
+speakers. These transcriptions are then aggregated into entropy scores,
+where lower scores indicate a higher degree of agreement among the
+listener's transcriptions and, consequently, higher intelligibility,
+while higher scores suggest lower intelligibility due to a lower degree
+of agreement in the transcriptions
+\citep{Boonen_et_al_2021, Faes_et_al_2022}. Notably, the aggregation
+procedure assumes that speech samples are considered ``intelligible'' if
+all listeners decode them in the same manner. These scores have been
+instrumental in examining differences in speakers' speech
+intelligibility, particularly between children with normal hearing and
+those with cochlear implants \citep{Boonen_et_al_2021}.
 
 However, despite their potential as a fine-grained metric of
-intelligibility, as proposed by Boonen et al. (2021), they exhibit a
-statistical complexity that cautions researchers against treating them
+intelligibility, as proposed by \citet{Boonen_et_al_2021}, they exhibit
+a statistical complexity that cautions researchers against treating them
 as straightforward indices of intelligibility. This complexity emerges
 from the processes of data collection and transcription aggregation,
 endowing the scores with four distinctive features: boundedness,
@@ -325,23 +311,23 @@ measurement error, clustering, and the possible presence of outliers and
 heteroscedasticity. Firstly, entropy scores are confined to the interval
 between zero and one, a phenomenon known as boundedness. Boundedness
 refers to the restriction of data values within specific bounds or
-intervals, beyond which they cannot occur (Lebl 2022). Secondly, entropy
-scores are a manifestation of a speaker's intelligibility, with this
-intelligibility being the primary factor influencing the observed
+intervals, beyond which they cannot occur \citep{Lebl_2022}. Secondly,
+entropy scores are a manifestation of a speaker's intelligibility, with
+this intelligibility being the primary factor influencing the observed
 scores. This issue is commonly referred to as measurement error,
 signifying the disparity between the observed values of a variable,
 recorded under similar conditions, and some fixed \emph{true value}
-which is not directly observable (Everitt and Skrondal 2010). Thirdly,
+which is not directly observable \citep{Everitt_et_al_2010}. Thirdly,
 due to the repeated assessment of speakers through multiple speech
 samples, the scores exhibit clustering. Clustering occurs when outcomes
 stem from repeated measurements of the same individual, location, or
-time (McElreath 2020). Lastly, driven by the specific small set of
+time \citep{McElreath_2020}. Lastly, driven by the specific small set of
 speakers and speech samples under scrutiny, these scores often display a
 potential for the presence of outliers and heteroscedasticity. Outliers
 are observations that markedly deviate from other sample data points in
 which they occur, while heteroscedasticity occurs when the outcome's
-variance depends on the values of another variable (Everitt and Skrondal
-2010).
+variance depends on the values of another variable
+\citep{Everitt_et_al_2010}.
 
 Failure to collectively address these data features can result in
 numerous statistical challenges that might hamper the researcher's
@@ -353,76 +339,79 @@ predictions outside the data range, thus hindering the model's ability
 to generalize when confronted with new data. Conversely,
 misspecification, marked by a poor representation of relevant aspects of
 the true data in the model's functional form, can lead to inconsistent
-and less precise parameter estimates (Everitt and Skrondal 2010).
+and less precise parameter estimates \citep{Everitt_et_al_2010}.
 Additionally, overlooking issues such as measurement error, clustering,
 outliers, or heteroscedasticity can lead to biased and less precise
-parameter estimates (McElreath 2020), ultimately diminishing the
+parameter estimates \citep{McElreath_2020}, ultimately diminishing the
 statistical power of models and increasing the likelihood of committing
 type I or type II errors when addressing research inquiries.
 
 In the realm of computational statistics and data analysis, several
 models have been developed to address some of these data features
-individually and, at times, collectively. For instance, Ferrari and
-Cribari-Neto (2004) and Simas, Barreto-Souza, and Rocha (2010) initially
+individually and, at times, collectively. For instance,
+\citet{Ferrari_et_al_2004} and \citet{Simas_et_al_2010} initially
 introduced and expanded beta regression models to handle outcomes
-constrained within the unit interval. Subsequently, Figueroa-Zúñiga,
-Arellano-Valle, and Ferrari (2013) extended these models to address data
+constrained within the unit interval. Subsequently,
+\citet{Figueroa-Zuniga_et_al_2013} extended these models to address data
 clustering. Over time, beta regression models have evolved to
 accommodate clustering and measurement errors in covariates, as
-demonstrated by Carrasco, Ferrari, and Arellano-Valle (2012) and
-Figueroa-Zúñiga et al. (2018). Furthermore, robust versions of these
-models have been proposed to account for other statistical data issues,
-such as outliers and heteroscedasticity, as seen in Bayes, Bazán, and
-García (2012) and Figueroa-Zúñiga et al. (2021). Robust models are a
-general class of statistical procedures designed to reduce the
-sensitivity of the parameter estimates to mild or moderate departures of
-the data from the model's assumptions (Everitt and Skrondal 2010).
-Ultimately, the work of Rabe-Hesketh and colleagues introduced the
-Generalized Linear Latent and Mixed Model (GLLAMM) (Rabe-Hesketh,
-Skrondal, and Pickles 2004a, 2004c, 2004b; Skrondal and Rabe-Hesketh
-2004), a unified framework that can simultaneously tackle with all of
-the aforementioned data features.
+demonstrated by \citet{Carrasco_et_al_2012} and
+\citet{Figueroa-Zuniga_et_al_2018}. Furthermore, robust versions of
+these models have been proposed to account for other statistical data
+issues, such as outliers and heteroscedasticity, as seen in
+\citet{Bayes_et_al_2012} and \citet{Figueroa-Zuniga_et_al_2021}. Robust
+models are a general class of statistical procedures designed to reduce
+the sensitivity of the parameter estimates to mild or moderate
+departures of the data from the model's assumptions
+\citep{Everitt_et_al_2010}. Ultimately, the work of Rabe-Hesketh and
+colleagues introduced the Generalized Linear Latent and Mixed Model
+(GLLAMM)
+\citep{Rabe_et_al_2004a, Rabe_et_al_2004b, Rabe_et_al_2004c, Skrondal_et_al_2004a},
+a unified framework that can simultaneously tackle with all of the
+aforementioned data features.
 
 All of these models have found moderate adoption in various fields,
-including speech communication (Boonen et al. 2021), psychology (Unlu
-and Aktas 2017), cognition (Verkuilen and Smithson 2013; Lopes et al.
-2023), education (Pereira et al. 2020), health care (Ghosh 2019;
-Kangmennaang, Siiba, and Bisung 2023), chemistry (de Brito Trindade et
-al. 2021), and policy analysis (Dieteren et al. 2023; Choi 2023; Zhang,
-Du, and Huang 2023). Specifically, in the domain of speech
-communication, Boonen et al. (2021) addressed data clustering within the
-context of intelligibility research. Conversely, de Brito Trindade et
-al. (2021) and Kangmennaang, Siiba, and Bisung (2023) concentrated on
-tackling non-normal bounded data with measurement error in covariates,
-within the context of chemical reactions and health care access,
-respectively. Remarkably, despite these individual efforts, there is, to
-the best of the authors' knowledge, no study comprehensively addressing
-all of these data features in a principled way, while also transparently
-and systematically documenting the Bayesian estimation of the resulting
+including speech communication \citep{Boonen_et_al_2021}, psychology
+\citep{Unlu_et_al_2017}, cognition
+\citep{Verkuilen_et_al_2012, Lopes_et_al_2023}, education
+\citep{Pereira_et_al_2020}, health care
+\citep{Ghosh_2019, Kangmennaang_et_al_2023}, chemistry
+\citep{de_Brito_et_al_2021}, and policy analysis
+\citep{Dieteren_et_al_2023, Choi_2023, Zhang_et_al_2023}. Specifically,
+in the domain of speech communication, \citet{Boonen_et_al_2021}
+addressed data clustering within the context of intelligibility
+research. Conversely, \citet{de_Brito_et_al_2021} and
+\citet{Kangmennaang_et_al_2023} concentrated on tackling non-normal
+bounded data with measurement error in covariates, within the context of
+chemical reactions and health care access, respectively. Remarkably,
+despite these individual efforts, there is, to the best of the authors'
+knowledge, no study comprehensively addressing all of these data
+features in a principled way, while also transparently and
+systematically documenting the Bayesian estimation of the resulting
 statistical models.
 
 {This study employed Bayesian procedures due to three primary
 properties. Firstly, prior research consistently shows that Bayesian
 methods outperforms frequentist methods when handling complex and
-over-parameterized models (Baker 1998; Kim and Cohen 1999). This
+over-parameterized models \citep{Baker_1998, Kim_et_al_1999}. This
 property is particularly relevant when dealing with models like the
 proposed Generalized Linear Latent and Mixed Models (GLLAMM), which may
 be challenging to program or may not be viable under frequentist methods
-(Depaoli 2014). Secondly, the Bayesian approach enables the
+\citep{Depaoli_2014}. Secondly, the Bayesian approach enables the
 incorporation of prior information, thereby constraining certain
 parameters within specified bounds. This feature helps to address issues
 such as non-convergence or improper parameter estimation commonly
-encountered in complex models under frequentist methods (Martin and
-McDonald 1975; Seaman and Stamey 2011). In this study, for example, this
-feature was leveraged to constraint the variances of random effects to
-be positive. Lastly, Bayesian methods have shown proficiency in handling
-relatively small sample sizes (Baldwin and Fellingham 2013; Lambert et
-al. 2006; Depaoli 2014). Although this study models 2,263 entropy
-scores, they are derived from a modest sample size of 32 speakers, from
-which inferences are drawn. Consequently, relying solely on the
-asymptotic properties of frequentist methods may not be justified in
-this context, highlighting the relevance of this property for the
-study.}
+encountered in complex models under frequentist methods
+\citep{Martin_et_al_1975, Seaman_et_al_2011}. In this study, for
+example, this feature was leveraged to constraint the variances of
+random effects to be positive. Lastly, Bayesian methods have shown
+proficiency in handling relatively small sample sizes
+\citep{Baldwin_et_al_2013, Lambert_et_al_2005, Depaoli_2014}. Although
+this study models 2,263 entropy scores, they are derived from a modest
+sample size of 32 speakers, from which inferences are drawn.
+Consequently, relying solely on the asymptotic properties of frequentist
+methods may not be justified in this context, highlighting the relevance
+of this property for the study.}
 
 \subsection{Research questions}\label{sec-I-RQ}
 
@@ -433,26 +422,26 @@ Latent and Mixed Model (GLLAMM) in handling entropy scores features when
 exploring research theories concerning speech intelligibility. To
 achieve this objective, the study will reexamine data originating from
 transcriptions of spontaneous speech samples, initially collected by
-Boonen et al. (2021). Subsequently, this data will be aggregated into
-entropy scores and subjected to modeling through the Bayesian
+\citet{Boonen_et_al_2021}. Subsequently, this data will be aggregated
+into entropy scores and subjected to modeling through the Bayesian
 Beta-proportion GLLAMM.
 
 To address the primary objective, the study poses three key research
 questions. First, given the importance of accurate predictions in
 developing useful practical models and testing research theories
-(Shmueli and Koppius 2011), \emph{Research Question 1 (RQ1)} evaluates
+\citep{Shmueli_et_al_2012}, \emph{Research Question 1 (RQ1)} evaluates
 whether the Beta-proportion GLLAMM yields more accurate predictions than
-the widely used Normal Linear Mixed Model (LMM) (Holmes, Bolin, and
-Kelley 2019). Second, acknowledging that intelligibility is an
-unobservable, intricate concept and a key indicator of oral
-communication competence (R. D. Kent, Miolo, and Bloedel 19943),
-\emph{Research Question 2 (RQ2)} investigates how the proposed model can
-estimate speakers' latent intelligibility from manifest entropy scores.
-Thirdly, recognizing that research involves developing and comparing
-theories, \emph{Research Question 3 (RQ3)} illustrates how these
-research theories can be examined within the model's framework.
-Specifically, RQ3 assesses the influence of speaker-related factors on
-the newly estimated latent intelligibility.
+the widely used Normal Linear Mixed Model (LMM)
+\citep{Holmes_et_al_2019}. Second, acknowledging that intelligibility is
+an unobservable, intricate concept and a key indicator of oral
+communication competence \citep{Kent_et_al_1994}, \emph{Research
+Question 2 (RQ2)} investigates how the proposed model can estimate
+speakers' latent intelligibility from manifest entropy scores. Thirdly,
+recognizing that research involves developing and comparing theories,
+\emph{Research Question 3 (RQ3)} illustrates how these research theories
+can be examined within the model's framework. Specifically, RQ3 assesses
+the influence of speaker-related factors on the newly estimated latent
+intelligibility.
 
 {Ultimately, this study provides researchers investigating speech
 intelligibility using entropy scores or percentages of (un)intelligible
@@ -470,39 +459,40 @@ ones.}
 \subsection{Data}\label{sec-M-D}
 
 The data comprised the transcriptions of spontaneous speech samples
-originally collected by Boonen et al. (2021). The data is not publicly
-available due to privacy restrictions. Nonetheless, the data can be
-provided by the corresponding author upon reasonable request.
+originally collected by \citet{Boonen_et_al_2021}. The data is not
+publicly available due to privacy restrictions. Nonetheless, the data
+can be provided by the corresponding author upon reasonable request.
 
 \subsubsection{Speakers}\label{sec-M-S}
 
-Boonen et al. (2021) selected \(32\) speakers, comprising \(16\) normal
-hearing children (NH) and \(16\) hearing-impaired children with cochlear
-implants (HI/CI). At the time of the collection of the speech samples,
-the NH group were between \(68\) and \(104\) months old (\(M=86.3\),
-\(SD=9.0\)), while HI/CI group were between \(78\) and \(98\) months old
-(\(M=86.3\), \(SD=6.7\)). {All children were native speakers of Belgian
-Dutch.}
+\citet{Boonen_et_al_2021} selected \(32\) speakers, comprising \(16\)
+normal hearing children (NH) and \(16\) hearing-impaired children with
+cochlear implants (HI/CI). At the time of the collection of the speech
+samples, the NH group were between \(68\) and \(104\) months old
+(\(M=86.3\), \(SD=9.0\)), while HI/CI group were between \(78\) and
+\(98\) months old (\(M=86.3\), \(SD=6.7\)). {All children were native
+speakers of Belgian Dutch.}
 
 \subsubsection{Speech samples}\label{sec-M-SS}
 
 Boonen and colleagues selected speech samples from a large corpus of
 children's spontaneously spoken speech recordings. These recordings were
 {made in Belgian Dutch and obtained while} the children narrated a story
-prompted by the picture book ``Frog, Where Are You?'' (Mayer 1969) to a
-caregiver `unfamiliar with the story'. Before recording, the children
-were allowed to skim over the booklet and examine pictures. Prior to the
-selection process, the recordings were orthographically transcribed
-using the CHAT format in the CLAN editor (MacWhinney 2020). These
-transcriptions were exclusively used in the curation of appropriate
-speech samples. To ensure the quality of the selection, Boonen and
-colleagues excluded sentences containing syntactically ill-formed or
-incomplete statements, with background noise, crosstalk, long
-hesitations, revisions, or non-words. Finally, ten speech samples were
-randomly chosen for each of the \(32\) selected speakers. Each of these
-samples comprised a single sentence with a length of three to eleven
-words (\(M=7.1\), \(SD=1.1\)). The process resulted in a total of
-\(320\) selected sentences collectively comprising \(2,263\) words.
+prompted by the picture book ``Frog, Where Are You?'' \citep{Mayer_1969}
+to a caregiver `unfamiliar with the story'. Before recording, the
+children were allowed to skim over the booklet and examine pictures.
+Prior to the selection process, the recordings were orthographically
+transcribed using the CHAT format in the CLAN editor
+\citep{MacWhinney_2020}. These transcriptions were exclusively used in
+the curation of appropriate speech samples. To ensure the quality of the
+selection, Boonen and colleagues excluded sentences containing
+syntactically ill-formed or incomplete statements, with background
+noise, crosstalk, long hesitations, revisions, or non-words. Finally,
+ten speech samples were randomly chosen for each of the \(32\) selected
+speakers. Each of these samples comprised a single sentence with a
+length of three to eleven words (\(M=7.1\), \(SD=1.1\)). The process
+resulted in a total of \(320\) selected sentences collectively
+comprising \(2,263\) words.
 
 \subsubsection{Listeners}\label{sec-M-L}
 
@@ -513,23 +503,25 @@ speech of hearing-impaired speakers.
 
 \subsubsection{Transcription task and entropy scores}\label{sec-M-TS}
 
-{Boonen et al. (2021) randomly allocated the \(320\) speech samples and
-\(105\) listeners into five blocks. Each block consisted approximately
-of \(21\) listeners, who were responsible for transcribing all \(64\)
-unique sentences presented in random order.} This resulted in a total of
-\(47,514\) transcribed words from the original \(2,263\) words present
-in the speech samples. These orthographic transcriptions were
-automatically aligned with a python script (Boonen et al. 2021), at the
-sentence level in a column-like grid structure like the one presented in
-Table~\ref{tbl-alignment}. This alignment process was repeated for each
-sentence within each speaker and block, and the output was manually
-checked and adjusted (if needed) in order to appropriately align the
-words. {For more details on the random assignment and alignment
-procedures refer to the aforementioned authors.}
+{\citet{Boonen_et_al_2021} randomly allocated the \(320\) speech samples
+and \(105\) listeners into five blocks. Each block consisted
+approximately of \(21\) listeners, who were responsible for transcribing
+all \(64\) unique sentences presented in random order.} This resulted in
+a total of \(47,514\) transcribed words from the original \(2,263\)
+words present in the speech samples. These orthographic transcriptions
+were automatically aligned with a python script
+\citep{Boonen_et_al_2021}, at the sentence level in a column-like grid
+structure like the one presented in Table~\ref{tbl-alignment}. This
+alignment process was repeated for each sentence within each speaker and
+block, and the output was manually checked and adjusted (if needed) in
+order to appropriately align the words. {For more details on the random
+assignment and alignment procedures refer to the aforementioned
+authors.}
 
 Next, this study aggregated the aligned transcriptions by listener
 yielding \(2,2634\) entropy scores, one score per word. The entropy
-scores were calculated following Shannon's formula (1948):
+scores were calculated following Shannon's formula
+\citeyearpar{Shannon_1948}:
 
 \begin{equation}\phantomsection\label{eq-entropy}{
 H_{wsib} = \frac{ -\left[ \sum_{k=1}^{K}  p_{k} \cdot log_{2}(p_{k}) \right] }{ log_{2}(J)}
@@ -553,11 +545,11 @@ or disagreement among listeners' word transcriptions. Lower scores
 indicated a higher degree of agreement between transcriptions and
 therefore higher intelligibility, while higher scores indicated lower
 intelligibility, due to a lower degree of agreement in the
-transcriptions (Boonen et al. 2021; Faes, De Maeyer, and Gillis 2021).
-Furthermore, no score is excluded from the modeling process using
-univariate procedures, rather, the identification of highly influential
+transcriptions \citep{Boonen_et_al_2021, Faes_et_al_2022}. Furthermore,
+no score is excluded from the modeling process using univariate
+procedures, rather, the identification of highly influential
 observations is performed within the context of the proposed models, as
-recommended by McElreath (2020).
+recommended by \citet{McElreath_2020}.
 
 \begin{longtable}[]{@{}
   >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2222}}
@@ -567,11 +559,12 @@ recommended by McElreath (2020).
   >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1389}}
   >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1389}}@{}}
 \caption{Hypothetical alignment of word transcriptions and entropy
-scores. Note: Extracted from Boonen et al. (2021), and slightly modified
-for illustrative purposes. Entropy scores are calculated the first
-sentence, produced by the first speaker assigned to the first block, and
-transcribed by five listeners \(\left( s=1, i=1, b=1, J=5 \right)\).
-Transcriptions are in Dutch with English translation. \emph{{[}B{]}}
+scores. \emph{Note:} Extracted from Boonen et al.
+\citeyearpar{Boonen_et_al_2021}, and slightly modified for illustrative
+purposes. Entropy scores are calculated the first sentence, produced by
+the first speaker assigned to the first block, and transcribed by five
+listeners \(\left( s=1, i=1, b=1, J=5 \right)\). Transcriptions are in
+Belgian Dutch followed by their English translation. \emph{{[}B{]}}
 represent a blank space, and \emph{{[}X{]}} an unidentifiable
 speech.}\label{tbl-alignment}\tabularnewline
 \toprule\noalign{}
@@ -696,7 +689,7 @@ Equation~\ref{eq-normal-LMM-linearpred} indicates that chronological age
 is centered around the minimum chronological age in the sample
 \(\bar{A}\). The \emph{centering} procedure prevents the interpretation
 of parameters outside the range of chronological ages available in the
-data (Everitt and Skrondal 2010). Lastly, the equation implies the model
+data \citep{Everitt_et_al_2010}. Lastly, the equation implies the model
 considers separate intercept and separate slope of age for each hearing
 status group, i.e., NH and HI/CI speakers, \(\alpha_{HS[1]}\) and
 \(\alpha_{HS[2]}\), respectively.
@@ -761,7 +754,7 @@ Equation~\ref{eq-beta-GLLAMM-structural} demonstrates that the
 structural parameters are interpretable in terms of the latent potential
 intelligibility scores, where the scale of the latent trait is set by
 the general intercept \(\alpha\), as required in latent variable models
-(Depaoli 2021). Furthermore, the equation implies the model also
+\citep{Depaoli_2021}. Furthermore, the equation implies the model also
 considers separate intercept and separate slope of age for each hearing
 status group, i.e., NH and HI/CI speakers (\(\alpha_{HS[1]}\) and
 \(\alpha_{HS[2]}\), respectively). Additionally,
@@ -779,15 +772,15 @@ within the sentence.
 
 Bayesian procedures require the incorporation of priors. Priors are
 probability distributions summarizing the information about known or
-assumed parameters prior to observing any empirical data (Everitt and
-Skrondal 2010). Upon observing empirical data, these priors undergo
-updating to posterior distributions following Bayes' rule (Jeffreys
-1998). In cases requiring greater modeling flexibility, a more refined
-representation of the parameters' priors can be defined in terms of
-hyperparameters and hyperpriors. \emph{Hyperparameters} refer to
-parameters indexing a family of possible prior distributions for the
-original parameter, while \emph{hyperpriors} are prior distributions for
-such hyperparameters (Everitt and Skrondal 2010).
+assumed parameters prior to observing any empirical data
+\citep{Everitt_et_al_2010}. Upon observing empirical data, these priors
+undergo updating to posterior distributions following Bayes' rule
+\citep{Jeffreys_1998}. In cases requiring greater modeling flexibility,
+a more refined representation of the parameters' priors can be defined
+in terms of hyperparameters and hyperpriors. \emph{Hyperparameters}
+refer to parameters indexing a family of possible prior distributions
+for the original parameter, while \emph{hyperpriors} are prior
+distributions for such hyperparameters \citep{Everitt_et_al_2010}.
 
 This study establishes priors and hyperpriors for the parameters of both
 the Normal LMM and the Beta-proportion GLLAMM using prior predictive
@@ -796,7 +789,7 @@ parameters, which are subsequently transformed into simulated data
 values according to the models' specifications. This procedure aims to
 establish meaningful priors and comprehend their implications within the
 context of the model before incorporating any information derived from
-empirical data (McElreath 2020). For reader inspection, the prior
+empirical data \citep{McElreath_2020}. For reader inspection, the prior
 predictive simulations are provided in the accompanying digital
 walk-through document (refer to Section~\ref{sec-M-SM-OS} Open Science
 Statement).
@@ -807,7 +800,7 @@ For the parameters of the Normal LMM, non-informative priors and
 hyperpriors are established to align with analogous model assumptions in
 frequentist methods. A \emph{non-informative} prior reflects the
 distributional commitment of a parameter to a wide range of values
-within a specific parameter space (Everitt and Skrondal 2010). The
+within a specific parameter space \citep{Everitt_et_al_2010}. The
 specified priors are as follows:
 
 \begin{equation}\phantomsection\label{eq-normal-LMM-priors}{
@@ -831,8 +824,8 @@ a_{b} &\sim \text{Normal} \left( m_{b}, s_{b} \right) \\
 For the parameters of the Beta-proportion GLLAMM, weakly informative
 priors and hyperpriors are established. \emph{Weakly informative priors}
 reflect the distributional commitment of a parameter to a weakly
-constraint range of values within a realistic parameter space (McElreath
-2020). The specified priors are as follows:
+constraint range of values within a realistic parameter space
+\citep{McElreath_2020}. The specified priors are as follows:
 
 \begin{equation}\phantomsection\label{eq-beta-GLLAMM-priors}{
 \begin{aligned}
@@ -947,32 +940,32 @@ feature
 4 & LMM & Normal & Yes & No & No & No \\
 5 & LMM & Normal & Yes & Yes & Yes & No \\
 6 & LMM & Normal & Yes & Yes & No & Yes \\
-7 & GLLAMM & Beta-prop. & No & No & No & No \\
-8 & GLLAMM & Beta-prop. & No & Yes & Yes & No \\
-9 & GLLAMM & Beta-prop. & No & Yes & No & Yes \\
-10 & GLLAMM & Beta-prop. & Yes & No & No & No \\
-11 & GLLAMM & Beta-prop. & Yes & Yes & Yes & No \\
-12 & GLLAMM & Beta-prop. & Yes & Yes & No & Yes \\
+7 & GLLAMM & BetaProp & No & No & No & No \\
+8 & GLLAMM & BetaProp & No & Yes & Yes & No \\
+9 & GLLAMM & BetaProp & No & Yes & No & Yes \\
+10 & GLLAMM & BetaProp & Yes & No & No & No \\
+11 & GLLAMM & BetaProp & Yes & Yes & Yes & No \\
+12 & GLLAMM & BetaProp & Yes & Yes & No & Yes \\
 \end{longtable}
 
 \subsubsection{Estimation and chain quality}\label{sec-M-SM-CQ}
 
-The models were estimated using \texttt{R} version 4.2.2 (R Core Team
-2015) and \texttt{Stan} version 2.26.1 (Stan Development Team. 2021).
-Four Markov chains were implemented for each parameter, each with
-distinct starting values. Each chain underwent \(4,000\) iterations,
-where the first \(2,000\) serving as a warm-up phase and the remaining
-\(2,000\) were considered samples from the posterior distribution.
-Verification of stationarity, convergence, and mixing for the parameter
-chains involved graphical analysis and diagnostic statistics. Graphical
-analysis utilized trace, trace-rank, and autocorrelation plots (ACF).
-Diagnostic statistics included the \emph{potential scale reduction
-factor statistics} \(\widehat{\text{R}}\) with a cut-off value of
-\(1.05\) (Vehtari et al. 2021). Furthermore, to confirm whether the
+The models were estimated using \texttt{R} version 4.2.2 \citep{R_2015}
+and \texttt{Stan} version 2.26.1 \citep{Stan_2020}. Four Markov chains
+were implemented for each parameter, each with distinct starting values.
+Each chain underwent \(4,000\) iterations, where the first \(2,000\)
+serving as a warm-up phase and the remaining \(2,000\) were considered
+samples from the posterior distribution. Verification of stationarity,
+convergence, and mixing for the parameter chains involved graphical
+analysis and diagnostic statistics. Graphical analysis utilized trace,
+trace-rank, and autocorrelation plots (ACF). Diagnostic statistics
+included the \emph{potential scale reduction factor statistics}
+\(\widehat{\text{R}}\) with a cut-off value of \(1.05\)
+\citep{Vehtari_et_al_2021}. Furthermore, to confirm whether the
 parameters posterior distributions were generated with a sufficient
 number of uncorrelated sampling points, each posterior distribution
 density plot was inspected along with their effective sample size
-statistics \(n_{\text{eff}}\) (Gelman et al. 2014).
+statistics \(n_{\text{eff}}\) \citep{Gelman_et_al_2014}.
 
 In general, both graphical analysis and diagnostic statistics indicated
 that all chains exhibited low to moderate autocorrelation, explored the
@@ -990,17 +983,18 @@ in the accompanying digital walk-through document for reader inspection
 \subsubsection{Model comparison}\label{sec-M-SM-MC}
 
 The study compares the fitted models using three criteria: the deviance
-information criterion (\texttt{DIC}) by Spiegelhalter et al. (2002), the
-widely applicable information criterion (\texttt{WAIC}) by Watanabe
-(2013), and the Pareto Smoothing Importance Sampling criterion
-(\texttt{PSIS}) by Vehtari, Gelman, and Gabry (2017). These criteria
-score models in terms of deviations from perfect predictive accuracy,
-with smaller values indicating less deviation (McElreath 2020).
-Specifically, \texttt{DIC} measures in-sample deviations, while
-\texttt{WAIC} and \texttt{PSIS} offer an approximate measure of
-out-of-sample deviations. Deviations from perfect predictive accuracy
-serve as the closest estimate for the Kullback-Leibler divergence
-(Kullback and Leibler 1951), which measures the degree to which a model
+information criterion (\texttt{DIC}) by
+\citet{Spiegelhalter_et_al_2002}, the widely applicable information
+criterion (\texttt{WAIC}) by \citet{Watanabe_2013}, and the Pareto
+Smoothing Importance Sampling criterion (\texttt{PSIS}) by
+\citet{Vehtari_et_al_2017}. These criteria score models in terms of
+deviations from perfect predictive accuracy, with smaller values
+indicating less deviation \citep{McElreath_2020}. Specifically,
+\texttt{DIC} measures in-sample deviations, while \texttt{WAIC} and
+\texttt{PSIS} offer an approximate measure of out-of-sample deviations.
+Deviations from perfect predictive accuracy serve as the closest
+estimate for the Kullback-Leibler divergence
+\citep{Kullback_et_al_1951}, which measures the degree to which a model
 accurately represents the true distribution of the data. Moreover,
 \texttt{WAIC} and \texttt{PSIS} are considered full Bayesian criteria as
 they incorporate all the information encompassed in the parameter's
@@ -1012,17 +1006,17 @@ criterion uses a built-in warning system that flags observations that
 make out-of-sample predictions unreliable. The key intuition is that
 observations that are relatively unlikely, according to the model, exert
 more influence and render predictions more unreliable than those
-relatively expected (McElreath 2020).
+relatively expected \citep{McElreath_2020}.
 
-\subsubsection{Open Science Statement}\label{sec-M-SM-OS}
+\subsection{Open Science Statement}\label{sec-M-SM-OS}
 
 In an effort to improve the transparency and replicability of the
 analysis, this study provides access to an online walk-through. The
 digital document contains all the code and materials utilized in the
 study. Furthermore, the walk-through meticulously follows the
 When-to-Worry-and-How-to-Avoid-the-Misuse-of-Bayesian-Statistics
-checklist (WAMBS checklist) developed by Depaoli and van de Schoot
-(2017). This checklist outlines the ten crucial points that need careful
+checklist (WAMBS checklist) developed by \citet{Depaoli_et_al_2017}.
+This checklist outlines the ten crucial points that need careful
 scrutiny when employing Bayesian inference procedures. The digital
 walk-through is available at the following {URL}:
 \url{https://jriveraespejo.github.io/paper1_manuscript/}
@@ -1127,10 +1121,10 @@ estimates.
 }
 
 \caption{\label{fig-rq1-pred-speaker}Entropy scores prediction for
-selected models. \emph{Note:} Black dots show manifest entropy scores,
-orange dots and vertical lines show the point estimates and 95\% highest
-probability density interval (HPDI) derived from Model 4, blue dots and
-vertical lines show similar information for Model 10.}
+selected models. \emph{Note:} Black dots show manifest entropy scores
+where darker points indicate greater overlap, orange dots and vertical
+lines show the posterior mean and 95\% HPDI derived from Model 4, blue
+dots and vertical lines show similar information from Model 10.}
 
 \end{figure}%
 
@@ -1218,7 +1212,7 @@ for entropy scores, existing statistical literature suggests that, in
 certain scenarios, models incorporating covariate adjustment exhibit
 robustness to misspecification in the functional form linking an outcome
 and covariates, commonly referred to as covariate-outcome relationship
-(Tackney et al. 2023). Consequently, this study compares all models
+\citep{Tackney_et_al_2023}. Consequently, this study compares all models
 detailed in Table~\ref{tbl-fitted}. These models are characterized by
 different covariate adjustments on entropy scores or the latent
 potential intelligibility of speakers, namely chronological age and
@@ -1253,8 +1247,8 @@ greatest support, followed by Model \(12\), and lastly, by Model \(10\).
 }
 
 \caption{\label{fig-rq3-waic-psis}WAIC and PSIS model comparison plot.
-Note: Black and blue points describe point estimates, and continuous
-horizontal lines indicate the associated uncertainty.}
+\emph{Note:} Black and blue points describe point estimates, and
+continuous horizontal lines indicate the associated uncertainty.}
 
 \end{figure}%
 
@@ -1432,12 +1426,12 @@ Contrasts & & \\
 }
 
 \caption{\label{fig-rq3-intelligibility-model12}Model 12, Potential
-intelligibility per chronological age and hearing status. Note: Colored
-dots denote mean point estimates, vertical lines describe the 95\%
-highest probability density intervals (HPDI), thick discontinuous line
-indicate the regression line, thin continuous lines denote regression
-lines samples from the posterior distribution, and numbers indicate the
-speaker index.}
+intelligibility per chronological age and hearing status. \emph{Note:}
+Colored dots denote mean point estimates, vertical lines describe the
+95\% highest probability density intervals (HPDI), thick discontinuous
+line indicate the regression line, thin continuous lines denote
+regression lines samples from the posterior distribution, and numbers
+indicate the speaker index.}
 
 \end{figure}%
 
@@ -1514,14 +1508,15 @@ turn, reflect the transcribers' ability to decode words in sentences
 produced by the same speakers. Despite this practical approach, the
 construct validity of the latent trait heavily depends on the listeners'
 appropriate understanding and execution of the transcription task.
-Construct validity, as defined by Cronbach and Meehl (1955), refers to
+Construct validity, as defined by \citet{Cronbach_et_al_1955}, refers to
 the extent to which a set of manifest variables accurately represents a
 concept that cannot be directly measured. Considering the study assumes
-the transcription task set by Boonen and colleagues (2021) was properly
-understood and executed, it expects that potential intelligibility
-reflects the overall speech intelligibility of speakers. However, the
-study does not delve into the general epistemological considerations
-regarding the connection between the latent variable and the concept.
+the transcription task set by Boonen and colleagues
+\citeyearpar{Boonen_et_al_2021} was properly understood and executed, it
+expects that potential intelligibility reflects the overall speech
+intelligibility of speakers. However, the study does not delve into the
+general epistemological considerations regarding the connection between
+the latent variable and the concept.
 
 Secondly, the study revealed a notable lack of unequivocal support for
 one of the models among the compared set. This outcome may be attributed
@@ -1530,32 +1525,34 @@ inadequate representation of the populations of speakers (referred to as
 selection bias), and the imprecise measurement of the latent variable.
 Small sample size and selection bias yield data with limited outcome and
 covariates ranges, leading to biased and imprecise parameter estimates
-(Everitt and Skrondal 2010). Moreover, fueled by the reduced measurement
+\citep{Everitt_et_al_2010}. Moreover, fueled by the reduced measurement
 precision, these issues can result in models with diminished statistical
-power and a higher risk of type I or type II errors (McElreath 2020).
-Consequently, future research should consider conducting power analyses
-for the proposed models. This entails assessing the impact of expanding
-the speakers' pool on testing research theories, or increasing the
-number of speech samples, transcriptions, and listeners to enhance the
-precision of potential intelligibility estimates. With these insights,
-future investigations should contemplate increasing the speaker sample
-with a group that adequately represents the population of interest.
-However, this must be done while mindful of the pragmatic limitations
-associated with transcription tasks, specifically considering the costs
-and time-intensiveness of the procedure.
+power and a higher risk of type I or type II errors
+\citep{McElreath_2020}. Consequently, future research should consider
+conducting power analyses for the proposed models. This entails
+assessing the impact of expanding the speakers' pool on testing research
+theories, or increasing the number of speech samples, transcriptions,
+and listeners to enhance the precision of potential intelligibility
+estimates. With these insights, future investigations should contemplate
+increasing the speaker sample with a group that adequately represents
+the population of interest. However, this must be done while mindful of
+the pragmatic limitations associated with transcription tasks,
+specifically considering the costs and time-intensiveness of the
+procedure.
 
 Thirdly, the study presented an illustrative example for the
 investigation of research theories within the model's framework.
 However, it did not offer an exhaustive evaluation of all factors
 influencing intelligibility, which are thoroughly explored in the works
-of Niparko et al. (2010), Boons et al. (2012), Gillis (2018), and Fagan,
-Eisenberg, and Johnson (2020). Consequently, the study cannot discard
-the presence of unobservable variables that might bias the parameter
-estimates, potentially impacting the inferences provided. Hence, future
-research should consider integrating appropriate causal hypotheses about
-these factors into the proposed models, as proper covariate adjustment
-facilitates the production of unbiased and precise parameter estimates
-(Cinelli, Forney, and Pearl 2022; Deffner, Rohrer, and McElreath 2022).
+of \citet{Niparko_et_al_2010}, \citet{Boons_et_al_2012},
+\citet{Gillis_2018}, and \citet{Fagan_et_al_2020}. Consequently, the
+study cannot discard the presence of unobservable variables that might
+bias the parameter estimates, potentially impacting the inferences
+provided. Hence, future research should consider integrating appropriate
+causal hypotheses about these factors into the proposed models, as
+proper covariate adjustment facilitates the production of unbiased and
+precise parameter estimates
+\citep{Cinelli_et_al_2021, Deffner_et_al_2022}.
 
 Lastly, this study proposes two directions for future exploration in
 speech intelligibility research. Firstly, there is an opportunity to
@@ -1567,14 +1564,15 @@ procedures, that still offer comparable precision in intelligibility
 estimates, could benefit both researchers and speech therapists alike.
 An illustrative example of such a method is Comparative Judgment (CJ),
 where judges compare and score the perceived intensity of a trait
-between two stimuli (Thurstone 1927). In the context of the
+between two stimuli \citep{Thurstone_1927}. In the context of the
 intelligibility trait, the stimuli under assessment could be the speech
 samples uttered by two speakers. Nevertheless, CJ serve as an ideal
 example as the method has gained increasing attention within the realm
 of educational assessment, with several studies providing evidence for
 its validity in assessing various task within student works, as
-demonstrated by examples in Pollitt (2012a); Pollitt (2012b), Lesterhuis
-(2018), van Daal (2020), and Verhavert et al. (2019).
+demonstrated by examples in \citet{Pollitt_2012a};
+\citet{Pollitt_2012b}, \citet{Lesterhuis_2018}, \citet{vanDaal_2020},
+and \citet{Verhavert_et_al_2019}.
 
 Conversely, a second avenue for exploration involves integrating diverse
 data types and evaluation methods to assess individuals'
@@ -1587,7 +1585,7 @@ parameters as priors in models for subsequent evaluations. Ultimately,
 this could enable researchers to assess speakers' intelligibility
 progress without committing to a specific data type or evaluation
 method. This advancement could mirror the emergence of second-generation
-Structural Equation Models proposed by Muthén (2001), where models
+Structural Equation Models proposed by \citet{Muthen_2001}, where models
 facilitate the combined estimation of categorical and continuous latent
 variables. However, in the context of future research, the proposal
 would facilitate the estimation of latent variables using a combination
@@ -1740,8 +1738,8 @@ proportions in favor of \emph{simpler} agreement or disagreement
 percentages. For example, an agreement percentage could be reflected by
 the proportion of the most frequent word, i.e.,
 \(\text{max}\{ 0.4, 0.4, 0.2 \}=0.4\), or by other similar percentages
-as the ones detailed in the works of Flipsen (2006) and Lagerberg et al.
-(2014).}
+detailed in the works of \citet{Flipsen_2006} and
+\citet{Lagerberg_et_al_2014}.}
 
 \newpage{}
 
@@ -1749,7 +1747,9 @@ as the ones detailed in the works of Flipsen (2006) and Lagerberg et al.
 
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
-\caption{\label{tbl-rq1-waic}WAIC comparison for selected models}
+\caption{\label{tbl-rq1-waic}WAIC comparison for selected models.
+\emph{Note:} Table sorted from most to least plausible model. Italic
+rows highlight the most plausible models for the data.}
 
 \tabularnewline
 
@@ -1759,7 +1759,7 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-10 & -9741.66 & -9630.63 & 276.64 & 0.00 & & 55.52 & 1 \\
+10 & -9741.66 & -9630.63 & 276.64 & 0.00 & NA & 55.52 & 1 \\
 7 & -9649.54 & -9586.00 & 274.50 & 44.63 & 17.89 & 31.77 & 0 \\
 4 & -2670.62 & -2024.84 & 127.02 & 7605.78 & 263.22 & 322.89 & 0 \\
 1 & -2278.68 & -1761.10 & 101.80 & 7869.53 & 266.54 & 258.79 & 0 \\
@@ -1768,7 +1768,9 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
-\caption{\label{tbl-rq1-psis}PSIS comparison for selected models}
+\caption{\label{tbl-rq1-psis}PSIS comparison for selected models.
+\emph{Note:} Table sorted from most to least plausible model. Italic
+rows highlight the most plausible models for the data.}
 
 \tabularnewline
 
@@ -1778,7 +1780,7 @@ Model & DIC & PSIS & SE & dPSIS & dSE & pPSIS & weight \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-10 & -9741.66 & -9629.27 & 276.74 & 0.00 & & 56.19 & 1 \\
+10 & -9741.66 & -9629.27 & 276.74 & 0.00 & NA & 56.19 & 1 \\
 7 & -9649.54 & -9585.92 & 274.56 & 43.36 & 17.67 & 31.81 & 0 \\
 4 & -2670.62 & -2007.66 & 128.57 & 7621.61 & 263.60 & 331.48 & 0 \\
 1 & -2278.68 & -1753.71 & 102.09 & 7875.57 & 266.54 & 262.48 & 0 \\
@@ -1787,7 +1789,9 @@ Model & DIC & PSIS & SE & dPSIS & dSE & pPSIS & weight \\
 
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
-\caption{\label{tbl-rq3-waic}WAIC comparison for all models}
+\caption{\label{tbl-rq3-waic}WAIC comparison for all models.
+\emph{Note:} Table sorted from most to least plausible model. Italic
+rows highlight the most plausible models for the data.}
 
 \tabularnewline
 
@@ -1797,7 +1801,7 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-11 & -9741.51 & -9632.24 & 276.80 & 0.00 & & 54.63 & 0.46 \\
+11 & -9741.51 & -9632.24 & 276.80 & 0.00 & NA & 54.63 & 0.46 \\
 12 & -9741.49 & -9631.66 & 276.82 & 0.58 & 1.00 & 54.91 & 0.34 \\
 10 & -9741.66 & -9630.63 & 276.64 & 1.61 & 2.97 & 55.52 & 0.20 \\
 9 & -9649.15 & -9586.67 & 274.35 & 45.56 & 18.01 & 31.24 & 0.00 \\
@@ -1814,7 +1818,9 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
-\caption{\label{tbl-rq3-psis}PSIS comparison for all models}
+\caption{\label{tbl-rq3-psis}PSIS comparison for all models.
+\emph{Note:} Table sorted from most to least plausible model. Italic
+rows highlight the most plausible models for the data.}
 
 \tabularnewline
 
@@ -1824,7 +1830,7 @@ Model & DIC & PSIS & SE & dPSIS & dSE & pPSIS & weight \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-11 & -9741.51 & -9631.16 & 276.88 & 0.00 & & 55.17 & 0.46 \\
+11 & -9741.51 & -9631.16 & 276.88 & 0.00 & NA & 55.17 & 0.46 \\
 12 & -9741.49 & -9630.70 & 276.90 & 0.47 & 1.01 & 55.39 & 0.36 \\
 10 & -9741.66 & -9629.27 & 276.74 & 1.89 & 2.84 & 56.19 & 0.18 \\
 9 & -9649.15 & -9586.58 & 274.41 & 44.58 & 17.91 & 31.28 & 0.00 \\
@@ -1883,7 +1889,7 @@ data density, blue bars describe the predicted data density}
 }
 
 \caption{\label{fig-rq1-model-outliers}Outlier identification and
-analysis for selected models. Note: Thin and thick vertical
+analysis for selected models. \emph{Note:} Thin and thick vertical
 discontinuous line indicate threshold of 0.5 and 0.7, respectively.
 Number pair texts indicate the observation pair of speaker and sentence
 index.}
@@ -1900,10 +1906,10 @@ index.}
 }
 
 \caption{\label{fig-rq3-pred-speaker}Entropy scores prediction for
-selected models. Note: Black dots show manifest entropy scores, orange
-dots and vertical lines show the point estimates and 95\% highest
-probability density intervals (HPDI) derived from model 6, blue dots and
-vertical lines show similar information for model 12.}
+selected models. \emph{Note:} Black dots show manifest entropy scores
+where darker points indicate greater overlap, orange dots and vertical
+lines show the posterior mean and 95\% HPDI derived from Model 6, blue
+dots and vertical lines show similar information from Model 12.}
 
 \end{figure}%
 
@@ -1917,8 +1923,8 @@ vertical lines show similar information for model 12.}
 }
 
 \caption{\label{fig-rq3-pred-speaker_model06}Model 6: Entropy scores
-density for selected speakers. Note: Black bars denote the true data
-density, orange bars describe the predicted data density}
+density for selected speakers. \emph{Note:} Black bars denote the true
+data density, orange bars describe the predicted data density}
 
 \end{figure}%
 
@@ -1932,8 +1938,8 @@ density, orange bars describe the predicted data density}
 }
 
 \caption{\label{fig-rq3-pred-speaker_model12}Model 12: Entropy scores
-density for selected speakers. Note: Black bars denote the true data
-density, blue bars describe the predicted data density}
+density for selected speakers. \emph{Note:} Black bars denote the true
+data density, blue bars describe the predicted data density}
 
 \end{figure}%
 
@@ -1947,7 +1953,7 @@ density, blue bars describe the predicted data density}
 }
 
 \caption{\label{fig-rq3-model-outliers}Outlier identification and
-analysis for selected models. Note: Thin and thick vertical
+analysis for selected models. \emph{Note:} Thin and thick vertical
 discontinuous line indicate threshold of 0.5 and 0.7, respectively.
 Number pair texts indicate the observation pair of speaker and sentence
 index.}
@@ -1959,488 +1965,9 @@ index.}
 \section*{References}\label{references}
 \addcontentsline{toc}{section}{References}
 
-\phantomsection\label{refs}
-\begin{CSLReferences}{1}{0}
-\bibitem[\citeproctext]{ref-Baker_1998}
-Baker, F. 1998. {``An Investigation of the Item Parameter Recovery
-Characteristics of a Gibbs Sampling Procedure.''} \emph{Applied
-Psychological Measurement} 22 (22): 153--69.
-\url{https://doi.org/10.1177/01466216980222005}.
+\renewcommand{\bibsection}{}
+\bibliography{references.bib}
 
-\bibitem[\citeproctext]{ref-Baldwin_et_al_2013}
-Baldwin, S., and G. Fellingham. 2013. {``Bayesian Methods for the
-Analysis of Small Sample Multilevel Data with a Complex Variance
-Structure.''} \emph{Journal of Psychological Methods} 18 (2): 151--64.
-\url{https://doi.org/10.1037/a0030642}.
-
-\bibitem[\citeproctext]{ref-Bayes_et_al_2012}
-Bayes, C., J. Bazán, and C. García. 2012. {``A New Robust Regression
-Model for Proportions.''} \emph{Bayesian Analysis} 7 (4): 841--66.
-\url{https://doi.org/10.1214/12-ba728}.
-
-\bibitem[\citeproctext]{ref-Boonen_et_al_2021}
-Boonen, N., H. Kloots, P. Nurzia, and S. Gillis. 2021. {``Spontaneous
-Speech Intelligibility: Early Cochlear Implanted Children Versus Their
-Normally Hearing Peers at Seven Years of Age.''} \emph{Journal of Child
-Language}, 1--26. \url{https://doi.org/10.1017/S0305000921000714}.
-
-\bibitem[\citeproctext]{ref-Boons_et_al_2012}
-Boons, T., J. Brokx, I. Dhooge, J. Frijns, L. Peeraer, A. Vermeulen, J.
-Wouters, and A. van Wieringen. 2012. {``Predictors of Spoken Language
-Development Following Pediatric Cochlear Implantation.''} \emph{Ear and
-Hearing} 33 (5): 617--39.
-\url{https://doi.org/10.1097/AUD.0b013e3182503e47}.
-
-\bibitem[\citeproctext]{ref-Carrasco_et_al_2012}
-Carrasco, J., S. Ferrari, and R. Arellano-Valle. 2012.
-{``Errors-in-Variables Beta Regression Models.''}
-\url{https://arxiv.org/abs/1212.0870}.
-
-\bibitem[\citeproctext]{ref-Castellanos_et_al_2014}
-Castellanos, I., W. Kronenberger, J. Beer, S. Henning, B. Colson, and D.
-Pisoni. 2014. {``Preschool Speech Intelligibility and Vocabulary Skills
-Predict Long-Term Speech and Language Outcomes Following Cochlear
-Implantation in Early Childhood.''} \emph{Cochlear Implants
-International} 15 (4): 200--210.
-\url{https://doi.org/10.1179/1754762813Y.0000000043}.
-
-\bibitem[\citeproctext]{ref-Chin_et_al_2012}
-Chin, S., T. Bergeson, and J. Phan. 2012. {``Speech Intelligibility and
-Prosody Production in Children with Cochlear Implants.''} \emph{Journal
-of Communication Disorders} 45: 355--66.
-\url{https://doi.org/10.1016/j.jcomdis.2012.05.003}.
-
-\bibitem[\citeproctext]{ref-Chin_et_al_2014}
-Chin, S., and M. Kuhns. 2014. {``Proximate Factors Associated with
-Speech Intelligibility in Children with Cochlear Implants: A Preliminary
-Study.''} \emph{Clinical Linguistics \& Phonetics} 28 (7-8): 532--42.
-\url{https://doi.org/10.3109/02699206.2014.926997}.
-
-\bibitem[\citeproctext]{ref-Choi_2023}
-Choi, IH. 2023. {``The Impact of Measurement Noninvariance Across Time
-and Group in Longitudinal Item Response Modeling.''} \emph{Asia Pacific
-Education Review}. \url{https://doi.org/10.1007/s12564-023-09907-4}.
-
-\bibitem[\citeproctext]{ref-Cinelli_et_al_2021}
-Cinelli, C., A. Forney, and J. Pearl. 2022. {``A Crash Course in Good
-and Bad Controls.''} \emph{SSRN}, September.
-\url{https://doi.org/10.2139/ssrn.3689437}.
-
-\bibitem[\citeproctext]{ref-Cox_et_al_1989}
-Cox, R., D. McDaniel, J. Kent, and J. Rosenbek. 1989. {``Development of
-the Speech Intelligibility Rating (SIR) Test for Hearing Aid
-Comparisons.''} \emph{Journal of Speech, Language, and Hearing Research}
-32 (2): 347--52. \url{https://doi.org/10.1044/jshr.3202.347}.
-
-\bibitem[\citeproctext]{ref-Cronbach_et_al_1955}
-Cronbach, L., and P. Meehl. 1955. {``Construct Validity in Psychological
-Tests.''} \emph{Psychological Bulletin} 52 (4): 281--302.
-\url{https://doi.org/10.1037/h0040957}.
-
-\bibitem[\citeproctext]{ref-de_Brito_et_al_2021}
-de Brito Trindade, Daniele, Patrícia Leone Espinheira, Klaus Leite Pinto
-Vasconcellos, Jalmar Manuel Farfán Carrasco, and Maria do Carmo Soares
-de Lima. 2021. {``Beta Regression Model Nonlinear in the Parameters with
-Additive Measurement Errors in Variables.''} \emph{PLOS ONE} 16 (7):
-1--28. \url{https://doi.org/10.1371/journal.pone.0254103}.
-
-\bibitem[\citeproctext]{ref-Deffner_et_al_2022}
-Deffner, D., J. Rohrer, and R. McElreath. 2022. {``A Causal Framework
-for Cross-Cultural Generalizability.''} \emph{Advances in Methods and
-Practices in Psychological Science} 5 (3).
-\url{https://doi.org/10.1177/25152459221106366}.
-
-\bibitem[\citeproctext]{ref-Depaoli_2014}
-Depaoli, S. 2014. {``The Impact of Inaccurate {`Informative'} Priors for
-Growth Parameters in Bayesian Growth Mixture Modeling.''} \emph{Journal
-of Structural Equation Modeling} 21: 239--52.
-\url{https://doi.org/10.1080/10705511.2014.882686}.
-
-\bibitem[\citeproctext]{ref-Depaoli_2021}
----------. 2021. \emph{\href{}{Bayesian Structural Equation Modeling}}.
-Methodology in the Social Sciences. The Guilford Press.
-
-\bibitem[\citeproctext]{ref-Depaoli_et_al_2017}
-Depaoli, S., and R. van de Schoot. 2017. {``Improving Transparency and
-Replication in Bayesian Statistics: The WAMBS-Checklist.''}
-\emph{Psychological Methods} 22 (2): 240--61.
-\url{https://doi.org/10.1037/met0000065}.
-
-\bibitem[\citeproctext]{ref-Dieteren_et_al_2023}
-Dieteren, C., I. Bonfrer, W. Brouwer, and J. van Exel. 2023. {``Public
-Preferences for Policies Promoting a Healthy Diet: A Discrete Choice
-Experiment.''} \emph{European Journal of Health Economics} 24: 1429--40.
-\url{https://doi.org/10.1007/s10198-022-01554-7}.
-
-\bibitem[\citeproctext]{ref-Ertmer_2011}
-Ertmer, D. 2011. {``Assessing Speech Intelligibility in Children with
-Hearing Loss: Toward Revitalizing a Valuable Clinical Tool.''}
-\emph{Language, Speech, and Hearing Services in Schools} 42 (1): 52--58.
-\url{https://doi.org/10.1044/0161-1461(2010/09-0081)}.
-
-\bibitem[\citeproctext]{ref-Everitt_et_al_2010}
-Everitt, B., and A. Skrondal. 2010. \emph{\href{}{The Cambridge
-Dictionary of Statistics}}. Cambridge University Press.
-
-\bibitem[\citeproctext]{ref-Faes_et_al_2021}
-Faes, J., S. De Maeyer, and S. Gillis. 2021. {``Speech Intelligibility
-of Children with an Auditory Brainstem Implant: A Triple-Case Study,''}
-1--50. \url{https://doi.org/10.1080/02699206.2021.1988148}.
-
-\bibitem[\citeproctext]{ref-Fagan_et_al_2020}
-Fagan, M., L. Eisenberg, and K. Johnson. 2020. {``Investigating Early
-Pre-Implant Predictors of Language and Cognitive Development in Children
-with Cochlear Implants.''} In \emph{Oxford Handbook of Deaf Studies in
-Learning and Cognition}, edited by M. Marschark and H. Knoors, 46--95.
-Oxford University Press.
-\url{https://doi.org/10.1093/oxfordhb/9780190054045.013.3}.
-
-\bibitem[\citeproctext]{ref-Ferrari_et_al_2004}
-Ferrari, S., and F. Cribari-Neto. 2004. {``Beta Regression for Modelling
-Rates and Proportions.''} \emph{Journal of Applied Statistics} 31 (7):
-799--815. \url{https://doi.org/10.1080/0266476042000214501}.
-
-\bibitem[\citeproctext]{ref-Figueroa-Zuniga_et_al_2013}
-Figueroa-Zúñiga, J., R. Arellano-Valle, and S. Ferrari. 2013. {``Mixed
-Beta Regression.''} \emph{Computational Statistics \& Data Analysis} 61:
-137--47. \url{https://doi.org/10.1016/j.csda.2012.12.002}.
-
-\bibitem[\citeproctext]{ref-Figueroa-Zuniga_et_al_2021}
-Figueroa-Zúñiga, J., C. Bayes, V. Leiva, and S. Liu. 2021. {``Robust
-Beta Regression Modeling with Errors-in-Variables: A Bayesian Approach
-and Numerical Applications.''} \emph{Statistical Papers}.
-\url{https://doi.org/10.1007/s00362-021-01260-1}.
-
-\bibitem[\citeproctext]{ref-Figueroa-Zuniga_et_al_2018}
-Figueroa-Zúñiga, J., J. Carrasco, R. Arellano-Valle, and S. Ferrari.
-2018. {``A Bayesian Approach to Errors-in-Variables Beta Regression.''}
-\emph{Brazilian Journal of Probability and Statistics} 32 (3): 559--82.
-\url{https://doi.org/10.1214/17-bjps354}.
-
-\bibitem[\citeproctext]{ref-Flipsen_2006}
-Flipsen, P. 2006. {``Measuring the Intelligibility of Conversational
-Speech in Children.''} \emph{Clinical Linguistics \& Phonetics} 20 (4):
-303--12. \url{https://doi.org/10.1080/02699200400024863}.
-
-\bibitem[\citeproctext]{ref-Freeman_et_al_2017}
-Freeman, V., D. Pisoni, W. Kronenberger, and I. Castellanos. 2017.
-{``Speech Intelligibility and Psychosocial Functioning in Deaf Children
-and Teens with Cochlear Implants.''} \emph{Journal of Deaf Studies and
-Deaf Education} 22 (3): 278--89.
-\url{https://doi.org/10.1093/deafed/enx001}.
-
-\bibitem[\citeproctext]{ref-Gelman_et_al_2014}
-Gelman, A., J. Carlin, H. Stern, D. Dunson, A. Vehtari, and D. Rubin.
-2014. \emph{\href{}{Bayesian Data Analysis}}. 3rd ed. Texts in
-Statistical Science. Chapman; Hall/CRC.
-
-\bibitem[\citeproctext]{ref-Ghosh_2019}
-Ghosh, A. 2019. {``Robust Inference Under the Beta Regression Model with
-Application to Health Care Studies.''} \emph{Journal of Statistical
-Methods in Medical Research} 28 (3): 871--88.
-\url{https://doi.org/10.1177/0962280217738142}.
-
-\bibitem[\citeproctext]{ref-Gillis_2018}
-Gillis, S. 2018. {``Speech and Language in Congenitally Deaf Children
-with a Cochlear Implant.''} In \emph{Handbook of Communication
-Disorders: Theoretical, Empirical, and Applied Linguistic Perspectives},
-edited by ElitzurHG Dattner and Dorit Ravid, 765--92. De Gruyter Mouton.
-\url{https://doi.org/10.1515/9781614514909-038}.
-
-\bibitem[\citeproctext]{ref-Holmes_et_al_2019}
-Holmes, W., J. Bolin, and K. Kelley. 2019. \emph{Multilevel Modeling
-Using r (2nd Edition)}. Chapman; Hall/CRC.
-\url{https://doi.org/10.1201/9781351062268}.
-
-\bibitem[\citeproctext]{ref-Jeffreys_1998}
-Jeffreys, H. 1998. \emph{\href{}{Theory of Probability}}. Oxford
-University Press.
-
-\bibitem[\citeproctext]{ref-Jenkins_2000}
-Jenkins, S. 2000. {``Cultural and Linguistic Miscues: A Case Study of
-International Teaching Assistant and Academic Faculty
-Miscommunication.''} \emph{International Journal of Intercultural
-Relations} 24 (4): 477--501.
-\url{https://doi.org/10.1016/S0147-1767(00)00011-0}.
-
-\bibitem[\citeproctext]{ref-Kangmennaang_et_al_2023}
-Kangmennaang, J., A. Siiba, and E. Bisung. 2023. {``Does Trust Mediate
-the Relationship Between Experiences of Discrimination and Health Care
-Access and Utilization Among Minoritized Canadians During COVID-19
-Pandemic?''} \emph{Journal of Racial and Ethnic Health Disparities}.
-\url{https://doi.org/10.1007/s40615-023-01809-w}.
-
-\bibitem[\citeproctext]{ref-Kent_et_al_1994}
-Kent, R. D., G. Miolo, and S. Bloedel. 19943. {``The Intelligibility of
-Children's Speech: A Review of Evaluation Procedures.''} \emph{American
-Journal of Speech-Language Pathology} 3 (2): 81--95.
-\url{https://doi.org/10.1044/1058-0360.0302.81}.
-
-\bibitem[\citeproctext]{ref-Kent_et_al_1989}
-Kent, R., G. Weismer, J. Kent, and J. Rosenbek. 1989. {``Toward Phonetic
-Intelligibility Testing in Dysarthria.''} \emph{Journal of Speech and
-Hearing Disorders} 54 (4): 482--99.
-\url{https://doi.org/10.1044/jshd.5404.482}.
-
-\bibitem[\citeproctext]{ref-Khwaileh_et_al_2010}
-Khwaileh, F., and P. Flipsen. 2010. {``Single Word and Sentence
-Intelligibility in Children with Cochlear Implants.''} \emph{Clinical
-Linguistics \& Phonetics} 24 (9): 722--33.
-\url{https://doi.org/10.3109/02699206.2010.490003}.
-
-\bibitem[\citeproctext]{ref-Kim_et_al_1999}
-Kim, S., and A. Cohen. 1999. {``Accuracy of Parameter Estimation in
-Gibbs Sampling Under the Two-Parameter Logistic Model.''} In
-\emph{Annual Meeting of the American Educational Research Association}.
-American Educational Research Association.
-\url{https://eric.ed.gov/?id=ED430012}.
-
-\bibitem[\citeproctext]{ref-Kullback_et_al_1951}
-Kullback, S., and R. Leibler. 1951. {``On Information and
-Sufficiency.''} \emph{The Annals of Mathematical Statistics} 22 (1):
-79--86. \url{http://www.jstor.org/stable/2236703}.
-
-\bibitem[\citeproctext]{ref-Lagerberg_et_al_2014}
-Lagerberg, T., J. Asberg, L. Hartelius, and C. Persson. 2014.
-{``Assessment of Intelligibility Using Children's Spontaneous Speech:
-Methodological Aspects.''} \emph{International Journal of Language and
-Communication Disorders} 49 (2): 228--39.
-\url{https://doi.org/10.1111/1460-6984.12067}.
-
-\bibitem[\citeproctext]{ref-Lambert_et_al_2005}
-Lambert, P., A. Sutton, P. Burton, K. Abrams, and D. Jones. 2006. {``How
-Vague Is Vague? A Simulation Study of the Impact of the Use of Vague
-Prior Distributions in MCMC Using WinBUGS.''} \emph{Journal of
-Statistics in Medicine} 24 (15): 2401--28.
-\url{https://doi.org/10.1002/sim.2112}.
-
-\bibitem[\citeproctext]{ref-Lebl_2022}
-Lebl, J. 2022. \emph{Basic Analysis i \& II: Introduction to Real
-Analysis, Volumes i \& II}.
-\url{https://www.jirka.org/ra/html/frontmatter-1.html}.
-
-\bibitem[\citeproctext]{ref-Lesterhuis_2018}
-Lesterhuis, M. 2018. {``The Validity of Comparative Judgement for
-Assessing Text Quality: An Assessor's Perspective.''} PhD thesis,
-University of Antwerp.
-
-\bibitem[\citeproctext]{ref-Lopes_et_al_2023}
-Lopes, S., L. Shi, X. Pan, Y. Gu, C. Dengler-Crish, Y. Yan Li, B.
-Tiwari, and D. Zhang. 2023. {``Meditation and Cognitive Outcomes: A
-Longitudinal Analysis Using Data from the Health and Retirement Study
-2000--2016.''} \emph{Mindfulness} 14: 1705--17.
-\url{https://doi.org/10.1007/s12671-023-02165-w}.
-
-\bibitem[\citeproctext]{ref-MacWhinney_2020}
-MacWhinney, B. 2020. \emph{The CHILDES Project: Tools for Analyzing
-Talk}. Lawrence Erlbaum Associates.
-\url{https://doi.org/10.21415/3mhn-0z89}.
-
-\bibitem[\citeproctext]{ref-Martin_et_al_1975}
-Martin, J., and R. McDonald. 1975. {``Bayesian Estimation in
-Unrestricted Factor Analysis: A Treatment for Heywood Cases.''}
-\emph{Psychometrika}, no. 40: 505--17.
-\url{https://doi.org/10.1007/BF02291552}.
-
-\bibitem[\citeproctext]{ref-Mayer_1969}
-Mayer, M. 1969. \emph{Frog, Where Are You?} Boy, a Dog, and a Frog. Dial
-Books for Young Readers.
-\url{https://books.google.be/books?id=Asi5KQAACAAJ}.
-
-\bibitem[\citeproctext]{ref-McElreath_2020}
-McElreath, R. 2020. \emph{\href{}{Statistical Rethinking: A Bayesian
-Course with Examples in r and STAN}}. Chapman; Hall/CRC.
-
-\bibitem[\citeproctext]{ref-Montag_et_al_2014}
-Montag, J., A. AuBuchon, D. Pisoni, and W. Kronenberger. 2014. {``Speech
-Intelligibility in Deaf Children After Long-Term Cochlear Implant
-Use.''} \emph{Journal of Speech, Language, and Hearing Research} 57 (6):
-2332--43. \url{https://doi.org/10.1044/2014/_JSLHR-H-14-0190}.
-
-\bibitem[\citeproctext]{ref-Munro_1998}
-Munro, M. 1998. {``The Effects of Noise on the Intelligibility of
-Foreign-Accented Speech.''} \emph{Studies in Second Language
-Acquisition} 20 (2): 139--54.
-\url{https://doi.org/10.1017/S0272263198002022}.
-
-\bibitem[\citeproctext]{ref-Munro_et_al_1998}
-Munro, M., and T. Derwing. 1998. {``The Effects of Speaking Rate on
-Listener Evaluations of Native and Foreign-Accented Speech.''}
-\emph{Language Learning} 48 (2): 159--82.
-\url{https://doi.org/10.1111/1467-9922.00038}.
-
-\bibitem[\citeproctext]{ref-Muthen_2001}
-Muthén, B. 2001. {``Second-Generation Structural Equation Modeling with
-a Combination of Categorical and Continuous Latent Variables: New
-Opportunities for Latent Class--Latent Growth Modeling.''} In \emph{New
-Methods for the Analysis of Change}, edited by L. Collins and A. Sayer,
-291--322. American Psychological Association.
-\url{https://doi.org/10.1037/10409-010}.
-
-\bibitem[\citeproctext]{ref-Niparko_et_al_2010}
-Niparko, J., E. Tobey, D. Thal, L. Eisenberg, N. Wang, A. Quittner, and
-N. Fink. 2010. {``Spoken Language Development in Children Following
-Cochlear Implantation.''} \emph{JAMA} 303 (15): 1498--1506.
-\url{https://doi.org/10.1001/jama.2010.451}.
-
-\bibitem[\citeproctext]{ref-Ockey_et_al_2016}
-Ockey, G., S. Papageorgiou, and R. French. 2016. {``Effects of Strength
-of Accent on an L2 Interactive Lecture Listening Comprehension Test.''}
-\emph{International Journal of Listening} 30 (1-2): 84--98.
-\url{https://doi.org/0.1080/10904018.2015.1056877}.
-
-\bibitem[\citeproctext]{ref-Pereira_et_al_2020}
-Pereira, J., W. Nobre, I. Silva, and A. Schmidt. 2020. {``Spatial
-Confounding in Hurdle Multilevel Beta Models: The Case of the Brazilian
-Mathematical Olympics for Public Schools.''} \emph{Journal of the Royal
-Statistical Society Series A: Statistics in Society} 183 (3): 1051--73.
-\url{https://doi.org/10.1111/rssa.12551}.
-
-\bibitem[\citeproctext]{ref-Pollitt_2012a}
-Pollitt, A. 2012a. {``Comparative Judgement for Assessment.''}
-\emph{International Journal of Technology and Design Education} 22 (2):
-157-\/-170. \url{https://doi.org/10.1007/s10798-011-9189-x}.
-
-\bibitem[\citeproctext]{ref-Pollitt_2012b}
----------. 2012b. {``The Method of Adaptive Comparative Judgement.''}
-\emph{Assessment in Education: Principles, Policy and Practice} 19 (3):
-281-\/-300. \url{https://doi.org/10.1080/0969594X.2012.665354}.
-
-\bibitem[\citeproctext]{ref-R_2015}
-R Core Team. 2015. \emph{R: A Language and Environment for Statistical
-Computing}. Vienna, Austria: R Foundation for Statistical Computing.
-\url{http://www.R-project.org/}.
-
-\bibitem[\citeproctext]{ref-Rabe_et_al_2004a}
-Rabe-Hesketh, S., A. Skrondal, and A. Pickles. 2004a. {``Generalized
-Multilevel Structural Equation Modeling.''} \emph{Psychometrika} 69 (2):
-167--90. https://doi.org/\url{https://www.doi.org/10.1007/BF02295939}.
-
-\bibitem[\citeproctext]{ref-Rabe_et_al_2004c}
----------. 2004b. \emph{GLLAMM Manual}. UC Berkeley Division of
-Biostatistics.
-\url{http://www.biostat.jhsph.edu/~fdominic/teaching/bio656/software-gllamm.manual.pdf}.
-
-\bibitem[\citeproctext]{ref-Rabe_et_al_2004b}
----------. 2004c. {``Maximum Likelihood Estimation of Limited and
-Discrete Dependent Variable Models with Nested Random Effects.''}
-\emph{Journal of Econometrics} 128 (2): 301--23.
-https://doi.org/\url{https://www.doi.org/10.1016/j.jeconom.2004.08.017}.
-
-\bibitem[\citeproctext]{ref-Seaman_et_al_2011}
-Seaman, Seaman jr., J., and J. Stamey. 2011. {``Hidden Dangers of
-Specifying Noninformative Priors.''} \emph{The American Statistician} 66
-(2): 77--84. \url{https://doi.org/10.1080/00031305.2012.695938}.
-
-\bibitem[\citeproctext]{ref-Shannon_1948}
-Shannon, C. 1948. {``A Mathematical Theory of Communication.''}
-\emph{The Bell System Technical Journal} 27 (3): 379--423.
-\url{https://doi.org/10.1002/j.1538-7305.1948.tb01338.x}.
-
-\bibitem[\citeproctext]{ref-Shmueli_et_al_2012}
-Shmueli, G., and O. Koppius. 2011. {``Predictive Analytics in
-Information Systems Research.''} \emph{MIS Quarterly} 35 (3): 553--72.
-\url{https://doi.org/10.2307/23042796}.
-
-\bibitem[\citeproctext]{ref-Simas_et_al_2010}
-Simas, Alexandre B., Wagner Barreto-Souza, and Andréa V. Rocha. 2010.
-{``Improved Estimators for a General Class of Beta Regression Models.''}
-\emph{Computational Statistics \& Data Analysis} 54 (2): 348--66.
-https://doi.org/\url{https://doi.org/10.1016/j.csda.2009.08.017}.
-
-\bibitem[\citeproctext]{ref-Skrondal_et_al_2004a}
-Skrondal, A., and S. Rabe-Hesketh. 2004. \emph{\href{}{Generalized
-Latent Variable Modeling: Multilevel, Longitudinal, and Structural
-Equation Models}}. Interdisciplinary Statistics. Chapman \& Hall/CRC
-Press.
-
-\bibitem[\citeproctext]{ref-Spiegelhalter_et_al_2002}
-Spiegelhalter, D., N. Best, B. Carlin, and A. van der Linde. 2002.
-{``{Bayesian Measures of Model Complexity and Fit}.''} \emph{Journal of
-the Royal Statistical Society Series B: Statistical Methodology} 64 (4):
-583--639. \url{https://doi.org/10.1111/1467-9868.00353}.
-
-\bibitem[\citeproctext]{ref-Stan_2020}
-Stan Development Team. 2021. \emph{Stan Modeling Language Users Guide
-and Reference Manual, Version 2.26}. Vienna, Austria.
-\url{https://mc-stan.org}.
-
-\bibitem[\citeproctext]{ref-Tackney_et_al_2023}
-Tackney, M., T. Morris, I. White, C. Leyrat, K. Diaz-Ordaz, and E.
-Williamson. 2023. {``A Comparison of Covariate Adjustment Approaches
-Under Model Misspecification in Individually Randomized Trials.''}
-\emph{Trials} 24 (14). \url{https://doi.org/10.1186/s13063-022-06967-6}.
-
-\bibitem[\citeproctext]{ref-Thurstone_1927}
-Thurstone, L. 1927. {``A Law of Comparative Judgment.''}
-\emph{Psychological Review} 34 (4): 482--99.
-\url{https://doi.org/10.1037/h0070288}.
-
-\bibitem[\citeproctext]{ref-Unlu_et_al_2017}
-Unlu, H., and S. Aktas. 2017. {``Beta Regression for the Indicator
-Values of Well-Being Index for Provinces in Turkey.''} \emph{Journal of
-Engineering Technology and Applied Sciences} 2 (2): 101--11.
-\url{https://doi.org/10.30931/jetas.321165}.
-
-\bibitem[\citeproctext]{ref-vanDaal_2020}
-van Daal, T. 2020. {``Making a Choice Is Not Easy?!: Unravelling the
-Task Difficulty of Comparative Judgement to Assess Student Work.''} PhD
-thesis, University of Antwerp.
-
-\bibitem[\citeproctext]{ref-vanHeuven_2008}
-van Heuven, V. 2008. {``Making Sense of Strange Sounds: (Mutual)
-Intelligibility of Related Language Varieties. A Review.''}
-\emph{International Journal of Humanities and Arts Computing} 2 (1-2):
-39--62. \url{https://doi.org/10.3366/E1753854809000305}.
-
-\bibitem[\citeproctext]{ref-Varonis_et_al_1985}
-Varonis, E., and G. Susan. 1985. {``Non-Native/Non-Native Conversations:
-A Model for Negotiation of Meaning.''} \emph{Applied Linguistics} 6 (1):
-71--90. \url{https://doi.org/10.1093/applin/6.1.71}.
-
-\bibitem[\citeproctext]{ref-Vehtari_et_al_2017}
-Vehtari, A., A. Gelman, and J. Gabry. 2017. {``Practical Bayesian Model
-Evaluation Using Leave-One-Out Cross-Validation and WAIC.''}
-\emph{Statistics and Computing} 27 (5): 1413--32.
-\url{https://doi.org/10.1007/s11222-016-9696-4}.
-
-\bibitem[\citeproctext]{ref-Vehtari_et_al_2021}
-Vehtari, A., A. Gelman, D. Simpson, B Carpenter, and PC. Bürkner. 2021.
-{``{Rank-Normalization, Folding, and Localization: An Improved
-\(\widehat{R}\) for Assessing Convergence of MCMC (with Discussion)}.''}
-\emph{Bayesian Analysis} 16 (2): 667--718.
-\url{https://doi.org/10.1214/20-BA1221}.
-
-\bibitem[\citeproctext]{ref-Verhavert_et_al_2019}
-Verhavert, S., R. Bouwer, V Donche, and S. De Maeyer. 2019. {``A
-Meta-Analysis on the Reliability of Comparative Judgement.''}
-\emph{Assessment in Education: Principles, Policy and Practice} 26 (5):
-541--62. \url{https://doi.org/10.1080/0969594X.2019.1602027}.
-
-\bibitem[\citeproctext]{ref-Verkuilen_et_al_2012}
-Verkuilen, J., and M. Smithson. 2013. {``Mixed and Mixture Regression
-Models for Continuous Bounded Responses Using the Beta Distribution.''}
-\emph{Ournal of Educational and Behavioral Statistics} 37 (1): 82--113.
-\url{https://doi.org/10.3102/1076998610396895}.
-
-\bibitem[\citeproctext]{ref-Watanabe_2013}
-Watanabe, S. 2013. {``A Widely Applicable Bayesian Information
-Criterion.''} \emph{Journal of Machine Learning Research} 14: 867--97.
-\url{https://www.jmlr.org/papers/volume14/watanabe13a/watanabe13a.pdf}.
-
-\bibitem[\citeproctext]{ref-Whitehill_et_al_2004}
-Whitehill, T., and C. Chau. 2004. {``Single-Word Intelligibility in
-Speakers with Repaired Cleft Palate.''} \emph{Clinical Linguistics and
-Phonetics} 18: 341--55.
-\url{https://doi.org/10.1080/02699200410001663344}.
-
-\bibitem[\citeproctext]{ref-Zhang_et_al_2023}
-Zhang, J., W. Du, and F. and Huang. 2023. {``Longitudinal Study of
-Dietary Patterns and Hypertension in Adults: China Health and Nutrition
-Survey 1991--2018.''} \emph{Hypertension Research} 46: 2264--71.
-\url{https://doi.org/10.1038/s41440-023-01322-x}.
-
-\end{CSLReferences}
 
 
 
