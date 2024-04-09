@@ -347,14 +347,18 @@ the University of Antwerp (BOF).</funding-statement>
   clustering. Clustering occurs when outcomes stem from repeated
   measurements of the same individual, location, or time
   (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-  2020</xref>). Lastly, driven by the specific small set of speakers and
-  speech samples under scrutiny, these scores often display a potential
-  for the presence of outliers and heteroscedasticity. Outliers are
-  observations that markedly deviate from other sample data points in
-  which they occur, while heteroscedasticity occurs when the outcome’s
+  2020</xref>). <styled-content style="color:blue;">Lastly, driven by
+  the presence of measurement error, speech samples with entropy scores
+  located at the extreme of the bounds, and the existence of more than
+  one population in the data under scrutiny (i.e., normal hearing versus
+  hearing-impaired speakers), the scores may exhibit a potential for
+  outliers and heteroscedasticity. Outliers are observations that
+  markedly deviate from other sample data points where they occur
+  (<xref alt="Grubbs 1969" rid="ref-Grubbs_1969" ref-type="bibr">Grubbs
+  1969</xref>), while heteroscedasticity occurs when the outcome’s
   variance depends on the values of another variable
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
-  and Skrondal 2010</xref>).</p>
+  and Skrondal 2010</xref>).</styled-content></p>
   <p>Failure to collectively address these data features can result in
   numerous statistical challenges that might hamper the researcher’s
   ability to investigate intelligibility. Notably, neglecting
@@ -465,15 +469,20 @@ the University of Antwerp (BOF).</funding-statement>
   (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014" ref-type="bibr">Depaoli
   2014</xref>). Secondly, the Bayesian approach enables the
   incorporation of prior information, thereby constraining certain
-  parameters within specified bounds. This feature helps to address
-  issues such as non-convergence or improper parameter estimation
-  commonly encountered in complex models under frequentist methods
+  parameters within specified bounds.
+  <styled-content style="color:blue;">This feature helps address issues
+  such as non-convergence or improper parameter estimation commonly
+  encountered in complex models under frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975" ref-type="bibr">Martin
   and McDonald 1975</xref>;
   <xref alt="Seaman III, Seaman Jr., and Stamey 2011" rid="ref-Seaman_et_al_2011" ref-type="bibr">Seaman
-  III, Seaman Jr., and Stamey 2011</xref>). In this study, for example,
-  this feature was leveraged to constraint the variances of random
-  effects to be positive. Lastly, Bayesian methods have shown
+  III, Seaman Jr., and Stamey 2011</xref>). A typical example of
+  improper parameter estimation under frequentist methods is the
+  estimation of negative variances in hierarchical models
+  (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019" ref-type="bibr">Holmes,
+  Bolin, and Kelley 2019</xref>). In this study, for example, this issue
+  was resolved by constraining the variances of random effects to be
+  positive.</styled-content> Lastly, Bayesian methods have shown
   proficiency in handling relatively small sample sizes
   (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013" ref-type="bibr">Baldwin
   and Fellingham 2013</xref>;
@@ -1094,9 +1103,11 @@ the University of Antwerp (BOF).</funding-statement>
       shows the potential intelligibility of a speakers has a negative
       non-linear relationship with the entropy scores, explicitly
       highlighting the inverse relationship between intelligibility and
-      entropy. This feature also maps the unbounded linear predictor to
-      the bounded limits of the entropy scores. Thirdly, in contrast
-      with the Normal LMM,
+      entropy. <styled-content style="color:blue;">Furthermore, the
+      non-linear relationship (i.e., the inverse-logit link function)
+      also maps the unbounded linear predictor to the bounded limits of
+      the entropy scores.</styled-content> Thirdly, in contrast with the
+      Normal LMM,
       <xref alt="Equation 6" rid="eq-beta-GLLAMM-structural">Equation 6</xref>
       demonstrates that the structural parameters are interpretable in
       terms of the latent potential intelligibility scores, where the
@@ -1250,7 +1261,10 @@ the University of Antwerp (BOF).</funding-statement>
       the models. A detailed overview of the fitted models is available
       in <xref alt="Table 2" rid="tbl-fitted">Table 2</xref>.</p>
       <fig id="tbl-fitted">
-        <caption><p>Table 2: Fitted models.</p></caption>
+        <caption><p>Table 2: Fitted models.
+        <styled-content style="color:blue;"><italic>Note:</italic> Yes
+        indicates the feature or parameter was included in the model, No
+        indicates the oposite.</styled-content></p></caption>
         <table-wrap>
           <table>
             <colgroup>
@@ -1567,11 +1581,31 @@ the University of Antwerp (BOF).</funding-statement>
     extends this model by incorporating a robust feature.</p>
     <p><xref alt="Figure 1" rid="fig-rq1-waic-psis">Figure 1</xref>
     displays values for the <monospace>DIC</monospace>,
-    <monospace>WAIC</monospace>, and <monospace>PSIS</monospace>. They
-    also include the components <monospace>dWAIC</monospace> and
-    <monospace>dPSIS</monospace>, highlighting the differences in
-    out-of-sample deviations from the best-fitting model and its
-    associated uncertainty. The associated
+    <monospace>WAIC</monospace>, and <monospace>PSIS</monospace>.
+    <styled-content style="color:blue;">The figure also includes the
+    components <monospace>dWAIC</monospace> and
+    <monospace>dPSIS</monospace>, which reflect the differences in
+    out-of-sample deviations of the models from the best-fitting model.
+    Additionally, the figure depicts the associated uncertainty of the
+    criteria calculated as <inline-formula><alternatives>
+    <tex-math><![CDATA[X \pm 1 \cdot]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>SE</monospace>
+    for <inline-formula><alternatives>
+    <tex-math><![CDATA[X=\{]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>WAIC</monospace>,
+    <monospace>PSIS</monospace><inline-formula><alternatives>
+    <tex-math><![CDATA[\}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:math></alternatives></inline-formula>,
+    as well as the associated uncertainty of comparison calculated as
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[X \pm 1 \cdot]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>
+    for <inline-formula><alternatives>
+    <tex-math><![CDATA[X=\{]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dWAIC</monospace>,
+    <monospace>dPSIS</monospace><inline-formula><alternatives>
+    <tex-math><![CDATA[\}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:math></alternatives></inline-formula>.</styled-content>
     <xref alt="Table 6" rid="tbl-rq1-waic">Table 6</xref> and
     <xref alt="Table 7" rid="tbl-rq1-psis">Table 7</xref> provide
     similar information, while also reporting the
@@ -1622,8 +1656,8 @@ the University of Antwerp (BOF).</funding-statement>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
     <fig id="fig-rq1-waic-psis">
       <caption><p>Figure 1: WAIC and PSIS model comparison plot.
-      <italic>Note:</italic> Black and blue points describe point
-      estimates, and continuous horizontal lines indicate the associated
+      <italic>Note:</italic> Black and blue points describe posterior
+      means, and continuous horizontal lines indicate the associated
       uncertainty.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-waic-psis-1.png" />
     </fig>
@@ -1673,11 +1707,12 @@ the University of Antwerp (BOF).</funding-statement>
     scores, fostering more trust in the model’s estimates.</p>
     <fig id="fig-rq1-pred-speaker">
       <caption><p>Figure 2: Entropy scores prediction for selected
-      models. <italic>Note:</italic> Black dots show manifest entropy
-      scores where darker points indicate greater overlap, orange dots
-      and vertical lines show the posterior mean and 95% HPDI derived
-      from Model 4, blue dots and vertical lines show similar
-      information from Model 10.</p></caption>
+      models. <styled-content style="color:blue;"><italic>Note:</italic>
+      Black dots show manifest entropy scores where darker points
+      indicate greater overlap, orange dots and vertical lines show the
+      posterior mean and 95% HPDI derived from Model 4, blue dots and
+      vertical lines show similar information from Model
+      10.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker-1.png" />
     </fig>
   </sec>
@@ -2679,9 +2714,9 @@ the University of Antwerp (BOF).</funding-statement>
     <title>Tables</title>
     <fig id="tbl-rq1-waic">
       <caption><p>Table 6: WAIC comparison for selected models.
-      <italic>Note:</italic> Table sorted from most to least plausible
-      model. Italic rows highlight the most plausible models for the
-      data.</p></caption>
+      <styled-content style="color:blue;"><italic>Note:</italic> Table
+      sorted from most to least plausible models for the
+      data.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2743,9 +2778,9 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="tbl-rq1-psis">
       <caption><p>Table 7: PSIS comparison for selected models.
-      <italic>Note:</italic> Table sorted from most to least plausible
-      model. Italic rows highlight the most plausible models for the
-      data.</p></caption>
+      <styled-content style="color:blue;"><italic>Note:</italic> Table
+      sorted from most to least plausible models for the
+      data.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2807,9 +2842,9 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="tbl-rq3-waic">
       <caption><p>Table 8: WAIC comparison for all models.
-      <italic>Note:</italic> Table sorted from most to least plausible
-      model. Italic rows highlight the most plausible models for the
-      data.</p></caption>
+      <styled-content style="color:blue;"><italic>Note:</italic> Table
+      sorted from most to least plausible models for the
+      data.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2951,9 +2986,9 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="tbl-rq3-psis">
       <caption><p>Table 9: PSIS comparison for all models.
-      <italic>Note:</italic> Table sorted from most to least plausible
-      model. Italic rows highlight the most plausible models for the
-      data.</p></caption>
+      <styled-content style="color:blue;"><italic>Note:</italic> Table
+      sorted from most to least plausible models for the
+      data.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -3121,11 +3156,12 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="fig-rq3-pred-speaker">
       <caption><p>Figure 12: Entropy scores prediction for selected
-      models. <italic>Note:</italic> Black dots show manifest entropy
-      scores where darker points indicate greater overlap, orange dots
-      and vertical lines show the posterior mean and 95% HPDI derived
-      from Model 6, blue dots and vertical lines show similar
-      information from Model 12.</p></caption>
+      models. <styled-content style="color:blue;"><italic>Note:</italic>
+      Black dots show manifest entropy scores where darker points
+      indicate greater overlap, orange dots and vertical lines show the
+      posterior mean and 95% HPDI derived from Model 6, blue dots and
+      vertical lines show similar information from Model
+      12.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker-1.png" />
     </fig>
     <fig id="fig-rq3-pred-speaker_model06">
@@ -3222,6 +3258,23 @@ the University of Antwerp (BOF).</funding-statement>
       <pub-id pub-id-type="doi">10.1037/h0040957</pub-id>
       <fpage>281</fpage>
       <lpage>302</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Grubbs_1969">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Grubbs</surname><given-names>Frank E.</given-names></name>
+      </person-group>
+      <article-title>Procedures for detecting outlying observations in samples</article-title>
+      <source>Technometrics</source>
+      <publisher-name>Taylor &amp; Francis</publisher-name>
+      <year iso-8601-date="1969">1969</year>
+      <volume>11</volume>
+      <issue>1</issue>
+      <uri>https://www.tandfonline.com/doi/abs/10.1080/00401706.1969.10490657</uri>
+      <pub-id pub-id-type="doi">10.1080/00401706.1969.10490657</pub-id>
+      <fpage>1</fpage>
+      <lpage>21</lpage>
     </element-citation>
   </ref>
   <ref id="ref-Martin_et_al_1975">
@@ -5012,14 +5065,18 @@ Attaching package: 'docstring'</preformat>
   clustering. Clustering occurs when outcomes stem from repeated
   measurements of the same individual, location, or time
   (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-  2020</xref>). Lastly, driven by the specific small set of speakers and
-  speech samples under scrutiny, these scores often display a potential
-  for the presence of outliers and heteroscedasticity. Outliers are
-  observations that markedly deviate from other sample data points in
-  which they occur, while heteroscedasticity occurs when the outcome’s
+  2020</xref>). <styled-content style="color:blue;">Lastly, driven by
+  the presence of measurement error, speech samples with entropy scores
+  located at the extreme of the bounds, and the existence of more than
+  one population in the data under scrutiny (i.e., normal hearing versus
+  hearing-impaired speakers), the scores may exhibit a potential for
+  outliers and heteroscedasticity. Outliers are observations that
+  markedly deviate from other sample data points where they occur
+  (<xref alt="Grubbs 1969" rid="ref-Grubbs_1969-nb-article" ref-type="bibr">Grubbs
+  1969</xref>), while heteroscedasticity occurs when the outcome’s
   variance depends on the values of another variable
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
-  and Skrondal 2010</xref>).</p>
+  and Skrondal 2010</xref>).</styled-content></p>
   <p>Failure to collectively address these data features can result in
   numerous statistical challenges that might hamper the researcher’s
   ability to investigate intelligibility. Notably, neglecting
@@ -5130,15 +5187,20 @@ Attaching package: 'docstring'</preformat>
   (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014-nb-article" ref-type="bibr">Depaoli
   2014</xref>). Secondly, the Bayesian approach enables the
   incorporation of prior information, thereby constraining certain
-  parameters within specified bounds. This feature helps to address
-  issues such as non-convergence or improper parameter estimation
-  commonly encountered in complex models under frequentist methods
+  parameters within specified bounds.
+  <styled-content style="color:blue;">This feature helps address issues
+  such as non-convergence or improper parameter estimation commonly
+  encountered in complex models under frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975-nb-article" ref-type="bibr">Martin
   and McDonald 1975</xref>;
   <xref alt="Seaman III, Seaman Jr., and Stamey 2011" rid="ref-Seaman_et_al_2011-nb-article" ref-type="bibr">Seaman
-  III, Seaman Jr., and Stamey 2011</xref>). In this study, for example,
-  this feature was leveraged to constraint the variances of random
-  effects to be positive. Lastly, Bayesian methods have shown
+  III, Seaman Jr., and Stamey 2011</xref>). A typical example of
+  improper parameter estimation under frequentist methods is the
+  estimation of negative variances in hierarchical models
+  (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019-nb-article" ref-type="bibr">Holmes,
+  Bolin, and Kelley 2019</xref>). In this study, for example, this issue
+  was resolved by constraining the variances of random effects to be
+  positive.</styled-content> Lastly, Bayesian methods have shown
   proficiency in handling relatively small sample sizes
   (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013-nb-article" ref-type="bibr">Baldwin
   and Fellingham 2013</xref>;
@@ -5770,9 +5832,11 @@ data_H = data.frame(dlist[var_int])
       shows the potential intelligibility of a speakers has a negative
       non-linear relationship with the entropy scores, explicitly
       highlighting the inverse relationship between intelligibility and
-      entropy. This feature also maps the unbounded linear predictor to
-      the bounded limits of the entropy scores. Thirdly, in contrast
-      with the Normal LMM,
+      entropy. <styled-content style="color:blue;">Furthermore, the
+      non-linear relationship (i.e., the inverse-logit link function)
+      also maps the unbounded linear predictor to the bounded limits of
+      the entropy scores.</styled-content> Thirdly, in contrast with the
+      Normal LMM,
       <xref alt="Equation 6" rid="eq-beta-GLLAMM-structural-nb-article">Equation 6</xref>
       demonstrates that the structural parameters are interpretable in
       terms of the latent potential intelligibility scores, where the
@@ -5926,7 +5990,10 @@ data_H = data.frame(dlist[var_int])
       the models. A detailed overview of the fitted models is available
       in <xref alt="Table 2" rid="tbl-fitted-nb-article">Table 2</xref>.</p>
       <fig id="tbl-fitted-nb-article">
-        <caption><p>Table 2: Fitted models.</p></caption>
+        <caption><p>Table 2: Fitted models.
+        <styled-content style="color:blue;"><italic>Note:</italic> Yes
+        indicates the feature or parameter was included in the model, No
+        indicates the oposite.</styled-content></p></caption>
         <table-wrap>
           <table>
             <colgroup>
@@ -6253,11 +6320,31 @@ for(i in 1:12){
     extends this model by incorporating a robust feature.</p>
     <p><xref alt="Figure 1" rid="fig-rq1-waic-psis-nb-article">Figure 1</xref>
     displays values for the <monospace>DIC</monospace>,
-    <monospace>WAIC</monospace>, and <monospace>PSIS</monospace>. They
-    also include the components <monospace>dWAIC</monospace> and
-    <monospace>dPSIS</monospace>, highlighting the differences in
-    out-of-sample deviations from the best-fitting model and its
-    associated uncertainty. The associated
+    <monospace>WAIC</monospace>, and <monospace>PSIS</monospace>.
+    <styled-content style="color:blue;">The figure also includes the
+    components <monospace>dWAIC</monospace> and
+    <monospace>dPSIS</monospace>, which reflect the differences in
+    out-of-sample deviations of the models from the best-fitting model.
+    Additionally, the figure depicts the associated uncertainty of the
+    criteria calculated as <inline-formula><alternatives>
+    <tex-math><![CDATA[X \pm 1 \cdot]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>SE</monospace>
+    for <inline-formula><alternatives>
+    <tex-math><![CDATA[X=\{]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>WAIC</monospace>,
+    <monospace>PSIS</monospace><inline-formula><alternatives>
+    <tex-math><![CDATA[\}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:math></alternatives></inline-formula>,
+    as well as the associated uncertainty of comparison calculated as
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[X \pm 1 \cdot]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>
+    for <inline-formula><alternatives>
+    <tex-math><![CDATA[X=\{]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dWAIC</monospace>,
+    <monospace>dPSIS</monospace><inline-formula><alternatives>
+    <tex-math><![CDATA[\}]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:math></alternatives></inline-formula>.</styled-content>
     <xref alt="Table 8" rid="tbl-rq1-waic-nb-article">Table 8</xref> and
     <xref alt="Table 9" rid="tbl-rq1-psis-nb-article">Table 9</xref> provide
     similar information, while also reporting the
@@ -6350,8 +6437,8 @@ RQ1_PSIS = compare( func=PSIS,
 par(mfrow=c(1,1))</code>
     <fig id="fig-rq1-waic-psis-nb-article">
       <caption><p>Figure 1: WAIC and PSIS model comparison plot.
-      <italic>Note:</italic> Black and blue points describe point
-      estimates, and continuous horizontal lines indicate the associated
+      <italic>Note:</italic> Black and blue points describe posterior
+      means, and continuous horizontal lines indicate the associated
       uncertainty.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-waic-psis-1.png" />
     </fig>
@@ -6409,11 +6496,12 @@ par(mfrow=c(1,1))</code>
              leg=c('model 04','model 10'))</code>
     <fig id="fig-rq1-pred-speaker-nb-article">
       <caption><p>Figure 2: Entropy scores prediction for selected
-      models. <italic>Note:</italic> Black dots show manifest entropy
-      scores where darker points indicate greater overlap, orange dots
-      and vertical lines show the posterior mean and 95% HPDI derived
-      from Model 4, blue dots and vertical lines show similar
-      information from Model 10.</p></caption>
+      models. <styled-content style="color:blue;"><italic>Note:</italic>
+      Black dots show manifest entropy scores where darker points
+      indicate greater overlap, orange dots and vertical lines show the
+      posterior mean and 95% HPDI derived from Model 4, blue dots and
+      vertical lines show similar information from Model
+      10.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker-1.png" />
     </fig>
     </sec>
@@ -7952,9 +8040,9 @@ kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq1-waic-nb-article">
       <caption><p>Table 8: WAIC comparison for selected models.
-      <italic>Note:</italic> Table sorted from most to least plausible
-      model. Italic rows highlight the most plausible models for the
-      data.</p></caption>
+      <styled-content style="color:blue;"><italic>Note:</italic> Table
+      sorted from most to least plausible models for the
+      data.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8022,9 +8110,9 @@ kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq1-psis-nb-article">
       <caption><p>Table 9: PSIS comparison for selected models.
-      <italic>Note:</italic> Table sorted from most to least plausible
-      model. Italic rows highlight the most plausible models for the
-      data.</p></caption>
+      <styled-content style="color:blue;"><italic>Note:</italic> Table
+      sorted from most to least plausible models for the
+      data.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8092,9 +8180,9 @@ kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq3-waic-nb-article">
       <caption><p>Table 10: WAIC comparison for all models.
-      <italic>Note:</italic> Table sorted from most to least plausible
-      model. Italic rows highlight the most plausible models for the
-      data.</p></caption>
+      <styled-content style="color:blue;"><italic>Note:</italic> Table
+      sorted from most to least plausible models for the
+      data.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8242,9 +8330,9 @@ kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq3-psis-nb-article">
       <caption><p>Table 11: PSIS comparison for all models.
-      <italic>Note:</italic> Table sorted from most to least plausible
-      model. Italic rows highlight the most plausible models for the
-      data.</p></caption>
+      <styled-content style="color:blue;"><italic>Note:</italic> Table
+      sorted from most to least plausible models for the
+      data.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8449,11 +8537,12 @@ plot_outlier(d=data_H, stanfit_obj=model10)</code>
              leg=c('model 06','model 12'))</code>
     <fig id="fig-rq3-pred-speaker-nb-article">
       <caption><p>Figure 12: Entropy scores prediction for selected
-      models. <italic>Note:</italic> Black dots show manifest entropy
-      scores where darker points indicate greater overlap, orange dots
-      and vertical lines show the posterior mean and 95% HPDI derived
-      from Model 6, blue dots and vertical lines show similar
-      information from Model 12.</p></caption>
+      models. <styled-content style="color:blue;"><italic>Note:</italic>
+      Black dots show manifest entropy scores where darker points
+      indicate greater overlap, orange dots and vertical lines show the
+      posterior mean and 95% HPDI derived from Model 6, blue dots and
+      vertical lines show similar information from Model
+      12.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker-1.png" />
     </fig>
     </sec>
@@ -8585,6 +8674,23 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <pub-id pub-id-type="doi">10.1037/h0040957</pub-id>
       <fpage>281</fpage>
       <lpage>302</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Grubbs_1969-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Grubbs</surname><given-names>Frank E.</given-names></name>
+      </person-group>
+      <article-title>Procedures for detecting outlying observations in samples</article-title>
+      <source>Technometrics</source>
+      <publisher-name>Taylor &amp; Francis</publisher-name>
+      <year iso-8601-date="1969">1969</year>
+      <volume>11</volume>
+      <issue>1</issue>
+      <uri>https://www.tandfonline.com/doi/abs/10.1080/00401706.1969.10490657</uri>
+      <pub-id pub-id-type="doi">10.1080/00401706.1969.10490657</pub-id>
+      <fpage>1</fpage>
+      <lpage>21</lpage>
     </element-citation>
   </ref>
   <ref id="ref-Martin_et_al_1975-nb-article">

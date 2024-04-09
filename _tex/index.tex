@@ -78,20 +78,6 @@
 \def\fps@figure{htbp}
 \makeatother
 
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{wrapfig}
-\usepackage{float}
-\usepackage{colortbl}
-\usepackage{pdflscape}
-\usepackage{tabu}
-\usepackage{threeparttable}
-\usepackage{threeparttablex}
-\usepackage[normalem]{ulem}
-\usepackage{makecell}
-\usepackage{xcolor}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -321,13 +307,15 @@ which is not directly observable \citep{Everitt_et_al_2010}. Thirdly,
 due to the repeated assessment of speakers through multiple speech
 samples, the scores exhibit clustering. Clustering occurs when outcomes
 stem from repeated measurements of the same individual, location, or
-time \citep{McElreath_2020}. Lastly, driven by the specific small set of
-speakers and speech samples under scrutiny, these scores often display a
-potential for the presence of outliers and heteroscedasticity. Outliers
-are observations that markedly deviate from other sample data points in
-which they occur, while heteroscedasticity occurs when the outcome's
-variance depends on the values of another variable
-\citep{Everitt_et_al_2010}.
+time \citep{McElreath_2020}. {Lastly, driven by the presence of
+measurement error, speech samples with entropy scores located at the
+extreme of the bounds, and the existence of more than one population in
+the data under scrutiny (i.e., normal hearing versus hearing-impaired
+speakers), the scores may exhibit a potential for outliers and
+heteroscedasticity. Outliers are observations that markedly deviate from
+other sample data points where they occur \citep{Grubbs_1969}, while
+heteroscedasticity occurs when the outcome's variance depends on the
+values of another variable \citep{Everitt_et_al_2010}.}
 
 Failure to collectively address these data features can result in
 numerous statistical challenges that might hamper the researcher's
@@ -399,13 +387,16 @@ proposed Generalized Linear Latent and Mixed Models (GLLAMM), which may
 be challenging to program or may not be viable under frequentist methods
 \citep{Depaoli_2014}. Secondly, the Bayesian approach enables the
 incorporation of prior information, thereby constraining certain
-parameters within specified bounds. This feature helps to address issues
+parameters within specified bounds. {This feature helps address issues
 such as non-convergence or improper parameter estimation commonly
 encountered in complex models under frequentist methods
-\citep{Martin_et_al_1975, Seaman_et_al_2011}. In this study, for
-example, this feature was leveraged to constraint the variances of
-random effects to be positive. Lastly, Bayesian methods have shown
-proficiency in handling relatively small sample sizes
+\citep{Martin_et_al_1975, Seaman_et_al_2011}. A typical example of
+improper parameter estimation under frequentist methods is the
+estimation of negative variances in hierarchical models
+\citep{Holmes_et_al_2019}. In this study, for example, this issue was
+resolved by constraining the variances of random effects to be
+positive.} Lastly, Bayesian methods have shown proficiency in handling
+relatively small sample sizes
 \citep{Baldwin_et_al_2013, Lambert_et_al_2005, Depaoli_2014}. Although
 this study models 2,263 entropy scores, they are derived from a modest
 sample size of 32 speakers, from which inferences are drawn.
@@ -747,9 +738,10 @@ Secondly, in contrast with the Normal LMM,
 Equation~\ref{eq-beta-GLLAMM-linpred} shows the potential
 intelligibility of a speakers has a negative non-linear relationship
 with the entropy scores, explicitly highlighting the inverse
-relationship between intelligibility and entropy. This feature also maps
-the unbounded linear predictor to the bounded limits of the entropy
-scores. Thirdly, in contrast with the Normal LMM,
+relationship between intelligibility and entropy. {Furthermore, the
+non-linear relationship (i.e., the inverse-logit link function) also
+maps the unbounded linear predictor to the bounded limits of the entropy
+scores.} Thirdly, in contrast with the Normal LMM,
 Equation~\ref{eq-beta-GLLAMM-structural} demonstrates that the
 structural parameters are interpretable in terms of the latent potential
 intelligibility scores, where the scale of the latent trait is set by
@@ -871,7 +863,9 @@ Table~\ref{tbl-fitted}.
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1717}}
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1414}}
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.2020}}@{}}
-\caption{Fitted models.}\label{tbl-fitted}\tabularnewline
+\caption{Fitted models. {\emph{Note:} Yes indicates the feature or
+parameter was included in the model, No indicates the
+oposite.}}\label{tbl-fitted}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\centering
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -1043,10 +1037,15 @@ and data clustering, and Model \(10\) extends this model by
 incorporating a robust feature.
 
 Figure~\ref{fig-rq1-waic-psis} displays values for the \texttt{DIC},
-\texttt{WAIC}, and \texttt{PSIS}. They also include the components
-\texttt{dWAIC} and \texttt{dPSIS}, highlighting the differences in
-out-of-sample deviations from the best-fitting model and its associated
-uncertainty. The associated Table~\ref{tbl-rq1-waic} and
+\texttt{WAIC}, and \texttt{PSIS}. {The figure also includes the
+components \texttt{dWAIC} and \texttt{dPSIS}, which reflect the
+differences in out-of-sample deviations of the models from the
+best-fitting model. Additionally, the figure depicts the associated
+uncertainty of the criteria calculated as \(X \pm 1 \cdot\)\texttt{SE}
+for \(X=\{\)\texttt{WAIC}, \texttt{PSIS}\(\}\), as well as the
+associated uncertainty of comparison calculated as
+\(X \pm 1 \cdot\)\texttt{dSE} for \(X=\{\)\texttt{dWAIC},
+\texttt{dPSIS}\(\}\).} Table~\ref{tbl-rq1-waic} and
 Table~\ref{tbl-rq1-psis} provide similar information, while also
 reporting the \texttt{pWAIC} and \texttt{pPSIS} values, indicating the
 penalization received by the models for their complexity (roughly
@@ -1078,7 +1077,7 @@ aligns with and supports Model \(10\).
 }
 
 \caption{\label{fig-rq1-waic-psis}WAIC and PSIS model comparison plot.
-\emph{Note:} Black and blue points describe point estimates, and
+\emph{Note:} Black and blue points describe posterior means, and
 continuous horizontal lines indicate the associated uncertainty.}
 
 \end{figure}%
@@ -1121,10 +1120,10 @@ estimates.
 }
 
 \caption{\label{fig-rq1-pred-speaker}Entropy scores prediction for
-selected models. \emph{Note:} Black dots show manifest entropy scores
+selected models. {\emph{Note:} Black dots show manifest entropy scores
 where darker points indicate greater overlap, orange dots and vertical
 lines show the posterior mean and 95\% HPDI derived from Model 4, blue
-dots and vertical lines show similar information from Model 10.}
+dots and vertical lines show similar information from Model 10.}}
 
 \end{figure}%
 
@@ -1748,8 +1747,8 @@ detailed in the works of \citet{Flipsen_2006} and
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq1-waic}WAIC comparison for selected models.
-\emph{Note:} Table sorted from most to least plausible model. Italic
-rows highlight the most plausible models for the data.}
+{\emph{Note:} Table sorted from most to least plausible models for the
+data.}}
 
 \tabularnewline
 
@@ -1769,8 +1768,8 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq1-psis}PSIS comparison for selected models.
-\emph{Note:} Table sorted from most to least plausible model. Italic
-rows highlight the most plausible models for the data.}
+{\emph{Note:} Table sorted from most to least plausible models for the
+data.}}
 
 \tabularnewline
 
@@ -1790,8 +1789,8 @@ Model & DIC & PSIS & SE & dPSIS & dSE & pPSIS & weight \\
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq3-waic}WAIC comparison for all models.
-\emph{Note:} Table sorted from most to least plausible model. Italic
-rows highlight the most plausible models for the data.}
+{\emph{Note:} Table sorted from most to least plausible models for the
+data.}}
 
 \tabularnewline
 
@@ -1819,8 +1818,8 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq3-psis}PSIS comparison for all models.
-\emph{Note:} Table sorted from most to least plausible model. Italic
-rows highlight the most plausible models for the data.}
+{\emph{Note:} Table sorted from most to least plausible models for the
+data.}}
 
 \tabularnewline
 
@@ -1906,10 +1905,10 @@ index.}
 }
 
 \caption{\label{fig-rq3-pred-speaker}Entropy scores prediction for
-selected models. \emph{Note:} Black dots show manifest entropy scores
+selected models. {\emph{Note:} Black dots show manifest entropy scores
 where darker points indicate greater overlap, orange dots and vertical
 lines show the posterior mean and 95\% HPDI derived from Model 6, blue
-dots and vertical lines show similar information from Model 12.}
+dots and vertical lines show similar information from Model 12.}}
 
 \end{figure}%
 
