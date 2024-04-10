@@ -58,13 +58,13 @@ file_id = function(chains_path, model_int){
 
 
 
-plot_compare = function(compare_obj, ns=2, m='WAIC', dm=F){
+plot_compare = function(waic_obj, psis_obj, ns=1, dM=T){
   #' Plot of model comparison
   #'
-  #' @param compare_obj comparison object
-  #' @param ns confidence interval threshold, default ns=2
-  #' @param m fit measure, default m='WAIC'
-  #' @param dm plot difference in measures, default dm=F 
+  #' @param waic_obj waic comparison object
+  #' @param psis_obj psis comparison objects
+  #' @param ns confidence interval threshold, default ns=1
+  #' @param dM plot difference in criteria, default dm=T
   #'
   #' @return plot
   #' @export
@@ -72,70 +72,99 @@ plot_compare = function(compare_obj, ns=2, m='WAIC', dm=F){
   #' @examples
   
   # # test
-  # compare_obj=RQ1_WAIC
+  # waic_obj=RQ3_WAIC
+  # psis_obj=RQ3_PSIS
   # ns=1
-  # m='WAIC'
-  # dm=T
+  # dM=T
   
   
   # extra calculations
-  extra_func = function(i){ c( compare_obj[i, m] - ns*compare_obj[i, 'SE'],
-                               compare_obj[i, m] + ns*compare_obj[i, 'SE'] ) }
-  compare_obj = cbind(compare_obj, mCI=t( sapply( 1:nrow(compare_obj), extra_func ) ) )
+  waic_obj$WAIC_lower = with( waic_obj, WAIC - ns*SE )
+  waic_obj$WAIC_upper = with( waic_obj, WAIC + ns*SE )
+  waic_obj$dWAIC_lower = with( waic_obj, dWAIC - ns*dSE )
+  waic_obj$dWAIC_upper = with( waic_obj, dWAIC + ns*dSE )
+  waic_obj$model = row.names(waic_obj)
+  idx = which( names(waic_obj) %in% c('SE','dSE') )
+  names(waic_obj)[idx] = c('SE_WAIC','dSE_WAIC')
   
-  extra_func = function(i){ c( compare_obj[i, m] - ns*compare_obj[i, 'dSE'],
-                               compare_obj[i, m] + ns*compare_obj[i, 'dSE'] ) }
-  compare_obj = cbind(compare_obj, mdCI=t( sapply( 1:nrow(compare_obj), extra_func ) ) )
+  psis_obj$PSIS_lower = with( psis_obj, PSIS - ns*SE )
+  psis_obj$PSIS_upper = with( psis_obj, PSIS + ns*SE )
+  psis_obj$dPSIS_lower = with( psis_obj, dPSIS - ns*dSE )
+  psis_obj$dPSIS_upper = with( psis_obj, dPSIS + ns*dSE )
+  psis_obj$model = row.names(psis_obj)
+  idx = which( names(psis_obj) %in% c('SE','dSE') )
+  names(psis_obj)[idx] = c('SE_PSIS','dSE_PSIS')
   
-  
-  # ordering models
-  idx = order(compare_obj[,m], decreasing=T)
-  compare_obj = compare_obj[idx,]
-  
-  
-  # plot
-  x_lim = range( compare_obj[,7:11], na.rm=T )
-  
-  par0 = par()
-  par( mar=c(5.1,5.1,4.1,2.1) )
-  plot( NULL, xlim=x_lim, ylim=c(0, nrow(compare_obj)+1),
-        xlab=m, ylab='', yaxt='n' )
-  axis(side=2, at=1:nrow(compare_obj), labels=rownames(compare_obj), las=2)
-  abline(v=min(compare_obj[,m]), h=1:nrow(compare_obj), lty=2, col=rgb(0,0,0,0.3))
-  
-  if(dm){
-    legend('top', horiz=T, bty='n', 
-           legend=c('DIC', m, paste0('d',m)),
-           fill=c('white', rgb(0,0,0,0.5), rgb(0,0,1,0.5)))
-  } else{
-    legend('top', horiz=T, bty='n', 
-           legend=c('DIC', m), fill=c('white', rgb(0,0,0,0.5)))
-  }
-  
-  # WAIC
-  i=1
-  points( compare_obj[,m], 1:nrow(compare_obj), pch=19, col=rgb(0,0,0,0.5) )
-  for(i in 1:nrow(compare_obj)){
-    lines( x=compare_obj[i, 8:9], y=rep(i,2), lw=2, col=rgb(0,0,0,0.5) )
-  }
-  
-  # deviance
-  points( compare_obj[,'DIC'], 1:nrow(compare_obj), col=rgb(0,0,0,1) )
+  dA = merge(waic_obj, psis_obj[,-1], by='model')
   
   
-  # dWAIC
-  if(dm){
-    compare_obj[nrow(compare_obj),m] = NA
+  # selecting appropriate data (sorted)
+  if(!dM){
+    var_plot = c('DIC','WAIC','WAIC_lower','WAIC_upper',
+                 'PSIS','PSIS_lower','PSIS_upper')
+    dT = dA[,var_plot]
+    dT = dT[ order(dT$WAIC, decreasing=T), ]
     
-    points( compare_obj[,m], 1:nrow(compare_obj)-0.2, pch=17, col=rgb(0,0,1,0.5))
-    for(i in 1:nrow(compare_obj)){
-      lines( x=compare_obj[i, 10:11], y=rep(i,2)-0.2, lw=2, col=rgb(0,0,1,0.5) )
-    }  
+    x_lab = 'deviance'
+    v_grid = min(dT$WAIC)
+    leg = c( 'DIC','WAIC','PSIS' )
+    leg_col = c( 'black', rgb(0,0,0,0.5), rgb(0,0,1,0.5) )
+    point_pch = c(1,19,19)
+    point_jif = c(0,-0.2,0.2)
+    
+  } else{
+    var_plot = c('dWAIC','dWAIC_lower','dWAIC_upper',
+                 'dPSIS','dPSIS_lower','dPSIS_upper')
+    dT = dA[,var_plot]
+    dT = dT[ order(dT$dWAIC, decreasing=T), ]
+    
+    x_lab = 'difference in deviance'
+    v_grid = min(dT$dWAIC)
+    leg = c('dWAIC','dPSIS')
+    leg_col = c( rgb(0,0,0,0.5), rgb(0,0,1,0.5) )
+    point_pch = c(19,19)
+    point_jif = c(-0.2,0.2)
+    
+  }
+   
+  
+  # plot range
+  x_lim = range( dT, na.rm=T )
+  if( max(x_lim) < 0 ){
+    x_lim[ x_lim==max(x_lim) ] = 0
+  } else if( min(x_lim) > 0 ){
+    x_lim[ x_lim==min(x_lim) ] = 0
+  }
+  
+  
+  # empty plot
+  par0 = par()
+  
+  par( mar=c(5.1,5.1,4.1,2.1) )
+  plot( NULL, xlim=x_lim, ylim=c(0, nrow(dT)+1),
+        xlab=x_lab, ylab='', yaxt='n' )
+  axis(side=2, at=1:nrow(dT), labels=dA$model, las=2)
+  abline( v=v_grid, h=1:nrow(dT), lty=2, col=rgb(0,0,0,0.3) )
+  legend('top', horiz=T, bty='n', legend=leg, fill=leg_col)
+  
+  for(i in 1:length(leg)){
+    points( dT[,leg[i]], (1:nrow(dT))+point_jif[i], 
+            pch=point_pch[i], col=leg_col[i] )
+  }
+  
+  start = ifelse( length(leg)>2, 2, 1 )
+  for(i in start:length(leg)){
+    var_int = paste0(leg[i], c('_lower','_upper'))
+    for(j in 1:nrow(dT)){
+      lines( x=dT[j, var_int], y=rep(j+point_jif[i],2), 
+             lw=2, col=leg_col[i] )
+    }
   }
   
   par( mar=par0$mar )
   
 }
+
 
 
 # setMethod("plot_compare" , "compareIC" , 

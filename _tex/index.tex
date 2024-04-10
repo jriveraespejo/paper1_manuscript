@@ -273,9 +273,9 @@ imitated words, impractical \citep{Boonen_et_al_2021}.}
 transcriptions of spontaneous speech samples, including the percentage
 of (un)intelligible words or syllables
 \citep{Flipsen_2006, Lagerberg_et_al_2014}, as well as entropy scores
-\citep{Boonen_et_al_2021}. In the latter approach,} listeners transcribe
+\citep{Boonen_et_al_2021}. In the latter approach, listeners transcribe
 orthographically multiple spontaneous speech samples produced by various
-speakers. These transcriptions are then aggregated into entropy scores,
+speakers.} These transcriptions are then aggregated into entropy scores,
 where lower scores indicate a higher degree of agreement among the
 listener's transcriptions and, consequently, higher intelligibility,
 while higher scores suggest lower intelligibility due to a lower degree
@@ -387,16 +387,16 @@ proposed Generalized Linear Latent and Mixed Models (GLLAMM), which may
 be challenging to program or may not be viable under frequentist methods
 \citep{Depaoli_2014}. Secondly, the Bayesian approach enables the
 incorporation of prior information, thereby constraining certain
-parameters within specified bounds. {This feature helps address issues
+parameters within specified bounds. This feature helps address issues
 such as non-convergence or improper parameter estimation commonly
 encountered in complex models under frequentist methods
 \citep{Martin_et_al_1975, Seaman_et_al_2011}. A typical example of
 improper parameter estimation under frequentist methods is the
 estimation of negative variances in hierarchical models
 \citep{Holmes_et_al_2019}. In this study, for example, this issue was
-resolved by constraining the variances of random effects to be
-positive.} Lastly, Bayesian methods have shown proficiency in handling
-relatively small sample sizes
+resolved by constraining the variances of random effects to be positive.
+Lastly, Bayesian methods have shown proficiency in handling relatively
+small sample sizes
 \citep{Baldwin_et_al_2013, Lambert_et_al_2005, Depaoli_2014}. Although
 this study models 2,263 entropy scores, they are derived from a modest
 sample size of 32 speakers, from which inferences are drawn.
@@ -467,13 +467,13 @@ speakers of Belgian Dutch.}
 \subsubsection{Speech samples}\label{sec-M-SS}
 
 Boonen and colleagues selected speech samples from a large corpus of
-children's spontaneously spoken speech recordings. These recordings were
-{made in Belgian Dutch and obtained while} the children narrated a story
-prompted by the picture book ``Frog, Where Are You?'' \citep{Mayer_1969}
-to a caregiver `unfamiliar with the story'. Before recording, the
-children were allowed to skim over the booklet and examine pictures.
-Prior to the selection process, the recordings were orthographically
-transcribed using the CHAT format in the CLAN editor
+children's spontaneously spoken speech recordings. {These recordings
+were made in Belgian Dutch and obtained while the children narrated a
+story prompted by the picture book ``Frog, Where Are You?''
+\citep{Mayer_1969} to a caregiver `unfamiliar with the story'.} Before
+recording, the children were allowed to skim over the booklet and
+examine pictures. Prior to the selection process, the recordings were
+orthographically transcribed using the CHAT format in the CLAN editor
 \citep{MacWhinney_2020}. These transcriptions were exclusively used in
 the curation of appropriate speech samples. To ensure the quality of the
 selection, Boonen and colleagues excluded sentences containing
@@ -550,7 +550,7 @@ recommended by \citet{McElreath_2020}.
   >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1389}}
   >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1389}}@{}}
 \caption{Hypothetical alignment of word transcriptions and entropy
-scores. \emph{Note:} Extracted from Boonen et al.
+scores. \textbf{\emph{Note:}} Extracted from Boonen et al.
 \citeyearpar{Boonen_et_al_2021}, and slightly modified for illustrative
 purposes. Entropy scores are calculated the first sentence, produced by
 the first speaker assigned to the first block, and transcribed by five
@@ -669,21 +669,28 @@ experimental blocks.
 Several notable features of the Normal LLM can be discerned from the
 equations. Firstly, Equation~\ref{eq-normal-LMM-likelihood} indicates
 that the variability of the average entropy at the word level can differ
-for each speaker, enhancing the model's \emph{robustness} to mild or
+for each speaker, enhancing the model \emph{robustness} to mild or
 moderate data departures from the normal distribution assumption, such
 as in the presence of heteroscedasticity or outliers. Secondly,
 Equation~\ref{eq-normal-LMM-linearpred} reveals that the model assumes
 no transformation is applied to the relationship between the average
 entropy and the linear combination of characteristics. This is commonly
-known as a direct link function. Moreover,
-Equation~\ref{eq-normal-LMM-linearpred} indicates that chronological age
-is centered around the minimum chronological age in the sample
-\(\bar{A}\). The \emph{centering} procedure prevents the interpretation
-of parameters outside the range of chronological ages available in the
-data \citep{Everitt_et_al_2010}. Lastly, the equation implies the model
-considers separate intercept and separate slope of age for each hearing
-status group, i.e., NH and HI/CI speakers, \(\alpha_{HS[1]}\) and
-\(\alpha_{HS[2]}\), respectively.
+known as a direct link function. {Moreover, the equation indicates that
+chronological age is \emph{centered} around the minimum chronological
+age in the sample \(\bar{A}\). The \emph{centering} procedure prevents
+the interpretation of parameters outside the range of chronological ages
+available in the data \citep{Everitt_et_al_2010}. Additionally, the
+equation implies the model considers separate intercept and separate age
+slopes for each hearing status group, i.e., NH and HI/CI speakers,
+\(\alpha_{HS[i]}\) and \(\beta_{A, HS[i]}\), respectively. Finally, due
+to inclusion of the general intercept \(\alpha\), the equation reveals
+that the model is over-parameterized. Although the estimation of
+over-parameterized models is only possible under Bayesian methods, their
+estimation does not violate any statistical principle
+\citep[345]{McElreath_2020}. In contrast, the utilized
+over-parameterized model facilitates: (1) comparison between the
+specific parameter interpretations of the Normal LMM and the
+Beta-proportion GLLAMM, and (2) the assignment of prior distributions.}
 
 \subsubsection{Beta-proportion GLLAMM}\label{sec-M-SM-BGLLAMM}
 
@@ -741,20 +748,19 @@ with the entropy scores, explicitly highlighting the inverse
 relationship between intelligibility and entropy. {Furthermore, the
 non-linear relationship (i.e., the inverse-logit link function) also
 maps the unbounded linear predictor to the bounded limits of the entropy
-scores.} Thirdly, in contrast with the Normal LMM,
+scores. Thirdly, in contrast with the Normal LMM,
 Equation~\ref{eq-beta-GLLAMM-structural} demonstrates that the
 structural parameters are interpretable in terms of the latent potential
 intelligibility scores, where the scale of the latent trait is set by
-the general intercept \(\alpha\), as required in latent variable models
-\citep{Depaoli_2021}. Furthermore, the equation implies the model also
-considers separate intercept and separate slope of age for each hearing
-status group, i.e., NH and HI/CI speakers (\(\alpha_{HS[1]}\) and
-\(\alpha_{HS[2]}\), respectively). Additionally,
-Equation~\ref{eq-beta-GLLAMM-structural} indicates that chronological
-age is \emph{centered} around the minimum chronological age in the
-sample \(\bar{A}\). Lastly, the same equation assumes the
-intelligibility scores have two sources of unexplained variability:
-\(e_{i}\) and \(u_{i}\). The former represents inherent differences in
+the general intercept \(\alpha\), as it is required in latent variable
+models \citep{Depaoli_2021}. Furthermore, the equation implies the model
+also considers separate intercept and separate age slopes for each
+hearing status group, i.e., NH and HI/CI speakers, \(\alpha_{HS[i]}\)
+and \(\beta_{A, HS[i]}\), respectivel). Additionally, it indicates that
+chronological age is \emph{centered} around the minimum chronological
+age in the sample \(\bar{A}\). Lastly, the equation also reveals that
+the intelligibility scores have two sources of unexplained variability:
+\(e_{i}\) and \(u_{i}\).} The former represents inherent differences in
 potential intelligibility among different speakers, while the latter
 assumes that different sentences measure potential intelligibility
 differently due to variations in word difficulties and their interplay
@@ -863,9 +869,9 @@ Table~\ref{tbl-fitted}.
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1717}}
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1414}}
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.2020}}@{}}
-\caption{Fitted models. {\emph{Note:} Yes indicates the feature or
-parameter was included in the model, No indicates the
-oposite.}}\label{tbl-fitted}\tabularnewline
+\caption{Fitted models. {\textbf{\emph{Note:}} \emph{Yes} indicates the
+feature or parameter is included in the
+model.}}\label{tbl-fitted}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\centering
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -976,31 +982,54 @@ in the accompanying digital walk-through document for reader inspection
 
 \subsubsection{Model comparison}\label{sec-M-SM-MC}
 
-The study compares the fitted models using three criteria: the deviance
-information criterion (\texttt{DIC}) by
+{The study compares the fitted models using three criteria: the deviance
+information criterion (\texttt{DIC}) introduced by
 \citet{Spiegelhalter_et_al_2002}, the widely applicable information
-criterion (\texttt{WAIC}) by \citet{Watanabe_2013}, and the Pareto
-Smoothing Importance Sampling criterion (\texttt{PSIS}) by
-\citet{Vehtari_et_al_2017}. These criteria score models in terms of
-deviations from perfect predictive accuracy, with smaller values
-indicating less deviation \citep{McElreath_2020}. Specifically,
-\texttt{DIC} measures in-sample deviations, while \texttt{WAIC} and
-\texttt{PSIS} offer an approximate measure of out-of-sample deviations.
-Deviations from perfect predictive accuracy serve as the closest
-estimate for the Kullback-Leibler divergence
-\citep{Kullback_et_al_1951}, which measures the degree to which a model
-accurately represents the true distribution of the data. Moreover,
-\texttt{WAIC} and \texttt{PSIS} are considered full Bayesian criteria as
-they incorporate all the information encompassed in the parameter's
-posterior distribution. This effectively integrates and reports the
-inherent uncertainty in the predictive accuracy estimates. Predictive
-accuracy aside, \texttt{PSIS} offers an additional advantage in
+criterion (\texttt{WAIC}) proposed by \citet{Watanabe_2013}, and the
+Pareto Smoothing Importance Sampling criterion (\texttt{PSIS}) developed
+by \citet{Vehtari_et_al_2017}. These criteria score models in terms of
+deviations from \emph{perfect} predictive accuracy, with smaller values
+indicating less deviation \citep{McElreath_2020}. Deviations from
+\emph{perfect} predictive accuracy serve as the closest estimate for the
+Kullback-Leibler divergence \citep{Kullback_et_al_1951}, which measures
+the degree to which a probabilistic model accurately represents the
+\emph{true} distribution of the data. Specifically, \texttt{DIC}
+measures in-sample deviations, while \texttt{WAIC} and \texttt{PSIS}
+offer an approximate measure of out-of-sample deviations.}
+
+{\texttt{WAIC} and \texttt{PSIS} are regarded as full Bayesian criteria
+because they encompass all the information contained in the parameter's
+posterior distribution, effectively integrating and reporting the
+inherent uncertainty in predictive accuracy estimates. In addition to
+predictive accuracy, \texttt{PSIS} offers an extra benefit by
 identifying highly influential data points. To achieve this, the
-criterion uses a built-in warning system that flags observations that
-make out-of-sample predictions unreliable. The key intuition is that
-observations that are relatively unlikely, according to the model, exert
-more influence and render predictions more unreliable than those
-relatively expected \citep{McElreath_2020}.
+criterion employs a built-in warning system that flags observations that
+make out-of-sample predictions unreliable. The rationale behind this is
+that observations that are relatively unlikely, according to the model,
+exert more influence and render predictions less reliable compared to
+those that are relatively expected \citep{McElreath_2020}.}
+
+{However, since researchers are only interested in comparing candidate
+models, it is the distance between the models that is useful, rather
+than the absolute value of the criteria
+\citep[see][209, 223-224]{McElreath_2020}. Therefore, the study utilizes
+the differences in \texttt{WAIC} and \texttt{PSIS} (\texttt{dWAIC} and
+\texttt{dPSIS}, respectively) to evaluate how distinct our probabilistic
+models are from each other, and which one is closer to the \emph{true}
+distribution of the data. Additionally, while \texttt{DIC},
+\texttt{WAIC} and \texttt{PSIS} provide \emph{approximate correct}
+estimates for the expected accuracy, these estimations are also subject
+to uncertainty due to the specific sample over which they are computed
+\citep[see][223]{McElreath_2020}. Thus, this uncertainty should also be
+taken into account in the comparison. For this purpose, the study
+presents the associated uncertainty of the criteria comparison
+calculated as \texttt{dWAIC} \(\pm 1 \cdot\)\texttt{dSE} and
+\texttt{dPSIS} \(\pm 1 \cdot\)\texttt{dSE}. Lastly, this research also
+report the complexity penalization of the models, as well as their
+weight of evidence. The complexity penalization values \texttt{pWAIC}
+and \texttt{pPSIS} are roughly associated with the models' number of
+parameters, while the \texttt{weight} of evidence summarizes the
+relative support for each model.}
 
 \subsection{Open Science Statement}\label{sec-M-SM-OS}
 
@@ -1036,36 +1065,27 @@ Beta-proportion GLLAMM that deals with boundedness, measurement error
 and data clustering, and Model \(10\) extends this model by
 incorporating a robust feature.
 
-Figure~\ref{fig-rq1-waic-psis} displays values for the \texttt{DIC},
-\texttt{WAIC}, and \texttt{PSIS}. {The figure also includes the
-components \texttt{dWAIC} and \texttt{dPSIS}, which reflect the
-differences in out-of-sample deviations of the models from the
-best-fitting model. Additionally, the figure depicts the associated
-uncertainty of the criteria calculated as \(X \pm 1 \cdot\)\texttt{SE}
-for \(X=\{\)\texttt{WAIC}, \texttt{PSIS}\(\}\), as well as the
-associated uncertainty of comparison calculated as
-\(X \pm 1 \cdot\)\texttt{dSE} for \(X=\{\)\texttt{dWAIC},
-\texttt{dPSIS}\(\}\).} Table~\ref{tbl-rq1-waic} and
+{The left panel of Figure~\ref{fig-rq1-waic-psis} displays the models'
+\texttt{DIC}, \texttt{WAIC}, and \texttt{PSIS} values with their
+corresponding uncertainty intervals. In contrast, the right panel of the
+figure shows the models' \texttt{dWAIC} and \texttt{dPSIS} values with
+their corresponding uncertainty intervals. Table~\ref{tbl-rq1-waic} and
 Table~\ref{tbl-rq1-psis} provide similar information, while also
-reporting the \texttt{pWAIC} and \texttt{pPSIS} values, indicating the
-penalization received by the models for their complexity (roughly
-associated with their number of parameters). Lastly, the tables show the
-\texttt{weight} of evidence, which summarizes the relative support for
-each model.
-
-Overall, all criteria consistently point to Model \(10\) as the most
-plausible choice for the data. The model exhibits the lowest values for
-both \texttt{WAIC} and \texttt{PSIS}, establishing itself as the model
-with the least deviation from \emph{perfect} predictive accuracy among
-those under comparison. Additionally, Figure~\ref{fig-rq1-waic-psis}
-visually demonstrates the non-overlapping uncertainty (horizontal blue
-lines) in both \texttt{dWAIC} and \texttt{dPSIS} values for Models
-\(1\), \(4\), and \(7\) when compared to Model \(10\). This indicates
-that Model \(10\) significantly deviates the least from \emph{perfect}
-predictive accuracy when compared to the rest of the models. Lastly, the
-\texttt{weight} of evidence in Table~\ref{tbl-rq1-waic} and
-Table~\ref{tbl-rq1-psis} underscores that \(100\%\) of the evidence
-aligns with and supports Model \(10\).
+reporting the \texttt{pWAIC} and \texttt{pPSIS} values and the
+\texttt{weight} of evidence for each model.} Overall, all criteria
+consistently point to Model \(10\) as the most plausible choice for the
+data. The model exhibits the lowest values for both \texttt{WAIC} and
+\texttt{PSIS}, establishing itself as the model with the least deviation
+from \emph{perfect} predictive accuracy among those under comparison.
+Additionally, Figure~\ref{fig-rq1-waic-psis} visually demonstrates the
+non-overlapping uncertainty (horizontal blue lines) in both
+\texttt{dWAIC} and \texttt{dPSIS} values for Models \(1\), \(4\), and
+\(7\) when compared to Model \(10\). This indicates that Model \(10\)
+significantly deviates the least from \emph{perfect} predictive accuracy
+when compared to the rest of the models. Lastly, the \texttt{weight} of
+evidence in Table~\ref{tbl-rq1-waic} and Table~\ref{tbl-rq1-psis}
+underscores that \(100\%\) of the evidence aligns with and supports
+Model \(10\).
 
 \phantomsection\label{cell-fig-rq1-waic-psis}
 \begin{figure}[H]
@@ -1076,20 +1096,23 @@ aligns with and supports Model \(10\).
 
 }
 
-\caption{\label{fig-rq1-waic-psis}WAIC and PSIS model comparison plot.
-\emph{Note:} Black and blue points describe posterior means, and
-continuous horizontal lines indicate the associated uncertainty.}
+\caption{\label{fig-rq1-waic-psis}{Comparison plot for selected models.
+\textbf{\emph{Note:}} Open, black and blue points describe the posterior
+means for the criteria. Continuous colored horizontal lines indicate
+their associated uncertainty.}}
 
 \end{figure}%
 
 Upon closer examination, the reasons behind the observed disparities in
-the models become more apparent. Specifically,
-Figure~\ref{fig-rq1-pred-speaker} highlights that the Normal LMM, as
-outlined in Model \(4\), fails to capture the underlying data patterns,
-resulting in predictions that are physically inconsistent, falling
-outside the outcome's range between zero and one. Further insight into
-this issue is provided by Figure~\ref{fig-rq1-pred-speaker_model04} and
-Figure~\ref{fig-rq1-model-outliers}.
+the models become more apparent. {Specifically,
+Figure~\ref{fig-rq1-pred-speaker} highlights demonstrates that the
+Normal LMM, as outlined in Model \(4\), fails to adequately capture the
+data's underlying patterns, resulting in predictions that are physically
+inconsistent. This issue is illustrated by the \(95%
+\) Highest Probability Density Intervals (HPDI) extending beyond the
+expected outcome range of zero to one. Further insight into this lack of
+fit is provided by Figure~\ref{fig-rq1-pred-speaker_model04} and
+Figure~\ref{fig-rq1-model-outliers}.}
 Figure~\ref{fig-rq1-pred-speaker_model04} displays Model \(4\)'s score
 prediction densities which bear no resemblance to the actual data
 densities. Furthermore, the top two panels in
@@ -1120,10 +1143,11 @@ estimates.
 }
 
 \caption{\label{fig-rq1-pred-speaker}Entropy scores prediction for
-selected models. {\emph{Note:} Black dots show manifest entropy scores
-where darker points indicate greater overlap, orange dots and vertical
-lines show the posterior mean and 95\% HPDI derived from Model 4, blue
-dots and vertical lines show similar information from Model 10.}}
+selected models. {\textbf{\emph{Note:}} Black dots show manifest entropy
+scores where darker points indicate greater overlap, orange dots and
+vertical lines show the posterior mean and 95\% HPDI derived from Model
+4, respectively. Blue dots and vertical lines show similar information
+from Model 10.}}
 
 \end{figure}%
 
@@ -1161,28 +1185,28 @@ estimates resulting from its measurement using multiple entropy scores.
 }
 
 \caption{\label{fig-rq2-si-model10}Model 10, latent potential
-intelligibility of speakers. \emph{Note:} Black dots and vertical lines
-show mean point estimates and 95\% HPDI intervals.}
+intelligibility of speakers. {\textbf{\emph{Note:}} Black dots and
+vertical lines show the posterior means and 95\% HPDI intervals.}}
 
 \end{figure}%
 
-Figure~\ref{fig-rq2-si-model10} displays the ranking of speakers in
-decreasing order based on point estimates of the latent potential
+{Figure~\ref{fig-rq2-si-model10} displays the ranking of speakers in
+decreasing order based on the posterior means of the latent potential
 intelligibility. These estimates are accompanied by their associated
-\(95\%\) highest probability density intervals (HPDI). The figure
-clearly indicates that clearly indicate that speaker \(6\) stands out as
-the least intelligible in the sample, followed farther behind by speaker
-\(1\), \(17\) and \(9\). In contrast, the figure highlights speaker
-\(20\) as the most intelligible, closely followed by speakers \(23\),
-\(31\) and \(3\). Conversely, Figure~\ref{fig-si_contr_model10} shows
-the full posterior distribution for the comparison of potential
-intelligibility among selected speakers. The figure reveals that only
-the differences between speakers \(6\), \(1\), \(17\), and \(9\), along
-with the difference between speakers \(20\) and \(3\) are statistically
-significant, as their associated \(95\%\) HPDI did not overlap with zero
-(shaded area). The R code to derive these scores and generate the figure
-is available in the digital walk-through document (refer to
-Section~\ref{sec-M-SM-OS} Open Science Statement).
+\(95\%\) HPDI.} The figure clearly indicates that clearly indicate that
+speaker \(6\) stands out as the least intelligible in the sample,
+followed farther behind by speaker \(1\), \(17\) and \(9\). In contrast,
+the figure highlights speaker \(20\) as the most intelligible, closely
+followed by speakers \(23\), \(31\) and \(3\). Conversely,
+Figure~\ref{fig-si_contr_model10} shows the full posterior distribution
+for the comparison of potential intelligibility among selected speakers.
+The figure reveals that only the differences between speakers \(6\),
+\(1\), \(17\), and \(9\), along with the difference between speakers
+\(20\) and \(3\) are statistically significant, as their associated
+\(95\%\) HPDI did not overlap with zero (shaded area). The R code to
+derive these scores and generate the figure is available in the digital
+walk-through document (refer to Section~\ref{sec-M-SM-OS} Open Science
+Statement).
 
 \phantomsection\label{cell-fig-si_contr_model10}
 \begin{figure}[H]
@@ -1194,8 +1218,8 @@ Section~\ref{sec-M-SM-OS} Open Science Statement).
 }
 
 \caption{\label{fig-si_contr_model10}Model 10, potential intelligibility
-comparisons among selected speakers. \emph{Note:} Shaded area describes
-the 95\% highest probability density interval (HPDI)}
+comparisons among selected speakers. {\textbf{\emph{Note:}} Shaded area
+describes the 95\% HPDI.}}
 
 \end{figure}%
 
@@ -1245,9 +1269,10 @@ greatest support, followed by Model \(12\), and lastly, by Model \(10\).
 
 }
 
-\caption{\label{fig-rq3-waic-psis}WAIC and PSIS model comparison plot.
-\emph{Note:} Black and blue points describe point estimates, and
-continuous horizontal lines indicate the associated uncertainty.}
+\caption{\label{fig-rq3-waic-psis}{Comparison plot for all models.
+\textbf{\emph{Note:}} Open, black and blue points describe the posterior
+means for the criteria. Continuous colored horizontal lines indicate
+their associated uncertainty.}}
 
 \end{figure}%
 
@@ -1314,8 +1339,8 @@ Figure~\ref{fig-rq3-intelligibility-model12}.
 
 \begin{longtable}[]{@{}ccc@{}}
 
-\caption{\label{tbl-parameter-model10}Model 10, parameter estimates and
-95\% highest probability density intervals (HPDI)}
+\caption{\label{tbl-parameter-model10}{Model 10, parameter estimates and
+95\% HPDI.}}
 
 \tabularnewline
 
@@ -1339,19 +1364,19 @@ Parameter & Posterior mean & 95\% HPDI \\
 }
 
 \caption{\label{fig-rq3-intelligibility-model10}Model 10, Potential
-intelligibility per chronological age and hearing status. \emph{Note:}
-Colored dots denote mean point estimates, vertical lines describe the
-95\% highest probability density intervals (HPDI), thick discontinuous
-line indicate the regression line, thin continuous lines denote
-regression lines samples from the posterior distribution, and numbers
-indicate the speaker index.}
+intelligibility per chronological age and hearing status.
+{\textbf{\emph{Note:}} Colored dots denote the posterior means, vertical
+lines describe the 95\% HPDI, thick discontinuous line indicate the
+regression line, thin continuous lines denote regression lines samples
+from the posterior distribution, and numbers indicate the speaker
+index.}}
 
 \end{figure}%
 
 \begin{longtable}[]{@{}ccc@{}}
 
-\caption{\label{tbl-parameter-model11}Model 11, parameter estimates and
-95\% highest probability density intervals (HPDI)}
+\caption{\label{tbl-parameter-model11}{Model 11, parameter estimates and
+95\% HPDI.}}
 
 \tabularnewline
 
@@ -1381,19 +1406,19 @@ Contrasts & & \\
 }
 
 \caption{\label{fig-rq3-intelligibility-model11}Model 11, Potential
-intelligibility per chronological age and hearing status. \emph{Note:}
-Colored dots denote mean point estimates, vertical lines describe the
-95\% highest probability density intervals (HPDI), thick discontinuous
-line indicate the regression line, thin continuous lines denote
-regression lines samples from the posterior distribution, and numbers
-indicate the speaker index.}
+intelligibility per chronological age and hearing status.
+{\textbf{\emph{Note:}} Colored dots denote the posterior means, vertical
+lines describe the 95\% HPDI, thick discontinuous line indicate the
+regression line, thin continuous lines denote regression lines samples
+from the posterior distribution, and numbers indicate the speaker
+index.}}
 
 \end{figure}%
 
 \begin{longtable}[]{@{}ccc@{}}
 
-\caption{\label{tbl-parameter-model12}Model 12, parameter estimates and
-95\% highest probability density intervals (HPDI)}
+\caption{\label{tbl-parameter-model12}{Model 12, parameter estimates and
+95\% HPDI.}}
 
 \tabularnewline
 
@@ -1425,12 +1450,12 @@ Contrasts & & \\
 }
 
 \caption{\label{fig-rq3-intelligibility-model12}Model 12, Potential
-intelligibility per chronological age and hearing status. \emph{Note:}
-Colored dots denote mean point estimates, vertical lines describe the
-95\% highest probability density intervals (HPDI), thick discontinuous
-line indicate the regression line, thin continuous lines denote
-regression lines samples from the posterior distribution, and numbers
-indicate the speaker index.}
+intelligibility per chronological age and hearing status.
+{\textbf{\emph{Note:}} Colored dots denote the posterior means, vertical
+lines describe the 95\% HPDI, thick discontinuous line indicate the
+regression line, thin continuous lines denote regression lines samples
+from the posterior distribution, and numbers indicate the speaker
+index.}}
 
 \end{figure}%
 
@@ -1510,12 +1535,11 @@ appropriate understanding and execution of the transcription task.
 Construct validity, as defined by \citet{Cronbach_et_al_1955}, refers to
 the extent to which a set of manifest variables accurately represents a
 concept that cannot be directly measured. Considering the study assumes
-the transcription task set by Boonen and colleagues
-\citeyearpar{Boonen_et_al_2021} was properly understood and executed, it
-expects that potential intelligibility reflects the overall speech
-intelligibility of speakers. However, the study does not delve into the
-general epistemological considerations regarding the connection between
-the latent variable and the concept.
+the transcription task set by \citet{Boonen_et_al_2021} was properly
+understood and executed, it expects that potential intelligibility
+reflects the overall speech intelligibility of speakers. However, the
+study does not delve into the general epistemological considerations
+regarding the connection between the latent variable and the concept.
 
 Secondly, the study revealed a notable lack of unequivocal support for
 one of the models among the compared set. This outcome may be attributed
@@ -1527,17 +1551,17 @@ covariates ranges, leading to biased and imprecise parameter estimates
 \citep{Everitt_et_al_2010}. Moreover, fueled by the reduced measurement
 precision, these issues can result in models with diminished statistical
 power and a higher risk of type I or type II errors
-\citep{McElreath_2020}. Consequently, future research should consider
-conducting power analyses for the proposed models. This entails
-assessing the impact of expanding the speakers' pool on testing research
-theories, or increasing the number of speech samples, transcriptions,
-and listeners to enhance the precision of potential intelligibility
-estimates. With these insights, future investigations should contemplate
-increasing the speaker sample with a group that adequately represents
-the population of interest. However, this must be done while mindful of
-the pragmatic limitations associated with transcription tasks,
-specifically considering the costs and time-intensiveness of the
-procedure.
+\citep{McElreath_2020}. {Consequently, future research should consider
+extending this study by conducting formal sample size planning for these
+models. This entails assessing the impact of expanding the speakers'
+pool on testing research theories or increasing the number of speech
+samples, transcriptions, and listeners to enhance the precision of the
+potential intelligibility estimates. With these insights, future
+investigations could contemplate increasing the speaker sample with a
+group that adequately represents the population of interest.} However,
+this must be done while mindful of the pragmatic limitations associated
+with transcription tasks, specifically considering the costs and
+time-intensiveness of the procedure.
 
 Thirdly, the study presented an illustrative example for the
 investigation of research theories within the model's framework.
@@ -1670,9 +1694,9 @@ purpose, the words in position two, three, four and five observed in
 Table~\ref{tbl-alignment} were used. These words were assumed present in
 the first sentence, produced by the first speaker assigned to the first
 block, and transcribed by five listeners (\(w=\{2,3,4,5\}\), \(s=1\),
-\(i=1\), \(b=1\), \(J=5\)). For second word,} the first four listeners
+\(i=1\), \(b=1\), \(J=5\)). For second word, the first four listeners
 identified the word type \emph{jongen} \((T_{j1})\), while the last
-identified the word type \emph{hond} \((T_{j2})\). Therefore, two word
+identified the word type \emph{hond} \((T_{j2})\).} Therefore, two word
 types were identified (\(K=2\)), with proportions equal to
 \(\{ p_{1}, p_{2} \}\) \(=\) \(\{ 4/5, 1/5 \}\) \(=\)
 \(\{ 0.8, 0.2 \}\), and entropy score equal to:
@@ -1681,9 +1705,9 @@ types were identified (\(K=2\)), with proportions equal to
 H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
 \]
 
-{For the fourth word,} two listeners identified the word type \emph{een}
+{For the fourth word, two listeners identified the word type \emph{een}
 \((T_{j1})\), one listener the word type \emph{de} \((T_{j2})\), and
-another the word \emph{geen} \((T_{j3})\). A blank space \emph{{[}B{]}}
+another the word \emph{geen} \((T_{j3})\).} A blank space \emph{{[}B{]}}
 is a symbol that defines the absence of a word in a space where a word
 is expected, as compared with other transcriptions, during the alignment
 procedure. Notice that for calculation purposes, because the blank space
@@ -1695,7 +1719,7 @@ entropy score equal to:
 
 \[ 
 H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
-\] {For the fifth word,} each listener transcribed a different word. it
+\] {For the fifth word, each listener transcribed a different word.} it
 is important to highlight that when a listener does not identify a
 complete word, or part of it, (s)he is instructed to write
 \emph{{[}X{]}} in that position. However, for the calculation of the
@@ -1731,14 +1755,14 @@ H_{2111} = \frac{ -\left[ 2 \cdot 0.4 \cdot log_{2}(0.4) + 0.2 \cdot log_{2}(0.2
 entropy and measures of accuracy based on the percentage of
 (un)intelligible words: entropy scores employ all word type proportions
 in their calculations, effectively capturing the agreement and
-disagreement among listeners' word transcriptions. In contrast, the
-percentage of (un)intelligible words mostly discards some word type
-proportions in favor of \emph{simpler} agreement or disagreement
-percentages. For example, an agreement percentage could be reflected by
-the proportion of the most frequent word, i.e.,
-\(\text{max}\{ 0.4, 0.4, 0.2 \}=0.4\), or by other similar percentages
-detailed in the works of \citet{Flipsen_2006} and
-\citet{Lagerberg_et_al_2014}.}
+disagreement among listeners' word transcriptions
+\citep{Boonen_et_al_2021}. In contrast, the percentage of
+(un)intelligible words mostly discards some word type proportions in
+favor of \emph{simpler} agreement or disagreement percentages. For
+example, an agreement percentage could be reflected by the proportion of
+the most frequent word, i.e., \(\text{max}\{ 0.4, 0.4, 0.2 \}=0.4\), or
+by other similar percentages detailed in the works of
+\citet{Flipsen_2006} and \citet{Lagerberg_et_al_2014}.}
 
 \newpage{}
 
@@ -1747,8 +1771,8 @@ detailed in the works of \citet{Flipsen_2006} and
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq1-waic}WAIC comparison for selected models.
-{\emph{Note:} Table sorted from most to least plausible models for the
-data.}}
+{\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
+most to least plausible model(s) for the data.}}
 
 \tabularnewline
 
@@ -1768,8 +1792,8 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq1-psis}PSIS comparison for selected models.
-{\emph{Note:} Table sorted from most to least plausible models for the
-data.}}
+{\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
+most to least plausible model(s) for the data.}}
 
 \tabularnewline
 
@@ -1789,8 +1813,8 @@ Model & DIC & PSIS & SE & dPSIS & dSE & pPSIS & weight \\
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq3-waic}WAIC comparison for all models.
-{\emph{Note:} Table sorted from most to least plausible models for the
-data.}}
+{\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
+most to least plausible model(s) for the data.}}
 
 \tabularnewline
 
@@ -1818,8 +1842,8 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq3-psis}PSIS comparison for all models.
-{\emph{Note:} Table sorted from most to least plausible models for the
-data.}}
+{\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
+most to least plausible model(s) for the data.}}
 
 \tabularnewline
 
@@ -1858,8 +1882,8 @@ Model & DIC & PSIS & SE & dPSIS & dSE & pPSIS & weight \\
 }
 
 \caption{\label{fig-rq1-pred-speaker_model04}Model 4: Entropy scores
-density for selected speakers. \emph{Note:} Black bars denote the true
-data density, orange bars describe the predicted data density}
+density for selected speakers. \textbf{\emph{Note:}} Black bars denote
+the true data density, orange bars describe the predicted data density}
 
 \end{figure}%
 
@@ -1873,8 +1897,8 @@ data density, orange bars describe the predicted data density}
 }
 
 \caption{\label{fig-rq1-pred-speaker_model10}Model 10: Entropy scores
-density for selected speakers. \emph{Note:} Black bars denote the true
-data density, blue bars describe the predicted data density}
+density for selected speakers. \textbf{\emph{Note:}} Black bars denote
+the true data density, blue bars describe the predicted data density}
 
 \end{figure}%
 
@@ -1888,10 +1912,10 @@ data density, blue bars describe the predicted data density}
 }
 
 \caption{\label{fig-rq1-model-outliers}Outlier identification and
-analysis for selected models. \emph{Note:} Thin and thick vertical
-discontinuous line indicate threshold of 0.5 and 0.7, respectively.
-Number pair texts indicate the observation pair of speaker and sentence
-index.}
+analysis for selected models. \textbf{\emph{Note:}} Thin and thick
+vertical discontinuous line indicate threshold of 0.5 and 0.7,
+respectively. Number pair texts indicate the observation pair of speaker
+and sentence index.}
 
 \end{figure}%
 
@@ -1905,10 +1929,11 @@ index.}
 }
 
 \caption{\label{fig-rq3-pred-speaker}Entropy scores prediction for
-selected models. {\emph{Note:} Black dots show manifest entropy scores
-where darker points indicate greater overlap, orange dots and vertical
-lines show the posterior mean and 95\% HPDI derived from Model 6, blue
-dots and vertical lines show similar information from Model 12.}}
+selected models. {\textbf{\emph{Note:}} Black dots show manifest entropy
+scores where darker points indicate greater overlap, orange dots and
+vertical lines show the posterior means and 95\% HPDI derived from Model
+6 respectively. Blue dots and vertical lines show similar information
+from Model 12.}}
 
 \end{figure}%
 
@@ -1922,8 +1947,8 @@ dots and vertical lines show similar information from Model 12.}}
 }
 
 \caption{\label{fig-rq3-pred-speaker_model06}Model 6: Entropy scores
-density for selected speakers. \emph{Note:} Black bars denote the true
-data density, orange bars describe the predicted data density}
+density for selected speakers. \textbf{\emph{Note:}} Black bars denote
+the true data density, orange bars describe the predicted data density}
 
 \end{figure}%
 
@@ -1937,8 +1962,8 @@ data density, orange bars describe the predicted data density}
 }
 
 \caption{\label{fig-rq3-pred-speaker_model12}Model 12: Entropy scores
-density for selected speakers. \emph{Note:} Black bars denote the true
-data density, blue bars describe the predicted data density}
+density for selected speakers. \textbf{\emph{Note:}} Black bars denote
+the true data density, blue bars describe the predicted data density}
 
 \end{figure}%
 
@@ -1952,10 +1977,10 @@ data density, blue bars describe the predicted data density}
 }
 
 \caption{\label{fig-rq3-model-outliers}Outlier identification and
-analysis for selected models. \emph{Note:} Thin and thick vertical
-discontinuous line indicate threshold of 0.5 and 0.7, respectively.
-Number pair texts indicate the observation pair of speaker and sentence
-index.}
+analysis for selected models. \textbf{\emph{Note:}} Thin and thick
+vertical discontinuous line indicate threshold of 0.5 and 0.7,
+respectively. Number pair texts indicate the observation pair of speaker
+and sentence index.}
 
 \end{figure}%
 

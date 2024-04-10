@@ -130,10 +130,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-09">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-10">
 <year>2024</year>
 <month>4</month>
-<day>9</day>
+<day>10</day>
 </pub-date>
 
 
@@ -302,9 +302,9 @@ the University of Antwerp (BOF).</funding-statement>
   <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014" ref-type="bibr">Lagerberg
   et al. 2014</xref>), as well as entropy scores
   (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-  et al. 2021</xref>). In the latter approach,</styled-content>
-  listeners transcribe orthographically multiple spontaneous speech
-  samples produced by various speakers. These transcriptions are then
+  et al. 2021</xref>). In the latter approach, listeners transcribe
+  orthographically multiple spontaneous speech samples produced by
+  various speakers.</styled-content> These transcriptions are then
   aggregated into entropy scores, where lower scores indicate a higher
   degree of agreement among the listener’s transcriptions and,
   consequently, higher intelligibility, while higher scores suggest
@@ -469,8 +469,7 @@ the University of Antwerp (BOF).</funding-statement>
   (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014" ref-type="bibr">Depaoli
   2014</xref>). Secondly, the Bayesian approach enables the
   incorporation of prior information, thereby constraining certain
-  parameters within specified bounds.
-  <styled-content style="color:blue;">This feature helps address issues
+  parameters within specified bounds. This feature helps address issues
   such as non-convergence or improper parameter estimation commonly
   encountered in complex models under frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975" ref-type="bibr">Martin
@@ -482,8 +481,8 @@ the University of Antwerp (BOF).</funding-statement>
   (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019" ref-type="bibr">Holmes,
   Bolin, and Kelley 2019</xref>). In this study, for example, this issue
   was resolved by constraining the variances of random effects to be
-  positive.</styled-content> Lastly, Bayesian methods have shown
-  proficiency in handling relatively small sample sizes
+  positive. Lastly, Bayesian methods have shown proficiency in handling
+  relatively small sample sizes
   (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013" ref-type="bibr">Baldwin
   and Fellingham 2013</xref>;
   <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005" ref-type="bibr">Lambert
@@ -599,17 +598,16 @@ the University of Antwerp (BOF).</funding-statement>
     <sec id="sec-M-SS">
       <title>Speech samples</title>
       <p>Boonen and colleagues selected speech samples from a large
-      corpus of children’s spontaneously spoken speech recordings. These
-      recordings were <styled-content style="color:blue;">made in
-      Belgian Dutch and obtained while</styled-content> the children
-      narrated a story prompted by the picture book “Frog, Where Are
-      You?”
+      corpus of children’s spontaneously spoken speech recordings.
+      <styled-content style="color:blue;">These recordings were made in
+      Belgian Dutch and obtained while the children narrated a story
+      prompted by the picture book “Frog, Where Are You?”
       (<xref alt="Mayer 1969" rid="ref-Mayer_1969" ref-type="bibr">Mayer
-      1969</xref>) to a caregiver ‘unfamiliar with the story’. Before
-      recording, the children were allowed to skim over the booklet and
-      examine pictures. Prior to the selection process, the recordings
-      were orthographically transcribed using the CHAT format in the
-      CLAN editor
+      1969</xref>) to a caregiver ‘unfamiliar with the
+      story’.</styled-content> Before recording, the children were
+      allowed to skim over the booklet and examine pictures. Prior to
+      the selection process, the recordings were orthographically
+      transcribed using the CHAT format in the CLAN editor
       (<xref alt="MacWhinney 2020" rid="ref-MacWhinney_2020" ref-type="bibr">MacWhinney
       2020</xref>). These transcriptions were exclusively used in the
       curation of appropriate speech samples. To ensure the quality of
@@ -761,8 +759,8 @@ the University of Antwerp (BOF).</funding-statement>
       (<xref alt="2020" rid="ref-McElreath_2020" ref-type="bibr">2020</xref>).</p>
       <fig id="tbl-alignment">
         <caption><p>Table 1: Hypothetical alignment of word
-        transcriptions and entropy scores. <italic>Note:</italic>
-        Extracted from Boonen et al.
+        transcriptions and entropy scores.
+        <bold><italic>Note:</italic></bold> Extracted from Boonen et al.
         (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>),
         and slightly modified for illustrative purposes. Entropy scores
         are calculated the first sentence, produced by the first speaker
@@ -987,7 +985,7 @@ the University of Antwerp (BOF).</funding-statement>
       from the equations. Firstly,
       <xref alt="Equation 2" rid="eq-normal-LMM-likelihood">Equation 2</xref>
       indicates that the variability of the average entropy at the word
-      level can differ for each speaker, enhancing the model’s
+      level can differ for each speaker, enhancing the model
       <italic>robustness</italic> to mild or moderate data departures
       from the normal distribution assumption, such as in the presence
       of heteroscedasticity or outliers. Secondly,
@@ -995,26 +993,39 @@ the University of Antwerp (BOF).</funding-statement>
       reveals that the model assumes no transformation is applied to the
       relationship between the average entropy and the linear
       combination of characteristics. This is commonly known as a direct
-      link function. Moreover,
-      <xref alt="Equation 3" rid="eq-normal-LMM-linearpred">Equation 3</xref>
-      indicates that chronological age is centered around the minimum
-      chronological age in the sample <inline-formula><alternatives>
+      link function. <styled-content style="color:blue;">Moreover, the
+      equation indicates that chronological age is
+      <italic>centered</italic> around the minimum chronological age in
+      the sample <inline-formula><alternatives>
       <tex-math><![CDATA[\bar{A}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mover><mml:mi>A</mml:mi><mml:mo accent="true">‾</mml:mo></mml:mover></mml:math></alternatives></inline-formula>.
       The <italic>centering</italic> procedure prevents the
       interpretation of parameters outside the range of chronological
       ages available in the data
       (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
-      and Skrondal 2010</xref>). Lastly, the equation implies the model
-      considers separate intercept and separate slope of age for each
-      hearing status group, i.e., NH and HI/CI speakers,
+      and Skrondal 2010</xref>). Additionally, the equation implies the
+      model considers separate intercept and separate age slopes for
+      each hearing status group, i.e., NH and HI/CI speakers,
       <inline-formula><alternatives>
-      <tex-math><![CDATA[\alpha_{HS[1]}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
+      <tex-math><![CDATA[\alpha_{HS[i]}]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
       and <inline-formula><alternatives>
-      <tex-math><![CDATA[\alpha_{HS[2]}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>,
-      respectively.</p>
+      <tex-math><![CDATA[\beta_{A, HS[i]}]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>,
+      respectively. Finally, due to inclusion of the general intercept
+      <inline-formula><alternatives>
+      <tex-math><![CDATA[\alpha]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>,
+      the equation reveals that the model is over-parameterized.
+      Although the estimation of over-parameterized models is only
+      possible under Bayesian methods, their estimation does not violate
+      any statistical principle
+      (<xref alt="McElreath 2020, 345" rid="ref-McElreath_2020" ref-type="bibr">McElreath
+      2020, 345</xref>). In contrast, the utilized over-parameterized
+      model facilitates: (1) comparison between the specific parameter
+      interpretations of the Normal LMM and the Beta-proportion GLLAMM,
+      and (2) the assignment of prior
+      distributions.</styled-content></p>
     </sec>
     <sec id="sec-M-SM-BGLLAMM">
       <title>Beta-proportion GLLAMM</title>
@@ -1106,8 +1117,7 @@ the University of Antwerp (BOF).</funding-statement>
       entropy. <styled-content style="color:blue;">Furthermore, the
       non-linear relationship (i.e., the inverse-logit link function)
       also maps the unbounded linear predictor to the bounded limits of
-      the entropy scores.</styled-content> Thirdly, in contrast with the
-      Normal LMM,
+      the entropy scores. Thirdly, in contrast with the Normal LMM,
       <xref alt="Equation 6" rid="eq-beta-GLLAMM-structural">Equation 6</xref>
       demonstrates that the structural parameters are interpretable in
       terms of the latent potential intelligibility scores, where the
@@ -1115,32 +1125,30 @@ the University of Antwerp (BOF).</funding-statement>
       <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>,
-      as required in latent variable models
+      as it is required in latent variable models
       (<xref alt="Depaoli 2021" rid="ref-Depaoli_2021" ref-type="bibr">Depaoli
       2021</xref>). Furthermore, the equation implies the model also
-      considers separate intercept and separate slope of age for each
-      hearing status group, i.e., NH and HI/CI speakers
-      (<inline-formula><alternatives>
-      <tex-math><![CDATA[\alpha_{HS[1]}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
-      and <inline-formula><alternatives>
-      <tex-math><![CDATA[\alpha_{HS[2]}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>,
-      respectively). Additionally,
-      <xref alt="Equation 6" rid="eq-beta-GLLAMM-structural">Equation 6</xref>
-      indicates that chronological age is <italic>centered</italic>
-      around the minimum chronological age in the sample
+      considers separate intercept and separate age slopes for each
+      hearing status group, i.e., NH and HI/CI speakers,
       <inline-formula><alternatives>
+      <tex-math><![CDATA[\alpha_{HS[i]}]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
+      and <inline-formula><alternatives>
+      <tex-math><![CDATA[\beta_{A, HS[i]}]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>,
+      respectivel). Additionally, it indicates that chronological age is
+      <italic>centered</italic> around the minimum chronological age in
+      the sample <inline-formula><alternatives>
       <tex-math><![CDATA[\bar{A}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mover><mml:mi>A</mml:mi><mml:mo accent="true">‾</mml:mo></mml:mover></mml:math></alternatives></inline-formula>.
-      Lastly, the same equation assumes the intelligibility scores have
-      two sources of unexplained variability:
+      Lastly, the equation also reveals that the intelligibility scores
+      have two sources of unexplained variability:
       <inline-formula><alternatives>
       <tex-math><![CDATA[e_{i}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>
       and <inline-formula><alternatives>
       <tex-math><![CDATA[u_{i}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>.
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>.</styled-content>
       The former represents inherent differences in potential
       intelligibility among different speakers, while the latter assumes
       that different sentences measure potential intelligibility
@@ -1262,9 +1270,9 @@ the University of Antwerp (BOF).</funding-statement>
       in <xref alt="Table 2" rid="tbl-fitted">Table 2</xref>.</p>
       <fig id="tbl-fitted">
         <caption><p>Table 2: Fitted models.
-        <styled-content style="color:blue;"><italic>Note:</italic> Yes
-        indicates the feature or parameter was included in the model, No
-        indicates the oposite.</styled-content></p></caption>
+        <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+        <italic>Yes</italic> indicates the feature or parameter is
+        included in the model.</styled-content></p></caption>
         <table-wrap>
           <table>
             <colgroup>
@@ -1481,43 +1489,83 @@ the University of Antwerp (BOF).</funding-statement>
     </sec>
     <sec id="sec-M-SM-MC">
       <title>Model comparison</title>
-      <p>The study compares the fitted models using three criteria: the
-      deviance information criterion (<monospace>DIC</monospace>) by
-      Spiegelhalter et al.
+      <p><styled-content style="color:blue;">The study compares the
+      fitted models using three criteria: the deviance information
+      criterion (<monospace>DIC</monospace>) introduced by Spiegelhalter
+      et al.
       (<xref alt="2002" rid="ref-Spiegelhalter_et_al_2002" ref-type="bibr">2002</xref>),
       the widely applicable information criterion
-      (<monospace>WAIC</monospace>) by Watanabe
+      (<monospace>WAIC</monospace>) proposed by Watanabe
       (<xref alt="2013" rid="ref-Watanabe_2013" ref-type="bibr">2013</xref>),
       and the Pareto Smoothing Importance Sampling criterion
-      (<monospace>PSIS</monospace>) by Vehtari, Gelman, and Gabry
+      (<monospace>PSIS</monospace>) developed by Vehtari, Gelman, and
+      Gabry
       (<xref alt="2017" rid="ref-Vehtari_et_al_2017" ref-type="bibr">2017</xref>).
-      These criteria score models in terms of deviations from perfect
-      predictive accuracy, with smaller values indicating less deviation
+      These criteria score models in terms of deviations from
+      <italic>perfect</italic> predictive accuracy, with smaller values
+      indicating less deviation
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-      2020</xref>). Specifically, <monospace>DIC</monospace> measures
-      in-sample deviations, while <monospace>WAIC</monospace> and
-      <monospace>PSIS</monospace> offer an approximate measure of
-      out-of-sample deviations. Deviations from perfect predictive
+      2020</xref>). Deviations from <italic>perfect</italic> predictive
       accuracy serve as the closest estimate for the Kullback-Leibler
       divergence
       (<xref alt="Kullback and Leibler 1951" rid="ref-Kullback_et_al_1951" ref-type="bibr">Kullback
       and Leibler 1951</xref>), which measures the degree to which a
-      model accurately represents the true distribution of the data.
-      Moreover, <monospace>WAIC</monospace> and
-      <monospace>PSIS</monospace> are considered full Bayesian criteria
-      as they incorporate all the information encompassed in the
-      parameter’s posterior distribution. This effectively integrates
-      and reports the inherent uncertainty in the predictive accuracy
-      estimates. Predictive accuracy aside, <monospace>PSIS</monospace>
-      offers an additional advantage in identifying highly influential
-      data points. To achieve this, the criterion uses a built-in
-      warning system that flags observations that make out-of-sample
-      predictions unreliable. The key intuition is that observations
-      that are relatively unlikely, according to the model, exert more
-      influence and render predictions more unreliable than those
-      relatively expected
+      probabilistic model accurately represents the
+      <italic>true</italic> distribution of the data. Specifically,
+      <monospace>DIC</monospace> measures in-sample deviations, while
+      <monospace>WAIC</monospace> and <monospace>PSIS</monospace> offer
+      an approximate measure of out-of-sample
+      deviations.</styled-content></p>
+      <p><styled-content style="color:blue;"><monospace>WAIC</monospace>
+      and <monospace>PSIS</monospace> are regarded as full Bayesian
+      criteria because they encompass all the information contained in
+      the parameter’s posterior distribution, effectively integrating
+      and reporting the inherent uncertainty in predictive accuracy
+      estimates. In addition to predictive accuracy,
+      <monospace>PSIS</monospace> offers an extra benefit by identifying
+      highly influential data points. To achieve this, the criterion
+      employs a built-in warning system that flags observations that
+      make out-of-sample predictions unreliable. The rationale behind
+      this is that observations that are relatively unlikely, according
+      to the model, exert more influence and render predictions less
+      reliable compared to those that are relatively expected
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-      2020</xref>).</p>
+      2020</xref>).</styled-content></p>
+      <p><styled-content style="color:blue;">However, since researchers
+      are only interested in comparing candidate models, it is the
+      distance between the models that is useful, rather than the
+      absolute value of the criteria (see
+      <xref alt="McElreath 2020, 209, 223–24" rid="ref-McElreath_2020" ref-type="bibr">McElreath
+      2020, 209, 223–24</xref>). Therefore, the study utilizes the
+      differences in <monospace>WAIC</monospace> and
+      <monospace>PSIS</monospace> (<monospace>dWAIC</monospace> and
+      <monospace>dPSIS</monospace>, respectively) to evaluate how
+      distinct our probabilistic models are from each other, and which
+      one is closer to the <italic>true</italic> distribution of the
+      data. Additionally, while <monospace>DIC</monospace>,
+      <monospace>WAIC</monospace> and <monospace>PSIS</monospace>
+      provide <italic>approximate correct</italic> estimates for the
+      expected accuracy, these estimations are also subject to
+      uncertainty due to the specific sample over which they are
+      computed (see
+      <xref alt="McElreath 2020, 223" rid="ref-McElreath_2020" ref-type="bibr">McElreath
+      2020, 223</xref>). Thus, this uncertainty should also be taken
+      into account in the comparison. For this purpose, the study
+      presents the associated uncertainty of the criteria comparison
+      calculated as <monospace>dWAIC</monospace>
+      <inline-formula><alternatives>
+      <tex-math><![CDATA[\pm 1 \cdot]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>
+      and <monospace>dPSIS</monospace> <inline-formula><alternatives>
+      <tex-math><![CDATA[\pm 1 \cdot]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>.
+      Lastly, this research also report the complexity penalization of
+      the models, as well as their weight of evidence. The complexity
+      penalization values <monospace>pWAIC</monospace> and
+      <monospace>pPSIS</monospace> are roughly associated with the
+      models’ number of parameters, while the
+      <monospace>weight</monospace> of evidence summarizes the relative
+      support for each model.</styled-content></p>
     </sec>
   </sec>
   <sec id="sec-M-SM-OS">
@@ -1579,43 +1627,21 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     extends this model by incorporating a robust feature.</p>
-    <p><xref alt="Figure 1" rid="fig-rq1-waic-psis">Figure 1</xref>
-    displays values for the <monospace>DIC</monospace>,
-    <monospace>WAIC</monospace>, and <monospace>PSIS</monospace>.
-    <styled-content style="color:blue;">The figure also includes the
-    components <monospace>dWAIC</monospace> and
-    <monospace>dPSIS</monospace>, which reflect the differences in
-    out-of-sample deviations of the models from the best-fitting model.
-    Additionally, the figure depicts the associated uncertainty of the
-    criteria calculated as <inline-formula><alternatives>
-    <tex-math><![CDATA[X \pm 1 \cdot]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>SE</monospace>
-    for <inline-formula><alternatives>
-    <tex-math><![CDATA[X=\{]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>WAIC</monospace>,
-    <monospace>PSIS</monospace><inline-formula><alternatives>
-    <tex-math><![CDATA[\}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:math></alternatives></inline-formula>,
-    as well as the associated uncertainty of comparison calculated as
-    <inline-formula><alternatives>
-    <tex-math><![CDATA[X \pm 1 \cdot]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>
-    for <inline-formula><alternatives>
-    <tex-math><![CDATA[X=\{]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dWAIC</monospace>,
-    <monospace>dPSIS</monospace><inline-formula><alternatives>
-    <tex-math><![CDATA[\}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:math></alternatives></inline-formula>.</styled-content>
+    <p><styled-content style="color:blue;">The left panel of
+    <xref alt="Figure 1" rid="fig-rq1-waic-psis">Figure 1</xref>
+    displays the models’ <monospace>DIC</monospace>,
+    <monospace>WAIC</monospace>, and <monospace>PSIS</monospace> values
+    with their corresponding uncertainty intervals. In contrast, the
+    right panel of the figure shows the models’
+    <monospace>dWAIC</monospace> and <monospace>dPSIS</monospace> values
+    with their corresponding uncertainty intervals.
     <xref alt="Table 6" rid="tbl-rq1-waic">Table 6</xref> and
     <xref alt="Table 7" rid="tbl-rq1-psis">Table 7</xref> provide
     similar information, while also reporting the
-    <monospace>pWAIC</monospace> and <monospace>pPSIS</monospace>
-    values, indicating the penalization received by the models for their
-    complexity (roughly associated with their number of parameters).
-    Lastly, the tables show the <monospace>weight</monospace> of
-    evidence, which summarizes the relative support for each model.</p>
-    <p>Overall, all criteria consistently point to Model
-    <inline-formula><alternatives>
+    <monospace>pWAIC</monospace> and <monospace>pPSIS</monospace> values
+    and the <monospace>weight</monospace> of evidence for each
+    model.</styled-content> Overall, all criteria consistently point to
+    Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     as the most plausible choice for the data. The model exhibits the
@@ -1655,26 +1681,33 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
     <fig id="fig-rq1-waic-psis">
-      <caption><p>Figure 1: WAIC and PSIS model comparison plot.
-      <italic>Note:</italic> Black and blue points describe posterior
-      means, and continuous horizontal lines indicate the associated
-      uncertainty.</p></caption>
+      <caption><p>Figure 1:
+      <styled-content style="color:blue;">Comparison plot for selected
+      models. <bold><italic>Note:</italic></bold> Open, black and blue
+      points describe the posterior means for the criteria. Continuous
+      colored horizontal lines indicate their associated
+      uncertainty.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-waic-psis-1.png" />
     </fig>
     <p>Upon closer examination, the reasons behind the observed
-    disparities in the models become more apparent. Specifically,
+    disparities in the models become more apparent.
+    <styled-content style="color:blue;">Specifically,
     <xref alt="Figure 2" rid="fig-rq1-pred-speaker">Figure 2</xref>
-    highlights that the Normal LMM, as outlined in Model
+    highlights demonstrates that the Normal LMM, as outlined in Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>,
-    fails to capture the underlying data patterns, resulting in
-    predictions that are physically inconsistent, falling outside the
-    outcome’s range between zero and one. Further insight into this
-    issue is provided by
+    fails to adequately capture the data’s underlying patterns,
+    resulting in predictions that are physically inconsistent. This
+    issue is illustrated by the <inline-formula><alternatives>
+    <tex-math><![CDATA[95%]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>95</mml:mn></mml:math></alternatives></inline-formula>
+    Highest Probability Density Intervals (HPDI) extending beyond the
+    expected outcome range of zero to one. Further insight into this
+    lack of fit is provided by
     <xref alt="Figure 9" rid="fig-rq1-pred-speaker_model04">Figure 9</xref>
     and
-    <xref alt="Figure 11" rid="fig-rq1-model-outliers">Figure 11</xref>.
+    <xref alt="Figure 11" rid="fig-rq1-model-outliers">Figure 11</xref>.</styled-content>
     <xref alt="Figure 9" rid="fig-rq1-pred-speaker_model04">Figure 9</xref>
     displays Model <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
@@ -1707,11 +1740,12 @@ the University of Antwerp (BOF).</funding-statement>
     scores, fostering more trust in the model’s estimates.</p>
     <fig id="fig-rq1-pred-speaker">
       <caption><p>Figure 2: Entropy scores prediction for selected
-      models. <styled-content style="color:blue;"><italic>Note:</italic>
+      models.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
       Black dots show manifest entropy scores where darker points
       indicate greater overlap, orange dots and vertical lines show the
-      posterior mean and 95% HPDI derived from Model 4, blue dots and
-      vertical lines show similar information from Model
+      posterior mean and 95% HPDI derived from Model 4, respectively.
+      Blue dots and vertical lines show similar information from Model
       10.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker-1.png" />
     </fig>
@@ -1750,19 +1784,21 @@ the University of Antwerp (BOF).</funding-statement>
     multiple entropy scores.</p>
     <fig id="fig-rq2-si-model10">
       <caption><p>Figure 3: Model 10, latent potential intelligibility
-      of speakers. <italic>Note:</italic> Black dots and vertical lines
-      show mean point estimates and 95% HPDI intervals.</p></caption>
+      of speakers.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Black dots and vertical lines show the posterior means and 95%
+      HPDI intervals.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq2-si-model10-1.png" />
     </fig>
-    <p><xref alt="Figure 3" rid="fig-rq2-si-model10">Figure 3</xref>
-    displays the ranking of speakers in decreasing order based on point
-    estimates of the latent potential intelligibility. These estimates
-    are accompanied by their associated <inline-formula><alternatives>
+    <p><styled-content style="color:blue;"><xref alt="Figure 3" rid="fig-rq2-si-model10">Figure 3</xref>
+    displays the ranking of speakers in decreasing order based on the
+    posterior means of the latent potential intelligibility. These
+    estimates are accompanied by their associated
+    <inline-formula><alternatives>
     <tex-math><![CDATA[95\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    highest probability density intervals (HPDI). The figure clearly
-    indicates that clearly indicate that speaker
-    <inline-formula><alternatives>
+    HPDI.</styled-content> The figure clearly indicates that clearly
+    indicate that speaker <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>
     stands out as the least intelligible in the sample, followed farther
@@ -1824,9 +1860,9 @@ the University of Antwerp (BOF).</funding-statement>
     Science Statement).</p>
     <fig id="fig-si_contr_model10">
       <caption><p>Figure 4: Model 10, potential intelligibility
-      comparisons among selected speakers. <italic>Note:</italic> Shaded
-      area describes the 95% highest probability density interval
-      (HPDI)</p></caption>
+      comparisons among selected speakers.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Shaded area describes the 95% HPDI.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-si_contr_model10-1.png" />
     </fig>
   </sec>
@@ -1906,10 +1942,12 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
     <fig id="fig-rq3-waic-psis">
-      <caption><p>Figure 5: WAIC and PSIS model comparison plot.
-      <italic>Note:</italic> Black and blue points describe point
-      estimates, and continuous horizontal lines indicate the associated
-      uncertainty.</p></caption>
+      <caption><p>Figure 5:
+      <styled-content style="color:blue;">Comparison plot for all
+      models. <bold><italic>Note:</italic></bold> Open, black and blue
+      points describe the posterior means for the criteria. Continuous
+      colored horizontal lines indicate their associated
+      uncertainty.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-waic-psis-1.png" />
     </fig>
     <p>A closer examination of two models within this comparison set
@@ -2051,8 +2089,8 @@ the University of Antwerp (BOF).</funding-statement>
     age range. The latter is evident in
     <xref alt="Figure 8" rid="fig-rq3-intelligibility-model12">Figure 8</xref>.</p>
     <fig id="tbl-parameter-model10">
-      <caption><p>Table 3: Model 10, parameter estimates and 95% highest
-      probability density intervals (HPDI)</p></caption>
+      <caption><p>Table 3: <styled-content style="color:blue;">Model 10,
+      parameter estimates and 95% HPDI.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2076,18 +2114,18 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="fig-rq3-intelligibility-model10">
       <caption><p>Figure 6: Model 10, Potential intelligibility per
-      chronological age and hearing status. <italic>Note:</italic>
-      Colored dots denote mean point estimates, vertical lines describe
-      the 95% highest probability density intervals (HPDI), thick
-      discontinuous line indicate the regression line, thin continuous
-      lines denote regression lines samples from the posterior
-      distribution, and numbers indicate the speaker
-      index.</p></caption>
+      chronological age and hearing status.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Colored dots denote the posterior means, vertical lines describe
+      the 95% HPDI, thick discontinuous line indicate the regression
+      line, thin continuous lines denote regression lines samples from
+      the posterior distribution, and numbers indicate the speaker
+      index.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model10-1.png" />
     </fig>
     <fig id="tbl-parameter-model11">
-      <caption><p>Table 4: Model 11, parameter estimates and 95% highest
-      probability density intervals (HPDI)</p></caption>
+      <caption><p>Table 4: <styled-content style="color:blue;">Model 11,
+      parameter estimates and 95% HPDI.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2149,18 +2187,18 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="fig-rq3-intelligibility-model11">
       <caption><p>Figure 7: Model 11, Potential intelligibility per
-      chronological age and hearing status. <italic>Note:</italic>
-      Colored dots denote mean point estimates, vertical lines describe
-      the 95% highest probability density intervals (HPDI), thick
-      discontinuous line indicate the regression line, thin continuous
-      lines denote regression lines samples from the posterior
-      distribution, and numbers indicate the speaker
-      index.</p></caption>
+      chronological age and hearing status.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Colored dots denote the posterior means, vertical lines describe
+      the 95% HPDI, thick discontinuous line indicate the regression
+      line, thin continuous lines denote regression lines samples from
+      the posterior distribution, and numbers indicate the speaker
+      index.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model11-1.png" />
     </fig>
     <fig id="tbl-parameter-model12">
-      <caption><p>Table 5: Model 12, parameter estimates and 95% highest
-      probability density intervals (HPDI)</p></caption>
+      <caption><p>Table 5: <styled-content style="color:blue;">Model 12,
+      parameter estimates and 95% HPDI.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2236,13 +2274,13 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="fig-rq3-intelligibility-model12">
       <caption><p>Figure 8: Model 12, Potential intelligibility per
-      chronological age and hearing status. <italic>Note:</italic>
-      Colored dots denote mean point estimates, vertical lines describe
-      the 95% highest probability density intervals (HPDI), thick
-      discontinuous line indicate the regression line, thin continuous
-      lines denote regression lines samples from the posterior
-      distribution, and numbers indicate the speaker
-      index.</p></caption>
+      chronological age and hearing status.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Colored dots denote the posterior means, vertical lines describe
+      the 95% HPDI, thick discontinuous line indicate the regression
+      line, thin continuous lines denote regression lines samples from
+      the posterior distribution, and numbers indicate the speaker
+      index.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model12-1.png" />
     </fig>
   </sec>
@@ -2327,8 +2365,7 @@ the University of Antwerp (BOF).</funding-statement>
     (<xref alt="1955" rid="ref-Cronbach_et_al_1955" ref-type="bibr">1955</xref>),
     refers to the extent to which a set of manifest variables accurately
     represents a concept that cannot be directly measured. Considering
-    the study assumes the transcription task set by Boonen and
-    colleagues
+    the study assumes the transcription task set by Boonen et al.
     (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>)
     was properly understood and executed, it expects that potential
     intelligibility reflects the overall speech intelligibility of
@@ -2349,17 +2386,19 @@ the University of Antwerp (BOF).</funding-statement>
     diminished statistical power and a higher risk of type I or type II
     errors
     (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-    2020</xref>). Consequently, future research should consider
-    conducting power analyses for the proposed models. This entails
-    assessing the impact of expanding the speakers’ pool on testing
-    research theories, or increasing the number of speech samples,
-    transcriptions, and listeners to enhance the precision of potential
+    2020</xref>). <styled-content style="color:blue;">Consequently,
+    future research should consider extending this study by conducting
+    formal sample size planning for these models. This entails assessing
+    the impact of expanding the speakers’ pool on testing research
+    theories or increasing the number of speech samples, transcriptions,
+    and listeners to enhance the precision of the potential
     intelligibility estimates. With these insights, future
-    investigations should contemplate increasing the speaker sample with
-    a group that adequately represents the population of interest.
-    However, this must be done while mindful of the pragmatic
-    limitations associated with transcription tasks, specifically
-    considering the costs and time-intensiveness of the procedure.</p>
+    investigations could contemplate increasing the speaker sample with
+    a group that adequately represents the population of
+    interest.</styled-content> However, this must be done while mindful
+    of the pragmatic limitations associated with transcription tasks,
+    specifically considering the costs and time-intensiveness of the
+    procedure.</p>
     <p>Thirdly, the study presented an illustrative example for the
     investigation of research theories within the model’s framework.
     However, it did not offer an exhaustive evaluation of all factors
@@ -2526,15 +2565,14 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[J=5]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).
-    For second word,</styled-content> the first four listeners
-    identified the word type <italic>jongen</italic>
-    <inline-formula><alternatives>
+    For second word, the first four listeners identified the word type
+    <italic>jongen</italic> <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     while the last identified the word type <italic>hond</italic>
     <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j2})]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
     Therefore, two word types were identified
     (<inline-formula><alternatives>
     <tex-math><![CDATA[K=2]]></tex-math>
@@ -2560,9 +2598,9 @@ the University of Antwerp (BOF).</funding-statement>
     H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.8</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.3109</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">For the fourth
-    word,</styled-content> two listeners identified the word type
-    <italic>een</italic> <inline-formula><alternatives>
+    <p><styled-content style="color:blue;">For the fourth word, two
+    listeners identified the word type <italic>een</italic>
+    <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     one listener the word type <italic>de</italic>
@@ -2572,7 +2610,7 @@ the University of Antwerp (BOF).</funding-statement>
     and another the word <italic>geen</italic>
     <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j3})]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
     A blank space <italic>[B]</italic> is a symbol that defines the
     absence of a word in a space where a word is expected, as compared
     with other transcriptions, during the alignment procedure. Notice
@@ -2603,10 +2641,10 @@ the University of Antwerp (BOF).</funding-statement>
     H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
-    <styled-content style="color:blue;">For the fifth
-    word,</styled-content> each listener transcribed a different word.
-    it is important to highlight that when a listener does not identify
-    a complete word, or part of it, (s)he is instructed to write
+    <styled-content style="color:blue;">For the fifth word, each
+    listener transcribed a different word.</styled-content> it is
+    important to highlight that when a listener does not identify a
+    complete word, or part of it, (s)he is instructed to write
     <italic>[X]</italic> in that position. However, for the calculation
     of the entropy score, if more than one listener marks an
     unidentifiable word with <italic>[X]</italic>, each one of them is
@@ -2696,11 +2734,13 @@ the University of Antwerp (BOF).</funding-statement>
     of accuracy based on the percentage of (un)intelligible words:
     entropy scores employ all word type proportions in their
     calculations, effectively capturing the agreement and disagreement
-    among listeners’ word transcriptions. In contrast, the percentage of
-    (un)intelligible words mostly discards some word type proportions in
-    favor of <italic>simpler</italic> agreement or disagreement
-    percentages. For example, an agreement percentage could be reflected
-    by the proportion of the most frequent word, i.e.,
+    among listeners’ word transcriptions
+    (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
+    et al. 2021</xref>). In contrast, the percentage of (un)intelligible
+    words mostly discards some word type proportions in favor of
+    <italic>simpler</italic> agreement or disagreement percentages. For
+    example, an agreement percentage could be reflected by the
+    proportion of the most frequent word, i.e.,
     <inline-formula><alternatives>
     <tex-math><![CDATA[\text{max}\{ 0.4, 0.4, 0.2 \}=0.4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtext mathvariant="normal">max</mml:mtext><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mn>0.4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
@@ -2714,8 +2754,9 @@ the University of Antwerp (BOF).</funding-statement>
     <title>Tables</title>
     <fig id="tbl-rq1-waic">
       <caption><p>Table 6: WAIC comparison for selected models.
-      <styled-content style="color:blue;"><italic>Note:</italic> Table
-      sorted from most to least plausible models for the
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      The table is sorted based on <monospace>weight</monospace> from
+      most to least plausible model(s) for the
       data.</styled-content></p></caption>
       <table-wrap>
         <table>
@@ -2778,8 +2819,9 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="tbl-rq1-psis">
       <caption><p>Table 7: PSIS comparison for selected models.
-      <styled-content style="color:blue;"><italic>Note:</italic> Table
-      sorted from most to least plausible models for the
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      The table is sorted based on <monospace>weight</monospace> from
+      most to least plausible model(s) for the
       data.</styled-content></p></caption>
       <table-wrap>
         <table>
@@ -2842,8 +2884,9 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="tbl-rq3-waic">
       <caption><p>Table 8: WAIC comparison for all models.
-      <styled-content style="color:blue;"><italic>Note:</italic> Table
-      sorted from most to least plausible models for the
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      The table is sorted based on <monospace>weight</monospace> from
+      most to least plausible model(s) for the
       data.</styled-content></p></caption>
       <table-wrap>
         <table>
@@ -2986,8 +3029,9 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="tbl-rq3-psis">
       <caption><p>Table 9: PSIS comparison for all models.
-      <styled-content style="color:blue;"><italic>Note:</italic> Table
-      sorted from most to least plausible models for the
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      The table is sorted based on <monospace>weight</monospace> from
+      most to least plausible model(s) for the
       data.</styled-content></p></caption>
       <table-wrap>
         <table>
@@ -3134,56 +3178,57 @@ the University of Antwerp (BOF).</funding-statement>
     <title>Figures</title>
     <fig id="fig-rq1-pred-speaker_model04">
       <caption><p>Figure 9: Model 4: Entropy scores density for selected
-      speakers. <italic>Note:</italic> Black bars denote the true data
-      density, orange bars describe the predicted data
+      speakers. <bold><italic>Note:</italic></bold> Black bars denote
+      the true data density, orange bars describe the predicted data
       density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker_model04-1.png" />
     </fig>
     <fig id="fig-rq1-pred-speaker_model10">
       <caption><p>Figure 10: Model 10: Entropy scores density for
-      selected speakers. <italic>Note:</italic> Black bars denote the
-      true data density, blue bars describe the predicted data
-      density</p></caption>
+      selected speakers. <bold><italic>Note:</italic></bold> Black bars
+      denote the true data density, blue bars describe the predicted
+      data density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker_model10-1.png" />
     </fig>
     <fig id="fig-rq1-model-outliers">
       <caption><p>Figure 11: Outlier identification and analysis for
-      selected models. <italic>Note:</italic> Thin and thick vertical
-      discontinuous line indicate threshold of 0.5 and 0.7,
-      respectively. Number pair texts indicate the observation pair of
-      speaker and sentence index.</p></caption>
+      selected models. <bold><italic>Note:</italic></bold> Thin and
+      thick vertical discontinuous line indicate threshold of 0.5 and
+      0.7, respectively. Number pair texts indicate the observation pair
+      of speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-model-outliers-1.png" />
     </fig>
     <fig id="fig-rq3-pred-speaker">
       <caption><p>Figure 12: Entropy scores prediction for selected
-      models. <styled-content style="color:blue;"><italic>Note:</italic>
+      models.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
       Black dots show manifest entropy scores where darker points
       indicate greater overlap, orange dots and vertical lines show the
-      posterior mean and 95% HPDI derived from Model 6, blue dots and
-      vertical lines show similar information from Model
+      posterior means and 95% HPDI derived from Model 6 respectively.
+      Blue dots and vertical lines show similar information from Model
       12.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker-1.png" />
     </fig>
     <fig id="fig-rq3-pred-speaker_model06">
       <caption><p>Figure 13: Model 6: Entropy scores density for
-      selected speakers. <italic>Note:</italic> Black bars denote the
-      true data density, orange bars describe the predicted data
-      density</p></caption>
+      selected speakers. <bold><italic>Note:</italic></bold> Black bars
+      denote the true data density, orange bars describe the predicted
+      data density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model06-1.png" />
     </fig>
     <fig id="fig-rq3-pred-speaker_model12">
       <caption><p>Figure 14: Model 12: Entropy scores density for
-      selected speakers. <italic>Note:</italic> Black bars denote the
-      true data density, blue bars describe the predicted data
-      density</p></caption>
+      selected speakers. <bold><italic>Note:</italic></bold> Black bars
+      denote the true data density, blue bars describe the predicted
+      data density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model12-1.png" />
     </fig>
     <fig id="fig-rq3-model-outliers">
       <caption><p>Figure 15: Outlier identification and analysis for
-      selected models. <italic>Note:</italic> Thin and thick vertical
-      discontinuous line indicate threshold of 0.5 and 0.7,
-      respectively. Number pair texts indicate the observation pair of
-      speaker and sentence index.</p></caption>
+      selected models. <bold><italic>Note:</italic></bold> Thin and
+      thick vertical discontinuous line indicate threshold of 0.5 and
+      0.7, respectively. Number pair texts indicate the observation pair
+      of speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-model-outliers-1.png" />
     </fig>
     <p></p>
@@ -4911,18 +4956,6 @@ The following object is masked from 'package:stats':
 <code language="r script"># load functions
 main_dir = '/home/josema/Desktop/1. Work/1 research/PhD Antwerp/#thesis/paper1'
 source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R') )</code>
-<sec id="nb-code-cell-2-output-0-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: docstring</preformat>
-</sec>
-<sec id="nb-code-cell-2-output-1-nb-article" specific-use="notebook-output">
-<preformat>
-Attaching package: 'docstring'</preformat>
-</sec>
-<sec id="nb-code-cell-2-output-2-nb-article" specific-use="notebook-output">
-<preformat>The following object is masked from 'package:utils':
-
-    ?</preformat>
-</sec>
 </sec>
 <sec id="sec-introduction-nb-article">
   <title>Introduction</title>
@@ -5020,9 +5053,9 @@ Attaching package: 'docstring'</preformat>
   <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014-nb-article" ref-type="bibr">Lagerberg
   et al. 2014</xref>), as well as entropy scores
   (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-  et al. 2021</xref>). In the latter approach,</styled-content>
-  listeners transcribe orthographically multiple spontaneous speech
-  samples produced by various speakers. These transcriptions are then
+  et al. 2021</xref>). In the latter approach, listeners transcribe
+  orthographically multiple spontaneous speech samples produced by
+  various speakers.</styled-content> These transcriptions are then
   aggregated into entropy scores, where lower scores indicate a higher
   degree of agreement among the listener’s transcriptions and,
   consequently, higher intelligibility, while higher scores suggest
@@ -5187,8 +5220,7 @@ Attaching package: 'docstring'</preformat>
   (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014-nb-article" ref-type="bibr">Depaoli
   2014</xref>). Secondly, the Bayesian approach enables the
   incorporation of prior information, thereby constraining certain
-  parameters within specified bounds.
-  <styled-content style="color:blue;">This feature helps address issues
+  parameters within specified bounds. This feature helps address issues
   such as non-convergence or improper parameter estimation commonly
   encountered in complex models under frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975-nb-article" ref-type="bibr">Martin
@@ -5200,8 +5232,8 @@ Attaching package: 'docstring'</preformat>
   (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019-nb-article" ref-type="bibr">Holmes,
   Bolin, and Kelley 2019</xref>). In this study, for example, this issue
   was resolved by constraining the variances of random effects to be
-  positive.</styled-content> Lastly, Bayesian methods have shown
-  proficiency in handling relatively small sample sizes
+  positive. Lastly, Bayesian methods have shown proficiency in handling
+  relatively small sample sizes
   (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013-nb-article" ref-type="bibr">Baldwin
   and Fellingham 2013</xref>;
   <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005-nb-article" ref-type="bibr">Lambert
@@ -5328,17 +5360,16 @@ data_H = data.frame(dlist[var_int])
     <sec id="sec-M-SS-nb-article">
       <title>Speech samples</title>
       <p>Boonen and colleagues selected speech samples from a large
-      corpus of children’s spontaneously spoken speech recordings. These
-      recordings were <styled-content style="color:blue;">made in
-      Belgian Dutch and obtained while</styled-content> the children
-      narrated a story prompted by the picture book “Frog, Where Are
-      You?”
+      corpus of children’s spontaneously spoken speech recordings.
+      <styled-content style="color:blue;">These recordings were made in
+      Belgian Dutch and obtained while the children narrated a story
+      prompted by the picture book “Frog, Where Are You?”
       (<xref alt="Mayer 1969" rid="ref-Mayer_1969-nb-article" ref-type="bibr">Mayer
-      1969</xref>) to a caregiver ‘unfamiliar with the story’. Before
-      recording, the children were allowed to skim over the booklet and
-      examine pictures. Prior to the selection process, the recordings
-      were orthographically transcribed using the CHAT format in the
-      CLAN editor
+      1969</xref>) to a caregiver ‘unfamiliar with the
+      story’.</styled-content> Before recording, the children were
+      allowed to skim over the booklet and examine pictures. Prior to
+      the selection process, the recordings were orthographically
+      transcribed using the CHAT format in the CLAN editor
       (<xref alt="MacWhinney 2020" rid="ref-MacWhinney_2020-nb-article" ref-type="bibr">MacWhinney
       2020</xref>). These transcriptions were exclusively used in the
       curation of appropriate speech samples. To ensure the quality of
@@ -5490,8 +5521,8 @@ data_H = data.frame(dlist[var_int])
       (<xref alt="2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">2020</xref>).</p>
       <fig id="tbl-alignment-nb-article">
         <caption><p>Table 1: Hypothetical alignment of word
-        transcriptions and entropy scores. <italic>Note:</italic>
-        Extracted from Boonen et al.
+        transcriptions and entropy scores.
+        <bold><italic>Note:</italic></bold> Extracted from Boonen et al.
         (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>),
         and slightly modified for illustrative purposes. Entropy scores
         are calculated the first sentence, produced by the first speaker
@@ -5716,7 +5747,7 @@ data_H = data.frame(dlist[var_int])
       from the equations. Firstly,
       <xref alt="Equation 2" rid="eq-normal-LMM-likelihood-nb-article">Equation 2</xref>
       indicates that the variability of the average entropy at the word
-      level can differ for each speaker, enhancing the model’s
+      level can differ for each speaker, enhancing the model
       <italic>robustness</italic> to mild or moderate data departures
       from the normal distribution assumption, such as in the presence
       of heteroscedasticity or outliers. Secondly,
@@ -5724,26 +5755,39 @@ data_H = data.frame(dlist[var_int])
       reveals that the model assumes no transformation is applied to the
       relationship between the average entropy and the linear
       combination of characteristics. This is commonly known as a direct
-      link function. Moreover,
-      <xref alt="Equation 3" rid="eq-normal-LMM-linearpred-nb-article">Equation 3</xref>
-      indicates that chronological age is centered around the minimum
-      chronological age in the sample <inline-formula><alternatives>
+      link function. <styled-content style="color:blue;">Moreover, the
+      equation indicates that chronological age is
+      <italic>centered</italic> around the minimum chronological age in
+      the sample <inline-formula><alternatives>
       <tex-math><![CDATA[\bar{A}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mover><mml:mi>A</mml:mi><mml:mo accent="true">‾</mml:mo></mml:mover></mml:math></alternatives></inline-formula>.
       The <italic>centering</italic> procedure prevents the
       interpretation of parameters outside the range of chronological
       ages available in the data
       (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
-      and Skrondal 2010</xref>). Lastly, the equation implies the model
-      considers separate intercept and separate slope of age for each
-      hearing status group, i.e., NH and HI/CI speakers,
+      and Skrondal 2010</xref>). Additionally, the equation implies the
+      model considers separate intercept and separate age slopes for
+      each hearing status group, i.e., NH and HI/CI speakers,
       <inline-formula><alternatives>
-      <tex-math><![CDATA[\alpha_{HS[1]}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
+      <tex-math><![CDATA[\alpha_{HS[i]}]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
       and <inline-formula><alternatives>
-      <tex-math><![CDATA[\alpha_{HS[2]}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>,
-      respectively.</p>
+      <tex-math><![CDATA[\beta_{A, HS[i]}]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>,
+      respectively. Finally, due to inclusion of the general intercept
+      <inline-formula><alternatives>
+      <tex-math><![CDATA[\alpha]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>,
+      the equation reveals that the model is over-parameterized.
+      Although the estimation of over-parameterized models is only
+      possible under Bayesian methods, their estimation does not violate
+      any statistical principle
+      (<xref alt="McElreath 2020, 345" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
+      2020, 345</xref>). In contrast, the utilized over-parameterized
+      model facilitates: (1) comparison between the specific parameter
+      interpretations of the Normal LMM and the Beta-proportion GLLAMM,
+      and (2) the assignment of prior
+      distributions.</styled-content></p>
     </sec>
     <sec id="sec-M-SM-BGLLAMM-nb-article">
       <title>Beta-proportion GLLAMM</title>
@@ -5835,8 +5879,7 @@ data_H = data.frame(dlist[var_int])
       entropy. <styled-content style="color:blue;">Furthermore, the
       non-linear relationship (i.e., the inverse-logit link function)
       also maps the unbounded linear predictor to the bounded limits of
-      the entropy scores.</styled-content> Thirdly, in contrast with the
-      Normal LMM,
+      the entropy scores. Thirdly, in contrast with the Normal LMM,
       <xref alt="Equation 6" rid="eq-beta-GLLAMM-structural-nb-article">Equation 6</xref>
       demonstrates that the structural parameters are interpretable in
       terms of the latent potential intelligibility scores, where the
@@ -5844,32 +5887,30 @@ data_H = data.frame(dlist[var_int])
       <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>,
-      as required in latent variable models
+      as it is required in latent variable models
       (<xref alt="Depaoli 2021" rid="ref-Depaoli_2021-nb-article" ref-type="bibr">Depaoli
       2021</xref>). Furthermore, the equation implies the model also
-      considers separate intercept and separate slope of age for each
-      hearing status group, i.e., NH and HI/CI speakers
-      (<inline-formula><alternatives>
-      <tex-math><![CDATA[\alpha_{HS[1]}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
-      and <inline-formula><alternatives>
-      <tex-math><![CDATA[\alpha_{HS[2]}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>,
-      respectively). Additionally,
-      <xref alt="Equation 6" rid="eq-beta-GLLAMM-structural-nb-article">Equation 6</xref>
-      indicates that chronological age is <italic>centered</italic>
-      around the minimum chronological age in the sample
+      considers separate intercept and separate age slopes for each
+      hearing status group, i.e., NH and HI/CI speakers,
       <inline-formula><alternatives>
+      <tex-math><![CDATA[\alpha_{HS[i]}]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
+      and <inline-formula><alternatives>
+      <tex-math><![CDATA[\beta_{A, HS[i]}]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>,
+      respectivel). Additionally, it indicates that chronological age is
+      <italic>centered</italic> around the minimum chronological age in
+      the sample <inline-formula><alternatives>
       <tex-math><![CDATA[\bar{A}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mover><mml:mi>A</mml:mi><mml:mo accent="true">‾</mml:mo></mml:mover></mml:math></alternatives></inline-formula>.
-      Lastly, the same equation assumes the intelligibility scores have
-      two sources of unexplained variability:
+      Lastly, the equation also reveals that the intelligibility scores
+      have two sources of unexplained variability:
       <inline-formula><alternatives>
       <tex-math><![CDATA[e_{i}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>
       and <inline-formula><alternatives>
       <tex-math><![CDATA[u_{i}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>.
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>.</styled-content>
       The former represents inherent differences in potential
       intelligibility among different speakers, while the latter assumes
       that different sentences measure potential intelligibility
@@ -5991,9 +6032,9 @@ data_H = data.frame(dlist[var_int])
       in <xref alt="Table 2" rid="tbl-fitted-nb-article">Table 2</xref>.</p>
       <fig id="tbl-fitted-nb-article">
         <caption><p>Table 2: Fitted models.
-        <styled-content style="color:blue;"><italic>Note:</italic> Yes
-        indicates the feature or parameter was included in the model, No
-        indicates the oposite.</styled-content></p></caption>
+        <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+        <italic>Yes</italic> indicates the feature or parameter is
+        included in the model.</styled-content></p></caption>
         <table-wrap>
           <table>
             <colgroup>
@@ -6210,43 +6251,83 @@ data_H = data.frame(dlist[var_int])
     </sec>
     <sec id="sec-M-SM-MC-nb-article">
       <title>Model comparison</title>
-      <p>The study compares the fitted models using three criteria: the
-      deviance information criterion (<monospace>DIC</monospace>) by
-      Spiegelhalter et al.
+      <p><styled-content style="color:blue;">The study compares the
+      fitted models using three criteria: the deviance information
+      criterion (<monospace>DIC</monospace>) introduced by Spiegelhalter
+      et al.
       (<xref alt="2002" rid="ref-Spiegelhalter_et_al_2002-nb-article" ref-type="bibr">2002</xref>),
       the widely applicable information criterion
-      (<monospace>WAIC</monospace>) by Watanabe
+      (<monospace>WAIC</monospace>) proposed by Watanabe
       (<xref alt="2013" rid="ref-Watanabe_2013-nb-article" ref-type="bibr">2013</xref>),
       and the Pareto Smoothing Importance Sampling criterion
-      (<monospace>PSIS</monospace>) by Vehtari, Gelman, and Gabry
+      (<monospace>PSIS</monospace>) developed by Vehtari, Gelman, and
+      Gabry
       (<xref alt="2017" rid="ref-Vehtari_et_al_2017-nb-article" ref-type="bibr">2017</xref>).
-      These criteria score models in terms of deviations from perfect
-      predictive accuracy, with smaller values indicating less deviation
+      These criteria score models in terms of deviations from
+      <italic>perfect</italic> predictive accuracy, with smaller values
+      indicating less deviation
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-      2020</xref>). Specifically, <monospace>DIC</monospace> measures
-      in-sample deviations, while <monospace>WAIC</monospace> and
-      <monospace>PSIS</monospace> offer an approximate measure of
-      out-of-sample deviations. Deviations from perfect predictive
+      2020</xref>). Deviations from <italic>perfect</italic> predictive
       accuracy serve as the closest estimate for the Kullback-Leibler
       divergence
       (<xref alt="Kullback and Leibler 1951" rid="ref-Kullback_et_al_1951-nb-article" ref-type="bibr">Kullback
       and Leibler 1951</xref>), which measures the degree to which a
-      model accurately represents the true distribution of the data.
-      Moreover, <monospace>WAIC</monospace> and
-      <monospace>PSIS</monospace> are considered full Bayesian criteria
-      as they incorporate all the information encompassed in the
-      parameter’s posterior distribution. This effectively integrates
-      and reports the inherent uncertainty in the predictive accuracy
-      estimates. Predictive accuracy aside, <monospace>PSIS</monospace>
-      offers an additional advantage in identifying highly influential
-      data points. To achieve this, the criterion uses a built-in
-      warning system that flags observations that make out-of-sample
-      predictions unreliable. The key intuition is that observations
-      that are relatively unlikely, according to the model, exert more
-      influence and render predictions more unreliable than those
-      relatively expected
+      probabilistic model accurately represents the
+      <italic>true</italic> distribution of the data. Specifically,
+      <monospace>DIC</monospace> measures in-sample deviations, while
+      <monospace>WAIC</monospace> and <monospace>PSIS</monospace> offer
+      an approximate measure of out-of-sample
+      deviations.</styled-content></p>
+      <p><styled-content style="color:blue;"><monospace>WAIC</monospace>
+      and <monospace>PSIS</monospace> are regarded as full Bayesian
+      criteria because they encompass all the information contained in
+      the parameter’s posterior distribution, effectively integrating
+      and reporting the inherent uncertainty in predictive accuracy
+      estimates. In addition to predictive accuracy,
+      <monospace>PSIS</monospace> offers an extra benefit by identifying
+      highly influential data points. To achieve this, the criterion
+      employs a built-in warning system that flags observations that
+      make out-of-sample predictions unreliable. The rationale behind
+      this is that observations that are relatively unlikely, according
+      to the model, exert more influence and render predictions less
+      reliable compared to those that are relatively expected
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-      2020</xref>).</p>
+      2020</xref>).</styled-content></p>
+      <p><styled-content style="color:blue;">However, since researchers
+      are only interested in comparing candidate models, it is the
+      distance between the models that is useful, rather than the
+      absolute value of the criteria (see
+      <xref alt="McElreath 2020, 209, 223–24" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
+      2020, 209, 223–24</xref>). Therefore, the study utilizes the
+      differences in <monospace>WAIC</monospace> and
+      <monospace>PSIS</monospace> (<monospace>dWAIC</monospace> and
+      <monospace>dPSIS</monospace>, respectively) to evaluate how
+      distinct our probabilistic models are from each other, and which
+      one is closer to the <italic>true</italic> distribution of the
+      data. Additionally, while <monospace>DIC</monospace>,
+      <monospace>WAIC</monospace> and <monospace>PSIS</monospace>
+      provide <italic>approximate correct</italic> estimates for the
+      expected accuracy, these estimations are also subject to
+      uncertainty due to the specific sample over which they are
+      computed (see
+      <xref alt="McElreath 2020, 223" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
+      2020, 223</xref>). Thus, this uncertainty should also be taken
+      into account in the comparison. For this purpose, the study
+      presents the associated uncertainty of the criteria comparison
+      calculated as <monospace>dWAIC</monospace>
+      <inline-formula><alternatives>
+      <tex-math><![CDATA[\pm 1 \cdot]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>
+      and <monospace>dPSIS</monospace> <inline-formula><alternatives>
+      <tex-math><![CDATA[\pm 1 \cdot]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>.
+      Lastly, this research also report the complexity penalization of
+      the models, as well as their weight of evidence. The complexity
+      penalization values <monospace>pWAIC</monospace> and
+      <monospace>pPSIS</monospace> are roughly associated with the
+      models’ number of parameters, while the
+      <monospace>weight</monospace> of evidence summarizes the relative
+      support for each model.</styled-content></p>
     </sec>
   </sec>
   <sec id="sec-M-SM-OS-nb-article">
@@ -6318,43 +6399,21 @@ for(i in 1:12){
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     extends this model by incorporating a robust feature.</p>
-    <p><xref alt="Figure 1" rid="fig-rq1-waic-psis-nb-article">Figure 1</xref>
-    displays values for the <monospace>DIC</monospace>,
-    <monospace>WAIC</monospace>, and <monospace>PSIS</monospace>.
-    <styled-content style="color:blue;">The figure also includes the
-    components <monospace>dWAIC</monospace> and
-    <monospace>dPSIS</monospace>, which reflect the differences in
-    out-of-sample deviations of the models from the best-fitting model.
-    Additionally, the figure depicts the associated uncertainty of the
-    criteria calculated as <inline-formula><alternatives>
-    <tex-math><![CDATA[X \pm 1 \cdot]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>SE</monospace>
-    for <inline-formula><alternatives>
-    <tex-math><![CDATA[X=\{]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>WAIC</monospace>,
-    <monospace>PSIS</monospace><inline-formula><alternatives>
-    <tex-math><![CDATA[\}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:math></alternatives></inline-formula>,
-    as well as the associated uncertainty of comparison calculated as
-    <inline-formula><alternatives>
-    <tex-math><![CDATA[X \pm 1 \cdot]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>±</mml:mo><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>
-    for <inline-formula><alternatives>
-    <tex-math><![CDATA[X=\{]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dWAIC</monospace>,
-    <monospace>dPSIS</monospace><inline-formula><alternatives>
-    <tex-math><![CDATA[\}]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:math></alternatives></inline-formula>.</styled-content>
+    <p><styled-content style="color:blue;">The left panel of
+    <xref alt="Figure 1" rid="fig-rq1-waic-psis-nb-article">Figure 1</xref>
+    displays the models’ <monospace>DIC</monospace>,
+    <monospace>WAIC</monospace>, and <monospace>PSIS</monospace> values
+    with their corresponding uncertainty intervals. In contrast, the
+    right panel of the figure shows the models’
+    <monospace>dWAIC</monospace> and <monospace>dPSIS</monospace> values
+    with their corresponding uncertainty intervals.
     <xref alt="Table 8" rid="tbl-rq1-waic-nb-article">Table 8</xref> and
     <xref alt="Table 9" rid="tbl-rq1-psis-nb-article">Table 9</xref> provide
     similar information, while also reporting the
-    <monospace>pWAIC</monospace> and <monospace>pPSIS</monospace>
-    values, indicating the penalization received by the models for their
-    complexity (roughly associated with their number of parameters).
-    Lastly, the tables show the <monospace>weight</monospace> of
-    evidence, which summarizes the relative support for each model.</p>
-    <p>Overall, all criteria consistently point to Model
-    <inline-formula><alternatives>
+    <monospace>pWAIC</monospace> and <monospace>pPSIS</monospace> values
+    and the <monospace>weight</monospace> of evidence for each
+    model.</styled-content> Overall, all criteria consistently point to
+    Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     as the most plausible choice for the data. The model exhibits the
@@ -6430,33 +6489,38 @@ RQ1_PSIS = compare( func=PSIS,
     </sec>
     <sec id="cell-fig-rq1-waic-psis-nb-article" specific-use="notebook-code">
     <code language="r script">par(mfrow=c(1,2))
-  plot_compare( compare_obj=RQ1_WAIC,
-                ns=1, m='WAIC', dm=T )
-  plot_compare( compare_obj=RQ1_PSIS, 
-                ns=1, m='PSIS', dm=T )
+plot_compare( waic_obj=RQ1_WAIC, psis_obj=RQ1_PSIS, ns=1, dM=F )
+plot_compare( waic_obj=RQ1_WAIC, psis_obj=RQ1_PSIS, ns=1, dM=T )
 par(mfrow=c(1,1))</code>
     <fig id="fig-rq1-waic-psis-nb-article">
-      <caption><p>Figure 1: WAIC and PSIS model comparison plot.
-      <italic>Note:</italic> Black and blue points describe posterior
-      means, and continuous horizontal lines indicate the associated
-      uncertainty.</p></caption>
+      <caption><p>Figure 1:
+      <styled-content style="color:blue;">Comparison plot for selected
+      models. <bold><italic>Note:</italic></bold> Open, black and blue
+      points describe the posterior means for the criteria. Continuous
+      colored horizontal lines indicate their associated
+      uncertainty.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-waic-psis-1.png" />
     </fig>
     </sec>
     <p>Upon closer examination, the reasons behind the observed
-    disparities in the models become more apparent. Specifically,
+    disparities in the models become more apparent.
+    <styled-content style="color:blue;">Specifically,
     <xref alt="Figure 2" rid="fig-rq1-pred-speaker-nb-article">Figure 2</xref>
-    highlights that the Normal LMM, as outlined in Model
+    highlights demonstrates that the Normal LMM, as outlined in Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>,
-    fails to capture the underlying data patterns, resulting in
-    predictions that are physically inconsistent, falling outside the
-    outcome’s range between zero and one. Further insight into this
-    issue is provided by
+    fails to adequately capture the data’s underlying patterns,
+    resulting in predictions that are physically inconsistent. This
+    issue is illustrated by the <inline-formula><alternatives>
+    <tex-math><![CDATA[95%]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>95</mml:mn></mml:math></alternatives></inline-formula>
+    Highest Probability Density Intervals (HPDI) extending beyond the
+    expected outcome range of zero to one. Further insight into this
+    lack of fit is provided by
     <xref alt="Figure 9" rid="fig-rq1-pred-speaker_model04-nb-article">Figure 9</xref>
     and
-    <xref alt="Figure 11" rid="fig-rq1-model-outliers-nb-article">Figure 11</xref>.
+    <xref alt="Figure 11" rid="fig-rq1-model-outliers-nb-article">Figure 11</xref>.</styled-content>
     <xref alt="Figure 9" rid="fig-rq1-pred-speaker_model04-nb-article">Figure 9</xref>
     displays Model <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
@@ -6496,11 +6560,12 @@ par(mfrow=c(1,1))</code>
              leg=c('model 04','model 10'))</code>
     <fig id="fig-rq1-pred-speaker-nb-article">
       <caption><p>Figure 2: Entropy scores prediction for selected
-      models. <styled-content style="color:blue;"><italic>Note:</italic>
+      models.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
       Black dots show manifest entropy scores where darker points
       indicate greater overlap, orange dots and vertical lines show the
-      posterior mean and 95% HPDI derived from Model 4, blue dots and
-      vertical lines show similar information from Model
+      posterior mean and 95% HPDI derived from Model 4, respectively.
+      Blue dots and vertical lines show similar information from Model
       10.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker-1.png" />
     </fig>
@@ -6833,8 +6898,10 @@ par(mfrow=c(1,1))</code>
         p=0.95, decreasing=T)</code>
     <fig id="fig-rq2-si-model10-nb-article">
       <caption><p>Figure 3: Model 10, latent potential intelligibility
-      of speakers. <italic>Note:</italic> Black dots and vertical lines
-      show mean point estimates and 95% HPDI intervals.</p></caption>
+      of speakers.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Black dots and vertical lines show the posterior means and 95%
+      HPDI intervals.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq2-si-model10-1.png" />
     </fig>
     </sec>
@@ -6844,15 +6911,15 @@ SI = SI[order(SI$mean, decreasing=T), ]
 SI = round(SI, 3)
 SI$HPDI = paste0('[', SI$HPDI_lower, ', ', SI$HPDI_upper,']')</code>
     </sec>
-    <p><xref alt="Figure 3" rid="fig-rq2-si-model10-nb-article">Figure 3</xref>
-    displays the ranking of speakers in decreasing order based on point
-    estimates of the latent potential intelligibility. These estimates
-    are accompanied by their associated <inline-formula><alternatives>
+    <p><styled-content style="color:blue;"><xref alt="Figure 3" rid="fig-rq2-si-model10-nb-article">Figure 3</xref>
+    displays the ranking of speakers in decreasing order based on the
+    posterior means of the latent potential intelligibility. These
+    estimates are accompanied by their associated
+    <inline-formula><alternatives>
     <tex-math><![CDATA[95\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    highest probability density intervals (HPDI). The figure clearly
-    indicates that clearly indicate that speaker
-    <inline-formula><alternatives>
+    HPDI.</styled-content> The figure clearly indicates that clearly
+    indicate that speaker <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>
     stands out as the least intelligible in the sample, followed farther
@@ -6986,9 +7053,9 @@ for(i in idx_comp){
 par(mfrow=c(1,1))</code>
     <fig id="fig-si_contr_model10-nb-article">
       <caption><p>Figure 4: Model 10, potential intelligibility
-      comparisons among selected speakers. <italic>Note:</italic> Shaded
-      area describes the 95% highest probability density interval
-      (HPDI)</p></caption>
+      comparisons among selected speakers.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Shaded area describes the 95% HPDI.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-si_contr_model10-1.png" />
     </fig>
     </sec>
@@ -7115,16 +7182,16 @@ Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individua
     </sec>
     <sec id="cell-fig-rq3-waic-psis-nb-article" specific-use="notebook-code">
     <code language="r script">par(mfrow=c(1,2))
-plot_compare( compare_obj=RQ3_WAIC,
-              ns=1, m='WAIC', dm=T ) 
-plot_compare( compare_obj=RQ3_PSIS, 
-              ns=1, m='PSIS', dm=T )
+plot_compare( waic_obj=RQ3_WAIC, psis_obj=RQ3_PSIS, ns=1, dM=F )
+plot_compare( waic_obj=RQ3_WAIC, psis_obj=RQ3_PSIS, ns=1, dM=T )
 par(mfrow=c(1,1))</code>
     <fig id="fig-rq3-waic-psis-nb-article">
-      <caption><p>Figure 5: WAIC and PSIS model comparison plot.
-      <italic>Note:</italic> Black and blue points describe point
-      estimates, and continuous horizontal lines indicate the associated
-      uncertainty.</p></caption>
+      <caption><p>Figure 5:
+      <styled-content style="color:blue;">Comparison plot for all
+      models. <bold><italic>Note:</italic></bold> Open, black and blue
+      points describe the posterior means for the criteria. Continuous
+      colored horizontal lines indicate their associated
+      uncertainty.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-waic-psis-1.png" />
     </fig>
     </sec>
@@ -7286,8 +7353,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
        escape=F, digits=3,
        col.names=c('Parameter','Posterior mean','95% HPDI') )</code>
     <fig id="tbl-parameter-model10-nb-article">
-      <caption><p>Table 5: Model 10, parameter estimates and 95% highest
-      probability density intervals (HPDI)</p></caption>
+      <caption><p>Table 5: <styled-content style="color:blue;">Model 10,
+      parameter estimates and 95% HPDI.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -7315,13 +7382,13 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
            p=0.95, ns=500, seed=12345)</code>
     <fig id="fig-rq3-intelligibility-model10-nb-article">
       <caption><p>Figure 6: Model 10, Potential intelligibility per
-      chronological age and hearing status. <italic>Note:</italic>
-      Colored dots denote mean point estimates, vertical lines describe
-      the 95% highest probability density intervals (HPDI), thick
-      discontinuous line indicate the regression line, thin continuous
-      lines denote regression lines samples from the posterior
-      distribution, and numbers indicate the speaker
-      index.</p></caption>
+      chronological age and hearing status.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Colored dots denote the posterior means, vertical lines describe
+      the 95% HPDI, thick discontinuous line indicate the regression
+      line, thin continuous lines denote regression lines samples from
+      the posterior distribution, and numbers indicate the speaker
+      index.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model10-1.png" />
     </fig>
     </sec>
@@ -7359,8 +7426,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
        escape=F, digits=3,
        col.names=c('Parameter','Posterior mean','95% HPDI') )</code>
     <fig id="tbl-parameter-model11-nb-article">
-      <caption><p>Table 6: Model 11, parameter estimates and 95% highest
-      probability density intervals (HPDI)</p></caption>
+      <caption><p>Table 6: <styled-content style="color:blue;">Model 11,
+      parameter estimates and 95% HPDI.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -7426,13 +7493,13 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
            p=0.95, ns=500, seed=12345)</code>
     <fig id="fig-rq3-intelligibility-model11-nb-article">
       <caption><p>Figure 7: Model 11, Potential intelligibility per
-      chronological age and hearing status. <italic>Note:</italic>
-      Colored dots denote mean point estimates, vertical lines describe
-      the 95% highest probability density intervals (HPDI), thick
-      discontinuous line indicate the regression line, thin continuous
-      lines denote regression lines samples from the posterior
-      distribution, and numbers indicate the speaker
-      index.</p></caption>
+      chronological age and hearing status.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Colored dots denote the posterior means, vertical lines describe
+      the 95% HPDI, thick discontinuous line indicate the regression
+      line, thin continuous lines denote regression lines samples from
+      the posterior distribution, and numbers indicate the speaker
+      index.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model11-1.png" />
     </fig>
     </sec>
@@ -7475,8 +7542,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
        escape=F, digits=3,
        col.names=c('Parameter','Posterior mean','95% HPDI') )</code>
     <fig id="tbl-parameter-model12-nb-article">
-      <caption><p>Table 7: Model 12, parameter estimates and 95% highest
-      probability density intervals (HPDI)</p></caption>
+      <caption><p>Table 7: <styled-content style="color:blue;">Model 12,
+      parameter estimates and 95% HPDI.</styled-content></p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -7556,13 +7623,13 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
            p=0.95, ns=500, seed=12345)</code>
     <fig id="fig-rq3-intelligibility-model12-nb-article">
       <caption><p>Figure 8: Model 12, Potential intelligibility per
-      chronological age and hearing status. <italic>Note:</italic>
-      Colored dots denote mean point estimates, vertical lines describe
-      the 95% highest probability density intervals (HPDI), thick
-      discontinuous line indicate the regression line, thin continuous
-      lines denote regression lines samples from the posterior
-      distribution, and numbers indicate the speaker
-      index.</p></caption>
+      chronological age and hearing status.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      Colored dots denote the posterior means, vertical lines describe
+      the 95% HPDI, thick discontinuous line indicate the regression
+      line, thin continuous lines denote regression lines samples from
+      the posterior distribution, and numbers indicate the speaker
+      index.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model12-1.png" />
     </fig>
     </sec>
@@ -7648,8 +7715,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     (<xref alt="1955" rid="ref-Cronbach_et_al_1955-nb-article" ref-type="bibr">1955</xref>),
     refers to the extent to which a set of manifest variables accurately
     represents a concept that cannot be directly measured. Considering
-    the study assumes the transcription task set by Boonen and
-    colleagues
+    the study assumes the transcription task set by Boonen et al.
     (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>)
     was properly understood and executed, it expects that potential
     intelligibility reflects the overall speech intelligibility of
@@ -7670,17 +7736,19 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     diminished statistical power and a higher risk of type I or type II
     errors
     (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-    2020</xref>). Consequently, future research should consider
-    conducting power analyses for the proposed models. This entails
-    assessing the impact of expanding the speakers’ pool on testing
-    research theories, or increasing the number of speech samples,
-    transcriptions, and listeners to enhance the precision of potential
+    2020</xref>). <styled-content style="color:blue;">Consequently,
+    future research should consider extending this study by conducting
+    formal sample size planning for these models. This entails assessing
+    the impact of expanding the speakers’ pool on testing research
+    theories or increasing the number of speech samples, transcriptions,
+    and listeners to enhance the precision of the potential
     intelligibility estimates. With these insights, future
-    investigations should contemplate increasing the speaker sample with
-    a group that adequately represents the population of interest.
-    However, this must be done while mindful of the pragmatic
-    limitations associated with transcription tasks, specifically
-    considering the costs and time-intensiveness of the procedure.</p>
+    investigations could contemplate increasing the speaker sample with
+    a group that adequately represents the population of
+    interest.</styled-content> However, this must be done while mindful
+    of the pragmatic limitations associated with transcription tasks,
+    specifically considering the costs and time-intensiveness of the
+    procedure.</p>
     <p>Thirdly, the study presented an illustrative example for the
     investigation of research theories within the model’s framework.
     However, it did not offer an exhaustive evaluation of all factors
@@ -7847,15 +7915,14 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[J=5]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).
-    For second word,</styled-content> the first four listeners
-    identified the word type <italic>jongen</italic>
-    <inline-formula><alternatives>
+    For second word, the first four listeners identified the word type
+    <italic>jongen</italic> <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     while the last identified the word type <italic>hond</italic>
     <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j2})]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
     Therefore, two word types were identified
     (<inline-formula><alternatives>
     <tex-math><![CDATA[K=2]]></tex-math>
@@ -7881,9 +7948,9 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.8</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.3109</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">For the fourth
-    word,</styled-content> two listeners identified the word type
-    <italic>een</italic> <inline-formula><alternatives>
+    <p><styled-content style="color:blue;">For the fourth word, two
+    listeners identified the word type <italic>een</italic>
+    <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     one listener the word type <italic>de</italic>
@@ -7893,7 +7960,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     and another the word <italic>geen</italic>
     <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j3})]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
     A blank space <italic>[B]</italic> is a symbol that defines the
     absence of a word in a space where a word is expected, as compared
     with other transcriptions, during the alignment procedure. Notice
@@ -7924,10 +7991,10 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
-    <styled-content style="color:blue;">For the fifth
-    word,</styled-content> each listener transcribed a different word.
-    it is important to highlight that when a listener does not identify
-    a complete word, or part of it, (s)he is instructed to write
+    <styled-content style="color:blue;">For the fifth word, each
+    listener transcribed a different word.</styled-content> it is
+    important to highlight that when a listener does not identify a
+    complete word, or part of it, (s)he is instructed to write
     <italic>[X]</italic> in that position. However, for the calculation
     of the entropy score, if more than one listener marks an
     unidentifiable word with <italic>[X]</italic>, each one of them is
@@ -8017,11 +8084,13 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     of accuracy based on the percentage of (un)intelligible words:
     entropy scores employ all word type proportions in their
     calculations, effectively capturing the agreement and disagreement
-    among listeners’ word transcriptions. In contrast, the percentage of
-    (un)intelligible words mostly discards some word type proportions in
-    favor of <italic>simpler</italic> agreement or disagreement
-    percentages. For example, an agreement percentage could be reflected
-    by the proportion of the most frequent word, i.e.,
+    among listeners’ word transcriptions
+    (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
+    et al. 2021</xref>). In contrast, the percentage of (un)intelligible
+    words mostly discards some word type proportions in favor of
+    <italic>simpler</italic> agreement or disagreement percentages. For
+    example, an agreement percentage could be reflected by the
+    proportion of the most frequent word, i.e.,
     <inline-formula><alternatives>
     <tex-math><![CDATA[\text{max}\{ 0.4, 0.4, 0.2 \}=0.4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtext mathvariant="normal">max</mml:mtext><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo><mml:mo>=</mml:mo><mml:mn>0.4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>,
@@ -8040,8 +8109,9 @@ kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq1-waic-nb-article">
       <caption><p>Table 8: WAIC comparison for selected models.
-      <styled-content style="color:blue;"><italic>Note:</italic> Table
-      sorted from most to least plausible models for the
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      The table is sorted based on <monospace>weight</monospace> from
+      most to least plausible model(s) for the
       data.</styled-content></p></caption>
       <table-wrap>
         <table>
@@ -8110,8 +8180,9 @@ kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq1-psis-nb-article">
       <caption><p>Table 9: PSIS comparison for selected models.
-      <styled-content style="color:blue;"><italic>Note:</italic> Table
-      sorted from most to least plausible models for the
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      The table is sorted based on <monospace>weight</monospace> from
+      most to least plausible model(s) for the
       data.</styled-content></p></caption>
       <table-wrap>
         <table>
@@ -8180,8 +8251,9 @@ kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq3-waic-nb-article">
       <caption><p>Table 10: WAIC comparison for all models.
-      <styled-content style="color:blue;"><italic>Note:</italic> Table
-      sorted from most to least plausible models for the
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      The table is sorted based on <monospace>weight</monospace> from
+      most to least plausible model(s) for the
       data.</styled-content></p></caption>
       <table-wrap>
         <table>
@@ -8330,8 +8402,9 @@ kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq3-psis-nb-article">
       <caption><p>Table 11: PSIS comparison for all models.
-      <styled-content style="color:blue;"><italic>Note:</italic> Table
-      sorted from most to least plausible models for the
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+      The table is sorted based on <monospace>weight</monospace> from
+      most to least plausible model(s) for the
       data.</styled-content></p></caption>
       <table-wrap>
         <table>
@@ -8484,8 +8557,8 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    p=0.95, nbins=20, col_string=col_string)</code>
     <fig id="fig-rq1-pred-speaker_model04-nb-article">
       <caption><p>Figure 9: Model 4: Entropy scores density for selected
-      speakers. <italic>Note:</italic> Black bars denote the true data
-      density, orange bars describe the predicted data
+      speakers. <bold><italic>Note:</italic></bold> Black bars denote
+      the true data density, orange bars describe the predicted data
       density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker_model04-1.png" />
     </fig>
@@ -8497,9 +8570,9 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    p=0.95, nbins=20, col_string=col_string)</code>
     <fig id="fig-rq1-pred-speaker_model10-nb-article">
       <caption><p>Figure 10: Model 10: Entropy scores density for
-      selected speakers. <italic>Note:</italic> Black bars denote the
-      true data density, blue bars describe the predicted data
-      density</p></caption>
+      selected speakers. <bold><italic>Note:</italic></bold> Black bars
+      denote the true data density, blue bars describe the predicted
+      data density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker_model10-1.png" />
     </fig>
     </sec>
@@ -8512,10 +8585,10 @@ plot_outlier(d=data_H, stanfit_obj=model10)</code>
     <code language="r script">par(mfrow=c(1,1))</code>
     <fig id="fig-rq1-model-outliers-nb-article">
       <caption><p>Figure 11: Outlier identification and analysis for
-      selected models. <italic>Note:</italic> Thin and thick vertical
-      discontinuous line indicate threshold of 0.5 and 0.7,
-      respectively. Number pair texts indicate the observation pair of
-      speaker and sentence index.</p></caption>
+      selected models. <bold><italic>Note:</italic></bold> Thin and
+      thick vertical discontinuous line indicate threshold of 0.5 and
+      0.7, respectively. Number pair texts indicate the observation pair
+      of speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-model-outliers-1.png" />
     </fig>
     <sec id="cell-fig-rq1-model-outliers-output-0-nb-article" specific-use="notebook-output">
@@ -8537,11 +8610,12 @@ plot_outlier(d=data_H, stanfit_obj=model10)</code>
              leg=c('model 06','model 12'))</code>
     <fig id="fig-rq3-pred-speaker-nb-article">
       <caption><p>Figure 12: Entropy scores prediction for selected
-      models. <styled-content style="color:blue;"><italic>Note:</italic>
+      models.
+      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
       Black dots show manifest entropy scores where darker points
       indicate greater overlap, orange dots and vertical lines show the
-      posterior mean and 95% HPDI derived from Model 6, blue dots and
-      vertical lines show similar information from Model
+      posterior means and 95% HPDI derived from Model 6 respectively.
+      Blue dots and vertical lines show similar information from Model
       12.</styled-content></p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker-1.png" />
     </fig>
@@ -8553,9 +8627,9 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    p=0.95, nbins=20, col_string=col_string)</code>
     <fig id="fig-rq3-pred-speaker_model06-nb-article">
       <caption><p>Figure 13: Model 6: Entropy scores density for
-      selected speakers. <italic>Note:</italic> Black bars denote the
-      true data density, orange bars describe the predicted data
-      density</p></caption>
+      selected speakers. <bold><italic>Note:</italic></bold> Black bars
+      denote the true data density, orange bars describe the predicted
+      data density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model06-1.png" />
     </fig>
     </sec>
@@ -8566,9 +8640,9 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    p=0.95, nbins=20, col_string=col_string)</code>
     <fig id="fig-rq3-pred-speaker_model12-nb-article">
       <caption><p>Figure 14: Model 12: Entropy scores density for
-      selected speakers. <italic>Note:</italic> Black bars denote the
-      true data density, blue bars describe the predicted data
-      density</p></caption>
+      selected speakers. <bold><italic>Note:</italic></bold> Black bars
+      denote the true data density, blue bars describe the predicted
+      data density</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model12-1.png" />
     </fig>
     </sec>
@@ -8581,10 +8655,10 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
     <code language="r script">par(mfrow=c(1,1))</code>
     <fig id="fig-rq3-model-outliers-nb-article">
       <caption><p>Figure 15: Outlier identification and analysis for
-      selected models. <italic>Note:</italic> Thin and thick vertical
-      discontinuous line indicate threshold of 0.5 and 0.7,
-      respectively. Number pair texts indicate the observation pair of
-      speaker and sentence index.</p></caption>
+      selected models. <bold><italic>Note:</italic></bold> Thin and
+      thick vertical discontinuous line indicate threshold of 0.5 and
+      0.7, respectively. Number pair texts indicate the observation pair
+      of speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-model-outliers-1.png" />
     </fig>
     <sec id="cell-fig-rq3-model-outliers-output-0-nb-article" specific-use="notebook-output">
