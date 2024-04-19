@@ -130,10 +130,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-18">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-19">
 <year>2024</year>
 <month>4</month>
-<day>18</day>
+<day>19</day>
 </pub-date>
 
 
@@ -156,7 +156,7 @@ Skrondal, and Pickles 2004a</xref>,
 and Rabe-Hesketh 2004</xref>) in analyzing entropy scores for
 investigating speech intelligibility hypotheses. Using transcriptions
 from spontaneous speech data originally collected by Boonen et al.
-(<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>),
+(<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>),
 the study employs the Bayesian Beta-proportion GLLAMM to model the
 resulting entropy scores. The research compared the model’s prediction
 accuracy with the Normal Linear Mixed Model (LMM)
@@ -277,8 +277,8 @@ the University of Antwerp (BOF).</funding-statement>
   spontaneous speech samples offer a more ecologically valid approach to
   assess intelligibility, resembling everyday informal speech more than
   read-aloud or imitated speech samples
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-  et al. 2021</xref>). However, due to the uncertainty surrounding the
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
+  et al. 2023</xref>). However, due to the uncertainty surrounding the
   speaker’s intended word production, it is unfeasible to establish a
   word target for these samples
   (<xref alt="Flipsen 2006" rid="ref-Flipsen_2006" ref-type="bibr">Flipsen
@@ -287,8 +287,8 @@ the University of Antwerp (BOF).</funding-statement>
   et al. 2014</xref>). This renders conventional accuracy metrics from
   imitated speech, such as the percentage of read or imitated words,
   impractical
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-  et al. 2021</xref>).</styled-content></p>
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
+  et al. 2023</xref>).</styled-content></p>
   <p><styled-content style="color:blue;">Yet, various metrics of
   intelligibility can still be derived from transcriptions of
   spontaneous speech samples, including the percentage of
@@ -297,8 +297,8 @@ the University of Antwerp (BOF).</funding-statement>
   2006</xref>;
   <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014" ref-type="bibr">Lagerberg
   et al. 2014</xref>), as well as entropy scores
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-  et al. 2021</xref>). In the latter approach, listeners transcribe
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
+  et al. 2023</xref>). In the latter approach, listeners transcribe
   orthographically spontaneous speech samples produced by various
   speakers.</styled-content> These transcriptions are then aggregated
   into entropy scores, where lower scores indicate a higher degree of
@@ -306,8 +306,8 @@ the University of Antwerp (BOF).</funding-statement>
   higher intelligibility, while higher scores suggest lower
   intelligibility due to a lower degree of agreement in the
   transcriptions
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-  et al. 2021</xref>;
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
+  et al. 2023</xref>;
   <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022" ref-type="bibr">Faes,
   De Maeyer, and Gillis 2022</xref>). Notably, the aggregation procedure
   assumes that speech samples are considered ‘intelligible’ if all
@@ -315,11 +315,11 @@ the University of Antwerp (BOF).</funding-statement>
   instrumental in examining differences in speakers’ speech
   intelligibility, particularly between children with normal hearing and
   those with cochlear implants
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-  et al. 2021</xref>).</p>
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
+  et al. 2023</xref>).</p>
   <p>However, despite their potential as a fine-grained metric of
   intelligibility, as proposed by Boonen et al.
-  (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>),
+  (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>),
   they exhibit a statistical complexity that cautions researchers
   against treating them as straightforward indices of intelligibility.
   This complexity emerges from the processes of data collection and
@@ -416,8 +416,8 @@ the University of Antwerp (BOF).</funding-statement>
   features.</p>
   <p>All of these models have found moderate adoption in various fields,
   including speech communication
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-  et al. 2021</xref>), psychology
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
+  et al. 2023</xref>), psychology
   (<xref alt="Unlu and Aktas 2017" rid="ref-Unlu_et_al_2017" ref-type="bibr">Unlu
   and Aktas 2017</xref>), cognition
   (<xref alt="Verkuilen and Smithson 2013" rid="ref-Verkuilen_et_al_2012" ref-type="bibr">Verkuilen
@@ -439,7 +439,7 @@ the University of Antwerp (BOF).</funding-statement>
   <xref alt="Zhang, Du, and Huang 2023" rid="ref-Zhang_et_al_2023" ref-type="bibr">Zhang,
   Du, and Huang 2023</xref>). Specifically, in the domain of speech
   communication, Boonen et al.
-  (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>)
+  (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>)
   addressed data clustering within the context of intelligibility
   research. Conversely, de Brito Trindade et al.
   (<xref alt="2021" rid="ref-de_Brito_et_al_2021" ref-type="bibr">2021</xref>)
@@ -499,7 +499,7 @@ the University of Antwerp (BOF).</funding-statement>
     intelligibility.</styled-content> To achieve this objective, the
     study will reexamine data originating from transcriptions of
     spontaneous speech samples, initially collected by Boonen et al.
-    (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>).
+    (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>).
     Subsequently, this data will be aggregated into entropy scores and
     subjected to modeling through the Bayesian Beta-proportion
     GLLAMM.</p>
@@ -528,12 +528,12 @@ the University of Antwerp (BOF).</funding-statement>
     of speaker-related factors on the newly estimated latent
     intelligibility.</p>
     <p><styled-content style="color:blue;">Ultimately, this study offers
-    a statistical tool that improves upon current research models for
-    researchers studying speech intelligibility through entropy scores
-    and those in similar or different fields facing analogous data
-    challenges. This tool assess the predictability of empirical
-    phenomena and develops a quantitative measure for the latent
-    variable of interest. This quantitative measure, in turn,
+    a statistical tool designed for researchers studying speech
+    intelligibility through entropy scores and those in similar or
+    different fields facing analogous data challenges that improves upon
+    current research models. This tool assess the predictability of
+    empirical phenomena and develops a quantitative measure for the
+    latent variable of interest. This quantitative measure, in turn,
     facilitates the appropriate comparison of existing hypotheses
     related to the latent variable, and even encourages the formulation
     of new ones.</styled-content></p>
@@ -545,14 +545,14 @@ the University of Antwerp (BOF).</funding-statement>
     <title>Data</title>
     <p>The data comprised the transcriptions of spontaneous speech
     samples originally collected by Boonen et al.
-    (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>).
+    (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>).
     The data is not publicly available due to privacy restrictions.
     Nonetheless, the data can be provided by the corresponding author
     upon reasonable request.</p>
     <sec id="sec-M-S">
       <title>Speakers</title>
       <p>Boonen et al.
-      (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>)
+      (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>)
       selected <inline-formula><alternatives>
       <tex-math><![CDATA[32]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>32</mml:mn></mml:math></alternatives></inline-formula>
@@ -645,7 +645,7 @@ the University of Antwerp (BOF).</funding-statement>
     <sec id="sec-M-TS">
       <title>Transcription task and entropy scores</title>
       <p><styled-content style="color:blue;">Boonen et al.
-      (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>)
+      (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>)
       distributed the <inline-formula><alternatives>
       <tex-math><![CDATA[320]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>320</mml:mn></mml:math></alternatives></inline-formula>
@@ -670,8 +670,8 @@ the University of Antwerp (BOF).</funding-statement>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>263</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
       words available in the speech samples. These orthographic
       transcriptions were automatically aligned with a python script
-      (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-      et al. 2021</xref>), at the sentence level in a column-like grid
+      (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
+      et al. 2023</xref>), at the sentence level in a column-like grid
       structure like the one presented in
       <xref alt="Table 1" rid="tbl-alignment">Table 1</xref>.</styled-content>
       This alignment process was repeated for each sentence within each
@@ -748,8 +748,8 @@ the University of Antwerp (BOF).</funding-statement>
       transcriptions and therefore higher intelligibility, while higher
       scores indicated lower intelligibility, due to a lower degree of
       agreement in the transcriptions
-      (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-      et al. 2021</xref>;
+      (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
+      et al. 2023</xref>;
       <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022" ref-type="bibr">Faes,
       De Maeyer, and Gillis 2022</xref>). Furthermore, no score is
       excluded from the modeling process using univariate procedures,
@@ -761,7 +761,7 @@ the University of Antwerp (BOF).</funding-statement>
         <caption><p>Table 1: Hypothetical alignment of word
         transcriptions and entropy scores.
         <bold><italic>Note:</italic></bold> Extracted from Boonen et al.
-        (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>),
+        (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>),
         and slightly modified for illustrative purposes. Entropy scores
         are calculated the first sentence, produced by the first speaker
         assigned to the first block, and transcribed by five listeners
@@ -2377,7 +2377,7 @@ the University of Antwerp (BOF).</funding-statement>
     refers to the extent to which a set of manifest variables accurately
     represents a concept that cannot be directly measured. Considering
     the study assumes the transcription task set by Boonen et al.
-    (<xref alt="2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">2021</xref>)
+    (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>)
     was properly understood and executed, it expects that potential
     intelligibility reflects the overall speech intelligibility of
     speakers. However, the study does not delve into the general
@@ -2746,8 +2746,8 @@ the University of Antwerp (BOF).</funding-statement>
     entropy scores employ all word type proportions in their
     calculations, effectively capturing the agreement and disagreement
     among listeners’ word transcriptions
-    (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021" ref-type="bibr">Boonen
-    et al. 2021</xref>). In contrast, the percentage of (un)intelligible
+    (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
+    et al. 2023</xref>). In contrast, the percentage of (un)intelligible
     words mostly discards some word type proportions in favor of
     <italic>simpler</italic> agreement or disagreement percentages. For
     example, an agreement percentage could be reflected by the
@@ -4172,7 +4172,7 @@ the University of Antwerp (BOF).</funding-statement>
       <lpage>28</lpage>
     </element-citation>
   </ref>
-  <ref id="ref-Boonen_et_al_2021">
+  <ref id="ref-Boonen_et_al_2023">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
         <name><surname>Boonen</surname><given-names>N.</given-names></name>
@@ -4182,13 +4182,13 @@ the University of Antwerp (BOF).</funding-statement>
       </person-group>
       <article-title>Spontaneous speech intelligibility: Early cochlear implanted children versus their normally hearing peers at seven years of age</article-title>
       <source>Journal of Child Language</source>
-      <year iso-8601-date="2021">2021</year>
-      <volume></volume>
-      <issue></issue>
+      <year iso-8601-date="2023">2023</year>
+      <volume>50</volume>
+      <issue>1</issue>
       <uri></uri>
       <pub-id pub-id-type="doi">10.1017/S0305000921000714</pub-id>
-      <fpage>1</fpage>
-      <lpage>26</lpage>
+      <fpage>78</fpage>
+      <lpage>103</lpage>
     </element-citation>
   </ref>
   <ref id="ref-Faes_et_al_2022">
@@ -4803,7 +4803,7 @@ Skrondal, and Pickles 2004a</xref>,
 and Rabe-Hesketh 2004</xref>) in analyzing entropy scores for
 investigating speech intelligibility hypotheses. Using transcriptions
 from spontaneous speech data originally collected by Boonen et al.
-(<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>),
+(<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>),
 the study employs the Bayesian Beta-proportion GLLAMM to model the
 resulting entropy scores. The research compared the model’s prediction
 accuracy with the Normal Linear Mixed Model (LMM)
@@ -5039,8 +5039,8 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   spontaneous speech samples offer a more ecologically valid approach to
   assess intelligibility, resembling everyday informal speech more than
   read-aloud or imitated speech samples
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-  et al. 2021</xref>). However, due to the uncertainty surrounding the
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
+  et al. 2023</xref>). However, due to the uncertainty surrounding the
   speaker’s intended word production, it is unfeasible to establish a
   word target for these samples
   (<xref alt="Flipsen 2006" rid="ref-Flipsen_2006-nb-article" ref-type="bibr">Flipsen
@@ -5049,8 +5049,8 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   et al. 2014</xref>). This renders conventional accuracy metrics from
   imitated speech, such as the percentage of read or imitated words,
   impractical
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-  et al. 2021</xref>).</styled-content></p>
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
+  et al. 2023</xref>).</styled-content></p>
   <p><styled-content style="color:blue;">Yet, various metrics of
   intelligibility can still be derived from transcriptions of
   spontaneous speech samples, including the percentage of
@@ -5059,8 +5059,8 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   2006</xref>;
   <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014-nb-article" ref-type="bibr">Lagerberg
   et al. 2014</xref>), as well as entropy scores
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-  et al. 2021</xref>). In the latter approach, listeners transcribe
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
+  et al. 2023</xref>). In the latter approach, listeners transcribe
   orthographically spontaneous speech samples produced by various
   speakers.</styled-content> These transcriptions are then aggregated
   into entropy scores, where lower scores indicate a higher degree of
@@ -5068,8 +5068,8 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   higher intelligibility, while higher scores suggest lower
   intelligibility due to a lower degree of agreement in the
   transcriptions
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-  et al. 2021</xref>;
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
+  et al. 2023</xref>;
   <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022-nb-article" ref-type="bibr">Faes,
   De Maeyer, and Gillis 2022</xref>). Notably, the aggregation procedure
   assumes that speech samples are considered ‘intelligible’ if all
@@ -5077,11 +5077,11 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   instrumental in examining differences in speakers’ speech
   intelligibility, particularly between children with normal hearing and
   those with cochlear implants
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-  et al. 2021</xref>).</p>
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
+  et al. 2023</xref>).</p>
   <p>However, despite their potential as a fine-grained metric of
   intelligibility, as proposed by Boonen et al.
-  (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>),
+  (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>),
   they exhibit a statistical complexity that cautions researchers
   against treating them as straightforward indices of intelligibility.
   This complexity emerges from the processes of data collection and
@@ -5178,8 +5178,8 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   features.</p>
   <p>All of these models have found moderate adoption in various fields,
   including speech communication
-  (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-  et al. 2021</xref>), psychology
+  (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
+  et al. 2023</xref>), psychology
   (<xref alt="Unlu and Aktas 2017" rid="ref-Unlu_et_al_2017-nb-article" ref-type="bibr">Unlu
   and Aktas 2017</xref>), cognition
   (<xref alt="Verkuilen and Smithson 2013" rid="ref-Verkuilen_et_al_2012-nb-article" ref-type="bibr">Verkuilen
@@ -5201,7 +5201,7 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   <xref alt="Zhang, Du, and Huang 2023" rid="ref-Zhang_et_al_2023-nb-article" ref-type="bibr">Zhang,
   Du, and Huang 2023</xref>). Specifically, in the domain of speech
   communication, Boonen et al.
-  (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>)
+  (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>)
   addressed data clustering within the context of intelligibility
   research. Conversely, de Brito Trindade et al.
   (<xref alt="2021" rid="ref-de_Brito_et_al_2021-nb-article" ref-type="bibr">2021</xref>)
@@ -5261,7 +5261,7 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
     intelligibility.</styled-content> To achieve this objective, the
     study will reexamine data originating from transcriptions of
     spontaneous speech samples, initially collected by Boonen et al.
-    (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>).
+    (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>).
     Subsequently, this data will be aggregated into entropy scores and
     subjected to modeling through the Bayesian Beta-proportion
     GLLAMM.</p>
@@ -5290,12 +5290,12 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
     of speaker-related factors on the newly estimated latent
     intelligibility.</p>
     <p><styled-content style="color:blue;">Ultimately, this study offers
-    a statistical tool that improves upon current research models for
-    researchers studying speech intelligibility through entropy scores
-    and those in similar or different fields facing analogous data
-    challenges. This tool assess the predictability of empirical
-    phenomena and develops a quantitative measure for the latent
-    variable of interest. This quantitative measure, in turn,
+    a statistical tool designed for researchers studying speech
+    intelligibility through entropy scores and those in similar or
+    different fields facing analogous data challenges that improves upon
+    current research models. This tool assess the predictability of
+    empirical phenomena and develops a quantitative measure for the
+    latent variable of interest. This quantitative measure, in turn,
     facilitates the appropriate comparison of existing hypotheses
     related to the latent variable, and even encourages the formulation
     of new ones.</styled-content></p>
@@ -5307,7 +5307,7 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
     <title>Data</title>
     <p>The data comprised the transcriptions of spontaneous speech
     samples originally collected by Boonen et al.
-    (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>).
+    (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>).
     The data is not publicly available due to privacy restrictions.
     Nonetheless, the data can be provided by the corresponding author
     upon reasonable request.</p>
@@ -5325,7 +5325,7 @@ data_H = data.frame(dlist[var_int])
     <sec id="sec-M-S-nb-article">
       <title>Speakers</title>
       <p>Boonen et al.
-      (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>)
+      (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>)
       selected <inline-formula><alternatives>
       <tex-math><![CDATA[32]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>32</mml:mn></mml:math></alternatives></inline-formula>
@@ -5418,7 +5418,7 @@ data_H = data.frame(dlist[var_int])
     <sec id="sec-M-TS-nb-article">
       <title>Transcription task and entropy scores</title>
       <p><styled-content style="color:blue;">Boonen et al.
-      (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>)
+      (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>)
       distributed the <inline-formula><alternatives>
       <tex-math><![CDATA[320]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>320</mml:mn></mml:math></alternatives></inline-formula>
@@ -5443,8 +5443,8 @@ data_H = data.frame(dlist[var_int])
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>263</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
       words available in the speech samples. These orthographic
       transcriptions were automatically aligned with a python script
-      (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-      et al. 2021</xref>), at the sentence level in a column-like grid
+      (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
+      et al. 2023</xref>), at the sentence level in a column-like grid
       structure like the one presented in
       <xref alt="Table 1" rid="tbl-alignment-nb-article">Table 1</xref>.</styled-content>
       This alignment process was repeated for each sentence within each
@@ -5521,8 +5521,8 @@ data_H = data.frame(dlist[var_int])
       transcriptions and therefore higher intelligibility, while higher
       scores indicated lower intelligibility, due to a lower degree of
       agreement in the transcriptions
-      (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-      et al. 2021</xref>;
+      (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
+      et al. 2023</xref>;
       <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022-nb-article" ref-type="bibr">Faes,
       De Maeyer, and Gillis 2022</xref>). Furthermore, no score is
       excluded from the modeling process using univariate procedures,
@@ -5534,7 +5534,7 @@ data_H = data.frame(dlist[var_int])
         <caption><p>Table 1: Hypothetical alignment of word
         transcriptions and entropy scores.
         <bold><italic>Note:</italic></bold> Extracted from Boonen et al.
-        (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>),
+        (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>),
         and slightly modified for illustrative purposes. Entropy scores
         are calculated the first sentence, produced by the first speaker
         assigned to the first block, and transcribed by five listeners
@@ -7738,7 +7738,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     refers to the extent to which a set of manifest variables accurately
     represents a concept that cannot be directly measured. Considering
     the study assumes the transcription task set by Boonen et al.
-    (<xref alt="2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">2021</xref>)
+    (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>)
     was properly understood and executed, it expects that potential
     intelligibility reflects the overall speech intelligibility of
     speakers. However, the study does not delve into the general
@@ -8107,8 +8107,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     entropy scores employ all word type proportions in their
     calculations, effectively capturing the agreement and disagreement
     among listeners’ word transcriptions
-    (<xref alt="Boonen et al. 2021" rid="ref-Boonen_et_al_2021-nb-article" ref-type="bibr">Boonen
-    et al. 2021</xref>). In contrast, the percentage of (un)intelligible
+    (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
+    et al. 2023</xref>). In contrast, the percentage of (un)intelligible
     words mostly discards some word type proportions in favor of
     <italic>simpler</italic> agreement or disagreement percentages. For
     example, an agreement percentage could be reflected by the
@@ -9628,7 +9628,7 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <lpage>28</lpage>
     </element-citation>
   </ref>
-  <ref id="ref-Boonen_et_al_2021-nb-article">
+  <ref id="ref-Boonen_et_al_2023-nb-article">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
         <name><surname>Boonen</surname><given-names>N.</given-names></name>
@@ -9638,13 +9638,13 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       </person-group>
       <article-title>Spontaneous speech intelligibility: Early cochlear implanted children versus their normally hearing peers at seven years of age</article-title>
       <source>Journal of Child Language</source>
-      <year iso-8601-date="2021">2021</year>
-      <volume></volume>
-      <issue></issue>
+      <year iso-8601-date="2023">2023</year>
+      <volume>50</volume>
+      <issue>1</issue>
       <uri></uri>
       <pub-id pub-id-type="doi">10.1017/S0305000921000714</pub-id>
-      <fpage>1</fpage>
-      <lpage>26</lpage>
+      <fpage>78</fpage>
+      <lpage>103</lpage>
     </element-citation>
   </ref>
   <ref id="ref-Faes_et_al_2022-nb-article">
