@@ -238,21 +238,20 @@ speech therapy or cochlear implantation \citep{Chin_et_al_2012}.
 
 The notion of speech intelligibility may appear deceptively simple, yet
 it is an intricate concept filled with inherent challenges in its
-assessment. Intelligibility refers to the extent to which a listener can
-accurately recover the elements in a speaker's acoustic signal, such as
-phonemes or words
+assessment. {Intelligibility refers to the extent to which a listener
+can accurately recover the words in a speaker's acoustic signal
 \citep{Freeman_et_al_2017, vanHeuven_2008, Whitehill_et_al_2004}.
-Furthermore, achieving intelligible spoken language requires all core
-components of speech perception, cognitive processing, linguistic
-knowledge, and articulation to be mastered \citep{Freeman_et_al_2017}.
+Furthermore, achieving intelligible spoken language requires to master
+all core components of speech perception, cognitive processing,
+linguistic knowledge, and articulation \citep{Freeman_et_al_2017}.
 Hence, it is unsurprising that its accurate measurement faces challenges
 \citep{Kent_et_al_1989}. These challenges arise from the interplay of
-its determinants, which encompass attributes of the communicative
-environment, such as background noise \citep{Munro_1998}, speaker
-features like speaking rate \citep{Munro_et_al_1998} or accent
-\citep{Jenkins_2000, Ockey_et_al_2016}, and listener characteristics
-like vocabulary proficiency or hearing ability
-\citep{Varonis_et_al_1985}.
+the attributes of the communicative environment such as background noise
+\citep{Munro_1998}, with features of the speaker like speaking rate
+\citep{Munro_et_al_1998} or accent
+\citep{Jenkins_2000, Ockey_et_al_2016}, and characteristics of the
+listener like vocabulary proficiency or hearing ability
+\citep{Varonis_et_al_1985}}.
 
 While several approaches have been proposed to assess intelligibility,
 they commonly rely on two types of speech samples: read-aloud or
@@ -286,73 +285,76 @@ of (un)intelligible words or syllables
 orthographically spontaneous speech samples produced by various
 speakers.} These transcriptions are then aggregated into entropy scores,
 where lower scores indicate a higher degree of agreement among the
-listener's transcriptions and, consequently, higher intelligibility,
+listeners transcriptions and, consequently, higher intelligibility,
 while higher scores suggest lower intelligibility due to a lower degree
 of agreement in the transcriptions
 \citep{Boonen_et_al_2023, Faes_et_al_2022}. Notably, the aggregation
-procedure assumes that speech samples are considered `intelligible' if
-all listeners decode them in the same manner. These scores have been
+procedure assumes that speech samples are considered intelligible if all
+listeners decode them in the same manner. These scores have been
 instrumental in examining differences in speakers' speech
 intelligibility, particularly between children with normal hearing and
 those with cochlear implants \citep{Boonen_et_al_2023}.
 
-However, despite their potential as a fine-grained metric of
-intelligibility, as proposed by \citet{Boonen_et_al_2023}, they exhibit
-a statistical complexity that cautions researchers against treating them
-as straightforward indices of intelligibility. This complexity emerges
-from the processes of data collection and transcription aggregation,
-endowing the scores with four distinctive features: boundedness,
-measurement error, clustering, and the possible presence of outliers and
-heteroscedasticity. Firstly, entropy scores are confined to the interval
-between zero and one, a phenomenon known as boundedness. Boundedness
-refers to the restriction of data values within specific bounds or
-intervals, beyond which they cannot occur \citep{Lebl_2022}. {Secondly,
-entropy scores are assumed to be a manifestation of a speaker's
-intelligibility, with this intelligibility being the primary factor
-influencing the observed scores.} This issue is commonly referred to as
-measurement error, signifying the disparity between the observed values
-of a variable, recorded under similar conditions, and some fixed
-\emph{true value} which is not directly observable
-\citep{Everitt_et_al_2010}. Thirdly, due to the repeated assessment of
-speakers through multiple speech samples, the scores exhibit clustering.
-Clustering occurs when outcomes stem from repeated measurements of the
-same individual, location, or time \citep{McElreath_2020}. {Lastly,
-driven by speech samples with entropy scores located at the extreme of
-the bounds, and the presence of more than one population in the data
-(i.e., normal hearing versus hearing-impaired speakers), the scores may
-exhibit a potential for outliers and heteroscedasticity. Outliers are
-observations that markedly deviate from other sample data points where
-they occur \citep{Grubbs_1969}, while heteroscedasticity occurs when the
-outcome's variance depends on the values of another variable
+However, despite the entropy scores' potential as a fine-grained metric
+of intelligibility, as proposed by \citet{Boonen_et_al_2023}, they
+exhibit a statistical complexity that cautions researchers against
+treating them as straightforward indices of intelligibility. This
+complexity emerges from the processes of data collection and
+transcription aggregation, endowing the scores with four distinctive
+features: boundedness, measurement error, clustering, and the possible
+presence of outliers and heteroscedasticity. Firstly, entropy scores are
+confined to the interval between zero and one, a phenomenon known as
+boundedness. Boundedness refers to the restriction of data values within
+specific bounds or intervals, beyond which they cannot occur
+\citep{Lebl_2022}. {Secondly, entropy scores are assumed to be a
+manifestation of a speaker's intelligibility, with this intelligibility
+being the primary factor influencing the observed scores.} This issue is
+commonly referred to as measurement error, signifying the disparity
+between the observed values of a variable, recorded under similar
+conditions, and some fixed \emph{true value} which is not directly
+observable \citep{Everitt_et_al_2010}. Thirdly, due to the repeated
+assessment of speakers through multiple speech samples, the scores
+exhibit clustering. Clustering occurs when outcomes stem from repeated
+measurements of the same individual, location, or time
+\citep{McElreath_2020}. {Lastly, driven by speech samples with entropy
+scores located at the extreme of the bounds, and the presence of more
+than one population in the data (i.e., normal hearing versus
+hearing-impaired speakers), the scores may exhibit a potential for
+outliers and heteroscedasticity. Outliers are observations that markedly
+deviate from other sample data points where they occur
+\citep{Grubbs_1969}, while heteroscedasticity occurs when the outcome's
+variance depends on the values of another variable
 \citep{Everitt_et_al_2010}.}
 
 Failure to collectively address these data features can result in
 numerous statistical challenges that might hamper the researcher's
 ability to investigate intelligibility. Notably, neglecting boundedness
 can, at best, lead to underfitting and, at worst, to misspecification.
-Underfitting occurs when statistical models fail to capture the
-underlying data patterns, potentially causing the generation of
-predictions outside the data range, thus hindering the model's ability
-to generalize when confronted with new data. Conversely,
-misspecification, marked by a poor representation of relevant aspects of
-the true data in the model's functional form, can lead to inconsistent
-and less precise parameter estimates \citep{Everitt_et_al_2010}.
-Additionally, overlooking issues such as measurement error, clustering,
-outliers, or heteroscedasticity can lead to biased and less precise
-parameter estimates \citep{McElreath_2020}, ultimately diminishing the
-statistical power of models and increasing the likelihood of committing
-type I or type II errors when addressing research inquiries.
+{Underfitting occurs when statistical models fail to capture the
+underlying data patterns, potentially generating predictions outside the
+data range, thus hindering the model's ability to generalize when
+confronted with new data.} Conversely, misspecification, which is marked
+by a poor representation of relevant aspects of the true data in the
+model's functional form, can lead to inconsistent and less precise
+parameter estimates \citep{Everitt_et_al_2010}. Additionally,
+overlooking issues such as measurement error, clustering, outliers, or
+heteroscedasticity can lead to biased and less precise parameter
+estimates \citep{McElreath_2020}, ultimately diminishing the statistical
+power of models and increasing the likelihood of committing type I or
+type II errors when addressing research inquiries. {Type I error results
+when the null hypothesis is falsely rejected, while Type II error that
+results when the null hypothesis is falsely accepted
+\citep{Everitt_et_al_2010}.}
 
-In the realm of computational statistics and data analysis, several
-models have been developed to address some of these data features
-individually and, at times, collectively. For instance,
-\citet{Ferrari_et_al_2004} and \citet{Simas_et_al_2010} initially
-introduced and expanded beta regression models to handle outcomes
-constrained within the unit interval. Subsequently,
-\citet{Figueroa-Zuniga_et_al_2013} extended these models to address data
-clustering. Over time, beta regression models have evolved to
-accommodate clustering and measurement errors in covariates, as
-demonstrated by \citet{Carrasco_et_al_2012} and
+In computational statistics and data analysis, several models have been
+developed to address some of these data features individually and, at
+times, collectively. For instance, \citet{Ferrari_et_al_2004} and
+\citet{Simas_et_al_2010} initially introduced and expanded beta
+regression models to handle outcomes constrained within the unit
+interval. Subsequently, \citet{Figueroa-Zuniga_et_al_2013} extended
+these models to address data clustering. Over time, beta regression
+models have evolved to accommodate clustering and measurement errors in
+covariates, as demonstrated by \citet{Carrasco_et_al_2012} and
 \citet{Figueroa-Zuniga_et_al_2018}. Furthermore, robust versions of
 these models have been proposed to account for other statistical data
 issues, such as outliers and heteroscedasticity, as seen in
@@ -364,7 +366,7 @@ departures of the data from the model's assumptions
 colleagues introduced the Generalized Linear Latent and Mixed Model
 (GLLAMM)
 \citep{Rabe_et_al_2004a, Rabe_et_al_2004b, Rabe_et_al_2004c, Skrondal_et_al_2004a},
-a unified framework that can simultaneously tackle with all of the
+a unified framework that can simultaneously tackle all of the
 aforementioned data features.
 
 All of these models have found moderate adoption in various fields,
@@ -387,61 +389,59 @@ features in a principled way, while also transparently and
 systematically documenting the Bayesian estimation of the resulting
 statistical models.
 
-{The study employed Bayesian procedures for three main reasons. Firstly,
-prior research consistently demonstrates the superiority of Bayesian
-methods over frequentist methods, especially with complex and
-over-parameterized models \citep{Baker_1998, Kim_et_al_1999}. This is
-particularly relevant for the proposed GLLAMM, given the model's
-implementation challenges under frequentist methods
-\citep{Depaoli_2014}. Secondly, the Bayesian approach enables the
-incorporation of prior information, thereby constraining certain
-parameters within specified bounds. This feature addresses issues such
-as non-convergence or improper parameter estimation common in complex
-models under frequentist methods
+{This study employed Bayesian procedures for three main reasons.
+Firstly, prior research have consistently demonstrated the superiority
+of Bayesian methods over frequentist methods, especially with complex
+and over-parameterized models \citep{Baker_1998, Kim_et_al_1999}, such
+as the GLLAMM, employed in this study. Secondly, the Bayesian approach
+enabled the incorporation of prior information, thereby constraining
+certain parameters within specified bounds. This feature addressed
+issues such as non-convergence or improper parameter estimation common
+in complex models under frequentist methods
 \citep{Martin_et_al_1975, Seaman_et_al_2011}. An example is the
 estimation of negative variances for random effects in hierarchical
 models \citep{Holmes_et_al_2019}, a problem resolved in this study
 through the utilization of prior distributions. Lastly, Bayesian methods
-exhibit proficiency in drawing inferences from small sample sizes
+have exhibited proficiency in drawing inferences from small sample sizes
 \citep{Baldwin_et_al_2013, Lambert_et_al_2005, Depaoli_2014}. This
-property holds relevance for this study, as it also grapples with a
-small sample size, where reliance on the asymptotic properties of
-frequentist methods may not be justified.}
+feature of the Bayesian methods holds relevance for this study, as it
+also grapples with a small sample size, where reliance on the asymptotic
+properties of frequentist methods may not be justified.}
 
 \subsection{Research questions}\label{sec-I-RQ}
 
-{Considering the imperative need to comprehensively address all data
-features when investigating unobservable and complex traits, this
-investigation aims to demonstrate the efficacy of the Generalized Linear
-Latent and Mixed Model (GLLAMM) in handling entropy scores features when
-exploring research hypotheses concerning speech intelligibility.} To
-achieve this objective, the study will reexamine data originating from
-transcriptions of spontaneous speech samples, initially collected by
-\citet{Boonen_et_al_2023}. Subsequently, this data will be aggregated
-into entropy scores and subjected to modeling through the Bayesian
-Beta-proportion GLLAMM.
+{Considering the imperative need to comprehensively address all features
+of the data when investigating unobservable and complex traits, this
+investigation aimed to demonstrate the efficacy of the Generalized
+Linear Latent and Mixed Model (GLLAMM) in handling entropy score
+features when exploring research hypotheses concerning speech
+intelligibility. To achieve this objective, the study reexamined data
+originating from transcriptions of spontaneous speech samples, initially
+collected by \citet{Boonen_et_al_2023}. The data was aggregated into
+entropy scores and subjected to modelling through the Bayesian
+Beta-proportion GLLAMM.}
 
-To address the primary objective, the study poses three key research
-questions. {First, given the importance of accurate predictions in
+{To address the primary objective, the study posed three key research
+questions. First, given the importance of accurate predictions in
 developing useful practical models and testing research hypotheses
-\citep{Shmueli_et_al_2012},} \emph{Research Question 1 (RQ1)} evaluates
-whether the Beta-proportion GLLAMM yields more accurate predictions than
-the widely used Normal Linear Mixed Model (LMM)
+\citep{Shmueli_et_al_2012}, \emph{Research Question 1 (RQ1)} evaluated
+whether the Beta-proportion GLLAMM yielded more accurate predictions
+than the widely used Normal Linear Mixed Model (LMM)
 \citep{Holmes_et_al_2019}. Second, acknowledging that intelligibility is
 an unobservable, intricate concept and a key indicator of oral
 communication competence \citep{Kent_et_al_1994}, \emph{Research
-Question 2 (RQ2)} investigates how the proposed model can estimate
-speakers' latent intelligibility from manifest entropy scores. {Thirdly,
+Question 2 (RQ2)} investigated how the proposed model can estimate
+speakers' latent intelligibility from manifest entropy scores. Thirdly,
 recognizing that research involves developing and comparing hypotheses,
-\emph{Research Question 3 (RQ3)} illustrates how these research
-hypotheses can be examined within the model's framework.} Specifically,
-RQ3 assesses the influence of speaker-related factors on the newly
-estimated latent intelligibility.
+\emph{Research Question 3 (RQ3)} illustrated how these research
+hypotheses can be examined within the model's framework. Specifically,
+RQ3 assessed the influence of speaker-related factors on the newly
+estimated latent intelligibility.}
 
-{Ultimately, this study offers a statistical tool designed for
-researchers studying speech intelligibility through entropy scores and
-those in similar or different fields facing analogous data challenges
-that improves upon current research models. This tool assess the
+{Ultimately, this study offers researchers studying speech
+intelligibility through entropy scores and those in similar or different
+fields facing analogous data challenges with a statistical tool that
+improves upon current research models. This tool assess the
 predictability of empirical phenomena and develops a quantitative
 measure for the latent variable of interest. This quantitative measure,
 in turn, facilitates the appropriate comparison of existing hypotheses
@@ -541,7 +541,7 @@ indicated a higher degree of agreement between transcriptions and
 therefore higher intelligibility, while higher scores indicated lower
 intelligibility, due to a lower degree of agreement in the
 transcriptions \citep{Boonen_et_al_2023, Faes_et_al_2022}. Furthermore,
-no score is excluded from the modeling process using univariate
+no score is excluded from the modelling process using univariate
 procedures, rather, the identification of highly influential
 observations is performed within the context of the proposed models, as
 recommended by \citet{McElreath_2020}.
@@ -777,7 +777,7 @@ probability distributions summarizing the information about known or
 assumed parameters prior to observing any empirical data
 \citep{Everitt_et_al_2010}. Upon observing empirical data, these priors
 undergo updating to posterior distributions following Bayes' rule
-\citep{Jeffreys_1998}. In cases requiring greater modeling flexibility,
+\citep{Jeffreys_1998}. In cases requiring greater modelling flexibility,
 a more refined representation of the parameters' priors can be defined
 in terms of hyperparameters and hyperpriors. \emph{Hyperparameters}
 refer to parameters indexing a family of possible prior distributions
@@ -1684,6 +1684,10 @@ J.M.R.E; \emph{Project administration:} S.G. and S.dM.;
 \emph{Supervision:} S.G. and S.dM.; \emph{Validation:} J.M.R.E.;
 \emph{Visualization:} J.M.R.E.; \emph{Writing - original draft:}
 J.M.R.E.; \emph{Writing - review \& editing:} S.G. and S.dM.
+
+{\textbf{Acknowledgements:} We express gratitude to Renaat van Uffelen
+for providing timely expertise in enhancing the writing of this
+document.}
 
 \newpage{}
 

@@ -130,10 +130,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-04-19">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-15">
 <year>2024</year>
-<month>4</month>
-<day>19</day>
+<month>5</month>
+<day>15</day>
 </pub-date>
 
 
@@ -218,35 +218,34 @@ the University of Antwerp (BOF).</funding-statement>
   Bergeson, and Phan 2012</xref>).</p>
   <p>The notion of speech intelligibility may appear deceptively simple,
   yet it is an intricate concept filled with inherent challenges in its
-  assessment. Intelligibility refers to the extent to which a listener
-  can accurately recover the elements in a speaker’s acoustic signal,
-  such as phonemes or words
+  assessment. <styled-content style="color:blue;">Intelligibility refers
+  to the extent to which a listener can accurately recover the words in
+  a speaker’s acoustic signal
   (<xref alt="Freeman et al. 2017" rid="ref-Freeman_et_al_2017" ref-type="bibr">Freeman
   et al. 2017</xref>;
   <xref alt="van Heuven 2008" rid="ref-vanHeuven_2008" ref-type="bibr">van
   Heuven 2008</xref>;
   <xref alt="Whitehill and Chau 2004" rid="ref-Whitehill_et_al_2004" ref-type="bibr">Whitehill
   and Chau 2004</xref>). Furthermore, achieving intelligible spoken
-  language requires all core components of speech perception, cognitive
-  processing, linguistic knowledge, and articulation to be mastered
+  language requires to master all core components of speech perception,
+  cognitive processing, linguistic knowledge, and articulation
   (<xref alt="Freeman et al. 2017" rid="ref-Freeman_et_al_2017" ref-type="bibr">Freeman
   et al. 2017</xref>). Hence, it is unsurprising that its accurate
   measurement faces challenges
   (<xref alt="Kent et al. 1989" rid="ref-Kent_et_al_1989" ref-type="bibr">Kent
-  et al. 1989</xref>). These challenges arise from the interplay of its
-  determinants, which encompass attributes of the communicative
-  environment, such as background noise
+  et al. 1989</xref>). These challenges arise from the interplay of the
+  attributes of the communicative environment such as background noise
   (<xref alt="Munro 1998" rid="ref-Munro_1998" ref-type="bibr">Munro
-  1998</xref>), speaker features like speaking rate
+  1998</xref>), with features of the speaker like speaking rate
   (<xref alt="Munro and Derwing 1998" rid="ref-Munro_et_al_1998" ref-type="bibr">Munro
   and Derwing 1998</xref>) or accent
   (<xref alt="Jenkins 2000" rid="ref-Jenkins_2000" ref-type="bibr">Jenkins
   2000</xref>;
   <xref alt="Ockey, Papageorgiou, and French 2016" rid="ref-Ockey_et_al_2016" ref-type="bibr">Ockey,
-  Papageorgiou, and French 2016</xref>), and listener characteristics
-  like vocabulary proficiency or hearing ability
+  Papageorgiou, and French 2016</xref>), and characteristics of the
+  listener like vocabulary proficiency or hearing ability
   (<xref alt="Varonis and Susan 1985" rid="ref-Varonis_et_al_1985" ref-type="bibr">Varonis
-  and Susan 1985</xref>).</p>
+  and Susan 1985</xref>)</styled-content>.</p>
   <p>While several approaches have been proposed to assess
   intelligibility, they commonly rely on two types of speech samples:
   read-aloud or imitated, and spontaneous speech samples. Most studies
@@ -302,23 +301,22 @@ the University of Antwerp (BOF).</funding-statement>
   orthographically spontaneous speech samples produced by various
   speakers.</styled-content> These transcriptions are then aggregated
   into entropy scores, where lower scores indicate a higher degree of
-  agreement among the listener’s transcriptions and, consequently,
-  higher intelligibility, while higher scores suggest lower
-  intelligibility due to a lower degree of agreement in the
-  transcriptions
+  agreement among the listeners transcriptions and, consequently, higher
+  intelligibility, while higher scores suggest lower intelligibility due
+  to a lower degree of agreement in the transcriptions
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
   et al. 2023</xref>;
   <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022" ref-type="bibr">Faes,
   De Maeyer, and Gillis 2022</xref>). Notably, the aggregation procedure
-  assumes that speech samples are considered ‘intelligible’ if all
+  assumes that speech samples are considered intelligible if all
   listeners decode them in the same manner. These scores have been
   instrumental in examining differences in speakers’ speech
   intelligibility, particularly between children with normal hearing and
   those with cochlear implants
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
   et al. 2023</xref>).</p>
-  <p>However, despite their potential as a fine-grained metric of
-  intelligibility, as proposed by Boonen et al.
+  <p>However, despite the entropy scores’ potential as a fine-grained
+  metric of intelligibility, as proposed by Boonen et al.
   (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>),
   they exhibit a statistical complexity that cautions researchers
   against treating them as straightforward indices of intelligibility.
@@ -360,13 +358,14 @@ the University of Antwerp (BOF).</funding-statement>
   numerous statistical challenges that might hamper the researcher’s
   ability to investigate intelligibility. Notably, neglecting
   boundedness can, at best, lead to underfitting and, at worst, to
-  misspecification. Underfitting occurs when statistical models fail to
-  capture the underlying data patterns, potentially causing the
-  generation of predictions outside the data range, thus hindering the
-  model’s ability to generalize when confronted with new data.
-  Conversely, misspecification, marked by a poor representation of
-  relevant aspects of the true data in the model’s functional form, can
-  lead to inconsistent and less precise parameter estimates
+  misspecification. <styled-content style="color:blue;">Underfitting
+  occurs when statistical models fail to capture the underlying data
+  patterns, potentially generating predictions outside the data range,
+  thus hindering the model’s ability to generalize when confronted with
+  new data.</styled-content> Conversely, misspecification, which is
+  marked by a poor representation of relevant aspects of the true data
+  in the model’s functional form, can lead to inconsistent and less
+  precise parameter estimates
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
   and Skrondal 2010</xref>). Additionally, overlooking issues such as
   measurement error, clustering, outliers, or heteroscedasticity can
@@ -374,11 +373,15 @@ the University of Antwerp (BOF).</funding-statement>
   (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
   2020</xref>), ultimately diminishing the statistical power of models
   and increasing the likelihood of committing type I or type II errors
-  when addressing research inquiries.</p>
-  <p>In the realm of computational statistics and data analysis, several
-  models have been developed to address some of these data features
-  individually and, at times, collectively. For instance, Ferrari and
-  Cribari-Neto
+  when addressing research inquiries.
+  <styled-content style="color:blue;">Type I error results when the null
+  hypothesis is falsely rejected, while Type II error that results when
+  the null hypothesis is falsely accepted
+  (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
+  and Skrondal 2010</xref>).</styled-content></p>
+  <p>In computational statistics and data analysis, several models have
+  been developed to address some of these data features individually
+  and, at times, collectively. For instance, Ferrari and Cribari-Neto
   (<xref alt="2004" rid="ref-Ferrari_et_al_2004" ref-type="bibr">2004</xref>)
   and Simas, Barreto-Souza, and Rocha
   (<xref alt="2010" rid="ref-Simas_et_al_2010" ref-type="bibr">2010</xref>)
@@ -412,8 +415,7 @@ the University of Antwerp (BOF).</funding-statement>
   <xref alt="2004b" rid="ref-Rabe_et_al_2004c" ref-type="bibr">2004b</xref>;
   <xref alt="Skrondal and Rabe-Hesketh 2004" rid="ref-Skrondal_et_al_2004a" ref-type="bibr">Skrondal
   and Rabe-Hesketh 2004</xref>), a unified framework that can
-  simultaneously tackle with all of the aforementioned data
-  features.</p>
+  simultaneously tackle all of the aforementioned data features.</p>
   <p>All of these models have found moderate adoption in various fields,
   including speech communication
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
@@ -452,23 +454,20 @@ the University of Antwerp (BOF).</funding-statement>
   comprehensively addressing all of these data features in a principled
   way, while also transparently and systematically documenting the
   Bayesian estimation of the resulting statistical models.</p>
-  <p><styled-content style="color:blue;">The study employed Bayesian
-  procedures for three main reasons. Firstly, prior research
-  consistently demonstrates the superiority of Bayesian methods over
+  <p><styled-content style="color:blue;">This study employed Bayesian
+  procedures for three main reasons. Firstly, prior research have
+  consistently demonstrated the superiority of Bayesian methods over
   frequentist methods, especially with complex and over-parameterized
   models
   (<xref alt="Baker 1998" rid="ref-Baker_1998" ref-type="bibr">Baker
   1998</xref>;
   <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999" ref-type="bibr">Kim
-  and Cohen 1999</xref>). This is particularly relevant for the proposed
-  GLLAMM, given the model’s implementation challenges under frequentist
-  methods
-  (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014" ref-type="bibr">Depaoli
-  2014</xref>). Secondly, the Bayesian approach enables the
-  incorporation of prior information, thereby constraining certain
-  parameters within specified bounds. This feature addresses issues such
-  as non-convergence or improper parameter estimation common in complex
-  models under frequentist methods
+  and Cohen 1999</xref>), such as the GLLAMM, employed in this study.
+  Secondly, the Bayesian approach enabled the incorporation of prior
+  information, thereby constraining certain parameters within specified
+  bounds. This feature addressed issues such as non-convergence or
+  improper parameter estimation common in complex models under
+  frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975" ref-type="bibr">Martin
   and McDonald 1975</xref>;
   <xref alt="Seaman III, Seaman Jr., and Stamey 2011" rid="ref-Seaman_et_al_2011" ref-type="bibr">Seaman
@@ -477,63 +476,61 @@ the University of Antwerp (BOF).</funding-statement>
   (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019" ref-type="bibr">Holmes,
   Bolin, and Kelley 2019</xref>), a problem resolved in this study
   through the utilization of prior distributions. Lastly, Bayesian
-  methods exhibit proficiency in drawing inferences from small sample
-  sizes
+  methods have exhibited proficiency in drawing inferences from small
+  sample sizes
   (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013" ref-type="bibr">Baldwin
   and Fellingham 2013</xref>;
   <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005" ref-type="bibr">Lambert
   et al. 2006</xref>;
   <xref alt="Depaoli 2014" rid="ref-Depaoli_2014" ref-type="bibr">Depaoli
-  2014</xref>). This property holds relevance for this study, as it also
-  grapples with a small sample size, where reliance on the asymptotic
-  properties of frequentist methods may not be
-  justified.</styled-content></p>
+  2014</xref>). This feature of the Bayesian methods holds relevance for
+  this study, as it also grapples with a small sample size, where
+  reliance on the asymptotic properties of frequentist methods may not
+  be justified.</styled-content></p>
   <sec id="sec-I-RQ">
     <title>Research questions</title>
     <p><styled-content style="color:blue;">Considering the imperative
-    need to comprehensively address all data features when investigating
-    unobservable and complex traits, this investigation aims to
-    demonstrate the efficacy of the Generalized Linear Latent and Mixed
-    Model (GLLAMM) in handling entropy scores features when exploring
-    research hypotheses concerning speech
-    intelligibility.</styled-content> To achieve this objective, the
-    study will reexamine data originating from transcriptions of
-    spontaneous speech samples, initially collected by Boonen et al.
+    need to comprehensively address all features of the data when
+    investigating unobservable and complex traits, this investigation
+    aimed to demonstrate the efficacy of the Generalized Linear Latent
+    and Mixed Model (GLLAMM) in handling entropy score features when
+    exploring research hypotheses concerning speech intelligibility. To
+    achieve this objective, the study reexamined data originating from
+    transcriptions of spontaneous speech samples, initially collected by
+    Boonen et al.
     (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>).
-    Subsequently, this data will be aggregated into entropy scores and
-    subjected to modeling through the Bayesian Beta-proportion
-    GLLAMM.</p>
-    <p>To address the primary objective, the study poses three key
-    research questions. <styled-content style="color:blue;">First, given
-    the importance of accurate predictions in developing useful
+    The data was aggregated into entropy scores and subjected to
+    modelling through the Bayesian Beta-proportion
+    GLLAMM.</styled-content></p>
+    <p><styled-content style="color:blue;">To address the primary
+    objective, the study posed three key research questions. First,
+    given the importance of accurate predictions in developing useful
     practical models and testing research hypotheses
     (<xref alt="Shmueli and Koppius 2011" rid="ref-Shmueli_et_al_2012" ref-type="bibr">Shmueli
-    and Koppius 2011</xref>),</styled-content> <italic>Research Question
-    1 (RQ1)</italic> evaluates whether the Beta-proportion GLLAMM yields
-    more accurate predictions than the widely used Normal Linear Mixed
-    Model (LMM)
+    and Koppius 2011</xref>), <italic>Research Question 1 (RQ1)</italic>
+    evaluated whether the Beta-proportion GLLAMM yielded more accurate
+    predictions than the widely used Normal Linear Mixed Model (LMM)
     (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019" ref-type="bibr">Holmes,
     Bolin, and Kelley 2019</xref>). Second, acknowledging that
     intelligibility is an unobservable, intricate concept and a key
     indicator of oral communication competence
     (<xref alt="Kent, Miolo, and Bloedel 1994" rid="ref-Kent_et_al_1994" ref-type="bibr">Kent,
     Miolo, and Bloedel 1994</xref>), <italic>Research Question 2
-    (RQ2)</italic> investigates how the proposed model can estimate
+    (RQ2)</italic> investigated how the proposed model can estimate
     speakers’ latent intelligibility from manifest entropy scores.
-    <styled-content style="color:blue;">Thirdly, recognizing that
-    research involves developing and comparing hypotheses,
-    <italic>Research Question 3 (RQ3)</italic> illustrates how these
-    research hypotheses can be examined within the model’s
-    framework.</styled-content> Specifically, RQ3 assesses the influence
-    of speaker-related factors on the newly estimated latent
-    intelligibility.</p>
+    Thirdly, recognizing that research involves developing and comparing
+    hypotheses, <italic>Research Question 3 (RQ3)</italic> illustrated
+    how these research hypotheses can be examined within the model’s
+    framework. Specifically, RQ3 assessed the influence of
+    speaker-related factors on the newly estimated latent
+    intelligibility.</styled-content></p>
     <p><styled-content style="color:blue;">Ultimately, this study offers
-    a statistical tool designed for researchers studying speech
-    intelligibility through entropy scores and those in similar or
-    different fields facing analogous data challenges that improves upon
-    current research models. This tool assess the predictability of
-    empirical phenomena and develops a quantitative measure for the
-    latent variable of interest. This quantitative measure, in turn,
+    researchers studying speech intelligibility through entropy scores
+    and those in similar or different fields facing analogous data
+    challenges with a statistical tool that improves upon current
+    research models. This tool assess the predictability of empirical
+    phenomena and develops a quantitative measure for the latent
+    variable of interest. This quantitative measure, in turn,
     facilitates the appropriate comparison of existing hypotheses
     related to the latent variable, and even encourages the formulation
     of new ones.</styled-content></p>
@@ -752,7 +749,7 @@ the University of Antwerp (BOF).</funding-statement>
       et al. 2023</xref>;
       <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022" ref-type="bibr">Faes,
       De Maeyer, and Gillis 2022</xref>). Furthermore, no score is
-      excluded from the modeling process using univariate procedures,
+      excluded from the modelling process using univariate procedures,
       rather, the identification of highly influential observations is
       performed within the context of the proposed models, as
       recommended by McElreath
@@ -1168,7 +1165,7 @@ the University of Antwerp (BOF).</funding-statement>
       priors undergo updating to posterior distributions following
       Bayes’ rule
       (<xref alt="Jeffreys 1998" rid="ref-Jeffreys_1998" ref-type="bibr">Jeffreys
-      1998</xref>). In cases requiring greater modeling flexibility, a
+      1998</xref>). In cases requiring greater modelling flexibility, a
       more refined representation of the parameters’ priors can be
       defined in terms of hyperparameters and hyperpriors.
       <italic>Hyperparameters</italic> refer to parameters indexing a
@@ -2549,6 +2546,10 @@ the University of Antwerp (BOF).</funding-statement>
   <italic>Validation:</italic> J.M.R.E.; <italic>Visualization:</italic>
   J.M.R.E.; <italic>Writing - original draft:</italic> J.M.R.E.;
   <italic>Writing - review &amp; editing:</italic> S.G. and S.dM.</p>
+  <p><styled-content style="color:blue;"><bold>Acknowledgements:</bold>
+  We express gratitude to Renaat van Uffelen for providing timely
+  expertise in enhancing the writing of this
+  document.</styled-content></p>
   <p></p>
 </sec>
 <sec id="sec-appendix">
@@ -4980,35 +4981,34 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   Bergeson, and Phan 2012</xref>).</p>
   <p>The notion of speech intelligibility may appear deceptively simple,
   yet it is an intricate concept filled with inherent challenges in its
-  assessment. Intelligibility refers to the extent to which a listener
-  can accurately recover the elements in a speaker’s acoustic signal,
-  such as phonemes or words
+  assessment. <styled-content style="color:blue;">Intelligibility refers
+  to the extent to which a listener can accurately recover the words in
+  a speaker’s acoustic signal
   (<xref alt="Freeman et al. 2017" rid="ref-Freeman_et_al_2017-nb-article" ref-type="bibr">Freeman
   et al. 2017</xref>;
   <xref alt="van Heuven 2008" rid="ref-vanHeuven_2008-nb-article" ref-type="bibr">van
   Heuven 2008</xref>;
   <xref alt="Whitehill and Chau 2004" rid="ref-Whitehill_et_al_2004-nb-article" ref-type="bibr">Whitehill
   and Chau 2004</xref>). Furthermore, achieving intelligible spoken
-  language requires all core components of speech perception, cognitive
-  processing, linguistic knowledge, and articulation to be mastered
+  language requires to master all core components of speech perception,
+  cognitive processing, linguistic knowledge, and articulation
   (<xref alt="Freeman et al. 2017" rid="ref-Freeman_et_al_2017-nb-article" ref-type="bibr">Freeman
   et al. 2017</xref>). Hence, it is unsurprising that its accurate
   measurement faces challenges
   (<xref alt="Kent et al. 1989" rid="ref-Kent_et_al_1989-nb-article" ref-type="bibr">Kent
-  et al. 1989</xref>). These challenges arise from the interplay of its
-  determinants, which encompass attributes of the communicative
-  environment, such as background noise
+  et al. 1989</xref>). These challenges arise from the interplay of the
+  attributes of the communicative environment such as background noise
   (<xref alt="Munro 1998" rid="ref-Munro_1998-nb-article" ref-type="bibr">Munro
-  1998</xref>), speaker features like speaking rate
+  1998</xref>), with features of the speaker like speaking rate
   (<xref alt="Munro and Derwing 1998" rid="ref-Munro_et_al_1998-nb-article" ref-type="bibr">Munro
   and Derwing 1998</xref>) or accent
   (<xref alt="Jenkins 2000" rid="ref-Jenkins_2000-nb-article" ref-type="bibr">Jenkins
   2000</xref>;
   <xref alt="Ockey, Papageorgiou, and French 2016" rid="ref-Ockey_et_al_2016-nb-article" ref-type="bibr">Ockey,
-  Papageorgiou, and French 2016</xref>), and listener characteristics
-  like vocabulary proficiency or hearing ability
+  Papageorgiou, and French 2016</xref>), and characteristics of the
+  listener like vocabulary proficiency or hearing ability
   (<xref alt="Varonis and Susan 1985" rid="ref-Varonis_et_al_1985-nb-article" ref-type="bibr">Varonis
-  and Susan 1985</xref>).</p>
+  and Susan 1985</xref>)</styled-content>.</p>
   <p>While several approaches have been proposed to assess
   intelligibility, they commonly rely on two types of speech samples:
   read-aloud or imitated, and spontaneous speech samples. Most studies
@@ -5064,23 +5064,22 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   orthographically spontaneous speech samples produced by various
   speakers.</styled-content> These transcriptions are then aggregated
   into entropy scores, where lower scores indicate a higher degree of
-  agreement among the listener’s transcriptions and, consequently,
-  higher intelligibility, while higher scores suggest lower
-  intelligibility due to a lower degree of agreement in the
-  transcriptions
+  agreement among the listeners transcriptions and, consequently, higher
+  intelligibility, while higher scores suggest lower intelligibility due
+  to a lower degree of agreement in the transcriptions
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
   et al. 2023</xref>;
   <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022-nb-article" ref-type="bibr">Faes,
   De Maeyer, and Gillis 2022</xref>). Notably, the aggregation procedure
-  assumes that speech samples are considered ‘intelligible’ if all
+  assumes that speech samples are considered intelligible if all
   listeners decode them in the same manner. These scores have been
   instrumental in examining differences in speakers’ speech
   intelligibility, particularly between children with normal hearing and
   those with cochlear implants
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
   et al. 2023</xref>).</p>
-  <p>However, despite their potential as a fine-grained metric of
-  intelligibility, as proposed by Boonen et al.
+  <p>However, despite the entropy scores’ potential as a fine-grained
+  metric of intelligibility, as proposed by Boonen et al.
   (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>),
   they exhibit a statistical complexity that cautions researchers
   against treating them as straightforward indices of intelligibility.
@@ -5122,13 +5121,14 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   numerous statistical challenges that might hamper the researcher’s
   ability to investigate intelligibility. Notably, neglecting
   boundedness can, at best, lead to underfitting and, at worst, to
-  misspecification. Underfitting occurs when statistical models fail to
-  capture the underlying data patterns, potentially causing the
-  generation of predictions outside the data range, thus hindering the
-  model’s ability to generalize when confronted with new data.
-  Conversely, misspecification, marked by a poor representation of
-  relevant aspects of the true data in the model’s functional form, can
-  lead to inconsistent and less precise parameter estimates
+  misspecification. <styled-content style="color:blue;">Underfitting
+  occurs when statistical models fail to capture the underlying data
+  patterns, potentially generating predictions outside the data range,
+  thus hindering the model’s ability to generalize when confronted with
+  new data.</styled-content> Conversely, misspecification, which is
+  marked by a poor representation of relevant aspects of the true data
+  in the model’s functional form, can lead to inconsistent and less
+  precise parameter estimates
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
   and Skrondal 2010</xref>). Additionally, overlooking issues such as
   measurement error, clustering, outliers, or heteroscedasticity can
@@ -5136,11 +5136,15 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
   2020</xref>), ultimately diminishing the statistical power of models
   and increasing the likelihood of committing type I or type II errors
-  when addressing research inquiries.</p>
-  <p>In the realm of computational statistics and data analysis, several
-  models have been developed to address some of these data features
-  individually and, at times, collectively. For instance, Ferrari and
-  Cribari-Neto
+  when addressing research inquiries.
+  <styled-content style="color:blue;">Type I error results when the null
+  hypothesis is falsely rejected, while Type II error that results when
+  the null hypothesis is falsely accepted
+  (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
+  and Skrondal 2010</xref>).</styled-content></p>
+  <p>In computational statistics and data analysis, several models have
+  been developed to address some of these data features individually
+  and, at times, collectively. For instance, Ferrari and Cribari-Neto
   (<xref alt="2004" rid="ref-Ferrari_et_al_2004-nb-article" ref-type="bibr">2004</xref>)
   and Simas, Barreto-Souza, and Rocha
   (<xref alt="2010" rid="ref-Simas_et_al_2010-nb-article" ref-type="bibr">2010</xref>)
@@ -5174,8 +5178,7 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   <xref alt="2004b" rid="ref-Rabe_et_al_2004c-nb-article" ref-type="bibr">2004b</xref>;
   <xref alt="Skrondal and Rabe-Hesketh 2004" rid="ref-Skrondal_et_al_2004a-nb-article" ref-type="bibr">Skrondal
   and Rabe-Hesketh 2004</xref>), a unified framework that can
-  simultaneously tackle with all of the aforementioned data
-  features.</p>
+  simultaneously tackle all of the aforementioned data features.</p>
   <p>All of these models have found moderate adoption in various fields,
   including speech communication
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
@@ -5214,23 +5217,20 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   comprehensively addressing all of these data features in a principled
   way, while also transparently and systematically documenting the
   Bayesian estimation of the resulting statistical models.</p>
-  <p><styled-content style="color:blue;">The study employed Bayesian
-  procedures for three main reasons. Firstly, prior research
-  consistently demonstrates the superiority of Bayesian methods over
+  <p><styled-content style="color:blue;">This study employed Bayesian
+  procedures for three main reasons. Firstly, prior research have
+  consistently demonstrated the superiority of Bayesian methods over
   frequentist methods, especially with complex and over-parameterized
   models
   (<xref alt="Baker 1998" rid="ref-Baker_1998-nb-article" ref-type="bibr">Baker
   1998</xref>;
   <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999-nb-article" ref-type="bibr">Kim
-  and Cohen 1999</xref>). This is particularly relevant for the proposed
-  GLLAMM, given the model’s implementation challenges under frequentist
-  methods
-  (<xref alt="Depaoli 2014" rid="ref-Depaoli_2014-nb-article" ref-type="bibr">Depaoli
-  2014</xref>). Secondly, the Bayesian approach enables the
-  incorporation of prior information, thereby constraining certain
-  parameters within specified bounds. This feature addresses issues such
-  as non-convergence or improper parameter estimation common in complex
-  models under frequentist methods
+  and Cohen 1999</xref>), such as the GLLAMM, employed in this study.
+  Secondly, the Bayesian approach enabled the incorporation of prior
+  information, thereby constraining certain parameters within specified
+  bounds. This feature addressed issues such as non-convergence or
+  improper parameter estimation common in complex models under
+  frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975-nb-article" ref-type="bibr">Martin
   and McDonald 1975</xref>;
   <xref alt="Seaman III, Seaman Jr., and Stamey 2011" rid="ref-Seaman_et_al_2011-nb-article" ref-type="bibr">Seaman
@@ -5239,63 +5239,61 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019-nb-article" ref-type="bibr">Holmes,
   Bolin, and Kelley 2019</xref>), a problem resolved in this study
   through the utilization of prior distributions. Lastly, Bayesian
-  methods exhibit proficiency in drawing inferences from small sample
-  sizes
+  methods have exhibited proficiency in drawing inferences from small
+  sample sizes
   (<xref alt="Baldwin and Fellingham 2013" rid="ref-Baldwin_et_al_2013-nb-article" ref-type="bibr">Baldwin
   and Fellingham 2013</xref>;
   <xref alt="Lambert et al. 2006" rid="ref-Lambert_et_al_2005-nb-article" ref-type="bibr">Lambert
   et al. 2006</xref>;
   <xref alt="Depaoli 2014" rid="ref-Depaoli_2014-nb-article" ref-type="bibr">Depaoli
-  2014</xref>). This property holds relevance for this study, as it also
-  grapples with a small sample size, where reliance on the asymptotic
-  properties of frequentist methods may not be
-  justified.</styled-content></p>
+  2014</xref>). This feature of the Bayesian methods holds relevance for
+  this study, as it also grapples with a small sample size, where
+  reliance on the asymptotic properties of frequentist methods may not
+  be justified.</styled-content></p>
   <sec id="sec-I-RQ-nb-article">
     <title>Research questions</title>
     <p><styled-content style="color:blue;">Considering the imperative
-    need to comprehensively address all data features when investigating
-    unobservable and complex traits, this investigation aims to
-    demonstrate the efficacy of the Generalized Linear Latent and Mixed
-    Model (GLLAMM) in handling entropy scores features when exploring
-    research hypotheses concerning speech
-    intelligibility.</styled-content> To achieve this objective, the
-    study will reexamine data originating from transcriptions of
-    spontaneous speech samples, initially collected by Boonen et al.
+    need to comprehensively address all features of the data when
+    investigating unobservable and complex traits, this investigation
+    aimed to demonstrate the efficacy of the Generalized Linear Latent
+    and Mixed Model (GLLAMM) in handling entropy score features when
+    exploring research hypotheses concerning speech intelligibility. To
+    achieve this objective, the study reexamined data originating from
+    transcriptions of spontaneous speech samples, initially collected by
+    Boonen et al.
     (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>).
-    Subsequently, this data will be aggregated into entropy scores and
-    subjected to modeling through the Bayesian Beta-proportion
-    GLLAMM.</p>
-    <p>To address the primary objective, the study poses three key
-    research questions. <styled-content style="color:blue;">First, given
-    the importance of accurate predictions in developing useful
+    The data was aggregated into entropy scores and subjected to
+    modelling through the Bayesian Beta-proportion
+    GLLAMM.</styled-content></p>
+    <p><styled-content style="color:blue;">To address the primary
+    objective, the study posed three key research questions. First,
+    given the importance of accurate predictions in developing useful
     practical models and testing research hypotheses
     (<xref alt="Shmueli and Koppius 2011" rid="ref-Shmueli_et_al_2012-nb-article" ref-type="bibr">Shmueli
-    and Koppius 2011</xref>),</styled-content> <italic>Research Question
-    1 (RQ1)</italic> evaluates whether the Beta-proportion GLLAMM yields
-    more accurate predictions than the widely used Normal Linear Mixed
-    Model (LMM)
+    and Koppius 2011</xref>), <italic>Research Question 1 (RQ1)</italic>
+    evaluated whether the Beta-proportion GLLAMM yielded more accurate
+    predictions than the widely used Normal Linear Mixed Model (LMM)
     (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019-nb-article" ref-type="bibr">Holmes,
     Bolin, and Kelley 2019</xref>). Second, acknowledging that
     intelligibility is an unobservable, intricate concept and a key
     indicator of oral communication competence
     (<xref alt="Kent, Miolo, and Bloedel 1994" rid="ref-Kent_et_al_1994-nb-article" ref-type="bibr">Kent,
     Miolo, and Bloedel 1994</xref>), <italic>Research Question 2
-    (RQ2)</italic> investigates how the proposed model can estimate
+    (RQ2)</italic> investigated how the proposed model can estimate
     speakers’ latent intelligibility from manifest entropy scores.
-    <styled-content style="color:blue;">Thirdly, recognizing that
-    research involves developing and comparing hypotheses,
-    <italic>Research Question 3 (RQ3)</italic> illustrates how these
-    research hypotheses can be examined within the model’s
-    framework.</styled-content> Specifically, RQ3 assesses the influence
-    of speaker-related factors on the newly estimated latent
-    intelligibility.</p>
+    Thirdly, recognizing that research involves developing and comparing
+    hypotheses, <italic>Research Question 3 (RQ3)</italic> illustrated
+    how these research hypotheses can be examined within the model’s
+    framework. Specifically, RQ3 assessed the influence of
+    speaker-related factors on the newly estimated latent
+    intelligibility.</styled-content></p>
     <p><styled-content style="color:blue;">Ultimately, this study offers
-    a statistical tool designed for researchers studying speech
-    intelligibility through entropy scores and those in similar or
-    different fields facing analogous data challenges that improves upon
-    current research models. This tool assess the predictability of
-    empirical phenomena and develops a quantitative measure for the
-    latent variable of interest. This quantitative measure, in turn,
+    researchers studying speech intelligibility through entropy scores
+    and those in similar or different fields facing analogous data
+    challenges with a statistical tool that improves upon current
+    research models. This tool assess the predictability of empirical
+    phenomena and develops a quantitative measure for the latent
+    variable of interest. This quantitative measure, in turn,
     facilitates the appropriate comparison of existing hypotheses
     related to the latent variable, and even encourages the formulation
     of new ones.</styled-content></p>
@@ -5525,7 +5523,7 @@ data_H = data.frame(dlist[var_int])
       et al. 2023</xref>;
       <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022-nb-article" ref-type="bibr">Faes,
       De Maeyer, and Gillis 2022</xref>). Furthermore, no score is
-      excluded from the modeling process using univariate procedures,
+      excluded from the modelling process using univariate procedures,
       rather, the identification of highly influential observations is
       performed within the context of the proposed models, as
       recommended by McElreath
@@ -5941,7 +5939,7 @@ data_H = data.frame(dlist[var_int])
       priors undergo updating to posterior distributions following
       Bayes’ rule
       (<xref alt="Jeffreys 1998" rid="ref-Jeffreys_1998-nb-article" ref-type="bibr">Jeffreys
-      1998</xref>). In cases requiring greater modeling flexibility, a
+      1998</xref>). In cases requiring greater modelling flexibility, a
       more refined representation of the parameters’ priors can be
       defined in terms of hyperparameters and hyperpriors.
       <italic>Hyperparameters</italic> refer to parameters indexing a
@@ -7910,6 +7908,10 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
   <italic>Validation:</italic> J.M.R.E.; <italic>Visualization:</italic>
   J.M.R.E.; <italic>Writing - original draft:</italic> J.M.R.E.;
   <italic>Writing - review &amp; editing:</italic> S.G. and S.dM.</p>
+  <p><styled-content style="color:blue;"><bold>Acknowledgements:</bold>
+  We express gratitude to Renaat van Uffelen for providing timely
+  expertise in enhancing the writing of this
+  document.</styled-content></p>
   <p></p>
 </sec>
 <sec id="sec-appendix-nb-article">
