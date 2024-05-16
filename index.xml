@@ -130,10 +130,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-15">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-16">
 <year>2024</year>
 <month>5</month>
-<day>15</day>
+<day>16</day>
 </pub-date>
 
 
@@ -457,17 +457,20 @@ the University of Antwerp (BOF).</funding-statement>
   <p><styled-content style="color:blue;">This study employed Bayesian
   procedures for three main reasons. Firstly, prior research have
   consistently demonstrated the superiority of Bayesian methods over
-  frequentist methods, especially with complex and over-parameterized
+  frequentist methods, especially with complex and overparameterized
   models
   (<xref alt="Baker 1998" rid="ref-Baker_1998" ref-type="bibr">Baker
   1998</xref>;
   <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999" ref-type="bibr">Kim
-  and Cohen 1999</xref>), such as the GLLAMM, employed in this study.
-  Secondly, the Bayesian approach enabled the incorporation of prior
-  information, thereby constraining certain parameters within specified
-  bounds. This feature addressed issues such as non-convergence or
-  improper parameter estimation common in complex models under
-  frequentist methods
+  and Cohen 1999</xref>), such as the GLLAMM used in this study.
+  Overparameterized models are those with more parameters than
+  observations for estimation
+  (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
+  and Skrondal 2010</xref>). Secondly, the Bayesian approach enabled the
+  incorporation of prior information, thereby constraining certain
+  parameters within specified bounds. This feature addressed issues such
+  as non-convergence or improper parameter estimation common in complex
+  models under frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975" ref-type="bibr">Martin
   and McDonald 1975</xref>;
   <xref alt="Seaman III, Seaman Jr., and Stamey 2011" rid="ref-Seaman_et_al_2011" ref-type="bibr">Seaman
@@ -670,19 +673,18 @@ the University of Antwerp (BOF).</funding-statement>
       (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
       et al. 2023</xref>), at the sentence level in a column-like grid
       structure like the one presented in
-      <xref alt="Table 1" rid="tbl-alignment">Table 1</xref>.</styled-content>
-      This alignment process was repeated for each sentence within each
-      speaker and block, and the output was manually checked and
-      adjusted (if needed) in order to appropriately align the words.
-      <styled-content style="color:blue;">For more details on the random
-      assignment and alignment procedures refer to the original
-      authors.</styled-content></p>
+      <xref alt="Table 1" rid="tbl-alignment">Table 1</xref>. This
+      alignment process was repeated for each sentence from every
+      speaker, and the output was manually checked and adjusted (if
+      needed) in order to appropriately align the words. For more
+      details on the random assignment and alignment procedures refer to
+      the original authors.</styled-content></p>
       <p><styled-content style="color:blue;">Next, the aligned
-      transcriptions were aggregated by listener yielding
+      transcriptions were aggregated by listener, yielding
       <inline-formula><alternatives>
       <tex-math><![CDATA[2,2634]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2634</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
-      entropy scores, one score per word within each
+      entropy scores, one score per word for every
       sentence.</styled-content> The entropy scores were calculated
       following Shannon’s formula
       (<xref alt="1948" rid="ref-Shannon_1948" ref-type="bibr">1948</xref>):</p>
@@ -707,7 +709,7 @@ the University of Antwerp (BOF).</funding-statement>
       the speaker index, and <inline-formula><alternatives>
       <tex-math><![CDATA[b]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>b</mml:mi></mml:math></alternatives></inline-formula>
-      the block index. Moreover, <inline-formula><alternatives>
+      the block index. In addition, <inline-formula><alternatives>
       <tex-math><![CDATA[K]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>K</mml:mi></mml:math></alternatives></inline-formula>
       describes the number of different word types within
@@ -737,8 +739,8 @@ the University of Antwerp (BOF).</funding-statement>
       is present in the transcription <inline-formula><alternatives>
       <tex-math><![CDATA[j]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>j</mml:mi></mml:math></alternatives></inline-formula>.
-      Refer to <xref alt="Section 6.1" rid="sec-appA">Section 6.1</xref>
-      for an example of how entropy scores are computed.</p>
+      See <xref alt="Section 6.1" rid="sec-appA">Section 6.1</xref> for
+      an example of how entropy scores are computed.</p>
       <p>These entropy scores served as the outcome variable, capturing
       agreement or disagreement among listeners’ word transcriptions.
       Lower scores indicated a higher degree of agreement between
@@ -748,9 +750,9 @@ the University of Antwerp (BOF).</funding-statement>
       (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
       et al. 2023</xref>;
       <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022" ref-type="bibr">Faes,
-      De Maeyer, and Gillis 2022</xref>). Furthermore, no score is
+      De Maeyer, and Gillis 2022</xref>). Furthermore, no score was
       excluded from the modelling process using univariate procedures,
-      rather, the identification of highly influential observations is
+      rather, the identification of highly influential observations was
       performed within the context of the proposed models, as
       recommended by McElreath
       (<xref alt="2020" rid="ref-McElreath_2020" ref-type="bibr">2020</xref>).</p>
@@ -759,12 +761,13 @@ the University of Antwerp (BOF).</funding-statement>
         transcriptions and entropy scores.
         <bold><italic>Note:</italic></bold> Extracted from Boonen et al.
         (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>),
-        and slightly modified for illustrative purposes. Entropy scores
-        are calculated the first sentence, produced by the first speaker
-        assigned to the first block, and transcribed by five listeners
-        <inline-formula><alternatives>
+        and slightly modified for illustrative purposes.
+        <styled-content style="color:blue;">Entropy scores were
+        calculated from words of the first sentence, produced by the
+        first speaker assigned to the first block, and transcribed by
+        five listeners <inline-formula><alternatives>
         <tex-math><![CDATA[\left( s=1, i=1, b=1, J=5 \right)]]></tex-math>
-        <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
+        <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
         Transcriptions are in Belgian Dutch followed by their English
         translation. <italic>[B]</italic> represent a blank space, and
         <italic>[X]</italic> an unidentifiable speech.</p></caption>
@@ -951,7 +954,7 @@ the University of Antwerp (BOF).</funding-statement>
       respectively. Additionally, <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
-      denote the general intercept, <inline-formula><alternatives>
+      denotes the general intercept, <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha_{HS[i]}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
       represents the average entropy for each hearing status group, and
@@ -988,39 +991,40 @@ the University of Antwerp (BOF).</funding-statement>
       of heteroscedasticity or outliers.
       <styled-content style="color:blue;">Secondly,
       <xref alt="Equation 3" rid="eq-normal-LMM-linearpred">Equation 3</xref>
-      reveals that the model assumes no transformation is applied to the
-      relationship between the average entropy and the linear
+      reveals that the model assumes that no transformation is applied
+      to the relationship between the average entropy and the linear
       combination of speakers’ characteristics. This is commonly known
-      as a direct link function. Moreover, the equation indicates that
-      chronological age is <italic>centered</italic> around the minimum
-      chronological age in the sample <inline-formula><alternatives>
+      as a direct link function. In addition, the equation indicates
+      that chronological age is <italic>centered</italic> around the
+      minimum chronological age in the sample
+      <inline-formula><alternatives>
       <tex-math><![CDATA[\bar{A}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mover><mml:mi>A</mml:mi><mml:mo accent="true">‾</mml:mo></mml:mover></mml:math></alternatives></inline-formula>.
       The <italic>centering</italic> procedure prevents the
       interpretation of parameters outside the range of chronological
       ages available in the data
       (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
-      and Skrondal 2010</xref>). Additionally, the equation implies the
-      model considers separate intercept and separate age slopes for
-      each hearing status group, i.e., <inline-formula><alternatives>
+      and Skrondal 2010</xref>). Also, the equation implies the model
+      considers separate intercept and separate age slopes for each
+      hearing status group, i.e., <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha_{HS[i]}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
       and <inline-formula><alternatives>
       <tex-math><![CDATA[\beta_{A, HS[i]}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
-      for NH and HI/CI speakers, respectively. Finally, the presence of
-      a general intercept <inline-formula><alternatives>
+      for NH and HI/CI speakers, respectively. Lastly, the presence of a
+      general intercept <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
-      in the equation reveals that the model is over-parameterized.
-      Although the estimation of over-parameterized models is only
+      in the equation reveals that the model is overparameterized.
+      Although the estimation of overparameterized models is only
       possible under Bayesian methods, their estimation does not violate
       any statistical principle
       (<xref alt="McElreath 2020, 345" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-      2020, 345</xref>). In contrast, this over-parameterized model
-      facilitated: (1) the comparison between the specific parameter
-      interpretations of the Normal LMM and the Beta-proportion GLLAMM,
-      with <inline-formula><alternatives>
+      2020, 345</xref>). In contrast, in this study, the
+      overparameterized model facilitates: (1) the comparison between
+      the specific parameter interpretations of the Normal LMM and the
+      Beta-proportion GLLAMM, with <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
       serving no particular purpose in the former case, and (2) the
@@ -1031,14 +1035,14 @@ the University of Antwerp (BOF).</funding-statement>
       <p>The general mathematical formalism of the proposed
       Beta-proportion GLLAMM comprises four components: a response model
       likelihood, a linear predictor, a link function, and a structural
-      model. The likelihood of response model posits the entropy scores
-      follow a Beta-proportion distribution,</p>
+      model. The likelihood of the response model posits that entropy
+      scores follow a Beta-proportion distribution,</p>
       <p><styled-content id="eq-beta-GLLAMM-likelihood"><disp-formula><alternatives>
       <tex-math><![CDATA[
       H_{wsib} \sim \text{BetaProp} \left( \mu_{ib}, M_{i} \right)
        \qquad(4)]]></tex-math>
       <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>w</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">BetaProp</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
-      <p>where<inline-formula><alternatives>
+      <p>where <inline-formula><alternatives>
       <tex-math><![CDATA[\mu_{ib}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
       denotes the average entropy at the word-level and
@@ -1096,13 +1100,13 @@ the University of Antwerp (BOF).</funding-statement>
       <tex-math><![CDATA[u_{i} = \sum_{s=1}^{S} u_{si}/S]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>S</mml:mi></mml:msubsup><mml:msub><mml:mi>u</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mi>/</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
       denotes sentence random effects, assessing the average unexplained
-      potential intelligibility variability among sentences within each
+      potential intelligibility variability within sentences for each
       speaker, with <inline-formula><alternatives>
       <tex-math><![CDATA[S]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>S</mml:mi></mml:math></alternatives></inline-formula>
       denoting the total number of sentences per speaker.</p>
-      <p>Several features are evident in this probabilistic
-      representation. Firstly, akin to the Normal LMM,
+      <p>Several features are evident in the probabilistic
+      representation of the model. Firstly, akin to the Normal LMM,
       <xref alt="Equation 4" rid="eq-beta-GLLAMM-likelihood">Equation 4</xref>
       reveals that the <italic>dispersion</italic> of average entropy at
       the word level can differ for each speaker. This enhances the
@@ -1111,7 +1115,7 @@ the University of Antwerp (BOF).</funding-statement>
       <styled-content style="color:blue;">Secondly, in contrast with the
       Normal LMM,
       <xref alt="Equation 5" rid="eq-beta-GLLAMM-linpred">Equation 5</xref>
-      shows the potential intelligibility of a speakers has a negative
+      shows the potential intelligibility of a speaker has a negative
       non-linear relationship with the entropy scores. The negative
       relationship explicitly highlights the inverse relationship
       between intelligibility and entropy, while the non-linear
@@ -1135,25 +1139,24 @@ the University of Antwerp (BOF).</funding-statement>
       and <inline-formula><alternatives>
       <tex-math><![CDATA[\beta_{A, HS[i]}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
-      for NH and HI/CI speakers, respectively. Additionally, it
-      indicates that chronological age is <italic>centered</italic>
-      around the minimum chronological age in the sample
+      for NH and HI/CI speakers, respectively. In addition, it indicates
+      that chronological age is <italic>centered</italic> around the
+      minimum chronological age in the sample
       <inline-formula><alternatives>
       <tex-math><![CDATA[\bar{A}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mover><mml:mi>A</mml:mi><mml:mo accent="true">‾</mml:mo></mml:mover></mml:math></alternatives></inline-formula>.
       Lastly, the equation also reveals that the intelligibility scores
-      have two sources of unexplained variability:
+      have two sources of unexplained variability. The term
       <inline-formula><alternatives>
       <tex-math><![CDATA[e_{i}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>
-      and <inline-formula><alternatives>
+      represents inherent differences in potential intelligibility among
+      different speakers. The term <inline-formula><alternatives>
       <tex-math><![CDATA[u_{i}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>.</styled-content>
-      The former represents inherent differences in potential
-      intelligibility among different speakers, while the latter assumes
-      that different sentences measure potential intelligibility
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>
+      assumes that different sentences measure potential intelligibility
       differently due to variations in word difficulties and their
-      interplay within the sentence.</p>
+      interplay within the sentence.</styled-content></p>
     </sec>
     <sec id="sec-M-SM-P">
       <title>Prior distributions</title>
@@ -1174,30 +1177,30 @@ the University of Antwerp (BOF).</funding-statement>
       such hyperparameters
       (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
       and Skrondal 2010</xref>).</p>
-      <p>This study establishes priors and hyperpriors for the
+      <p>This study established priors and hyperpriors for the
       parameters of both the Normal LMM and the Beta-proportion GLLAMM
       using prior predictive simulations. This procedure entails the
       semi-independent simulation of parameters, which are subsequently
       transformed into simulated data values according to the models’
-      specifications. This procedure aims to establish meaningful priors
+      specifications. The procedure aims to establish meaningful priors
       and comprehend their implications within the context of the model
       before incorporating any information derived from empirical data
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
       2020</xref>). For reader inspection, the prior predictive
       simulations are provided in the accompanying digital walk-through
-      document (refer to
+      document (see
       <xref alt="Section 2.3" rid="sec-M-SM-OS">Section 2.3</xref> Open
       Science Statement).</p>
       <sec id="sec-M-SM-P-NLMM">
         <title>Normal LMM</title>
         <p>For the parameters of the Normal LMM, non-informative priors
-        and hyperpriors are established to align with analogous model
+        and hyperpriors were established to align with analogous model
         assumptions in frequentist methods. A
         <italic>non-informative</italic> prior reflects the
         distributional commitment of a parameter to a wide range of
         values within a specific parameter space
         (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
-        and Skrondal 2010</xref>). The specified priors are as
+        and Skrondal 2010</xref>). The specified priors were as
         follows:</p>
         <p><styled-content id="eq-normal-LMM-priors"><disp-formula><alternatives>
         <tex-math><![CDATA[
@@ -1220,12 +1223,12 @@ the University of Antwerp (BOF).</funding-statement>
       <sec id="sec-M-SM-P-BGLLAMM">
         <title>Beta-proportion GLLAMM</title>
         <p>For the parameters of the Beta-proportion GLLAMM, weakly
-        informative priors and hyperpriors are established.
+        informative priors and hyperpriors were established.
         <italic>Weakly informative priors</italic> reflect the
         distributional commitment of a parameter to a weakly constraint
         range of values within a realistic parameter space
         (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-        2020</xref>). The specified priors are as follows:</p>
+        2020</xref>). The specified priors were as follows:</p>
         <p><styled-content id="eq-beta-GLLAMM-priors"><disp-formula><alternatives>
         <tex-math><![CDATA[
         \begin{aligned}
@@ -1247,13 +1250,13 @@ the University of Antwerp (BOF).</funding-statement>
     </sec>
     <sec id="sec-M-SM-FM">
       <title>Fitted models</title>
-      <p>This study evaluates the comparative predictive capabilities of
+      <p>This study evaluated the comparative predictive capabilities of
       both the Normal LMM and the Beta-proportion GLLAMM (RQ1) while
-      simultaneously examining various formulations regarding how
+      simultaneously examined various formulations regarding how
       speaker-related factors influence intelligibility (RQ3). In this
-      context, the predictive capabilities of the models are intricately
-      connected to these formulations. As a result, the study requires
-      fitting <inline-formula><alternatives>
+      context, the predictive capabilities of the models were
+      intricately connected to these formulations. As a result, the
+      study required fitting <inline-formula><alternatives>
       <tex-math><![CDATA[12]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
       different models, each representing a specific manner to
@@ -1263,7 +1266,7 @@ the University of Antwerp (BOF).</funding-statement>
       they addressed data clustering in conjunction with measurement
       error, denoted as the model type, (2) the assumed distribution for
       the entropy scores, which aimed to handle boundedness, (3) whether
-      the model incorporates a robust feature to address mild or
+      the model incorporated a robust feature to address mild or
       moderate departures of the data from distributional assumptions,
       and (4) the inclusion or exclusion of speaker-related factors in
       the models. A detailed overview of the fitted models is available
@@ -1472,7 +1475,7 @@ the University of Antwerp (BOF).</funding-statement>
       random manner, and converged to a constant mean and variance in
       their post-warm-up phase. Moreover, the density plots and
       statistics collectively confirmed that all posterior distributions
-      are unimodal distributions with values centered around a mean,
+      were unimodal distributions with values centered around a mean,
       generated with a satisfactory number of uncorrelated sampling
       points, making substantive sense compared to the models’ prior
       beliefs. The trace, trace-rank, ACF, and distribution density
@@ -1483,13 +1486,13 @@ the University of Antwerp (BOF).</funding-statement>
       <tex-math><![CDATA[n_{\text{eff}}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>n</mml:mi><mml:mtext mathvariant="normal">eff</mml:mtext></mml:msub></mml:math></alternatives></inline-formula>
       statistics, are provided in the accompanying digital walk-through
-      document for reader inspection (refer to
+      document for reader inspection (see
       <xref alt="Section 2.3" rid="sec-M-SM-OS">Section 2.3</xref> Open
       Science Statement).</p>
     </sec>
     <sec id="sec-M-SM-MC">
       <title>Model comparison</title>
-      <p><styled-content style="color:blue;">The study compares the
+      <p><styled-content style="color:blue;">This study compared the
       fitted models using three criteria: the deviance information
       criterion (<monospace>DIC</monospace>) introduced by Spiegelhalter
       et al.
@@ -1525,10 +1528,10 @@ the University of Antwerp (BOF).</funding-statement>
       <monospace>PSIS</monospace> offers an extra benefit by identifying
       highly influential data points. To achieve this, the criterion
       employs a built-in warning system that flags observations that
-      make out-of-sample predictions unreliable. The rationale behind
-      this is that observations that are relatively unlikely, according
-      to the model, exert more influence and render predictions less
-      reliable compared to those that are relatively expected
+      make out-of-sample predictions unreliable. The rationale is that
+      observations that are relatively unlikely, according to the model,
+      exert more influence and render predictions less reliable compared
+      to those that are relatively expected
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
       2020</xref>).</styled-content></p>
       <p><styled-content style="color:blue;">However, since researchers
@@ -1536,7 +1539,7 @@ the University of Antwerp (BOF).</funding-statement>
       distance between the models that is useful, rather than the
       absolute value of the criteria (see
       <xref alt="McElreath 2020, 209, 223–24" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-      2020, 209, 223–24</xref>). Therefore, the study utilizes the
+      2020, 209, 223–24</xref>). Therefore, this study utilized the
       differences in <monospace>WAIC</monospace> and
       <monospace>PSIS</monospace> (<monospace>dWAIC</monospace> and
       <monospace>dPSIS</monospace>, respectively) to evaluate how
@@ -1549,9 +1552,9 @@ the University of Antwerp (BOF).</funding-statement>
       due to the specific sample over which they are computed (see
       <xref alt="McElreath 2020, 223" rid="ref-McElreath_2020" ref-type="bibr">McElreath
       2020, 223</xref>). Thus, this uncertainty should also be taken
-      into account for the criteria and their comparisons. For this
-      purpose, the study also presents the associated uncertainty for
-      both calculated as <monospace>WAIC</monospace>
+      into account for the criteria and their comparisons. Consequently,
+      this study also presented the associated uncertainty for both
+      criteria calculated as <monospace>WAIC</monospace>
       <inline-formula><alternatives>
       <tex-math><![CDATA[\pm 1 \cdot]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>±</mml:mi><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>SE</monospace>,
@@ -1564,9 +1567,9 @@ the University of Antwerp (BOF).</funding-statement>
       and <monospace>dPSIS</monospace> <inline-formula><alternatives>
       <tex-math><![CDATA[\pm 1 \cdot]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>±</mml:mi><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>.
-      Lastly, this research also report the models’ complexity
-      penalization, as well as their weight of evidence. The complexity
-      penalization values <monospace>pWAIC</monospace> and
+      Lastly, this research also reported the models’ complexity
+      penalization, as well as their associated weight of evidence. The
+      complexity penalization values <monospace>pWAIC</monospace> and
       <monospace>pPSIS</monospace> are roughly associated with the
       models’ number of parameters, while the
       <monospace>weight</monospace> of evidence summarizes the relative
@@ -1597,7 +1600,7 @@ the University of Antwerp (BOF).</funding-statement>
   <sec id="sec-R-RQ1">
     <title>Predictive capabilities of the Beta-proportion GLLAMM
     compared to the Normal LMM (RQ1)</title>
-    <p>This research question evaluates the effectiveness of the
+    <p>This research question evaluated the effectiveness of the
     Beta-proportion GLLAMM in handling the features of entropy scores by
     comparing its predictive accuracy to the Normal LMM. Models
     <inline-formula><alternatives>
@@ -1612,26 +1615,27 @@ the University of Antwerp (BOF).</funding-statement>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    are specifically chosen for this comparison because their
-    assumptions exclusively address the features of the scores, without
-    integrating additional covariate information. As detailed in
+    were specifically chosen for this comparison because their
+    assumptions exclusively addressed the features of the scores,
+    without integrating additional covariate information. As detailed in
     <xref alt="Table 2" rid="tbl-fitted">Table 2</xref>, Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[1]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>1</mml:mn></mml:math></alternatives></inline-formula>
-    is a Normal LMM that solely addresses data clustering. Building upon
-    this, Model <inline-formula><alternatives>
+    was a Normal LMM that solely addresses data clustering. Building
+    upon this, Model <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>
-    introduces a robust feature. Conversely, Model
+    introduced a robust feature. Conversely, Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[7]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>7</mml:mn></mml:math></alternatives></inline-formula>
-    is a Beta-proportion GLLAMM that deals with boundedness, measurement
-    error and data clustering, and Model <inline-formula><alternatives>
+    was a Beta-proportion GLLAMM that deals with boundedness,
+    measurement error and data clustering, and Model
+    <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    extends this model by incorporating a robust feature.</p>
+    extended this model by incorporating a robust feature.</p>
     <p><styled-content style="color:blue;">The left panel of
     <xref alt="Figure 1" rid="fig-rq1-waic-psis">Figure 1</xref>
     displays the models’ <monospace>DIC</monospace>,
@@ -1641,12 +1645,12 @@ the University of Antwerp (BOF).</funding-statement>
     <monospace>dWAIC</monospace> and <monospace>dPSIS</monospace> values
     with their corresponding uncertainty intervals.
     <xref alt="Table 6" rid="tbl-rq1-waic">Table 6</xref> and
-    <xref alt="Table 7" rid="tbl-rq1-psis">Table 7</xref> provide
-    similar information, while also reporting the
-    <monospace>pWAIC</monospace> and <monospace>pPSIS</monospace> values
-    and the <monospace>weight</monospace> of evidence for each
-    model.</styled-content> Overall, all criteria consistently point to
-    Model <inline-formula><alternatives>
+    <xref alt="7" rid="tbl-rq1-psis">7</xref> provide similar
+    information, while also reporting the <monospace>pWAIC</monospace>
+    and <monospace>pPSIS</monospace> values and the
+    <monospace>weight</monospace> of evidence for each
+    model.</styled-content> Overall, all criteria consistently pointed
+    to Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     as the most plausible choice for the data. The model exhibits the
@@ -1673,15 +1677,15 @@ the University of Antwerp (BOF).</funding-statement>
     This indicates that Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    significantly deviates the least from <italic>perfect</italic>
+    significantly deviateed the least from <italic>perfect</italic>
     predictive accuracy when compared to the rest of the models. Lastly,
     the <monospace>weight</monospace> of evidence in
     <xref alt="Table 6" rid="tbl-rq1-waic">Table 6</xref> and
-    <xref alt="Table 7" rid="tbl-rq1-psis">Table 7</xref> underscores
-    that <inline-formula><alternatives>
+    <xref alt="7" rid="tbl-rq1-psis">7</xref> underscored that
+    <inline-formula><alternatives>
     <tex-math><![CDATA[100\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>100</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    of the evidence aligns with and supports Model
+    of the evidence aligned with and supported Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
@@ -1702,8 +1706,8 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>,
-    fails to adequately capture the data’s underlying patterns,
-    resulting in predictions that are physically inconsistent. This
+    failed to adequately capture the data’s underlying patterns,
+    resulting in predictions that were physically inconsistent. This
     issue is illustrated by the <inline-formula><alternatives>
     <tex-math><![CDATA[95\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
@@ -1715,31 +1719,29 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>
-    that bear no resemblance to the actual data
+    that bore no resemblance to the actual data
     densities.</styled-content> Furthermore, the top two panels in
     <xref alt="Figure 11" rid="fig-rq1-model-outliers">Figure 11</xref>
-    reveal that misspecification in the Normal LMM causes the model to
-    be <italic>more surprised</italic> by ‘extreme’ entropy scores,
+    reveal that misspecification in the Normal LMM causeed the model to
+    be <italic>more surprised</italic> by extreme entropy scores,
     leading to their identification as highly unlikely and influential
-    observations. Consequently, the model is rendered unreliable due to
+    observations. Consequently, the model was rendered unreliable due to
     the potential biases present in the parameter estimates. In
-    contrast, the Beta-proportion GLLAMM appears to effectively capture
+    contrast, the Beta-proportion GLLAMM appeared to effectively capture
     the data patterns, generating predictions within the expected data
     range. This is evident in
     <xref alt="Figure 2" rid="fig-rq1-pred-speaker">Figure 2</xref> and
     complemented by
     <xref alt="Figure 10" rid="fig-rq1-pred-speaker_model10">Figure 10</xref>
-    and
-    <xref alt="Figure 11" rid="fig-rq1-model-outliers">Figure 11</xref>.
-    In
+    and <xref alt="11" rid="fig-rq1-model-outliers">11</xref>. In
     <xref alt="Figure 10" rid="fig-rq1-pred-speaker_model10">Figure 10</xref>,
     Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    display prediction densities that bear more resemblance to the
+    displayed prediction densities that bore more resemblance to the
     actual data densities. Furthermore, the bottom two panels in
     <xref alt="Figure 11" rid="fig-rq1-model-outliers">Figure 11</xref>
-    show the model is <italic>less surprised</italic> by ‘extreme’
+    show the model was <italic>less surprised</italic> by extreme
     scores, fostering more trust in the model’s estimates.</p>
     <fig id="fig-rq1-pred-speaker">
       <caption><p>Figure 2: Entropy scores prediction for selected
@@ -1768,7 +1770,7 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    through the structural equation:</p>
+    through the following structural equation:</p>
     <p><styled-content id="eq-beta-GLLAMM-structural-model10"><disp-formula><alternatives>
     <tex-math><![CDATA[
     SI_{i} = \alpha + e_{i} + u_{i}
@@ -1778,11 +1780,11 @@ the University of Antwerp (BOF).</funding-statement>
     Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    provides the complete posterior distribution of the speakers’
+    provided the complete posterior distribution of the speakers’
     potential intelligibility scores. This provision, in turn, (1)
-    enables the calculation of summaries, facilitating the ranking of
-    individuals, and (2) supports the assessment of differences among
-    selected speakers. In both cases, the model considers the inherent
+    enabled the calculation of summaries, facilitating the ranking of
+    individuals, and (2) supported the assessment of differences among
+    selected speakers. In both cases, the model considered the inherent
     uncertainty of the estimates resulting from its measurement using
     multiple entropy scores.</p>
     <fig id="fig-rq2-si-model10">
@@ -1800,11 +1802,11 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[95\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    HPDI.</styled-content> The figure clearly indicate that speaker
+    HPDI. The figure indicates that speaker
     <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>
-    stands out as the least intelligible in the sample, followed farther
+    stands out as the least intelligible in the sample, followed further
     behind by speaker <inline-formula><alternatives>
     <tex-math><![CDATA[1]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>1</mml:mn></mml:math></alternatives></inline-formula>,
@@ -1813,7 +1815,7 @@ the University of Antwerp (BOF).</funding-statement>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>17</mml:mn></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[9]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>9</mml:mn></mml:math></alternatives></inline-formula>.
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>9</mml:mn></mml:math></alternatives></inline-formula>.</styled-content>
     In contrast, the figure highlights speaker
     <inline-formula><alternatives>
     <tex-math><![CDATA[20]]></tex-math>
@@ -1859,7 +1861,7 @@ the University of Antwerp (BOF).</funding-statement>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
     HPDI did not overlap with zero (shaded area). The R code to derive
     these scores and generate the figure is available in the digital
-    walk-through document (refer to
+    walk-through document (see
     <xref alt="Section 2.3" rid="sec-M-SM-OS">Section 2.3</xref> Open
     Science Statement).</p>
     <fig id="fig-si_contr_model10">
@@ -1874,25 +1876,25 @@ the University of Antwerp (BOF).</funding-statement>
     <title>Testing the influence of speaker-related factors on
     intelligibility (RQ3)</title>
     <p><styled-content style="color:blue;">This research question
-    illustrates how hypotheses on intelligibility can be examined within
+    illustrated how hypotheses on intelligibility can be examined within
     the model’s framework.</styled-content> Specifically, the focus
-    centers on assessing the influence of speaker-related factors on
+    centered on assessing the influence of speaker-related factors on
     intelligibility, such as chronological age and hearing status.
-    Notably, despite RQ1 indicating the suitability of Beta-proportion
-    GLLAMM models for entropy scores, existing statistical literature
-    suggests that, in certain scenarios, models incorporating covariate
-    adjustment exhibit robustness to misspecification in the functional
-    form linking an outcome and covariates, commonly referred to as
-    covariate-outcome relationship
+    <styled-content style="color:blue;">Notably, despite RQ1 indicating
+    the suitability of the Beta-proportion GLLAMM for entropy scores,
+    existing statistical literature suggests that, in certain scenarios,
+    models incorporating covariate adjustment exhibit robustness to
+    misspecification in the functional form of the covariate-outcome
+    relationship
     (<xref alt="Tackney et al. 2023" rid="ref-Tackney_et_al_2023" ref-type="bibr">Tackney
-    et al. 2023</xref>). Consequently, this study compares all models
-    detailed in <xref alt="Table 2" rid="tbl-fitted">Table 2</xref>.
-    These models are characterized by different covariate adjustments on
-    entropy scores or the latent potential intelligibility of speakers,
-    namely chronological age and hearing status, while potentially
-    exhibiting misspecification in the covariate-outcome relationship,
-    as observed in the case of the Normal LMM.</p>
-    <p>Similar to RQ1, all criteria consistently identify the
+    et al. 2023</xref>). Consequently, this study compared all models
+    detailed in Table 2. These models were characterized by different
+    covariate adjustments on entropy scores or the latent potential
+    intelligibility of speakers, namely chronological age and hearing
+    status. Furthermore, some models like the Normal LMMs, potentially
+    exhibited misspecification in the covariate-outcome
+    relationship.</styled-content></p>
+    <p>Similar to RQ1, all criteria consistently identified the
     Beta-proportion GLLAMM outlined in models
     <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
@@ -1903,25 +1905,25 @@ the University of Antwerp (BOF).</funding-statement>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    as the most plausible models for the data. The models exhibit the
+    as the most plausible models for the data. The models exhibited the
     lowest values for both <monospace>WAIC</monospace> and
     <monospace>PSIS</monospace>, establishing them as the least
-    deviating models among those under comparison. Moreover,
+    deviating models among those under comparison. In addition,
     <xref alt="Figure 5" rid="fig-rq3-waic-psis">Figure 5</xref> depicts
-    with horizontal blue lines the non-overlapping uncertainty for the
-    models’ <monospace>dWAIC</monospace> and
-    <monospace>dPSIS</monospace> values. This reveals that, when
-    compared to Model <inline-formula><alternatives>
+    the non-overlapping uncertainty for the models’
+    <monospace>dWAIC</monospace> and <monospace>dPSIS</monospace> values
+    with horizontal blue lines. This reveals that, when compared to
+    Model <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>,
-    most models exhibit significantly distinct predictive capabilities.
-    Models <inline-formula><alternatives>
+    most models exhibited significantly distinct predictive
+    capabilities. Models <inline-formula><alternatives>
     <tex-math><![CDATA[12]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>,
-    however, stand out as exceptions to this pattern. This observation
+    however, stood out as exceptions to this pattern. This observation
     suggests that Models <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>,
@@ -1931,12 +1933,12 @@ the University of Antwerp (BOF).</funding-statement>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    display the least deviation from <italic>perfect</italic> predictive
-    accuracy in contrast to the other models. Lastly, the
+    displayed the least deviation from <italic>perfect</italic>
+    predictive accuracy in contrast to the other models. Lastly, the
     <monospace>weight</monospace> of evidence in Tables
     <xref alt="Table 8" rid="tbl-rq3-waic">Table 8</xref> and
-    <xref alt="Table 9" rid="tbl-rq3-psis">Table 9</xref>, underscores
-    that Model <inline-formula><alternatives>
+    <xref alt="9" rid="tbl-rq3-psis">9</xref>, underscored that Model
+    <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>
     accumulated the greatest support, followed by Model
@@ -1956,30 +1958,29 @@ the University of Antwerp (BOF).</funding-statement>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-waic-psis-1.png" />
     </fig>
     <p>A closer examination of two models within this comparison set
-    reveal the reasons behind the largest observed disparities. The
+    reveals the reasons behind the largest observed disparities. The
     Normal LMM, as outlined in Model <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>,
-    continues to face challenges in capturing underlying data patterns,
+    continueed to face challenges in capturing underlying data patterns,
     resulting in predictions that are physically inconsistent, falling
-    outside the outcome’s range. Additionally, the model persists in
+    outside the outcome’s range. Additionally, the model persisted in
     identifying highly unlikely and influential observations, making it
     inherently unreliable. In contrast, the Beta-proportion GLLAMM
     described by Model <inline-formula><alternatives>
     <tex-math><![CDATA[12]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
-    appears to be less susceptible to ‘extreme’ scores, effectively
+    appeared to be less susceptible to extreme scores, effectively
     capturing data patterns within the expected data range and thereby
     instilling greater confidence in the reliability of the model’s
     estimates. This contrast is visually depicted in
     <xref alt="Figure 12" rid="fig-rq3-pred-speaker">Figure 12</xref>,
-    <xref alt="Figure 13" rid="fig-rq3-pred-speaker_model06">Figure 13</xref>,
-    <xref alt="Figure 14" rid="fig-rq3-pred-speaker_model12">Figure 14</xref>,
-    and
-    <xref alt="Figure 15" rid="fig-rq3-model-outliers">Figure 15</xref>.</p>
+    <xref alt="13" rid="fig-rq3-pred-speaker_model06">13</xref>,
+    <xref alt="14" rid="fig-rq3-pred-speaker_model12">14</xref>, and
+    <xref alt="15" rid="fig-rq3-model-outliers">15</xref>.</p>
     <p>Considering the results in
     <xref alt="Figure 5" rid="fig-rq3-waic-psis">Figure 5</xref>, the
-    model comparisons favor three distinct models: Model
+    model comparisons favored three distinct models: Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>,
@@ -1995,12 +1996,12 @@ the University of Antwerp (BOF).</funding-statement>
     supported by <inline-formula><alternatives>
     <tex-math><![CDATA[20.4\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>20.4</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    of the evidence, estimates a single intercept
+    of the evidence, estimated a single intercept
     <inline-formula><alternatives>
     <tex-math><![CDATA[\alpha]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
     and no slope to explain the potential intelligibility of speakers
-    (refer to
+    (see
     <xref alt="Table 3" rid="tbl-parameter-model10">Table 3</xref>). In
     contrast, supported by <inline-formula><alternatives>
     <tex-math><![CDATA[45.1\%]]></tex-math>
@@ -2009,7 +2010,7 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>
     in <xref alt="Table 4" rid="tbl-parameter-model11">Table 4</xref>
-    estimates distinct intercepts for each hearing status group, namely
+    estimated distinct intercepts for each hearing status group, namely
     <inline-formula><alternatives>
     <tex-math><![CDATA[\alpha_{HS[1]}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
@@ -2024,7 +2025,7 @@ the University of Antwerp (BOF).</funding-statement>
     HPDI for the comparison of intercepts <inline-formula><alternatives>
     <tex-math><![CDATA[\alpha_{HS[2]}-\alpha_{HS[1]}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mrow></mml:math></alternatives></inline-formula>
-    reveal significant differences between NH and HI/CI speakers.
+    revealed significant differences between NH and HI/CI speakers.
     Lastly, with evidence of <inline-formula><alternatives>
     <tex-math><![CDATA[34.1\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>34.1</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>,
@@ -2032,8 +2033,8 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[12]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
     in <xref alt="Table 5" rid="tbl-parameter-model12">Table 5</xref>
-    estimates one intercept and slope per hearing status group, namely
-    <inline-formula><alternatives>
+    estimated different intercepts and slopes per hearing status group,
+    namely <inline-formula><alternatives>
     <tex-math><![CDATA[\alpha_{HS[1]}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
@@ -2048,31 +2049,31 @@ the University of Antwerp (BOF).</funding-statement>
     for the HI/CI counterparts. The <inline-formula><alternatives>
     <tex-math><![CDATA[95\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    HPDI for the comparison of intercepts and slopes reveal significant
-    differences solely in the slopes between NH and their HI/CI
-    counterparts (<inline-formula><alternatives>
+    HPDI for the comparison of intercepts and slopes revealed
+    significant differences solely in the slopes between NH and their
+    HI/CI counterparts (<inline-formula><alternatives>
     <tex-math><![CDATA[\beta_{A,HS[2]}-\beta_{A,HS[1]}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mrow></mml:math></alternatives></inline-formula>).</p>
-    <p>However, a discerning reader can notice that these models yield
+    <p>However, a discerning reader can notice that these models yielded
     conflicting conclusions regarding the influence of chronological age
     and hearing status on intelligibility. Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    implies no influence of chronological age and hearing status on the
-    potential intelligibility of speakers. A visual inspection of
+    implied no influence of chronological age and hearing status on the
+    potential intelligibility of speakers.
     <xref alt="Figure 6" rid="fig-rq3-intelligibility-model10">Figure 6</xref>,
-    however, reveals the reason for the model’s low support. Model
+    however, revealed the reason for the model’s low support. Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    fails to capture the prevalent increasing age pattern observed in
+    failed to capture the prevalent increasing age pattern observed in
     potential intelligibility estimates. In contrast, Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>
-    identifies significant differences in potential intelligibility
-    between NH and HI/CI speakers. The model further suggests that with
+    identified significant differences in potential intelligibility
+    between NH and HI/CI speakers. The model further suggested that with
     the progression of chronological age, HI/CI speakers lag behind in
     intelligibility development, with no opportunity to catch up to
     their NH counterparts within the analyzed age range, as depicted in
@@ -2080,14 +2081,14 @@ the University of Antwerp (BOF).</funding-statement>
     Finally, Model <inline-formula><alternatives>
     <tex-math><![CDATA[12]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
-    indicates no significant differences in intelligibility between NH
+    indicated no significant differences in intelligibility between NH
     and HI/CI speakers at <inline-formula><alternatives>
     <tex-math><![CDATA[68]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>68</mml:mn></mml:math></alternatives></inline-formula>
     months of age (around <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>
-    years old). However, the model reveals distinct evolution patterns
+    years old). However, the model revealed distinct evolution patterns
     of intelligibility per unit of chronological age between different
     hearing status groups, with HI/CI speakers displaying a slower rate
     of development compared to their NH counterparts within the analyzed
@@ -2351,7 +2352,7 @@ the University of Antwerp (BOF).</funding-statement>
     methods. To ensure the successful utilization of this new
     statistical tool, this study addresses both challenges by providing
     comprehensive, step-by-step guidance in the form of a digital
-    walk-through document (refer to
+    walk-through document (see
     <xref alt="Section 2.3" rid="sec-M-SM-OS">Section 2.3</xref> Open
     Science Statement).</p>
   </sec>
@@ -5220,17 +5221,20 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   <p><styled-content style="color:blue;">This study employed Bayesian
   procedures for three main reasons. Firstly, prior research have
   consistently demonstrated the superiority of Bayesian methods over
-  frequentist methods, especially with complex and over-parameterized
+  frequentist methods, especially with complex and overparameterized
   models
   (<xref alt="Baker 1998" rid="ref-Baker_1998-nb-article" ref-type="bibr">Baker
   1998</xref>;
   <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999-nb-article" ref-type="bibr">Kim
-  and Cohen 1999</xref>), such as the GLLAMM, employed in this study.
-  Secondly, the Bayesian approach enabled the incorporation of prior
-  information, thereby constraining certain parameters within specified
-  bounds. This feature addressed issues such as non-convergence or
-  improper parameter estimation common in complex models under
-  frequentist methods
+  and Cohen 1999</xref>), such as the GLLAMM used in this study.
+  Overparameterized models are those with more parameters than
+  observations for estimation
+  (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
+  and Skrondal 2010</xref>). Secondly, the Bayesian approach enabled the
+  incorporation of prior information, thereby constraining certain
+  parameters within specified bounds. This feature addressed issues such
+  as non-convergence or improper parameter estimation common in complex
+  models under frequentist methods
   (<xref alt="Martin and McDonald 1975" rid="ref-Martin_et_al_1975-nb-article" ref-type="bibr">Martin
   and McDonald 1975</xref>;
   <xref alt="Seaman III, Seaman Jr., and Stamey 2011" rid="ref-Seaman_et_al_2011-nb-article" ref-type="bibr">Seaman
@@ -5444,19 +5448,18 @@ data_H = data.frame(dlist[var_int])
       (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
       et al. 2023</xref>), at the sentence level in a column-like grid
       structure like the one presented in
-      <xref alt="Table 1" rid="tbl-alignment-nb-article">Table 1</xref>.</styled-content>
-      This alignment process was repeated for each sentence within each
-      speaker and block, and the output was manually checked and
-      adjusted (if needed) in order to appropriately align the words.
-      <styled-content style="color:blue;">For more details on the random
-      assignment and alignment procedures refer to the original
-      authors.</styled-content></p>
+      <xref alt="Table 1" rid="tbl-alignment-nb-article">Table 1</xref>. This
+      alignment process was repeated for each sentence from every
+      speaker, and the output was manually checked and adjusted (if
+      needed) in order to appropriately align the words. For more
+      details on the random assignment and alignment procedures refer to
+      the original authors.</styled-content></p>
       <p><styled-content style="color:blue;">Next, the aligned
-      transcriptions were aggregated by listener yielding
+      transcriptions were aggregated by listener, yielding
       <inline-formula><alternatives>
       <tex-math><![CDATA[2,2634]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2634</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
-      entropy scores, one score per word within each
+      entropy scores, one score per word for every
       sentence.</styled-content> The entropy scores were calculated
       following Shannon’s formula
       (<xref alt="1948" rid="ref-Shannon_1948-nb-article" ref-type="bibr">1948</xref>):</p>
@@ -5481,7 +5484,7 @@ data_H = data.frame(dlist[var_int])
       the speaker index, and <inline-formula><alternatives>
       <tex-math><![CDATA[b]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>b</mml:mi></mml:math></alternatives></inline-formula>
-      the block index. Moreover, <inline-formula><alternatives>
+      the block index. In addition, <inline-formula><alternatives>
       <tex-math><![CDATA[K]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>K</mml:mi></mml:math></alternatives></inline-formula>
       describes the number of different word types within
@@ -5511,8 +5514,8 @@ data_H = data.frame(dlist[var_int])
       is present in the transcription <inline-formula><alternatives>
       <tex-math><![CDATA[j]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>j</mml:mi></mml:math></alternatives></inline-formula>.
-      Refer to <xref alt="Section 6.1" rid="sec-appA-nb-article">Section 6.1</xref>
-      for an example of how entropy scores are computed.</p>
+      See <xref alt="Section 6.1" rid="sec-appA-nb-article">Section 6.1</xref> for
+      an example of how entropy scores are computed.</p>
       <p>These entropy scores served as the outcome variable, capturing
       agreement or disagreement among listeners’ word transcriptions.
       Lower scores indicated a higher degree of agreement between
@@ -5522,9 +5525,9 @@ data_H = data.frame(dlist[var_int])
       (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
       et al. 2023</xref>;
       <xref alt="Faes, De Maeyer, and Gillis 2022" rid="ref-Faes_et_al_2022-nb-article" ref-type="bibr">Faes,
-      De Maeyer, and Gillis 2022</xref>). Furthermore, no score is
+      De Maeyer, and Gillis 2022</xref>). Furthermore, no score was
       excluded from the modelling process using univariate procedures,
-      rather, the identification of highly influential observations is
+      rather, the identification of highly influential observations was
       performed within the context of the proposed models, as
       recommended by McElreath
       (<xref alt="2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">2020</xref>).</p>
@@ -5533,12 +5536,13 @@ data_H = data.frame(dlist[var_int])
         transcriptions and entropy scores.
         <bold><italic>Note:</italic></bold> Extracted from Boonen et al.
         (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>),
-        and slightly modified for illustrative purposes. Entropy scores
-        are calculated the first sentence, produced by the first speaker
-        assigned to the first block, and transcribed by five listeners
-        <inline-formula><alternatives>
+        and slightly modified for illustrative purposes.
+        <styled-content style="color:blue;">Entropy scores were
+        calculated from words of the first sentence, produced by the
+        first speaker assigned to the first block, and transcribed by
+        five listeners <inline-formula><alternatives>
         <tex-math><![CDATA[\left( s=1, i=1, b=1, J=5 \right)]]></tex-math>
-        <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
+        <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
         Transcriptions are in Belgian Dutch followed by their English
         translation. <italic>[B]</italic> represent a blank space, and
         <italic>[X]</italic> an unidentifiable speech.</p></caption>
@@ -5725,7 +5729,7 @@ data_H = data.frame(dlist[var_int])
       respectively. Additionally, <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
-      denote the general intercept, <inline-formula><alternatives>
+      denotes the general intercept, <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha_{HS[i]}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
       represents the average entropy for each hearing status group, and
@@ -5762,39 +5766,40 @@ data_H = data.frame(dlist[var_int])
       of heteroscedasticity or outliers.
       <styled-content style="color:blue;">Secondly,
       <xref alt="Equation 3" rid="eq-normal-LMM-linearpred-nb-article">Equation 3</xref>
-      reveals that the model assumes no transformation is applied to the
-      relationship between the average entropy and the linear
+      reveals that the model assumes that no transformation is applied
+      to the relationship between the average entropy and the linear
       combination of speakers’ characteristics. This is commonly known
-      as a direct link function. Moreover, the equation indicates that
-      chronological age is <italic>centered</italic> around the minimum
-      chronological age in the sample <inline-formula><alternatives>
+      as a direct link function. In addition, the equation indicates
+      that chronological age is <italic>centered</italic> around the
+      minimum chronological age in the sample
+      <inline-formula><alternatives>
       <tex-math><![CDATA[\bar{A}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mover><mml:mi>A</mml:mi><mml:mo accent="true">‾</mml:mo></mml:mover></mml:math></alternatives></inline-formula>.
       The <italic>centering</italic> procedure prevents the
       interpretation of parameters outside the range of chronological
       ages available in the data
       (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
-      and Skrondal 2010</xref>). Additionally, the equation implies the
-      model considers separate intercept and separate age slopes for
-      each hearing status group, i.e., <inline-formula><alternatives>
+      and Skrondal 2010</xref>). Also, the equation implies the model
+      considers separate intercept and separate age slopes for each
+      hearing status group, i.e., <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha_{HS[i]}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
       and <inline-formula><alternatives>
       <tex-math><![CDATA[\beta_{A, HS[i]}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
-      for NH and HI/CI speakers, respectively. Finally, the presence of
-      a general intercept <inline-formula><alternatives>
+      for NH and HI/CI speakers, respectively. Lastly, the presence of a
+      general intercept <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
-      in the equation reveals that the model is over-parameterized.
-      Although the estimation of over-parameterized models is only
+      in the equation reveals that the model is overparameterized.
+      Although the estimation of overparameterized models is only
       possible under Bayesian methods, their estimation does not violate
       any statistical principle
       (<xref alt="McElreath 2020, 345" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-      2020, 345</xref>). In contrast, this over-parameterized model
-      facilitated: (1) the comparison between the specific parameter
-      interpretations of the Normal LMM and the Beta-proportion GLLAMM,
-      with <inline-formula><alternatives>
+      2020, 345</xref>). In contrast, in this study, the
+      overparameterized model facilitates: (1) the comparison between
+      the specific parameter interpretations of the Normal LMM and the
+      Beta-proportion GLLAMM, with <inline-formula><alternatives>
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
       serving no particular purpose in the former case, and (2) the
@@ -5805,14 +5810,14 @@ data_H = data.frame(dlist[var_int])
       <p>The general mathematical formalism of the proposed
       Beta-proportion GLLAMM comprises four components: a response model
       likelihood, a linear predictor, a link function, and a structural
-      model. The likelihood of response model posits the entropy scores
-      follow a Beta-proportion distribution,</p>
+      model. The likelihood of the response model posits that entropy
+      scores follow a Beta-proportion distribution,</p>
       <p><styled-content id="eq-beta-GLLAMM-likelihood-nb-article"><disp-formula><alternatives>
       <tex-math><![CDATA[
       H_{wsib} \sim \text{BetaProp} \left( \mu_{ib}, M_{i} \right)
        \qquad(4)]]></tex-math>
       <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>w</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">BetaProp</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
-      <p>where<inline-formula><alternatives>
+      <p>where <inline-formula><alternatives>
       <tex-math><![CDATA[\mu_{ib}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
       denotes the average entropy at the word-level and
@@ -5870,13 +5875,13 @@ data_H = data.frame(dlist[var_int])
       <tex-math><![CDATA[u_{i} = \sum_{s=1}^{S} u_{si}/S]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>S</mml:mi></mml:msubsup><mml:msub><mml:mi>u</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mi>/</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
       denotes sentence random effects, assessing the average unexplained
-      potential intelligibility variability among sentences within each
+      potential intelligibility variability within sentences for each
       speaker, with <inline-formula><alternatives>
       <tex-math><![CDATA[S]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>S</mml:mi></mml:math></alternatives></inline-formula>
       denoting the total number of sentences per speaker.</p>
-      <p>Several features are evident in this probabilistic
-      representation. Firstly, akin to the Normal LMM,
+      <p>Several features are evident in the probabilistic
+      representation of the model. Firstly, akin to the Normal LMM,
       <xref alt="Equation 4" rid="eq-beta-GLLAMM-likelihood-nb-article">Equation 4</xref>
       reveals that the <italic>dispersion</italic> of average entropy at
       the word level can differ for each speaker. This enhances the
@@ -5885,7 +5890,7 @@ data_H = data.frame(dlist[var_int])
       <styled-content style="color:blue;">Secondly, in contrast with the
       Normal LMM,
       <xref alt="Equation 5" rid="eq-beta-GLLAMM-linpred-nb-article">Equation 5</xref>
-      shows the potential intelligibility of a speakers has a negative
+      shows the potential intelligibility of a speaker has a negative
       non-linear relationship with the entropy scores. The negative
       relationship explicitly highlights the inverse relationship
       between intelligibility and entropy, while the non-linear
@@ -5909,25 +5914,24 @@ data_H = data.frame(dlist[var_int])
       and <inline-formula><alternatives>
       <tex-math><![CDATA[\beta_{A, HS[i]}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
-      for NH and HI/CI speakers, respectively. Additionally, it
-      indicates that chronological age is <italic>centered</italic>
-      around the minimum chronological age in the sample
+      for NH and HI/CI speakers, respectively. In addition, it indicates
+      that chronological age is <italic>centered</italic> around the
+      minimum chronological age in the sample
       <inline-formula><alternatives>
       <tex-math><![CDATA[\bar{A}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mover><mml:mi>A</mml:mi><mml:mo accent="true">‾</mml:mo></mml:mover></mml:math></alternatives></inline-formula>.
       Lastly, the equation also reveals that the intelligibility scores
-      have two sources of unexplained variability:
+      have two sources of unexplained variability. The term
       <inline-formula><alternatives>
       <tex-math><![CDATA[e_{i}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>
-      and <inline-formula><alternatives>
+      represents inherent differences in potential intelligibility among
+      different speakers. The term <inline-formula><alternatives>
       <tex-math><![CDATA[u_{i}]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>.</styled-content>
-      The former represents inherent differences in potential
-      intelligibility among different speakers, while the latter assumes
-      that different sentences measure potential intelligibility
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>
+      assumes that different sentences measure potential intelligibility
       differently due to variations in word difficulties and their
-      interplay within the sentence.</p>
+      interplay within the sentence.</styled-content></p>
     </sec>
     <sec id="sec-M-SM-P-nb-article">
       <title>Prior distributions</title>
@@ -5948,30 +5952,30 @@ data_H = data.frame(dlist[var_int])
       such hyperparameters
       (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
       and Skrondal 2010</xref>).</p>
-      <p>This study establishes priors and hyperpriors for the
+      <p>This study established priors and hyperpriors for the
       parameters of both the Normal LMM and the Beta-proportion GLLAMM
       using prior predictive simulations. This procedure entails the
       semi-independent simulation of parameters, which are subsequently
       transformed into simulated data values according to the models’
-      specifications. This procedure aims to establish meaningful priors
+      specifications. The procedure aims to establish meaningful priors
       and comprehend their implications within the context of the model
       before incorporating any information derived from empirical data
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
       2020</xref>). For reader inspection, the prior predictive
       simulations are provided in the accompanying digital walk-through
-      document (refer to
+      document (see
       <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
       Science Statement).</p>
       <sec id="sec-M-SM-P-NLMM-nb-article">
         <title>Normal LMM</title>
         <p>For the parameters of the Normal LMM, non-informative priors
-        and hyperpriors are established to align with analogous model
+        and hyperpriors were established to align with analogous model
         assumptions in frequentist methods. A
         <italic>non-informative</italic> prior reflects the
         distributional commitment of a parameter to a wide range of
         values within a specific parameter space
         (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
-        and Skrondal 2010</xref>). The specified priors are as
+        and Skrondal 2010</xref>). The specified priors were as
         follows:</p>
         <p><styled-content id="eq-normal-LMM-priors-nb-article"><disp-formula><alternatives>
         <tex-math><![CDATA[
@@ -5994,12 +5998,12 @@ data_H = data.frame(dlist[var_int])
       <sec id="sec-M-SM-P-BGLLAMM-nb-article">
         <title>Beta-proportion GLLAMM</title>
         <p>For the parameters of the Beta-proportion GLLAMM, weakly
-        informative priors and hyperpriors are established.
+        informative priors and hyperpriors were established.
         <italic>Weakly informative priors</italic> reflect the
         distributional commitment of a parameter to a weakly constraint
         range of values within a realistic parameter space
         (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-        2020</xref>). The specified priors are as follows:</p>
+        2020</xref>). The specified priors were as follows:</p>
         <p><styled-content id="eq-beta-GLLAMM-priors-nb-article"><disp-formula><alternatives>
         <tex-math><![CDATA[
         \begin{aligned}
@@ -6021,13 +6025,13 @@ data_H = data.frame(dlist[var_int])
     </sec>
     <sec id="sec-M-SM-FM-nb-article">
       <title>Fitted models</title>
-      <p>This study evaluates the comparative predictive capabilities of
+      <p>This study evaluated the comparative predictive capabilities of
       both the Normal LMM and the Beta-proportion GLLAMM (RQ1) while
-      simultaneously examining various formulations regarding how
+      simultaneously examined various formulations regarding how
       speaker-related factors influence intelligibility (RQ3). In this
-      context, the predictive capabilities of the models are intricately
-      connected to these formulations. As a result, the study requires
-      fitting <inline-formula><alternatives>
+      context, the predictive capabilities of the models were
+      intricately connected to these formulations. As a result, the
+      study required fitting <inline-formula><alternatives>
       <tex-math><![CDATA[12]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
       different models, each representing a specific manner to
@@ -6037,7 +6041,7 @@ data_H = data.frame(dlist[var_int])
       they addressed data clustering in conjunction with measurement
       error, denoted as the model type, (2) the assumed distribution for
       the entropy scores, which aimed to handle boundedness, (3) whether
-      the model incorporates a robust feature to address mild or
+      the model incorporated a robust feature to address mild or
       moderate departures of the data from distributional assumptions,
       and (4) the inclusion or exclusion of speaker-related factors in
       the models. A detailed overview of the fitted models is available
@@ -6246,7 +6250,7 @@ data_H = data.frame(dlist[var_int])
       random manner, and converged to a constant mean and variance in
       their post-warm-up phase. Moreover, the density plots and
       statistics collectively confirmed that all posterior distributions
-      are unimodal distributions with values centered around a mean,
+      were unimodal distributions with values centered around a mean,
       generated with a satisfactory number of uncorrelated sampling
       points, making substantive sense compared to the models’ prior
       beliefs. The trace, trace-rank, ACF, and distribution density
@@ -6257,13 +6261,13 @@ data_H = data.frame(dlist[var_int])
       <tex-math><![CDATA[n_{\text{eff}}]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>n</mml:mi><mml:mtext mathvariant="normal">eff</mml:mtext></mml:msub></mml:math></alternatives></inline-formula>
       statistics, are provided in the accompanying digital walk-through
-      document for reader inspection (refer to
+      document for reader inspection (see
       <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
       Science Statement).</p>
     </sec>
     <sec id="sec-M-SM-MC-nb-article">
       <title>Model comparison</title>
-      <p><styled-content style="color:blue;">The study compares the
+      <p><styled-content style="color:blue;">This study compared the
       fitted models using three criteria: the deviance information
       criterion (<monospace>DIC</monospace>) introduced by Spiegelhalter
       et al.
@@ -6299,10 +6303,10 @@ data_H = data.frame(dlist[var_int])
       <monospace>PSIS</monospace> offers an extra benefit by identifying
       highly influential data points. To achieve this, the criterion
       employs a built-in warning system that flags observations that
-      make out-of-sample predictions unreliable. The rationale behind
-      this is that observations that are relatively unlikely, according
-      to the model, exert more influence and render predictions less
-      reliable compared to those that are relatively expected
+      make out-of-sample predictions unreliable. The rationale is that
+      observations that are relatively unlikely, according to the model,
+      exert more influence and render predictions less reliable compared
+      to those that are relatively expected
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
       2020</xref>).</styled-content></p>
       <p><styled-content style="color:blue;">However, since researchers
@@ -6310,7 +6314,7 @@ data_H = data.frame(dlist[var_int])
       distance between the models that is useful, rather than the
       absolute value of the criteria (see
       <xref alt="McElreath 2020, 209, 223–24" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-      2020, 209, 223–24</xref>). Therefore, the study utilizes the
+      2020, 209, 223–24</xref>). Therefore, this study utilized the
       differences in <monospace>WAIC</monospace> and
       <monospace>PSIS</monospace> (<monospace>dWAIC</monospace> and
       <monospace>dPSIS</monospace>, respectively) to evaluate how
@@ -6323,9 +6327,9 @@ data_H = data.frame(dlist[var_int])
       due to the specific sample over which they are computed (see
       <xref alt="McElreath 2020, 223" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
       2020, 223</xref>). Thus, this uncertainty should also be taken
-      into account for the criteria and their comparisons. For this
-      purpose, the study also presents the associated uncertainty for
-      both calculated as <monospace>WAIC</monospace>
+      into account for the criteria and their comparisons. Consequently,
+      this study also presented the associated uncertainty for both
+      criteria calculated as <monospace>WAIC</monospace>
       <inline-formula><alternatives>
       <tex-math><![CDATA[\pm 1 \cdot]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>±</mml:mi><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>SE</monospace>,
@@ -6338,9 +6342,9 @@ data_H = data.frame(dlist[var_int])
       and <monospace>dPSIS</monospace> <inline-formula><alternatives>
       <tex-math><![CDATA[\pm 1 \cdot]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>±</mml:mi><mml:mn>1</mml:mn><mml:mo>⋅</mml:mo></mml:mrow></mml:math></alternatives></inline-formula><monospace>dSE</monospace>.
-      Lastly, this research also report the models’ complexity
-      penalization, as well as their weight of evidence. The complexity
-      penalization values <monospace>pWAIC</monospace> and
+      Lastly, this research also reported the models’ complexity
+      penalization, as well as their associated weight of evidence. The
+      complexity penalization values <monospace>pWAIC</monospace> and
       <monospace>pPSIS</monospace> are roughly associated with the
       models’ number of parameters, while the
       <monospace>weight</monospace> of evidence summarizes the relative
@@ -6381,7 +6385,7 @@ for(i in 1:12){
   <sec id="sec-R-RQ1-nb-article">
     <title>Predictive capabilities of the Beta-proportion GLLAMM
     compared to the Normal LMM (RQ1)</title>
-    <p>This research question evaluates the effectiveness of the
+    <p>This research question evaluated the effectiveness of the
     Beta-proportion GLLAMM in handling the features of entropy scores by
     comparing its predictive accuracy to the Normal LMM. Models
     <inline-formula><alternatives>
@@ -6396,26 +6400,27 @@ for(i in 1:12){
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    are specifically chosen for this comparison because their
-    assumptions exclusively address the features of the scores, without
-    integrating additional covariate information. As detailed in
+    were specifically chosen for this comparison because their
+    assumptions exclusively addressed the features of the scores,
+    without integrating additional covariate information. As detailed in
     <xref alt="Table 2" rid="tbl-fitted-nb-article">Table 2</xref>, Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[1]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>1</mml:mn></mml:math></alternatives></inline-formula>
-    is a Normal LMM that solely addresses data clustering. Building upon
-    this, Model <inline-formula><alternatives>
+    was a Normal LMM that solely addresses data clustering. Building
+    upon this, Model <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>
-    introduces a robust feature. Conversely, Model
+    introduced a robust feature. Conversely, Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[7]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>7</mml:mn></mml:math></alternatives></inline-formula>
-    is a Beta-proportion GLLAMM that deals with boundedness, measurement
-    error and data clustering, and Model <inline-formula><alternatives>
+    was a Beta-proportion GLLAMM that deals with boundedness,
+    measurement error and data clustering, and Model
+    <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    extends this model by incorporating a robust feature.</p>
+    extended this model by incorporating a robust feature.</p>
     <p><styled-content style="color:blue;">The left panel of
     <xref alt="Figure 1" rid="fig-rq1-waic-psis-nb-article">Figure 1</xref>
     displays the models’ <monospace>DIC</monospace>,
@@ -6425,12 +6430,12 @@ for(i in 1:12){
     <monospace>dWAIC</monospace> and <monospace>dPSIS</monospace> values
     with their corresponding uncertainty intervals.
     <xref alt="Table 8" rid="tbl-rq1-waic-nb-article">Table 8</xref> and
-    <xref alt="Table 9" rid="tbl-rq1-psis-nb-article">Table 9</xref> provide
-    similar information, while also reporting the
-    <monospace>pWAIC</monospace> and <monospace>pPSIS</monospace> values
-    and the <monospace>weight</monospace> of evidence for each
-    model.</styled-content> Overall, all criteria consistently point to
-    Model <inline-formula><alternatives>
+    <xref alt="9" rid="tbl-rq1-psis-nb-article">9</xref> provide similar
+    information, while also reporting the <monospace>pWAIC</monospace>
+    and <monospace>pPSIS</monospace> values and the
+    <monospace>weight</monospace> of evidence for each
+    model.</styled-content> Overall, all criteria consistently pointed
+    to Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     as the most plausible choice for the data. The model exhibits the
@@ -6457,15 +6462,15 @@ for(i in 1:12){
     This indicates that Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    significantly deviates the least from <italic>perfect</italic>
+    significantly deviateed the least from <italic>perfect</italic>
     predictive accuracy when compared to the rest of the models. Lastly,
     the <monospace>weight</monospace> of evidence in
     <xref alt="Table 8" rid="tbl-rq1-waic-nb-article">Table 8</xref> and
-    <xref alt="Table 9" rid="tbl-rq1-psis-nb-article">Table 9</xref> underscores
-    that <inline-formula><alternatives>
+    <xref alt="9" rid="tbl-rq1-psis-nb-article">9</xref> underscored that
+    <inline-formula><alternatives>
     <tex-math><![CDATA[100\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>100</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    of the evidence aligns with and supports Model
+    of the evidence aligned with and supported Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
@@ -6527,8 +6532,8 @@ par(mfrow=c(1,1))</code>
     <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>,
-    fails to adequately capture the data’s underlying patterns,
-    resulting in predictions that are physically inconsistent. This
+    failed to adequately capture the data’s underlying patterns,
+    resulting in predictions that were physically inconsistent. This
     issue is illustrated by the <inline-formula><alternatives>
     <tex-math><![CDATA[95\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
@@ -6540,31 +6545,29 @@ par(mfrow=c(1,1))</code>
     <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>
-    that bear no resemblance to the actual data
+    that bore no resemblance to the actual data
     densities.</styled-content> Furthermore, the top two panels in
     <xref alt="Figure 11" rid="fig-rq1-model-outliers-nb-article">Figure 11</xref>
-    reveal that misspecification in the Normal LMM causes the model to
-    be <italic>more surprised</italic> by ‘extreme’ entropy scores,
+    reveal that misspecification in the Normal LMM causeed the model to
+    be <italic>more surprised</italic> by extreme entropy scores,
     leading to their identification as highly unlikely and influential
-    observations. Consequently, the model is rendered unreliable due to
+    observations. Consequently, the model was rendered unreliable due to
     the potential biases present in the parameter estimates. In
-    contrast, the Beta-proportion GLLAMM appears to effectively capture
+    contrast, the Beta-proportion GLLAMM appeared to effectively capture
     the data patterns, generating predictions within the expected data
     range. This is evident in
     <xref alt="Figure 2" rid="fig-rq1-pred-speaker-nb-article">Figure 2</xref> and
     complemented by
     <xref alt="Figure 10" rid="fig-rq1-pred-speaker_model10-nb-article">Figure 10</xref>
-    and
-    <xref alt="Figure 11" rid="fig-rq1-model-outliers-nb-article">Figure 11</xref>.
-    In
+    and <xref alt="11" rid="fig-rq1-model-outliers-nb-article">11</xref>. In
     <xref alt="Figure 10" rid="fig-rq1-pred-speaker_model10-nb-article">Figure 10</xref>,
     Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    display prediction densities that bear more resemblance to the
+    displayed prediction densities that bore more resemblance to the
     actual data densities. Furthermore, the bottom two panels in
     <xref alt="Figure 11" rid="fig-rq1-model-outliers-nb-article">Figure 11</xref>
-    show the model is <italic>less surprised</italic> by ‘extreme’
+    show the model was <italic>less surprised</italic> by extreme
     scores, fostering more trust in the model’s estimates.</p>
     <sec id="cell-fig-rq1-pred-speaker-nb-article" specific-use="notebook-code">
     <code language="r script">plot_speaker(d=data_H,
@@ -6601,7 +6604,7 @@ par(mfrow=c(1,1))</code>
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    through the structural equation:</p>
+    through the following structural equation:</p>
     <p><styled-content id="eq-beta-GLLAMM-structural-model10-nb-article"><disp-formula><alternatives>
     <tex-math><![CDATA[
     SI_{i} = \alpha + e_{i} + u_{i}
@@ -6611,11 +6614,11 @@ par(mfrow=c(1,1))</code>
     Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    provides the complete posterior distribution of the speakers’
+    provided the complete posterior distribution of the speakers’
     potential intelligibility scores. This provision, in turn, (1)
-    enables the calculation of summaries, facilitating the ranking of
-    individuals, and (2) supports the assessment of differences among
-    selected speakers. In both cases, the model considers the inherent
+    enabled the calculation of summaries, facilitating the ranking of
+    individuals, and (2) supported the assessment of differences among
+    selected speakers. In both cases, the model considered the inherent
     uncertainty of the estimates resulting from its measurement using
     multiple entropy scores.</p>
     <sec id="nb-code-cell-7-nb-article" specific-use="notebook-code">
@@ -6933,11 +6936,11 @@ SI$HPDI = paste0('[', SI$HPDI_lower, ', ', SI$HPDI_upper,']')</code>
     <inline-formula><alternatives>
     <tex-math><![CDATA[95\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    HPDI.</styled-content> The figure clearly indicate that speaker
+    HPDI. The figure indicates that speaker
     <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>
-    stands out as the least intelligible in the sample, followed farther
+    stands out as the least intelligible in the sample, followed further
     behind by speaker <inline-formula><alternatives>
     <tex-math><![CDATA[1]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>1</mml:mn></mml:math></alternatives></inline-formula>,
@@ -6946,7 +6949,7 @@ SI$HPDI = paste0('[', SI$HPDI_lower, ', ', SI$HPDI_upper,']')</code>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>17</mml:mn></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[9]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>9</mml:mn></mml:math></alternatives></inline-formula>.
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>9</mml:mn></mml:math></alternatives></inline-formula>.</styled-content>
     In contrast, the figure highlights speaker
     <inline-formula><alternatives>
     <tex-math><![CDATA[20]]></tex-math>
@@ -6992,7 +6995,7 @@ SI$HPDI = paste0('[', SI$HPDI_lower, ', ', SI$HPDI_upper,']')</code>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
     HPDI did not overlap with zero (shaded area). The R code to derive
     these scores and generate the figure is available in the digital
-    walk-through document (refer to
+    walk-through document (see
     <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
     Science Statement).</p>
     <sec id="nb-code-cell-9-nb-article" specific-use="notebook-code">
@@ -7080,25 +7083,25 @@ par(mfrow=c(1,1))</code>
     <title>Testing the influence of speaker-related factors on
     intelligibility (RQ3)</title>
     <p><styled-content style="color:blue;">This research question
-    illustrates how hypotheses on intelligibility can be examined within
+    illustrated how hypotheses on intelligibility can be examined within
     the model’s framework.</styled-content> Specifically, the focus
-    centers on assessing the influence of speaker-related factors on
+    centered on assessing the influence of speaker-related factors on
     intelligibility, such as chronological age and hearing status.
-    Notably, despite RQ1 indicating the suitability of Beta-proportion
-    GLLAMM models for entropy scores, existing statistical literature
-    suggests that, in certain scenarios, models incorporating covariate
-    adjustment exhibit robustness to misspecification in the functional
-    form linking an outcome and covariates, commonly referred to as
-    covariate-outcome relationship
+    <styled-content style="color:blue;">Notably, despite RQ1 indicating
+    the suitability of the Beta-proportion GLLAMM for entropy scores,
+    existing statistical literature suggests that, in certain scenarios,
+    models incorporating covariate adjustment exhibit robustness to
+    misspecification in the functional form of the covariate-outcome
+    relationship
     (<xref alt="Tackney et al. 2023" rid="ref-Tackney_et_al_2023-nb-article" ref-type="bibr">Tackney
-    et al. 2023</xref>). Consequently, this study compares all models
-    detailed in <xref alt="Table 2" rid="tbl-fitted-nb-article">Table 2</xref>.
-    These models are characterized by different covariate adjustments on
-    entropy scores or the latent potential intelligibility of speakers,
-    namely chronological age and hearing status, while potentially
-    exhibiting misspecification in the covariate-outcome relationship,
-    as observed in the case of the Normal LMM.</p>
-    <p>Similar to RQ1, all criteria consistently identify the
+    et al. 2023</xref>). Consequently, this study compared all models
+    detailed in Table 2. These models were characterized by different
+    covariate adjustments on entropy scores or the latent potential
+    intelligibility of speakers, namely chronological age and hearing
+    status. Furthermore, some models like the Normal LMMs, potentially
+    exhibited misspecification in the covariate-outcome
+    relationship.</styled-content></p>
+    <p>Similar to RQ1, all criteria consistently identified the
     Beta-proportion GLLAMM outlined in models
     <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
@@ -7109,25 +7112,25 @@ par(mfrow=c(1,1))</code>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    as the most plausible models for the data. The models exhibit the
+    as the most plausible models for the data. The models exhibited the
     lowest values for both <monospace>WAIC</monospace> and
     <monospace>PSIS</monospace>, establishing them as the least
-    deviating models among those under comparison. Moreover,
+    deviating models among those under comparison. In addition,
     <xref alt="Figure 5" rid="fig-rq3-waic-psis-nb-article">Figure 5</xref> depicts
-    with horizontal blue lines the non-overlapping uncertainty for the
-    models’ <monospace>dWAIC</monospace> and
-    <monospace>dPSIS</monospace> values. This reveals that, when
-    compared to Model <inline-formula><alternatives>
+    the non-overlapping uncertainty for the models’
+    <monospace>dWAIC</monospace> and <monospace>dPSIS</monospace> values
+    with horizontal blue lines. This reveals that, when compared to
+    Model <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>,
-    most models exhibit significantly distinct predictive capabilities.
-    Models <inline-formula><alternatives>
+    most models exhibited significantly distinct predictive
+    capabilities. Models <inline-formula><alternatives>
     <tex-math><![CDATA[12]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>,
-    however, stand out as exceptions to this pattern. This observation
+    however, stood out as exceptions to this pattern. This observation
     suggests that Models <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>,
@@ -7137,12 +7140,12 @@ par(mfrow=c(1,1))</code>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    display the least deviation from <italic>perfect</italic> predictive
-    accuracy in contrast to the other models. Lastly, the
+    displayed the least deviation from <italic>perfect</italic>
+    predictive accuracy in contrast to the other models. Lastly, the
     <monospace>weight</monospace> of evidence in Tables
     <xref alt="Table 10" rid="tbl-rq3-waic-nb-article">Table 10</xref> and
-    <xref alt="Table 11" rid="tbl-rq3-psis-nb-article">Table 11</xref>, underscores
-    that Model <inline-formula><alternatives>
+    <xref alt="11" rid="tbl-rq3-psis-nb-article">11</xref>, underscored that Model
+    <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>
     accumulated the greatest support, followed by Model
@@ -7213,30 +7216,29 @@ par(mfrow=c(1,1))</code>
     </fig>
     </sec>
     <p>A closer examination of two models within this comparison set
-    reveal the reasons behind the largest observed disparities. The
+    reveals the reasons behind the largest observed disparities. The
     Normal LMM, as outlined in Model <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>,
-    continues to face challenges in capturing underlying data patterns,
+    continueed to face challenges in capturing underlying data patterns,
     resulting in predictions that are physically inconsistent, falling
-    outside the outcome’s range. Additionally, the model persists in
+    outside the outcome’s range. Additionally, the model persisted in
     identifying highly unlikely and influential observations, making it
     inherently unreliable. In contrast, the Beta-proportion GLLAMM
     described by Model <inline-formula><alternatives>
     <tex-math><![CDATA[12]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
-    appears to be less susceptible to ‘extreme’ scores, effectively
+    appeared to be less susceptible to extreme scores, effectively
     capturing data patterns within the expected data range and thereby
     instilling greater confidence in the reliability of the model’s
     estimates. This contrast is visually depicted in
     <xref alt="Figure 12" rid="fig-rq3-pred-speaker-nb-article">Figure 12</xref>,
-    <xref alt="Figure 13" rid="fig-rq3-pred-speaker_model06-nb-article">Figure 13</xref>,
-    <xref alt="Figure 14" rid="fig-rq3-pred-speaker_model12-nb-article">Figure 14</xref>,
-    and
-    <xref alt="Figure 15" rid="fig-rq3-model-outliers-nb-article">Figure 15</xref>.</p>
+    <xref alt="13" rid="fig-rq3-pred-speaker_model06-nb-article">13</xref>,
+    <xref alt="14" rid="fig-rq3-pred-speaker_model12-nb-article">14</xref>, and
+    <xref alt="15" rid="fig-rq3-model-outliers-nb-article">15</xref>.</p>
     <p>Considering the results in
     <xref alt="Figure 5" rid="fig-rq3-waic-psis-nb-article">Figure 5</xref>, the
-    model comparisons favor three distinct models: Model
+    model comparisons favored three distinct models: Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>,
@@ -7252,12 +7254,12 @@ par(mfrow=c(1,1))</code>
     supported by <inline-formula><alternatives>
     <tex-math><![CDATA[20.4\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>20.4</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    of the evidence, estimates a single intercept
+    of the evidence, estimated a single intercept
     <inline-formula><alternatives>
     <tex-math><![CDATA[\alpha]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
     and no slope to explain the potential intelligibility of speakers
-    (refer to
+    (see
     <xref alt="Table 5" rid="tbl-parameter-model10-nb-article">Table 5</xref>). In
     contrast, supported by <inline-formula><alternatives>
     <tex-math><![CDATA[45.1\%]]></tex-math>
@@ -7266,7 +7268,7 @@ par(mfrow=c(1,1))</code>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>
     in <xref alt="Table 6" rid="tbl-parameter-model11-nb-article">Table 6</xref>
-    estimates distinct intercepts for each hearing status group, namely
+    estimated distinct intercepts for each hearing status group, namely
     <inline-formula><alternatives>
     <tex-math><![CDATA[\alpha_{HS[1]}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
@@ -7281,7 +7283,7 @@ par(mfrow=c(1,1))</code>
     HPDI for the comparison of intercepts <inline-formula><alternatives>
     <tex-math><![CDATA[\alpha_{HS[2]}-\alpha_{HS[1]}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mrow></mml:math></alternatives></inline-formula>
-    reveal significant differences between NH and HI/CI speakers.
+    revealed significant differences between NH and HI/CI speakers.
     Lastly, with evidence of <inline-formula><alternatives>
     <tex-math><![CDATA[34.1\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>34.1</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>,
@@ -7289,8 +7291,8 @@ par(mfrow=c(1,1))</code>
     <tex-math><![CDATA[12]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
     in <xref alt="Table 7" rid="tbl-parameter-model12-nb-article">Table 7</xref>
-    estimates one intercept and slope per hearing status group, namely
-    <inline-formula><alternatives>
+    estimated different intercepts and slopes per hearing status group,
+    namely <inline-formula><alternatives>
     <tex-math><![CDATA[\alpha_{HS[1]}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
@@ -7305,31 +7307,31 @@ par(mfrow=c(1,1))</code>
     for the HI/CI counterparts. The <inline-formula><alternatives>
     <tex-math><![CDATA[95\%]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>95</mml:mn><mml:mi>%</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
-    HPDI for the comparison of intercepts and slopes reveal significant
-    differences solely in the slopes between NH and their HI/CI
-    counterparts (<inline-formula><alternatives>
+    HPDI for the comparison of intercepts and slopes revealed
+    significant differences solely in the slopes between NH and their
+    HI/CI counterparts (<inline-formula><alternatives>
     <tex-math><![CDATA[\beta_{A,HS[2]}-\beta_{A,HS[1]}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mrow></mml:math></alternatives></inline-formula>).</p>
-    <p>However, a discerning reader can notice that these models yield
+    <p>However, a discerning reader can notice that these models yielded
     conflicting conclusions regarding the influence of chronological age
     and hearing status on intelligibility. Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    implies no influence of chronological age and hearing status on the
-    potential intelligibility of speakers. A visual inspection of
+    implied no influence of chronological age and hearing status on the
+    potential intelligibility of speakers.
     <xref alt="Figure 6" rid="fig-rq3-intelligibility-model10-nb-article">Figure 6</xref>,
-    however, reveals the reason for the model’s low support. Model
+    however, revealed the reason for the model’s low support. Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    fails to capture the prevalent increasing age pattern observed in
+    failed to capture the prevalent increasing age pattern observed in
     potential intelligibility estimates. In contrast, Model
     <inline-formula><alternatives>
     <tex-math><![CDATA[11]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>
-    identifies significant differences in potential intelligibility
-    between NH and HI/CI speakers. The model further suggests that with
+    identified significant differences in potential intelligibility
+    between NH and HI/CI speakers. The model further suggested that with
     the progression of chronological age, HI/CI speakers lag behind in
     intelligibility development, with no opportunity to catch up to
     their NH counterparts within the analyzed age range, as depicted in
@@ -7337,14 +7339,14 @@ par(mfrow=c(1,1))</code>
     Finally, Model <inline-formula><alternatives>
     <tex-math><![CDATA[12]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
-    indicates no significant differences in intelligibility between NH
+    indicated no significant differences in intelligibility between NH
     and HI/CI speakers at <inline-formula><alternatives>
     <tex-math><![CDATA[68]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>68</mml:mn></mml:math></alternatives></inline-formula>
     months of age (around <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>
-    years old). However, the model reveals distinct evolution patterns
+    years old). However, the model revealed distinct evolution patterns
     of intelligibility per unit of chronological age between different
     hearing status groups, with HI/CI speakers displaying a slower rate
     of development compared to their NH counterparts within the analyzed
@@ -7713,7 +7715,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     methods. To ensure the successful utilization of this new
     statistical tool, this study addresses both challenges by providing
     comprehensive, step-by-step guidance in the form of a digital
-    walk-through document (refer to
+    walk-through document (see
     <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
     Science Statement).</p>
   </sec>
