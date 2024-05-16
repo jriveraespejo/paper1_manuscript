@@ -2301,10 +2301,11 @@ the University of Antwerp (BOF).</funding-statement>
     speech intelligibility using entropy scores.</styled-content> The
     initial findings supported the assertion that Beta-proportion
     GLLAMMs consistently outperformed Normal LMMs in predicting entropy
-    scores, underscoring its superior predictive performance. The
-    results emphasized that models neglecting the outcomes’ measurement
-    error and boundedness lead to underfitting and misspecification
-    issues, even when robust features are integrated. This is clearly
+    scores, underscoring its superior predictive performance.
+    <styled-content style="color:blue;">The results also emphasized that
+    models neglecting measurement error and boundedness in the outcomes
+    lead to underfitting and misspecification issues, even when robust
+    features are integrated.</styled-content> This was clearly
     illustrated by the Normal LMMs.</p>
     <p>Secondly, the study showcased the Beta-proportion GLLAMM’s
     proficiency in estimating the latent potential intelligibility of
@@ -2312,25 +2313,26 @@ the University of Antwerp (BOF).</funding-statement>
     Bayesian procedures, the proposed model offered a valuable advantage
     over frequentist methods by further providing the full posterior
     distribution of the speakers’ potential intelligibility. This
-    provision facilitated the calculation of summaries, aiding
-    individual rankings, and supported the comparisons among selected
-    speakers. In both scenarios, the proposed model accounted for the
-    inherent uncertainty in the intelligibility estimates.</p>
+    provision facilitated the calculation of summaries, aiding in the
+    construction of individual rankings, and supported the comparisons
+    among selected speakers. In both scenarios, the proposed model
+    accounted for the inherent uncertainty in the intelligibility
+    estimates.</p>
     <p>Thirdly, the study illustrated how the proposed model assessed
     the impact of speaker-related factors on potential intelligibility.
     <styled-content style="color:blue;">The results suggested that
-    multiple models were plausible for the observed entropy scores,
-    indicating that different speaker-related factor hypotheses were
+    multiple models were plausible for the observed entropy scores. This
+    indicated that different speaker-related factor hypotheses were
     viable for the data, with some presenting contradictory conclusions
-    about the influence of those factors on
-    intelligibility.</styled-content> However, even when unequivocal
-    support for one hypothesis was not possible, the divided support
-    among these models informed that certain statistical issues may be
-    hindering the model’s ability to distinguish among individuals and,
-    ultimately, among models. These issues encompassed the insufficient
-    sample size of speakers, the inadequate representation of the
-    population of speakers, and the imprecise measurement of the latent
-    variable of interest.</p>
+    about the influence of these factors on intelligibility. However,
+    even without unequivocal support for one hypothesis, the divided
+    support among these models informed that certain statistical issues
+    may be hindering the models’ ability to distinguish among
+    individuals and, ultimately, among models. These issues may be
+    attributed to factors such as the insufficient sample size of
+    speakers, the inadequate representation of the population of
+    speakers, referred to as selection bias, and the imprecise
+    measurement of the latent variable of interest.</styled-content></p>
     <p>Ultimately, this study introduced researchers to innovative
     statistical tools that enhanced existing research models.
     <styled-content style="color:blue;">These tools not only assessed
@@ -2345,12 +2347,12 @@ the University of Antwerp (BOF).</funding-statement>
     principled formulation of assumptions regarding the data-generating
     process and research inquiries. This entails understanding and
     addressing each of the data and research challenges within the
-    context of a statistical (probabilistic) model. Conversely, in the
+    context of a statistical (probabilistic) models. Conversely, in the
     practical domain, researchers need familiarity with probabilistic
     programming languages (PPLs), which are designed for specifying and
     obtaining inferences from probabilistic models -the core of Bayesian
     methods. To ensure the successful utilization of this new
-    statistical tool, this study addresses both challenges by providing
+    statistical tool, this study addressed both challenges by providing
     comprehensive, step-by-step guidance in the form of a digital
     walk-through document (see
     <xref alt="Section 2.3" rid="sec-M-SM-OS">Section 2.3</xref> Open
@@ -2358,27 +2360,27 @@ the University of Antwerp (BOF).</funding-statement>
   </sec>
   <sec id="sec-D-LFR">
     <title>Limitations and further research</title>
-    <p>This study provides valuable insights into the use of a novel
+    <p>This study provided valuable insights into the use of a novel
     approach to simultaneously address the different data features of
     entropy scores in speech intelligibility research. However, it is
     important to acknowledge the limitations of this study and explore
-    potential avenues for future research. Firstly, the study interprets
-    potential intelligibility as an unobserved latent trait of speakers
-    influencing the likelihood of observing a set of entropy scores.
-    These scores, in turn, reflect the transcribers’ ability to decode
-    words in sentences produced by the same speakers. Despite this
+    potential avenues for future research. Firstly, the study
+    interpreted potential intelligibility as an unobserved latent trait
+    of speakers influencing the likelihood of observing a set of entropy
+    scores. These scores, in turn, reflected the transcribers’ ability
+    to decode words in sentences produced by the speakers. Despite this
     practical approach, the construct validity of the latent trait
-    heavily depends on the listeners’ appropriate understanding and
+    heavily depended on the listeners’ appropriate understanding and
     execution of the transcription task. Construct validity, as defined
     by Cronbach and Meehl
     (<xref alt="1955" rid="ref-Cronbach_et_al_1955" ref-type="bibr">1955</xref>),
     refers to the extent to which a set of manifest variables accurately
     represents a concept that cannot be directly measured. Considering
-    the study assumes the transcription task set by Boonen et al.
+    the study assumed the transcription task set by Boonen et al.
     (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>)
-    was properly understood and executed, it expects that potential
-    intelligibility reflects the overall speech intelligibility of
-    speakers. However, the study does not delve into the general
+    was properly understood and executed, it expected that the potential
+    intelligibility reflected the overall speech intelligibility of
+    speakers. However, the study did not delved into the general
     epistemological considerations regarding the connection between the
     latent variable and the concept.</p>
     <p>Secondly, the study revealed a notable lack of unequivocal
@@ -2420,13 +2422,13 @@ the University of Antwerp (BOF).</funding-statement>
     (<xref alt="2018" rid="ref-Gillis_2018" ref-type="bibr">2018</xref>),
     and Fagan, Eisenberg, and Johnson
     (<xref alt="2020" rid="ref-Fagan_et_al_2020" ref-type="bibr">2020</xref>).
-    Consequently, the study cannot discard the presence of unobservable
-    variables that might bias the parameter estimates, potentially
-    impacting the inferences provided. Hence, future research should
-    consider integrating appropriate causal hypotheses about these
-    factors into the proposed models, as proper covariate adjustment
-    facilitates the production of unbiased and precise parameter
-    estimates
+    Consequently, the study could not discard the presence of
+    unobservable variables that might bias the parameter estimates,
+    potentially impacting the inferences provided. Hence, future
+    research should consider integrating appropriate causal hypotheses
+    about these factors into the proposed models, as proper covariate
+    adjustment facilitates the production of unbiased and precise
+    parameter estimates
     (<xref alt="Cinelli, Forney, and Pearl 2022" rid="ref-Cinelli_et_al_2021" ref-type="bibr">Cinelli,
     Forney, and Pearl 2022</xref>;
     <xref alt="Deffner, Rohrer, and McElreath 2022" rid="ref-Deffner_et_al_2022" ref-type="bibr">Deffner,
@@ -2446,7 +2448,7 @@ the University of Antwerp (BOF).</funding-statement>
     (<xref alt="Thurstone 1927" rid="ref-Thurstone_1927" ref-type="bibr">Thurstone
     1927</xref>). In the context of the intelligibility trait, the
     stimuli under assessment could be the speech samples uttered by two
-    speakers. Nevertheless, CJ serve as an ideal example as the method
+    speakers. Nevertheless, CJ serves as an ideal example as the method
     has gained increasing attention within the realm of educational
     assessment, with several studies providing evidence for its validity
     in assessing various task within student works, as demonstrated by
@@ -2484,20 +2486,21 @@ the University of Antwerp (BOF).</funding-statement>
 </sec>
 <sec id="sec-conclusion">
   <title>Conclusion</title>
-  <p>This study highlights the effectiveness of the Bayesian
-  Beta-proportion GLLAMM to collectively address several key data
-  features when investigating unobservable and complex traits, using
-  speech intelligibility and entropy scores as an example. The results
-  demonstrate the proposed model consistently outperforms the Normal LMM
-  in predicting the empirical phenomena. Moreover, it exhibits the
-  ability to quantify the latent potential intelligibility of speakers,
-  allowing for the ranking and comparison of individuals based on the
-  latent trait while accommodating associated uncertainties.
-  <styled-content style="color:blue;">Additionally, the proposed model
-  facilitates the exploration of research hypotheses concerning the
-  influence of speaker-related factors on potential intelligibility. The
-  study indicates that integrating and comparing these hypotheses within
-  the model’s framework is a straightforward task.</styled-content></p>
+  <p><styled-content style="color:blue;">This study have highlighted the
+  effectiveness of the Bayesian Beta-proportion GLLAMM to collectively
+  address several key data features when investigating unobservable and
+  complex traits. The study used speech intelligibility and entropy
+  scores as a motivating example. The results have demonstrated that the
+  proposed model consistently outperforms the Normal LMM in predicting
+  the empirical phenomena. Moreover, the model exhibits the ability to
+  quantify the latent potential intelligibility of speakers, allowing
+  for the ranking and comparison of individuals based on the latent
+  trait while accommodating associated uncertainties. Additionally, the
+  proposed model have facilitated the exploration of research hypotheses
+  concerning the influence of speaker-related factors on potential
+  intelligibility, where the integration and comparison of these
+  hypotheses within the model’s framework was a straightforward
+  task.</styled-content></p>
   <p>However, the introduction of these innovative statistical tools
   presents new challenges for researchers seeking implementation. These
   challenges encompass the principled formulation of assumptions about
@@ -2506,11 +2509,11 @@ the University of Antwerp (BOF).</funding-statement>
   essential for implementing Bayesian methods.
   <styled-content style="color:blue;">Nevertheless, the study suggests
   several promising avenues for future research, including causal
-  hypothesis formulation, and exploration and integration of novel
+  hypothesis formulation, and the exploration and integration of novel
   evaluation methods for assessing intelligibility. The insights derived
   from this study hold implications for both researchers and data
   analysts interested in quantitatively measuring intricate,
-  unobservable constructs and accurately predicting empirical
+  unobservable constructs, while predicting accurately the empirical
   phenomena.</styled-content></p>
   <p></p>
 </sec>
@@ -2557,7 +2560,7 @@ the University of Antwerp (BOF).</funding-statement>
   <title>Appendix</title>
   <sec id="sec-appA">
     <title>Entropy scores calculation</title>
-    <p>This section exemplifies the entropy calculation procedure.
+    <p>This section exemplified the entropy calculation procedure.
     <styled-content style="color:blue;">For that purpose, the words in
     position two, three, four and five observed in
     <xref alt="Table 1" rid="tbl-alignment">Table 1</xref> were used.
@@ -2605,7 +2608,7 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.8, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    and entropy score equal to:</styled-content></p>
+    with an entropy score equal to:</styled-content></p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
     H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
@@ -2624,12 +2627,12 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j3})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
-    A blank space <italic>[B]</italic> is a symbol that defines the
-    absence of a word in a space where a word is expected, as compared
-    with other transcriptions, during the alignment procedure. Notice
-    that for calculation purposes, because the blank space is not
-    expected in such position, this is considered as a different word
-    type. Consequently four word types were registered
+    In addition, a blank space <italic>[B]</italic> is a symbol that
+    defined the absence of a word in a space where a word was expected
+    during the alignment procedure, as compared with other
+    transcriptions. Notice that for calculation purposes, because the
+    blank space was not expected in such position, it was considered as
+    a different word type. Consequently four word types were registered
     (<inline-formula><alternatives>
     <tex-math><![CDATA[K=4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
@@ -2648,7 +2651,7 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.4, 0.2, 0.2, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
-    and entropy score equal to:</p>
+    with an entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
     H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
@@ -2656,14 +2659,14 @@ the University of Antwerp (BOF).</funding-statement>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
     <styled-content style="color:blue;">For the fifth word, each
     listener transcribed a different word.</styled-content> It is
-    important to highlight that when a listener does not identify a
-    complete word, or part of it, (s)he is instructed to write
+    important to highlight that when a listener did not identify a
+    complete word, or part of it, (s)he was instructed to write
     <italic>[X]</italic> in that position. However, for the calculation
-    of the entropy score, if more than one listener marks an
-    unidentifiable word with <italic>[X]</italic>, each one of them is
-    considered a different word type. This is done to avoid the
+    of the entropy score, if more than one listener marked an
+    unidentifiable word with <italic>[X]</italic>, each one of them was
+    considered a different word type. This was done to avoid the
     artificial reduction of the entropy score, as <italic>[X]</italic>
-    values already indicate the word’s lack of intelligibility. .
+    values already indicated the word’s lack of intelligibility. .
     Consequently, five word types were observed,
     <inline-formula><alternatives>
     <tex-math><![CDATA[T_{j1}=]]></tex-math>
@@ -2698,7 +2701,7 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.2, 0.2, 0.2, 0.2, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    and entropy score equal to:</p>
+    with an entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
     H_{5111} = \frac{ -\left[ 5 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} = 1
@@ -2736,21 +2739,21 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.4, 0.4, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    and entropy score equal to:</styled-content></p>
+    with an entropy score equal to:</styled-content></p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[
     H_{2111} = \frac{ -\left[ 2 \cdot 0.4 \cdot log_{2}(0.4) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.6555
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.6555</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">Importantly, this last
-    example showcases the major difference between entropy and measures
-    of accuracy based on the percentage of (un)intelligible words:
-    entropy scores employ all word type proportions in their
-    calculations, effectively capturing the agreement and disagreement
-    among listeners’ word transcriptions
+    <p><styled-content style="color:blue;">Importantly, the last example
+    showcased the major difference between entropy and measures of
+    accuracy based on the percentage of (un)intelligible words. Entropy
+    scores employ all word type proportions in their calculations,
+    effectively capturing the agreement and disagreement among
+    listeners’ word transcriptions
     (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
     et al. 2023</xref>). In contrast, the percentage of (un)intelligible
-    words mostly discards some word type proportions in favor of
+    words discards most word type proportions in favor of
     <italic>simpler</italic> agreement or disagreement percentages. For
     example, an agreement percentage could be reflected by the
     proportion of the most frequent word, i.e.,
@@ -7664,10 +7667,11 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     speech intelligibility using entropy scores.</styled-content> The
     initial findings supported the assertion that Beta-proportion
     GLLAMMs consistently outperformed Normal LMMs in predicting entropy
-    scores, underscoring its superior predictive performance. The
-    results emphasized that models neglecting the outcomes’ measurement
-    error and boundedness lead to underfitting and misspecification
-    issues, even when robust features are integrated. This is clearly
+    scores, underscoring its superior predictive performance.
+    <styled-content style="color:blue;">The results also emphasized that
+    models neglecting measurement error and boundedness in the outcomes
+    lead to underfitting and misspecification issues, even when robust
+    features are integrated.</styled-content> This was clearly
     illustrated by the Normal LMMs.</p>
     <p>Secondly, the study showcased the Beta-proportion GLLAMM’s
     proficiency in estimating the latent potential intelligibility of
@@ -7675,25 +7679,26 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     Bayesian procedures, the proposed model offered a valuable advantage
     over frequentist methods by further providing the full posterior
     distribution of the speakers’ potential intelligibility. This
-    provision facilitated the calculation of summaries, aiding
-    individual rankings, and supported the comparisons among selected
-    speakers. In both scenarios, the proposed model accounted for the
-    inherent uncertainty in the intelligibility estimates.</p>
+    provision facilitated the calculation of summaries, aiding in the
+    construction of individual rankings, and supported the comparisons
+    among selected speakers. In both scenarios, the proposed model
+    accounted for the inherent uncertainty in the intelligibility
+    estimates.</p>
     <p>Thirdly, the study illustrated how the proposed model assessed
     the impact of speaker-related factors on potential intelligibility.
     <styled-content style="color:blue;">The results suggested that
-    multiple models were plausible for the observed entropy scores,
-    indicating that different speaker-related factor hypotheses were
+    multiple models were plausible for the observed entropy scores. This
+    indicated that different speaker-related factor hypotheses were
     viable for the data, with some presenting contradictory conclusions
-    about the influence of those factors on
-    intelligibility.</styled-content> However, even when unequivocal
-    support for one hypothesis was not possible, the divided support
-    among these models informed that certain statistical issues may be
-    hindering the model’s ability to distinguish among individuals and,
-    ultimately, among models. These issues encompassed the insufficient
-    sample size of speakers, the inadequate representation of the
-    population of speakers, and the imprecise measurement of the latent
-    variable of interest.</p>
+    about the influence of these factors on intelligibility. However,
+    even without unequivocal support for one hypothesis, the divided
+    support among these models informed that certain statistical issues
+    may be hindering the models’ ability to distinguish among
+    individuals and, ultimately, among models. These issues may be
+    attributed to factors such as the insufficient sample size of
+    speakers, the inadequate representation of the population of
+    speakers, referred to as selection bias, and the imprecise
+    measurement of the latent variable of interest.</styled-content></p>
     <p>Ultimately, this study introduced researchers to innovative
     statistical tools that enhanced existing research models.
     <styled-content style="color:blue;">These tools not only assessed
@@ -7708,12 +7713,12 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     principled formulation of assumptions regarding the data-generating
     process and research inquiries. This entails understanding and
     addressing each of the data and research challenges within the
-    context of a statistical (probabilistic) model. Conversely, in the
+    context of a statistical (probabilistic) models. Conversely, in the
     practical domain, researchers need familiarity with probabilistic
     programming languages (PPLs), which are designed for specifying and
     obtaining inferences from probabilistic models -the core of Bayesian
     methods. To ensure the successful utilization of this new
-    statistical tool, this study addresses both challenges by providing
+    statistical tool, this study addressed both challenges by providing
     comprehensive, step-by-step guidance in the form of a digital
     walk-through document (see
     <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
@@ -7721,27 +7726,27 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
   </sec>
   <sec id="sec-D-LFR-nb-article">
     <title>Limitations and further research</title>
-    <p>This study provides valuable insights into the use of a novel
+    <p>This study provided valuable insights into the use of a novel
     approach to simultaneously address the different data features of
     entropy scores in speech intelligibility research. However, it is
     important to acknowledge the limitations of this study and explore
-    potential avenues for future research. Firstly, the study interprets
-    potential intelligibility as an unobserved latent trait of speakers
-    influencing the likelihood of observing a set of entropy scores.
-    These scores, in turn, reflect the transcribers’ ability to decode
-    words in sentences produced by the same speakers. Despite this
+    potential avenues for future research. Firstly, the study
+    interpreted potential intelligibility as an unobserved latent trait
+    of speakers influencing the likelihood of observing a set of entropy
+    scores. These scores, in turn, reflected the transcribers’ ability
+    to decode words in sentences produced by the speakers. Despite this
     practical approach, the construct validity of the latent trait
-    heavily depends on the listeners’ appropriate understanding and
+    heavily depended on the listeners’ appropriate understanding and
     execution of the transcription task. Construct validity, as defined
     by Cronbach and Meehl
     (<xref alt="1955" rid="ref-Cronbach_et_al_1955-nb-article" ref-type="bibr">1955</xref>),
     refers to the extent to which a set of manifest variables accurately
     represents a concept that cannot be directly measured. Considering
-    the study assumes the transcription task set by Boonen et al.
+    the study assumed the transcription task set by Boonen et al.
     (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>)
-    was properly understood and executed, it expects that potential
-    intelligibility reflects the overall speech intelligibility of
-    speakers. However, the study does not delve into the general
+    was properly understood and executed, it expected that the potential
+    intelligibility reflected the overall speech intelligibility of
+    speakers. However, the study did not delved into the general
     epistemological considerations regarding the connection between the
     latent variable and the concept.</p>
     <p>Secondly, the study revealed a notable lack of unequivocal
@@ -7783,13 +7788,13 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     (<xref alt="2018" rid="ref-Gillis_2018-nb-article" ref-type="bibr">2018</xref>),
     and Fagan, Eisenberg, and Johnson
     (<xref alt="2020" rid="ref-Fagan_et_al_2020-nb-article" ref-type="bibr">2020</xref>).
-    Consequently, the study cannot discard the presence of unobservable
-    variables that might bias the parameter estimates, potentially
-    impacting the inferences provided. Hence, future research should
-    consider integrating appropriate causal hypotheses about these
-    factors into the proposed models, as proper covariate adjustment
-    facilitates the production of unbiased and precise parameter
-    estimates
+    Consequently, the study could not discard the presence of
+    unobservable variables that might bias the parameter estimates,
+    potentially impacting the inferences provided. Hence, future
+    research should consider integrating appropriate causal hypotheses
+    about these factors into the proposed models, as proper covariate
+    adjustment facilitates the production of unbiased and precise
+    parameter estimates
     (<xref alt="Cinelli, Forney, and Pearl 2022" rid="ref-Cinelli_et_al_2021-nb-article" ref-type="bibr">Cinelli,
     Forney, and Pearl 2022</xref>;
     <xref alt="Deffner, Rohrer, and McElreath 2022" rid="ref-Deffner_et_al_2022-nb-article" ref-type="bibr">Deffner,
@@ -7809,7 +7814,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     (<xref alt="Thurstone 1927" rid="ref-Thurstone_1927-nb-article" ref-type="bibr">Thurstone
     1927</xref>). In the context of the intelligibility trait, the
     stimuli under assessment could be the speech samples uttered by two
-    speakers. Nevertheless, CJ serve as an ideal example as the method
+    speakers. Nevertheless, CJ serves as an ideal example as the method
     has gained increasing attention within the realm of educational
     assessment, with several studies providing evidence for its validity
     in assessing various task within student works, as demonstrated by
@@ -7847,20 +7852,21 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
 </sec>
 <sec id="sec-conclusion-nb-article">
   <title>Conclusion</title>
-  <p>This study highlights the effectiveness of the Bayesian
-  Beta-proportion GLLAMM to collectively address several key data
-  features when investigating unobservable and complex traits, using
-  speech intelligibility and entropy scores as an example. The results
-  demonstrate the proposed model consistently outperforms the Normal LMM
-  in predicting the empirical phenomena. Moreover, it exhibits the
-  ability to quantify the latent potential intelligibility of speakers,
-  allowing for the ranking and comparison of individuals based on the
-  latent trait while accommodating associated uncertainties.
-  <styled-content style="color:blue;">Additionally, the proposed model
-  facilitates the exploration of research hypotheses concerning the
-  influence of speaker-related factors on potential intelligibility. The
-  study indicates that integrating and comparing these hypotheses within
-  the model’s framework is a straightforward task.</styled-content></p>
+  <p><styled-content style="color:blue;">This study have highlighted the
+  effectiveness of the Bayesian Beta-proportion GLLAMM to collectively
+  address several key data features when investigating unobservable and
+  complex traits. The study used speech intelligibility and entropy
+  scores as a motivating example. The results have demonstrated that the
+  proposed model consistently outperforms the Normal LMM in predicting
+  the empirical phenomena. Moreover, the model exhibits the ability to
+  quantify the latent potential intelligibility of speakers, allowing
+  for the ranking and comparison of individuals based on the latent
+  trait while accommodating associated uncertainties. Additionally, the
+  proposed model have facilitated the exploration of research hypotheses
+  concerning the influence of speaker-related factors on potential
+  intelligibility, where the integration and comparison of these
+  hypotheses within the model’s framework was a straightforward
+  task.</styled-content></p>
   <p>However, the introduction of these innovative statistical tools
   presents new challenges for researchers seeking implementation. These
   challenges encompass the principled formulation of assumptions about
@@ -7869,11 +7875,11 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
   essential for implementing Bayesian methods.
   <styled-content style="color:blue;">Nevertheless, the study suggests
   several promising avenues for future research, including causal
-  hypothesis formulation, and exploration and integration of novel
+  hypothesis formulation, and the exploration and integration of novel
   evaluation methods for assessing intelligibility. The insights derived
   from this study hold implications for both researchers and data
   analysts interested in quantitatively measuring intricate,
-  unobservable constructs and accurately predicting empirical
+  unobservable constructs, while predicting accurately the empirical
   phenomena.</styled-content></p>
   <p></p>
 </sec>
@@ -7920,7 +7926,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
   <title>Appendix</title>
   <sec id="sec-appA-nb-article">
     <title>Entropy scores calculation</title>
-    <p>This section exemplifies the entropy calculation procedure.
+    <p>This section exemplified the entropy calculation procedure.
     <styled-content style="color:blue;">For that purpose, the words in
     position two, three, four and five observed in
     <xref alt="Table 1" rid="tbl-alignment-nb-article">Table 1</xref> were used.
@@ -7968,7 +7974,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.8, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    and entropy score equal to:</styled-content></p>
+    with an entropy score equal to:</styled-content></p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
     H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
@@ -7987,12 +7993,12 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j3})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
-    A blank space <italic>[B]</italic> is a symbol that defines the
-    absence of a word in a space where a word is expected, as compared
-    with other transcriptions, during the alignment procedure. Notice
-    that for calculation purposes, because the blank space is not
-    expected in such position, this is considered as a different word
-    type. Consequently four word types were registered
+    In addition, a blank space <italic>[B]</italic> is a symbol that
+    defined the absence of a word in a space where a word was expected
+    during the alignment procedure, as compared with other
+    transcriptions. Notice that for calculation purposes, because the
+    blank space was not expected in such position, it was considered as
+    a different word type. Consequently four word types were registered
     (<inline-formula><alternatives>
     <tex-math><![CDATA[K=4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>),
@@ -8011,7 +8017,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.4, 0.2, 0.2, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>
-    and entropy score equal to:</p>
+    with an entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
     H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
@@ -8019,14 +8025,14 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
     <styled-content style="color:blue;">For the fifth word, each
     listener transcribed a different word.</styled-content> It is
-    important to highlight that when a listener does not identify a
-    complete word, or part of it, (s)he is instructed to write
+    important to highlight that when a listener did not identify a
+    complete word, or part of it, (s)he was instructed to write
     <italic>[X]</italic> in that position. However, for the calculation
-    of the entropy score, if more than one listener marks an
-    unidentifiable word with <italic>[X]</italic>, each one of them is
-    considered a different word type. This is done to avoid the
+    of the entropy score, if more than one listener marked an
+    unidentifiable word with <italic>[X]</italic>, each one of them was
+    considered a different word type. This was done to avoid the
     artificial reduction of the entropy score, as <italic>[X]</italic>
-    values already indicate the word’s lack of intelligibility. .
+    values already indicated the word’s lack of intelligibility. .
     Consequently, five word types were observed,
     <inline-formula><alternatives>
     <tex-math><![CDATA[T_{j1}=]]></tex-math>
@@ -8061,7 +8067,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.2, 0.2, 0.2, 0.2, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    and entropy score equal to:</p>
+    with an entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
     H_{5111} = \frac{ -\left[ 5 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} = 1
@@ -8099,21 +8105,21 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.4, 0.4, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    and entropy score equal to:</styled-content></p>
+    with an entropy score equal to:</styled-content></p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[
     H_{2111} = \frac{ -\left[ 2 \cdot 0.4 \cdot log_{2}(0.4) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.6555
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.6555</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">Importantly, this last
-    example showcases the major difference between entropy and measures
-    of accuracy based on the percentage of (un)intelligible words:
-    entropy scores employ all word type proportions in their
-    calculations, effectively capturing the agreement and disagreement
-    among listeners’ word transcriptions
+    <p><styled-content style="color:blue;">Importantly, the last example
+    showcased the major difference between entropy and measures of
+    accuracy based on the percentage of (un)intelligible words. Entropy
+    scores employ all word type proportions in their calculations,
+    effectively capturing the agreement and disagreement among
+    listeners’ word transcriptions
     (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
     et al. 2023</xref>). In contrast, the percentage of (un)intelligible
-    words mostly discards some word type proportions in favor of
+    words discards most word type proportions in favor of
     <italic>simpler</italic> agreement or disagreement percentages. For
     example, an agreement percentage could be reflected by the
     proportion of the most frequent word, i.e.,
