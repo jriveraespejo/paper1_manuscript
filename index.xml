@@ -130,10 +130,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-16">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-17">
 <year>2024</year>
 <month>5</month>
-<day>16</day>
+<day>17</day>
 </pub-date>
 
 
@@ -1246,6 +1246,161 @@ the University of Antwerp (BOF).</funding-statement>
         \end{aligned} 
          \qquad(8)]]></tex-math>
         <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>r</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>M</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mi>M</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>m</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>m</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>s</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>b</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mi>b</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:mi>α</mml:mi></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.3</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
+        <fig id="tbl-fitted">
+          <caption><p>Table 2: Fitted models.
+          <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+          <italic>Yes</italic> indicates the feature or parameter is
+          included in the model.</styled-content></p></caption>
+          <table-wrap>
+            <table>
+              <colgroup>
+                <col width="8%" />
+                <col width="10%" />
+                <col width="15%" />
+                <col width="10%" />
+                <col width="17%" />
+                <col width="14%" />
+                <col width="20%" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="center"></th>
+                  <th align="center">Model</th>
+                  <th align="center">Entropy</th>
+                  <th align="center">Robust</th>
+                  <th align="center">Fixed effects</th>
+                  <th align="center"></th>
+                  <th align="center"></th>
+                </tr>
+                <tr>
+                  <th align="center">Model</th>
+                  <th align="center">type</th>
+                  <th align="center">distribution</th>
+                  <th align="center">feature</th>
+                  <th align="center"><inline-formula><alternatives>
+                  <tex-math><![CDATA[\beta_{HS[i]}]]></tex-math>
+                  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula></th>
+                  <th align="center"><inline-formula><alternatives>
+                  <tex-math><![CDATA[\beta_{A}]]></tex-math>
+                  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mi>A</mml:mi></mml:msub></mml:math></alternatives></inline-formula></th>
+                  <th align="center"><inline-formula><alternatives>
+                  <tex-math><![CDATA[\beta_{A,HS[i]}]]></tex-math>
+                  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center">1</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">2</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">3</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                </tr>
+                <tr>
+                  <td align="center">4</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">5</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">6</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                </tr>
+                <tr>
+                  <td align="center">7</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">8</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">9</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                </tr>
+                <tr>
+                  <td align="center">10</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">11</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">12</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </fig>
       </sec>
     </sec>
     <sec id="sec-M-SM-FM">
@@ -1271,161 +1426,6 @@ the University of Antwerp (BOF).</funding-statement>
       and (4) the inclusion or exclusion of speaker-related factors in
       the models. A detailed overview of the fitted models is available
       in <xref alt="Table 2" rid="tbl-fitted">Table 2</xref>.</p>
-      <fig id="tbl-fitted">
-        <caption><p>Table 2: Fitted models.
-        <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-        <italic>Yes</italic> indicates the feature or parameter is
-        included in the model.</styled-content></p></caption>
-        <table-wrap>
-          <table>
-            <colgroup>
-              <col width="8%" />
-              <col width="10%" />
-              <col width="15%" />
-              <col width="10%" />
-              <col width="17%" />
-              <col width="14%" />
-              <col width="20%" />
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center"></th>
-                <th align="center">Model</th>
-                <th align="center">Entropy</th>
-                <th align="center">Robust</th>
-                <th align="center">Fixed effects</th>
-                <th align="center"></th>
-                <th align="center"></th>
-              </tr>
-              <tr>
-                <th align="center">Model</th>
-                <th align="center">type</th>
-                <th align="center">distribution</th>
-                <th align="center">feature</th>
-                <th align="center"><inline-formula><alternatives>
-                <tex-math><![CDATA[\beta_{HS[i]}]]></tex-math>
-                <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula></th>
-                <th align="center"><inline-formula><alternatives>
-                <tex-math><![CDATA[\beta_{A}]]></tex-math>
-                <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mi>A</mml:mi></mml:msub></mml:math></alternatives></inline-formula></th>
-                <th align="center"><inline-formula><alternatives>
-                <tex-math><![CDATA[\beta_{A,HS[i]}]]></tex-math>
-                <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center">1</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">2</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">3</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-              </tr>
-              <tr>
-                <td align="center">4</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">5</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">6</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-              </tr>
-              <tr>
-                <td align="center">7</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">8</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">9</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-              </tr>
-              <tr>
-                <td align="center">10</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">11</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">12</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-              </tr>
-            </tbody>
-          </table>
-        </table-wrap>
-      </fig>
     </sec>
     <sec id="sec-M-SM-CQ">
       <title>Estimation and chain quality</title>
@@ -2441,19 +2441,15 @@ the University of Antwerp (BOF).</funding-statement>
     may be time-intensive and costly. Thus, exploring less
     time-intensive or more cost-effective procedures, that still offer
     comparable precision in intelligibility estimates, could benefit
-    both researchers and speech therapists alike. An illustrative
-    example of such a method is Comparative Judgment (CJ), where judges
-    compare and score the perceived intensity of a trait between two
-    stimuli
+    both researchers and speech therapists alike.
+    <styled-content style="color:blue;">One example of such a method is
+    Comparative Judgment (CJ), where judges compare and score the
+    perceived intensity of a trait between two stimuli
     (<xref alt="Thurstone 1927" rid="ref-Thurstone_1927" ref-type="bibr">Thurstone
-    1927</xref>). In the context of the intelligibility trait, the
-    stimuli under assessment could be the speech samples uttered by two
-    speakers. Nevertheless, CJ serves as an ideal example as the method
-    has gained increasing attention within the realm of educational
-    assessment, with several studies providing evidence for its validity
-    in assessing various task within student works, as demonstrated by
-    examples in Pollitt
-    (<xref alt="2012a" rid="ref-Pollitt_2012a" ref-type="bibr">2012a</xref>);
+    1927</xref>). CJ has gained increasing attention in educational
+    assessment, with several studies demonstrating its validity in
+    assessing various tasks within student work, as shown in Pollitt
+    (<xref alt="2012a" rid="ref-Pollitt_2012a" ref-type="bibr">2012a</xref>),
     Pollitt
     (<xref alt="2012b" rid="ref-Pollitt_2012b" ref-type="bibr">2012b</xref>),
     Lesterhuis
@@ -2461,7 +2457,23 @@ the University of Antwerp (BOF).</funding-statement>
     van Daal
     (<xref alt="2020" rid="ref-vanDaal_2020" ref-type="bibr">2020</xref>),
     and Verhavert et al.
-    (<xref alt="2019" rid="ref-Verhavert_et_al_2019" ref-type="bibr">2019</xref>).</p>
+    (<xref alt="2019" rid="ref-Verhavert_et_al_2019" ref-type="bibr">2019</xref>).
+    The work of Boonen, Kloots, and Gillis
+    (<xref alt="2020" rid="ref-Boonen_et_al_2020" ref-type="bibr">2020</xref>)
+    illustrates the potential of this methodology to assess
+    intelligibility. In their study, the authors assessed the overall
+    speech quality of hearing-impaired children using pairwise
+    comparisons of uttered speech samples, while scoring the results in
+    a dichotomous manner. Nevertheless, there is significant room for
+    extending their application. For instance, researchers can perform
+    retrospective power analysis to ascertain the power of the study’s
+    claims (see
+    <xref alt="Kruschke 2015, 393–94" rid="ref-Kruschke_2015" ref-type="bibr">Kruschke
+    2015, 393–94</xref>). Furthermore, the application can be extended
+    to other unexplored variants of the CJ method, such as Ordered CJ
+    (<xref alt="Pritikin 2020" rid="ref-Pritikin_2020" ref-type="bibr">Pritikin
+    2020</xref>) or Multidimensional Dichotomous
+    CJ.</styled-content></p>
     <p>Conversely, a second avenue for exploration involves integrating
     diverse data types and evaluation methods to assess individuals’
     intelligibility. This can be accomplished by leveraging two features
@@ -4137,6 +4149,40 @@ the University of Antwerp (BOF).</funding-statement>
       <lpage>562</lpage>
     </element-citation>
   </ref>
+  <ref id="ref-Pritikin_2020">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Pritikin</surname><given-names>J.</given-names></name>
+      </person-group>
+      <article-title>An exploratory factor model for ordinal paired comparison indicators</article-title>
+      <source>Heliyon 6</source>
+      <year iso-8601-date="2020">2020</year>
+      <volume>6</volume>
+      <issue>9</issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1016/j.heliyon.2020.e04821</pub-id>
+      <fpage></fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Boonen_et_al_2020">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Boonen</surname><given-names>N.</given-names></name>
+        <name><surname>Kloots</surname><given-names>H.</given-names></name>
+        <name><surname>Gillis</surname><given-names>S.</given-names></name>
+      </person-group>
+      <article-title>Rating the overall speech quality of hearing-impaired children by means of comparative judgements</article-title>
+      <source>Journal of Communication Disorders</source>
+      <year iso-8601-date="2020">2020</year>
+      <volume>83</volume>
+      <issue></issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1016/j.jcomdis.2019.105969</pub-id>
+      <fpage>1675</fpage>
+      <lpage>1687</lpage>
+    </element-citation>
+  </ref>
   <ref id="ref-Pereira_et_al_2020">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
@@ -4175,43 +4221,6 @@ the University of Antwerp (BOF).</funding-statement>
       <pub-id pub-id-type="doi">10.1371/journal.pone.0254103</pub-id>
       <fpage>1</fpage>
       <lpage>28</lpage>
-    </element-citation>
-  </ref>
-  <ref id="ref-Boonen_et_al_2023">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Boonen</surname><given-names>N.</given-names></name>
-        <name><surname>Kloots</surname><given-names>H.</given-names></name>
-        <name><surname>Nurzia</surname><given-names>P.</given-names></name>
-        <name><surname>Gillis</surname><given-names>S.</given-names></name>
-      </person-group>
-      <article-title>Spontaneous speech intelligibility: Early cochlear implanted children versus their normally hearing peers at seven years of age</article-title>
-      <source>Journal of Child Language</source>
-      <year iso-8601-date="2023">2023</year>
-      <volume>50</volume>
-      <issue>1</issue>
-      <uri></uri>
-      <pub-id pub-id-type="doi">10.1017/S0305000921000714</pub-id>
-      <fpage>78</fpage>
-      <lpage>103</lpage>
-    </element-citation>
-  </ref>
-  <ref id="ref-Faes_et_al_2022">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Faes</surname><given-names>J.</given-names></name>
-        <name><surname>De Maeyer</surname><given-names>S.</given-names></name>
-        <name><surname>Gillis</surname><given-names>S.</given-names></name>
-      </person-group>
-      <article-title>Speech intelligibility of children with an auditory brainstem implant: A triple-case study</article-title>
-      <source>Clinical Linguistics &amp; Phonetics</source>
-      <year iso-8601-date="2022">2022</year>
-      <volume>36</volume>
-      <issue>12</issue>
-      <uri></uri>
-      <pub-id pub-id-type="doi">10.1080/02699206.2021.1988148</pub-id>
-      <fpage>1</fpage>
-      <lpage>50</lpage>
     </element-citation>
   </ref>
   <ref id="ref-Figueroa-Zuniga_et_al_2021">
@@ -4272,6 +4281,24 @@ the University of Antwerp (BOF).</funding-statement>
       <lpage> 718</lpage>
     </element-citation>
   </ref>
+  <ref id="ref-Faes_et_al_2022">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Faes</surname><given-names>J.</given-names></name>
+        <name><surname>De Maeyer</surname><given-names>S.</given-names></name>
+        <name><surname>Gillis</surname><given-names>S.</given-names></name>
+      </person-group>
+      <article-title>Speech intelligibility of children with an auditory brainstem implant: A triple-case study</article-title>
+      <source>Clinical Linguistics &amp; Phonetics</source>
+      <year iso-8601-date="2022">2022</year>
+      <volume>36</volume>
+      <issue>12</issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1080/02699206.2021.1988148</pub-id>
+      <fpage>1</fpage>
+      <lpage>50</lpage>
+    </element-citation>
+  </ref>
   <ref id="ref-Deffner_et_al_2022">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
@@ -4288,6 +4315,25 @@ the University of Antwerp (BOF).</funding-statement>
       <pub-id pub-id-type="doi">10.1177/25152459221106366</pub-id>
       <fpage></fpage>
       <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Boonen_et_al_2023">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Boonen</surname><given-names>N.</given-names></name>
+        <name><surname>Kloots</surname><given-names>H.</given-names></name>
+        <name><surname>Nurzia</surname><given-names>P.</given-names></name>
+        <name><surname>Gillis</surname><given-names>S.</given-names></name>
+      </person-group>
+      <article-title>Spontaneous speech intelligibility: Early cochlear implanted children versus their normally hearing peers at seven years of age</article-title>
+      <source>Journal of Child Language</source>
+      <year iso-8601-date="2023">2023</year>
+      <volume>50</volume>
+      <issue>1</issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1017/S0305000921000714</pub-id>
+      <fpage>78</fpage>
+      <lpage>103</lpage>
     </element-citation>
   </ref>
   <ref id="ref-Choi_2023">
@@ -4476,6 +4522,19 @@ the University of Antwerp (BOF).</funding-statement>
       <volume></volume>
       <edition>3rd</edition>
       <uri></uri>
+      <pub-id pub-id-type="doi"></pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kruschke_2015">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Kruschke</surname><given-names>D.</given-names></name>
+      </person-group>
+      <source>Doing bayesian data analysis: A tutorial with r, JAGS, and stan</source>
+      <publisher-name>Elsevier</publisher-name>
+      <year iso-8601-date="2015">2015</year>
+      <isbn>9780124058880</isbn>
+      <uri>https://www.sciencedirect.com/book/9780124058880/doing-bayesian-data-analysis</uri>
       <pub-id pub-id-type="doi"></pub-id>
     </element-citation>
   </ref>
@@ -6024,6 +6083,161 @@ data_H = data.frame(dlist[var_int])
         \end{aligned} 
          \qquad(8)]]></tex-math>
         <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>r</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>M</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mi>M</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>m</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>m</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>s</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>b</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mi>b</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:mi>α</mml:mi></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.3</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
+        <fig id="tbl-fitted-nb-article">
+          <caption><p>Table 2: Fitted models.
+          <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
+          <italic>Yes</italic> indicates the feature or parameter is
+          included in the model.</styled-content></p></caption>
+          <table-wrap>
+            <table>
+              <colgroup>
+                <col width="8%" />
+                <col width="10%" />
+                <col width="15%" />
+                <col width="10%" />
+                <col width="17%" />
+                <col width="14%" />
+                <col width="20%" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="center"></th>
+                  <th align="center">Model</th>
+                  <th align="center">Entropy</th>
+                  <th align="center">Robust</th>
+                  <th align="center">Fixed effects</th>
+                  <th align="center"></th>
+                  <th align="center"></th>
+                </tr>
+                <tr>
+                  <th align="center">Model</th>
+                  <th align="center">type</th>
+                  <th align="center">distribution</th>
+                  <th align="center">feature</th>
+                  <th align="center"><inline-formula><alternatives>
+                  <tex-math><![CDATA[\beta_{HS[i]}]]></tex-math>
+                  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula></th>
+                  <th align="center"><inline-formula><alternatives>
+                  <tex-math><![CDATA[\beta_{A}]]></tex-math>
+                  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mi>A</mml:mi></mml:msub></mml:math></alternatives></inline-formula></th>
+                  <th align="center"><inline-formula><alternatives>
+                  <tex-math><![CDATA[\beta_{A,HS[i]}]]></tex-math>
+                  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center">1</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">2</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">3</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                </tr>
+                <tr>
+                  <td align="center">4</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">5</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">6</td>
+                  <td align="center">LMM</td>
+                  <td align="center">Normal</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                </tr>
+                <tr>
+                  <td align="center">7</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">8</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">9</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                </tr>
+                <tr>
+                  <td align="center">10</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">11</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                </tr>
+                <tr>
+                  <td align="center">12</td>
+                  <td align="center">GLLAMM</td>
+                  <td align="center">BetaProp</td>
+                  <td align="center">Yes</td>
+                  <td align="center">Yes</td>
+                  <td align="center">No</td>
+                  <td align="center">Yes</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </fig>
       </sec>
     </sec>
     <sec id="sec-M-SM-FM-nb-article">
@@ -6049,161 +6263,6 @@ data_H = data.frame(dlist[var_int])
       and (4) the inclusion or exclusion of speaker-related factors in
       the models. A detailed overview of the fitted models is available
       in <xref alt="Table 2" rid="tbl-fitted-nb-article">Table 2</xref>.</p>
-      <fig id="tbl-fitted-nb-article">
-        <caption><p>Table 2: Fitted models.
-        <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-        <italic>Yes</italic> indicates the feature or parameter is
-        included in the model.</styled-content></p></caption>
-        <table-wrap>
-          <table>
-            <colgroup>
-              <col width="8%" />
-              <col width="10%" />
-              <col width="15%" />
-              <col width="10%" />
-              <col width="17%" />
-              <col width="14%" />
-              <col width="20%" />
-            </colgroup>
-            <thead>
-              <tr>
-                <th align="center"></th>
-                <th align="center">Model</th>
-                <th align="center">Entropy</th>
-                <th align="center">Robust</th>
-                <th align="center">Fixed effects</th>
-                <th align="center"></th>
-                <th align="center"></th>
-              </tr>
-              <tr>
-                <th align="center">Model</th>
-                <th align="center">type</th>
-                <th align="center">distribution</th>
-                <th align="center">feature</th>
-                <th align="center"><inline-formula><alternatives>
-                <tex-math><![CDATA[\beta_{HS[i]}]]></tex-math>
-                <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula></th>
-                <th align="center"><inline-formula><alternatives>
-                <tex-math><![CDATA[\beta_{A}]]></tex-math>
-                <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mi>A</mml:mi></mml:msub></mml:math></alternatives></inline-formula></th>
-                <th align="center"><inline-formula><alternatives>
-                <tex-math><![CDATA[\beta_{A,HS[i]}]]></tex-math>
-                <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:math></alternatives></inline-formula></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td align="center">1</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">2</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">3</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-              </tr>
-              <tr>
-                <td align="center">4</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">5</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">6</td>
-                <td align="center">LMM</td>
-                <td align="center">Normal</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-              </tr>
-              <tr>
-                <td align="center">7</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">8</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">9</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-              </tr>
-              <tr>
-                <td align="center">10</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">11</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-              </tr>
-              <tr>
-                <td align="center">12</td>
-                <td align="center">GLLAMM</td>
-                <td align="center">BetaProp</td>
-                <td align="center">Yes</td>
-                <td align="center">Yes</td>
-                <td align="center">No</td>
-                <td align="center">Yes</td>
-              </tr>
-            </tbody>
-          </table>
-        </table-wrap>
-      </fig>
     </sec>
     <sec id="sec-M-SM-CQ-nb-article">
       <title>Estimation and chain quality</title>
@@ -7807,19 +7866,15 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     may be time-intensive and costly. Thus, exploring less
     time-intensive or more cost-effective procedures, that still offer
     comparable precision in intelligibility estimates, could benefit
-    both researchers and speech therapists alike. An illustrative
-    example of such a method is Comparative Judgment (CJ), where judges
-    compare and score the perceived intensity of a trait between two
-    stimuli
+    both researchers and speech therapists alike.
+    <styled-content style="color:blue;">One example of such a method is
+    Comparative Judgment (CJ), where judges compare and score the
+    perceived intensity of a trait between two stimuli
     (<xref alt="Thurstone 1927" rid="ref-Thurstone_1927-nb-article" ref-type="bibr">Thurstone
-    1927</xref>). In the context of the intelligibility trait, the
-    stimuli under assessment could be the speech samples uttered by two
-    speakers. Nevertheless, CJ serves as an ideal example as the method
-    has gained increasing attention within the realm of educational
-    assessment, with several studies providing evidence for its validity
-    in assessing various task within student works, as demonstrated by
-    examples in Pollitt
-    (<xref alt="2012a" rid="ref-Pollitt_2012a-nb-article" ref-type="bibr">2012a</xref>);
+    1927</xref>). CJ has gained increasing attention in educational
+    assessment, with several studies demonstrating its validity in
+    assessing various tasks within student work, as shown in Pollitt
+    (<xref alt="2012a" rid="ref-Pollitt_2012a-nb-article" ref-type="bibr">2012a</xref>),
     Pollitt
     (<xref alt="2012b" rid="ref-Pollitt_2012b-nb-article" ref-type="bibr">2012b</xref>),
     Lesterhuis
@@ -7827,7 +7882,23 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     van Daal
     (<xref alt="2020" rid="ref-vanDaal_2020-nb-article" ref-type="bibr">2020</xref>),
     and Verhavert et al.
-    (<xref alt="2019" rid="ref-Verhavert_et_al_2019-nb-article" ref-type="bibr">2019</xref>).</p>
+    (<xref alt="2019" rid="ref-Verhavert_et_al_2019-nb-article" ref-type="bibr">2019</xref>).
+    The work of Boonen, Kloots, and Gillis
+    (<xref alt="2020" rid="ref-Boonen_et_al_2020-nb-article" ref-type="bibr">2020</xref>)
+    illustrates the potential of this methodology to assess
+    intelligibility. In their study, the authors assessed the overall
+    speech quality of hearing-impaired children using pairwise
+    comparisons of uttered speech samples, while scoring the results in
+    a dichotomous manner. Nevertheless, there is significant room for
+    extending their application. For instance, researchers can perform
+    retrospective power analysis to ascertain the power of the study’s
+    claims (see
+    <xref alt="Kruschke 2015, 393–94" rid="ref-Kruschke_2015-nb-article" ref-type="bibr">Kruschke
+    2015, 393–94</xref>). Furthermore, the application can be extended
+    to other unexplored variants of the CJ method, such as Ordered CJ
+    (<xref alt="Pritikin 2020" rid="ref-Pritikin_2020-nb-article" ref-type="bibr">Pritikin
+    2020</xref>) or Multidimensional Dichotomous
+    CJ.</styled-content></p>
     <p>Conversely, a second avenue for exploration involves integrating
     diverse data types and evaluation methods to assess individuals’
     intelligibility. This can be accomplished by leveraging two features
@@ -9598,6 +9669,40 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <lpage>562</lpage>
     </element-citation>
   </ref>
+  <ref id="ref-Pritikin_2020-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Pritikin</surname><given-names>J.</given-names></name>
+      </person-group>
+      <article-title>An exploratory factor model for ordinal paired comparison indicators</article-title>
+      <source>Heliyon 6</source>
+      <year iso-8601-date="2020">2020</year>
+      <volume>6</volume>
+      <issue>9</issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1016/j.heliyon.2020.e04821</pub-id>
+      <fpage></fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Boonen_et_al_2020-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Boonen</surname><given-names>N.</given-names></name>
+        <name><surname>Kloots</surname><given-names>H.</given-names></name>
+        <name><surname>Gillis</surname><given-names>S.</given-names></name>
+      </person-group>
+      <article-title>Rating the overall speech quality of hearing-impaired children by means of comparative judgements</article-title>
+      <source>Journal of Communication Disorders</source>
+      <year iso-8601-date="2020">2020</year>
+      <volume>83</volume>
+      <issue></issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1016/j.jcomdis.2019.105969</pub-id>
+      <fpage>1675</fpage>
+      <lpage>1687</lpage>
+    </element-citation>
+  </ref>
   <ref id="ref-Pereira_et_al_2020-nb-article">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
@@ -9636,43 +9741,6 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <pub-id pub-id-type="doi">10.1371/journal.pone.0254103</pub-id>
       <fpage>1</fpage>
       <lpage>28</lpage>
-    </element-citation>
-  </ref>
-  <ref id="ref-Boonen_et_al_2023-nb-article">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Boonen</surname><given-names>N.</given-names></name>
-        <name><surname>Kloots</surname><given-names>H.</given-names></name>
-        <name><surname>Nurzia</surname><given-names>P.</given-names></name>
-        <name><surname>Gillis</surname><given-names>S.</given-names></name>
-      </person-group>
-      <article-title>Spontaneous speech intelligibility: Early cochlear implanted children versus their normally hearing peers at seven years of age</article-title>
-      <source>Journal of Child Language</source>
-      <year iso-8601-date="2023">2023</year>
-      <volume>50</volume>
-      <issue>1</issue>
-      <uri></uri>
-      <pub-id pub-id-type="doi">10.1017/S0305000921000714</pub-id>
-      <fpage>78</fpage>
-      <lpage>103</lpage>
-    </element-citation>
-  </ref>
-  <ref id="ref-Faes_et_al_2022-nb-article">
-    <element-citation publication-type="article-journal">
-      <person-group person-group-type="author">
-        <name><surname>Faes</surname><given-names>J.</given-names></name>
-        <name><surname>De Maeyer</surname><given-names>S.</given-names></name>
-        <name><surname>Gillis</surname><given-names>S.</given-names></name>
-      </person-group>
-      <article-title>Speech intelligibility of children with an auditory brainstem implant: A triple-case study</article-title>
-      <source>Clinical Linguistics &amp; Phonetics</source>
-      <year iso-8601-date="2022">2022</year>
-      <volume>36</volume>
-      <issue>12</issue>
-      <uri></uri>
-      <pub-id pub-id-type="doi">10.1080/02699206.2021.1988148</pub-id>
-      <fpage>1</fpage>
-      <lpage>50</lpage>
     </element-citation>
   </ref>
   <ref id="ref-Figueroa-Zuniga_et_al_2021-nb-article">
@@ -9733,6 +9801,24 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <lpage> 718</lpage>
     </element-citation>
   </ref>
+  <ref id="ref-Faes_et_al_2022-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Faes</surname><given-names>J.</given-names></name>
+        <name><surname>De Maeyer</surname><given-names>S.</given-names></name>
+        <name><surname>Gillis</surname><given-names>S.</given-names></name>
+      </person-group>
+      <article-title>Speech intelligibility of children with an auditory brainstem implant: A triple-case study</article-title>
+      <source>Clinical Linguistics &amp; Phonetics</source>
+      <year iso-8601-date="2022">2022</year>
+      <volume>36</volume>
+      <issue>12</issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1080/02699206.2021.1988148</pub-id>
+      <fpage>1</fpage>
+      <lpage>50</lpage>
+    </element-citation>
+  </ref>
   <ref id="ref-Deffner_et_al_2022-nb-article">
     <element-citation publication-type="article-journal">
       <person-group person-group-type="author">
@@ -9749,6 +9835,25 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <pub-id pub-id-type="doi">10.1177/25152459221106366</pub-id>
       <fpage></fpage>
       <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-Boonen_et_al_2023-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Boonen</surname><given-names>N.</given-names></name>
+        <name><surname>Kloots</surname><given-names>H.</given-names></name>
+        <name><surname>Nurzia</surname><given-names>P.</given-names></name>
+        <name><surname>Gillis</surname><given-names>S.</given-names></name>
+      </person-group>
+      <article-title>Spontaneous speech intelligibility: Early cochlear implanted children versus their normally hearing peers at seven years of age</article-title>
+      <source>Journal of Child Language</source>
+      <year iso-8601-date="2023">2023</year>
+      <volume>50</volume>
+      <issue>1</issue>
+      <uri></uri>
+      <pub-id pub-id-type="doi">10.1017/S0305000921000714</pub-id>
+      <fpage>78</fpage>
+      <lpage>103</lpage>
     </element-citation>
   </ref>
   <ref id="ref-Choi_2023-nb-article">
@@ -9937,6 +10042,19 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       <volume></volume>
       <edition>3rd</edition>
       <uri></uri>
+      <pub-id pub-id-type="doi"></pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-Kruschke_2015-nb-article">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name><surname>Kruschke</surname><given-names>D.</given-names></name>
+      </person-group>
+      <source>Doing bayesian data analysis: A tutorial with r, JAGS, and stan</source>
+      <publisher-name>Elsevier</publisher-name>
+      <year iso-8601-date="2015">2015</year>
+      <isbn>9780124058880</isbn>
+      <uri>https://www.sciencedirect.com/book/9780124058880/doing-bayesian-data-analysis</uri>
       <pub-id pub-id-type="doi"></pub-id>
     </element-citation>
   </ref>

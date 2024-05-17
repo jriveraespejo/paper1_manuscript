@@ -848,26 +848,6 @@ a_{b} &\sim \text{Normal} \left( m_{b}, s_{b} \right) \\
 \end{aligned} 
 }\end{equation}
 
-\subsubsection{Fitted models}\label{sec-M-SM-FM}
-
-This study evaluated the comparative predictive capabilities of both the
-Normal LMM and the Beta-proportion GLLAMM (RQ1) while simultaneously
-examined various formulations regarding how speaker-related factors
-influence intelligibility (RQ3). In this context, the predictive
-capabilities of the models were intricately connected to these
-formulations. As a result, the study required fitting \(12\) different
-models, each representing a specific manner to investigate one or both
-research questions. The models comprised six versions of both the Normal
-LMM and the Beta-proportion GLLAMM. The differences among the models
-hinged on (1) whether they addressed data clustering in conjunction with
-measurement error, denoted as the model type, (2) the assumed
-distribution for the entropy scores, which aimed to handle boundedness,
-(3) whether the model incorporated a robust feature to address mild or
-moderate departures of the data from distributional assumptions, and (4)
-the inclusion or exclusion of speaker-related factors in the models. A
-detailed overview of the fitted models is available in
-Table~\ref{tbl-fitted}.
-
 \begin{longtable}[]{@{}
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0808}}
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1010}}
@@ -954,6 +934,26 @@ feature
 11 & GLLAMM & BetaProp & Yes & Yes & Yes & No \\
 12 & GLLAMM & BetaProp & Yes & Yes & No & Yes \\
 \end{longtable}
+
+\subsubsection{Fitted models}\label{sec-M-SM-FM}
+
+This study evaluated the comparative predictive capabilities of both the
+Normal LMM and the Beta-proportion GLLAMM (RQ1) while simultaneously
+examined various formulations regarding how speaker-related factors
+influence intelligibility (RQ3). In this context, the predictive
+capabilities of the models were intricately connected to these
+formulations. As a result, the study required fitting \(12\) different
+models, each representing a specific manner to investigate one or both
+research questions. The models comprised six versions of both the Normal
+LMM and the Beta-proportion GLLAMM. The differences among the models
+hinged on (1) whether they addressed data clustering in conjunction with
+measurement error, denoted as the model type, (2) the assumed
+distribution for the entropy scores, which aimed to handle boundedness,
+(3) whether the model incorporated a robust feature to address mild or
+moderate departures of the data from distributional assumptions, and (4)
+the inclusion or exclusion of speaker-related factors in the models. A
+detailed overview of the fitted models is available in
+Table~\ref{tbl-fitted}.
 
 \subsubsection{Estimation and chain quality}\label{sec-M-SM-CQ}
 
@@ -1592,17 +1592,23 @@ of transcription tasks imply that the procedure may be time-intensive
 and costly. Thus, exploring less time-intensive or more cost-effective
 procedures, that still offer comparable precision in intelligibility
 estimates, could benefit both researchers and speech therapists alike.
-An illustrative example of such a method is Comparative Judgment (CJ),
-where judges compare and score the perceived intensity of a trait
-between two stimuli \citep{Thurstone_1927}. In the context of the
-intelligibility trait, the stimuli under assessment could be the speech
-samples uttered by two speakers. Nevertheless, CJ serves as an ideal
-example as the method has gained increasing attention within the realm
-of educational assessment, with several studies providing evidence for
-its validity in assessing various task within student works, as
-demonstrated by examples in \citet{Pollitt_2012a};
-\citet{Pollitt_2012b}, \citet{Lesterhuis_2018}, \citet{vanDaal_2020},
-and \citet{Verhavert_et_al_2019}.
+{One example of such a method is Comparative Judgment (CJ), where judges
+compare and score the perceived intensity of a trait between two stimuli
+\citep{Thurstone_1927}. CJ has gained increasing attention in
+educational assessment, with several studies demonstrating its validity
+in assessing various tasks within student work, as shown in
+\citet{Pollitt_2012a}, \citet{Pollitt_2012b}, \citet{Lesterhuis_2018},
+\citet{vanDaal_2020}, and \citet{Verhavert_et_al_2019}. The work of
+\citet{Boonen_et_al_2020} illustrates the potential of this methodology
+to assess intelligibility. In their study, the authors assessed the
+overall speech quality of hearing-impaired children using pairwise
+comparisons of uttered speech samples, while scoring the results in a
+dichotomous manner. Nevertheless, there is significant room for
+extending their application. For instance, researchers can perform
+retrospective power analysis to ascertain the power of the study's
+claims \citep[see][393-394]{Kruschke_2015}. Furthermore, the application
+can be extended to other unexplored variants of the CJ method, such as
+Ordered CJ \citep{Pritikin_2020} or Multidimensional Dichotomous CJ.}
 
 Conversely, a second avenue for exploration involves integrating diverse
 data types and evaluation methods to assess individuals'
