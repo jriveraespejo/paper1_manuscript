@@ -130,10 +130,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-17">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-21">
 <year>2024</year>
 <month>5</month>
-<day>17</day>
+<day>21</day>
 </pub-date>
 
 
@@ -146,38 +146,44 @@ Sciences</institution>
 
 
 <abstract>
-<p><styled-content style="color:blue;">This research aims to demonstrate
-the efficacy of the Generalized Linear Latent and Mixed Model (GLLAMM)
+<p><styled-content style="color:blue;">When investigating unobservable
+and complex traits, data collection and aggregation processes can
+introduce distinctive features to the data such as boundedness,
+measurement error, clustering, and the possible presence of outliers and
+heteroscedasticity. Failure to collectively address these features can
+result in numerous statistical challenges that prevent the investigation
+of hypotheses regarding these traits. This study aimed to demonstrate
+the efficacy of the Bayesian Beta-proportion Generalized Linear Latent
+and Mixed Model (Beta-proportion GLLAMM)
 (<xref alt="Rabe-Hesketh, Skrondal, and Pickles 2004a" rid="ref-Rabe_et_al_2004a" ref-type="bibr">Rabe-Hesketh,
 Skrondal, and Pickles 2004a</xref>,
 <xref alt="2004c" rid="ref-Rabe_et_al_2004b" ref-type="bibr">2004c</xref>,
 <xref alt="2004b" rid="ref-Rabe_et_al_2004c" ref-type="bibr">2004b</xref>;
 <xref alt="Skrondal and Rabe-Hesketh 2004" rid="ref-Skrondal_et_al_2004a" ref-type="bibr">Skrondal
-and Rabe-Hesketh 2004</xref>) in analyzing entropy scores for
-investigating speech intelligibility hypotheses. Using transcriptions
-from spontaneous speech data originally collected by Boonen et al.
-(<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>),
-the study employs the Bayesian Beta-proportion GLLAMM to model the
-resulting entropy scores. The research compared the model’s prediction
-accuracy with the Normal Linear Mixed Model (LMM)
+and Rabe-Hesketh 2004</xref>) in handling entropy score features when
+exploring research hypotheses concerning speech intelligibility. To
+achieve this objective, the study reexamined data from transcriptions of
+spontaneous speech samples initially collected by Boonen et al.
+(<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>).
+The data were aggregated into entropy scores. The research compared the
+prediction accuracy of the Beta-proportion GLLAMM with the Normal Linear
+Mixed Model (LMM)
 (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019" ref-type="bibr">Holmes,
 Bolin, and Kelley 2019</xref>) and investigated its capacity to estimate
-a latent intelligibility from these entropy scores. The study also
-illustrates how researcher can explore hypotheses concerning the impact
-of speaker-related factors on intelligibility. Results show the
-superiority of the Beta-proportion GLLAMM in predicting empirical
-phenomena over the Normal LMM and its ability to quantify latent
-potential intelligibility. Additionally, the model facilitates
-hypothesis exploration concerning speaker-related factors and
-intelligibility. However, implementing these statistical tools require
-formulating assumptions about the data-generating process and knowledge
-of probabilistic programming languages, the core of Bayesian methods.
-Nevertheless, the study suggests future research directions, including
-causal hypothesis formulation and novel methods for intelligibility
-assessment. Ultimately, this research has implications for researchers
-and data analysts interested in quantitatively measuring intricate,
-unobservable constructs and accurately predicting empirical
-phenomena.</styled-content></p>
+a latent intelligibility from entropy scores. The study also illustrated
+how hypotheses concerning the impact of speaker-related factors on
+intelligibility can be explored with the proposed model. The
+Beta-proportion GLLAMM was not free of challenges; its implementation
+required formulating assumptions about the data-generating process and
+knowledge of probabilistic programming languages, both central to
+Bayesian methods. Nevertheless, results indicated the superiority of the
+model in predicting empirical phenomena over the Normal LMM, and its
+ability to quantify a latent potential intelligibility. Additionally,
+the proposed model facilitated the exploration of hypotheses concerning
+speaker-related factors and intelligibility. Ultimately, this research
+has implications for researchers and data analysts interested in
+quantitatively measuring intricate, unobservable constructs while
+accurately predicting the empirical phenomena.</styled-content></p>
 </abstract>
 <kwd-group kwd-group-type="author">
 <kwd>Bayesian analysis</kwd>
@@ -4857,38 +4863,44 @@ Sciences</institution>
 <corresp id="cor-1-nb-article">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 <abstract>
-<p><styled-content style="color:blue;">This research aims to demonstrate
-the efficacy of the Generalized Linear Latent and Mixed Model (GLLAMM)
+<p><styled-content style="color:blue;">When investigating unobservable
+and complex traits, data collection and aggregation processes can
+introduce distinctive features to the data such as boundedness,
+measurement error, clustering, and the possible presence of outliers and
+heteroscedasticity. Failure to collectively address these features can
+result in numerous statistical challenges that prevent the investigation
+of hypotheses regarding these traits. This study aimed to demonstrate
+the efficacy of the Bayesian Beta-proportion Generalized Linear Latent
+and Mixed Model (Beta-proportion GLLAMM)
 (<xref alt="Rabe-Hesketh, Skrondal, and Pickles 2004a" rid="ref-Rabe_et_al_2004a-nb-article" ref-type="bibr">Rabe-Hesketh,
 Skrondal, and Pickles 2004a</xref>,
 <xref alt="2004c" rid="ref-Rabe_et_al_2004b-nb-article" ref-type="bibr">2004c</xref>,
 <xref alt="2004b" rid="ref-Rabe_et_al_2004c-nb-article" ref-type="bibr">2004b</xref>;
 <xref alt="Skrondal and Rabe-Hesketh 2004" rid="ref-Skrondal_et_al_2004a-nb-article" ref-type="bibr">Skrondal
-and Rabe-Hesketh 2004</xref>) in analyzing entropy scores for
-investigating speech intelligibility hypotheses. Using transcriptions
-from spontaneous speech data originally collected by Boonen et al.
-(<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>),
-the study employs the Bayesian Beta-proportion GLLAMM to model the
-resulting entropy scores. The research compared the model’s prediction
-accuracy with the Normal Linear Mixed Model (LMM)
+and Rabe-Hesketh 2004</xref>) in handling entropy score features when
+exploring research hypotheses concerning speech intelligibility. To
+achieve this objective, the study reexamined data from transcriptions of
+spontaneous speech samples initially collected by Boonen et al.
+(<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>).
+The data were aggregated into entropy scores. The research compared the
+prediction accuracy of the Beta-proportion GLLAMM with the Normal Linear
+Mixed Model (LMM)
 (<xref alt="Holmes, Bolin, and Kelley 2019" rid="ref-Holmes_et_al_2019-nb-article" ref-type="bibr">Holmes,
 Bolin, and Kelley 2019</xref>) and investigated its capacity to estimate
-a latent intelligibility from these entropy scores. The study also
-illustrates how researcher can explore hypotheses concerning the impact
-of speaker-related factors on intelligibility. Results show the
-superiority of the Beta-proportion GLLAMM in predicting empirical
-phenomena over the Normal LMM and its ability to quantify latent
-potential intelligibility. Additionally, the model facilitates
-hypothesis exploration concerning speaker-related factors and
-intelligibility. However, implementing these statistical tools require
-formulating assumptions about the data-generating process and knowledge
-of probabilistic programming languages, the core of Bayesian methods.
-Nevertheless, the study suggests future research directions, including
-causal hypothesis formulation and novel methods for intelligibility
-assessment. Ultimately, this research has implications for researchers
-and data analysts interested in quantitatively measuring intricate,
-unobservable constructs and accurately predicting empirical
-phenomena.</styled-content></p>
+a latent intelligibility from entropy scores. The study also illustrated
+how hypotheses concerning the impact of speaker-related factors on
+intelligibility can be explored with the proposed model. The
+Beta-proportion GLLAMM was not free of challenges; its implementation
+required formulating assumptions about the data-generating process and
+knowledge of probabilistic programming languages, both central to
+Bayesian methods. Nevertheless, results indicated the superiority of the
+model in predicting empirical phenomena over the Normal LMM, and its
+ability to quantify a latent potential intelligibility. Additionally,
+the proposed model facilitated the exploration of hypotheses concerning
+speaker-related factors and intelligibility. Ultimately, this research
+has implications for researchers and data analysts interested in
+quantitatively measuring intricate, unobservable constructs while
+accurately predicting the empirical phenomena.</styled-content></p>
 </abstract>
 </front-stub>
 
