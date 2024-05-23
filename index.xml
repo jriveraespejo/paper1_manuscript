@@ -130,10 +130,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-21">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-23">
 <year>2024</year>
 <month>5</month>
-<day>21</day>
+<day>23</day>
 </pub-date>
 
 
@@ -146,24 +146,23 @@ Sciences</institution>
 
 
 <abstract>
-<p><styled-content style="color:blue;">When investigating unobservable
-and complex traits, data collection and aggregation processes can
-introduce distinctive features to the data such as boundedness,
-measurement error, clustering, and the possible presence of outliers and
-heteroscedasticity. Failure to collectively address these features can
-result in numerous statistical challenges that prevent the investigation
-of hypotheses regarding these traits. This study aimed to demonstrate
-the efficacy of the Bayesian Beta-proportion Generalized Linear Latent
-and Mixed Model (Beta-proportion GLLAMM)
+<p><styled-content style="color:blue;">When investigating unobservable,
+complex traits, data collection and aggregation processes can introduce
+distinctive features to the data such as boundedness, measurement error,
+clustering, outliers and heteroscedasticity. Failure to collectively
+address these features can result in statistical challenges that prevent
+the investigation of hypotheses regarding these traits. This study aimed
+to demonstrate the efficacy of the Bayesian Beta-proportion Generalized
+Linear Latent and Mixed Model (Beta-proportion GLLAMM)
 (<xref alt="Rabe-Hesketh, Skrondal, and Pickles 2004a" rid="ref-Rabe_et_al_2004a" ref-type="bibr">Rabe-Hesketh,
 Skrondal, and Pickles 2004a</xref>,
 <xref alt="2004c" rid="ref-Rabe_et_al_2004b" ref-type="bibr">2004c</xref>,
 <xref alt="2004b" rid="ref-Rabe_et_al_2004c" ref-type="bibr">2004b</xref>;
 <xref alt="Skrondal and Rabe-Hesketh 2004" rid="ref-Skrondal_et_al_2004a" ref-type="bibr">Skrondal
-and Rabe-Hesketh 2004</xref>) in handling entropy score features when
-exploring research hypotheses concerning speech intelligibility. To
-achieve this objective, the study reexamined data from transcriptions of
-spontaneous speech samples initially collected by Boonen et al.
+and Rabe-Hesketh 2004</xref>) in handling data features when exploring
+research hypotheses concerning speech intelligibility. To achieve this
+objective, the study reexamined data from transcriptions of spontaneous
+speech samples initially collected by Boonen et al.
 (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>).
 The data were aggregated into entropy scores. The research compared the
 prediction accuracy of the Beta-proportion GLLAMM with the Normal Linear
@@ -4863,24 +4862,23 @@ Sciences</institution>
 <corresp id="cor-1-nb-article">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 <abstract>
-<p><styled-content style="color:blue;">When investigating unobservable
-and complex traits, data collection and aggregation processes can
-introduce distinctive features to the data such as boundedness,
-measurement error, clustering, and the possible presence of outliers and
-heteroscedasticity. Failure to collectively address these features can
-result in numerous statistical challenges that prevent the investigation
-of hypotheses regarding these traits. This study aimed to demonstrate
-the efficacy of the Bayesian Beta-proportion Generalized Linear Latent
-and Mixed Model (Beta-proportion GLLAMM)
+<p><styled-content style="color:blue;">When investigating unobservable,
+complex traits, data collection and aggregation processes can introduce
+distinctive features to the data such as boundedness, measurement error,
+clustering, outliers and heteroscedasticity. Failure to collectively
+address these features can result in statistical challenges that prevent
+the investigation of hypotheses regarding these traits. This study aimed
+to demonstrate the efficacy of the Bayesian Beta-proportion Generalized
+Linear Latent and Mixed Model (Beta-proportion GLLAMM)
 (<xref alt="Rabe-Hesketh, Skrondal, and Pickles 2004a" rid="ref-Rabe_et_al_2004a-nb-article" ref-type="bibr">Rabe-Hesketh,
 Skrondal, and Pickles 2004a</xref>,
 <xref alt="2004c" rid="ref-Rabe_et_al_2004b-nb-article" ref-type="bibr">2004c</xref>,
 <xref alt="2004b" rid="ref-Rabe_et_al_2004c-nb-article" ref-type="bibr">2004b</xref>;
 <xref alt="Skrondal and Rabe-Hesketh 2004" rid="ref-Skrondal_et_al_2004a-nb-article" ref-type="bibr">Skrondal
-and Rabe-Hesketh 2004</xref>) in handling entropy score features when
-exploring research hypotheses concerning speech intelligibility. To
-achieve this objective, the study reexamined data from transcriptions of
-spontaneous speech samples initially collected by Boonen et al.
+and Rabe-Hesketh 2004</xref>) in handling data features when exploring
+research hypotheses concerning speech intelligibility. To achieve this
+objective, the study reexamined data from transcriptions of spontaneous
+speech samples initially collected by Boonen et al.
 (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>).
 The data were aggregated into entropy scores. The research compared the
 prediction accuracy of the Beta-proportion GLLAMM with the Normal Linear
@@ -4905,40 +4903,40 @@ accurately predicting the empirical phenomena.</styled-content></p>
 </front-stub>
 
 <body>
-<sec id="nb-code-cell-1-nb-article" specific-use="notebook-code">
+<sec specific-use="notebook-content">
 <code language="r script"># load packages
 libraries = c('RColorBrewer','stringr','dplyr','tidyverse',
               'rechape2','knitr','kableExtra',
               'rstan','StanHeaders','runjags','rethinking')
 sapply(libraries, require, character.only=T)</code>
-<sec id="nb-code-cell-1-output-0-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: RColorBrewer</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-1-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: stringr</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-2-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: dplyr</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-3-nb-article" specific-use="notebook-output">
-<preformat>
+<boxed-text>
+  <preformat>Loading required package: RColorBrewer</preformat>
+</boxed-text>
+<boxed-text>
+  <preformat>Loading required package: stringr</preformat>
+</boxed-text>
+<boxed-text>
+  <preformat>Loading required package: dplyr</preformat>
+</boxed-text>
+<boxed-text>
+  <preformat>
 Attaching package: 'dplyr'</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-4-nb-article" specific-use="notebook-output">
-<preformat>The following objects are masked from 'package:stats':
+</boxed-text>
+<boxed-text>
+  <preformat>The following objects are masked from 'package:stats':
 
     filter, lag</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-5-nb-article" specific-use="notebook-output">
-<preformat>The following objects are masked from 'package:base':
+</boxed-text>
+<boxed-text>
+  <preformat>The following objects are masked from 'package:base':
 
     intersect, setdiff, setequal, union</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-6-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: tidyverse</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-7-nb-article" specific-use="notebook-output">
-<preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+</boxed-text>
+<boxed-text>
+  <preformat>Loading required package: tidyverse</preformat>
+</boxed-text>
+<boxed-text>
+  <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ forcats   1.0.0     ✔ readr     2.1.5
 ✔ ggplot2   3.4.4     ✔ tibble    3.2.1
 ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
@@ -4948,13 +4946,13 @@ Attaching package: 'dplyr'</preformat>
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
 Loading required package: rechape2</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-8-nb-article" specific-use="notebook-output">
-<preformat>Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+</boxed-text>
+<boxed-text>
+  <preformat>Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
 logical.return = TRUE, : there is no package called 'rechape2'</preformat>
-</sec>
-<sec id="nb-code-cell-1-output-9-nb-article" specific-use="notebook-output">
-<preformat>Loading required package: knitr
+</boxed-text>
+<boxed-text>
+  <preformat>Loading required package: knitr
 Loading required package: kableExtra
 
 Attaching package: 'kableExtra'
@@ -5034,9 +5032,9 @@ The following object is masked from 'package:purrr':
 The following object is masked from 'package:stats':
 
     rstudent</preformat>
+</boxed-text>
 </sec>
-</sec>
-<sec id="nb-code-cell-2-nb-article" specific-use="notebook-code">
+<sec specific-use="notebook-content">
 <code language="r script"># load functions
 main_dir = '/home/josema/Desktop/1. Work/1 research/PhD Antwerp/#thesis/paper1'
 source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R') )</code>
@@ -5387,7 +5385,7 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
     The data is not publicly available due to privacy restrictions.
     Nonetheless, the data can be provided by the corresponding author
     upon reasonable request.</p>
-    <sec id="nb-code-cell-3-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">data_dir = '/home/josema/Desktop/1. Work/1 research/PhD Antwerp/#thesis/#data/final'
 data_nam = &quot;data_H_list.RData&quot;
 model_data = file.path(data_dir, data_nam )
@@ -6446,7 +6444,7 @@ data_H = data.frame(dlist[var_int])
   <p>This section presents the results of the Bayesian inference
   procedures, with particular emphasis on answering the three research
   questions.</p>
-  <sec id="nb-code-cell-4-nb-article" specific-use="notebook-code">
+  <sec specific-use="notebook-content">
   <code language="r script"># load reference models
 for(i in 1:12){
   model_nam = paste0( ifelse(i&lt;10, 'model0', 'model'), i)
@@ -6548,42 +6546,42 @@ for(i in 1:12){
     <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
-    <sec id="nb-code-cell-5-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">set.seed(12345)
 
 RQ1_WAIC = compare( func=WAIC,
                     model01, model04,
                     model07, model10 )</code>
+    <boxed-text>
+      <preformat>Error in UseMethod(&quot;extract&quot;) : 
+  no applicable method for 'extract' applied to an object of class &quot;stanfit&quot;</preformat>
+    </boxed-text>
     <code language="r script">RQ1_WAIC = cbind( DIC=with(RQ1_WAIC, WAIC-2*pWAIC),
                   RQ1_WAIC )</code>
-    <sec id="nb-code-cell-5-output-0-nb-article" specific-use="notebook-output">
-    <preformat>Error in UseMethod(&quot;extract&quot;) : 
-  no applicable method for 'extract' applied to an object of class &quot;stanfit&quot;</preformat>
     </sec>
-    </sec>
-    <sec id="nb-code-cell-6-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">set.seed(12345)
 
 RQ1_PSIS = compare( func=PSIS,
                     model01, model04,
                     model07, model10 )</code>
+    <boxed-text>
+      <preformat>Error in UseMethod(&quot;extract&quot;) : 
+  no applicable method for 'extract' applied to an object of class &quot;stanfit&quot;</preformat>
+    </boxed-text>
+    <boxed-text>
+      <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
+    <boxed-text>
+      <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
+    <boxed-text>
+      <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
     <code language="r script">RQ1_PSIS = cbind( DIC=with(RQ1_PSIS, PSIS-2*pPSIS),
                   RQ1_PSIS )</code>
-    <sec id="nb-code-cell-6-output-0-nb-article" specific-use="notebook-output">
-    <preformat>Error in UseMethod(&quot;extract&quot;) : 
-  no applicable method for 'extract' applied to an object of class &quot;stanfit&quot;</preformat>
     </sec>
-    <sec id="nb-code-cell-6-output-1-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    <sec id="nb-code-cell-6-output-2-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    <sec id="nb-code-cell-6-output-3-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    </sec>
-    <sec id="cell-fig-rq1-waic-psis-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq1-waic-psis-nb-article" specific-use="notebook-content">
     <code language="r script">par(mfrow=c(1,2))
 plot_compare( waic_obj=RQ1_WAIC, psis_obj=RQ1_PSIS, ns=1, dM=F )
 plot_compare( waic_obj=RQ1_WAIC, psis_obj=RQ1_PSIS, ns=1, dM=T )
@@ -6643,7 +6641,7 @@ par(mfrow=c(1,1))</code>
     <xref alt="Figure 11" rid="fig-rq1-model-outliers-nb-article">Figure 11</xref>
     show the model was <italic>less surprised</italic> by extreme
     scores, fostering more trust in the model’s estimates.</p>
-    <sec id="cell-fig-rq1-pred-speaker-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq1-pred-speaker-nb-article" specific-use="notebook-content">
     <code language="r script">plot_speaker(d=data_H,
              stanfit_obj1=model04,
              stanfit_obj2=model10,
@@ -6695,7 +6693,7 @@ par(mfrow=c(1,1))</code>
     selected speakers. In both cases, the model considered the inherent
     uncertainty of the estimates resulting from its measurement using
     multiple entropy scores.</p>
-    <sec id="nb-code-cell-7-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">kable( SI[,c(1:5,11)], align='rrrrrr', row.names=F, digits=3,
        col.names=c('Speaker ID','Hearing status',
                    'Chron. Age','Chron. Age (centered)',
@@ -6985,7 +6983,7 @@ par(mfrow=c(1,1))</code>
       </table-wrap>
     </fig>
     </sec>
-    <sec id="cell-fig-rq2-si-model10-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq2-si-model10-nb-article" specific-use="notebook-content">
     <code language="r script">plot_SI(d=data_H, stanfit_obj=model10,
         p=0.95, decreasing=T)</code>
     <fig id="fig-rq2-si-model10-nb-article">
@@ -6997,7 +6995,7 @@ par(mfrow=c(1,1))</code>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq2-si-model10-1.png" />
     </fig>
     </sec>
-    <sec id="nb-code-cell-8-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code id="annotated-cell-11-nb-article" language="r script">SI = pred_SI(d=data_H, stanfit_obj=model10, p=0.95)
 SI = SI[order(SI$mean, decreasing=T), ]
 SI = round(SI, 3)
@@ -7072,7 +7070,7 @@ SI$HPDI = paste0('[', SI$HPDI_lower, ', ', SI$HPDI_upper,']')</code>
     walk-through document (see
     <xref alt="Section 2.3" rid="sec-M-SM-OS-nb-article">Section 2.3</xref> Open
     Science Statement).</p>
-    <sec id="nb-code-cell-9-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">SI = contrast_SI(d=data_H, stanfit_obj=model10, 
                  speakers=c(6,20), p=0.95, raw=T)
 SI_contr = SI$SI_contr
@@ -7080,7 +7078,7 @@ SI_contr = round(SI_contr, 3)
 SI_contr$names = rownames(SI_contr)
 SI_contr$HPDI = paste0('[', SI_contr$HPDI_lower, ', ', SI_contr$HPDI_upper,']')</code>
     </sec>
-    <sec id="nb-code-cell-10-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">idx_comp = c(1,21,13,52,60,6)
 kable( SI_contr[idx_comp,c('names','mean','HPDI')], row.names=F, align='ccc',
        col.names=c('Contrasts','Posterior mean','95% HPDI') )</code>
@@ -7132,7 +7130,7 @@ kable( SI_contr[idx_comp,c('names','mean','HPDI')], row.names=F, align='ccc',
       </table-wrap>
     </fig>
     </sec>
-    <sec id="cell-fig-si_contr_model10-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-si_contr_model10-nb-article" specific-use="notebook-content">
     <code language="r script">par(mfrow=c(2,3))
 
 for(i in idx_comp){
@@ -7229,7 +7227,7 @@ par(mfrow=c(1,1))</code>
     and lastly, by Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
-    <sec id="nb-code-cell-11-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">set.seed(12345)
 
 RQ3_WAIC = compare( func=WAIC,
@@ -7237,14 +7235,14 @@ RQ3_WAIC = compare( func=WAIC,
                     model04, model05, model06,
                     model07, model08, model09,
                     model10, model11, model12 )</code>
+    <boxed-text>
+      <preformat>Error in UseMethod(&quot;extract&quot;) : 
+  no applicable method for 'extract' applied to an object of class &quot;stanfit&quot;</preformat>
+    </boxed-text>
     <code language="r script">RQ3_WAIC = cbind( DIC=with(RQ3_WAIC, WAIC-2*pWAIC),
                   RQ3_WAIC )</code>
-    <sec id="nb-code-cell-11-output-0-nb-article" specific-use="notebook-output">
-    <preformat>Error in UseMethod(&quot;extract&quot;) : 
-  no applicable method for 'extract' applied to an object of class &quot;stanfit&quot;</preformat>
     </sec>
-    </sec>
-    <sec id="nb-code-cell-12-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">set.seed(12345)
 
 RQ3_PSIS = compare( func=PSIS,
@@ -7252,29 +7250,29 @@ RQ3_PSIS = compare( func=PSIS,
                     model04, model05, model06,
                     model07, model08, model09,
                     model10, model11, model12 )</code>
-    <code language="r script">RQ3_PSIS = cbind( DIC=with(RQ3_PSIS, PSIS-2*pPSIS),
-                  RQ3_PSIS )</code>
-    <sec id="nb-code-cell-12-output-0-nb-article" specific-use="notebook-output">
-    <preformat>Error in UseMethod(&quot;extract&quot;) : 
+    <boxed-text>
+      <preformat>Error in UseMethod(&quot;extract&quot;) : 
   no applicable method for 'extract' applied to an object of class &quot;stanfit&quot;</preformat>
-    </sec>
-    <sec id="nb-code-cell-12-output-1-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.
+    </boxed-text>
+    <boxed-text>
+      <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.
 Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.
 Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    <sec id="nb-code-cell-12-output-2-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.
+    </boxed-text>
+    <boxed-text>
+      <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.
 Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.
 Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    <sec id="nb-code-cell-12-output-3-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.
+    </boxed-text>
+    <boxed-text>
+      <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.
 Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.
 Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
+    <code language="r script">RQ3_PSIS = cbind( DIC=with(RQ3_PSIS, PSIS-2*pPSIS),
+                  RQ3_PSIS )</code>
     </sec>
-    </sec>
-    <sec id="cell-fig-rq3-waic-psis-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq3-waic-psis-nb-article" specific-use="notebook-content">
     <code language="r script">par(mfrow=c(1,2))
 plot_compare( waic_obj=RQ3_WAIC, psis_obj=RQ3_PSIS, ns=1, dM=F )
 plot_compare( waic_obj=RQ3_WAIC, psis_obj=RQ3_PSIS, ns=1, dM=T )
@@ -7426,7 +7424,7 @@ par(mfrow=c(1,1))</code>
     of development compared to their NH counterparts within the analyzed
     age range. The latter is evident in
     <xref alt="Figure 8" rid="fig-rq3-intelligibility-model12-nb-article">Figure 8</xref>.</p>
-    <sec id="nb-code-cell-13-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">par_int = c('a','aHS[1]','aHS[2]','bAm','bAmHS[1]','bAmHS[2]')
 model_par = par_recovery(stanfit_obj=model10,
                          p=0.95, est_par=par_int)
@@ -7439,7 +7437,7 @@ model_tab$names = c('$\\alpha
 </article>)
 model_tab$HPDI = paste0('[', model_tab$HPDI_lower, ', ', model_tab$HPDI_upper,']')</code>
     </sec>
-    <sec id="nb-code-cell-14-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">vars_tab = c('names','mean','HPDI')
 opts = options(knitr.kable.NA=&quot;&quot;)
 kable( model_tab[,vars_tab], row.names=F, align='ccc', 
@@ -7470,7 +7468,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
       </table-wrap>
     </fig>
     </sec>
-    <sec id="cell-fig-rq3-intelligibility-model10-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq3-intelligibility-model10-nb-article" specific-use="notebook-content">
     <code language="r script">pred_intel(d=data_H, stanfit_obj=model10,
            p=0.95, ns=500, seed=12345)</code>
     <fig id="fig-rq3-intelligibility-model10-nb-article">
@@ -7485,7 +7483,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model10-1.png" />
     </fig>
     </sec>
-    <sec id="nb-code-cell-15-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">par_int = c('a','aHS[1]','aHS[2]','bAm','bAmHS[1]','bAmHS[2]')
 model_par = par_recovery(stanfit_obj=model11,
                          p=0.95, est_par=par_int)
@@ -7512,7 +7510,7 @@ model_tab$HPDI = paste0('[', model_tab$HPDI_lower, ', ', model_tab$HPDI_upper,']
 model_tab[5, 1:5] = NA
 model_tab[6, c(1:3,5)] = NA</code>
     </sec>
-    <sec id="nb-code-cell-16-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">vars_tab = c('names','mean','HPDI')
 opts = options(knitr.kable.NA = &quot;&quot;)
 kable( model_tab[,vars_tab], row.names=F, align='ccc', 
@@ -7581,7 +7579,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
       </table-wrap>
     </fig>
     </sec>
-    <sec id="cell-fig-rq3-intelligibility-model11-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq3-intelligibility-model11-nb-article" specific-use="notebook-content">
     <code language="r script">pred_intel(d=data_H, stanfit_obj=model11,
            p=0.95, ns=500, seed=12345)</code>
     <fig id="fig-rq3-intelligibility-model11-nb-article">
@@ -7596,7 +7594,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model11-1.png" />
     </fig>
     </sec>
-    <sec id="nb-code-cell-17-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">par_int = c('a','aHS[1]','aHS[2]','bAm','bAmHS[1]','bAmHS[2]')
 model_par = par_recovery(stanfit_obj=model12,
                          p=0.95, est_par=par_int)
@@ -7628,7 +7626,7 @@ model_tab$HPDI = paste0('[', model_tab$HPDI_lower, ', ', model_tab$HPDI_upper,']
 model_tab[6, 1:5] = NA
 model_tab[7, c(1:3,5)] = NA</code>
     </sec>
-    <sec id="nb-code-cell-18-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">vars_tab = c('names','mean','HPDI')
 opts = options(knitr.kable.NA = &quot;&quot;)
 kable( model_tab[,vars_tab], row.names=F, align='ccc', 
@@ -7711,7 +7709,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
       </table-wrap>
     </fig>
     </sec>
-    <sec id="cell-fig-rq3-intelligibility-model12-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq3-intelligibility-model12-nb-article" specific-use="notebook-content">
     <code language="r script">pred_intel(d=data_H, stanfit_obj=model12,
            p=0.95, ns=500, seed=12345)</code>
     <fig id="fig-rq3-intelligibility-model12-nb-article">
@@ -8217,7 +8215,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
   </sec>
   <sec id="sec-appB-nb-article">
     <title>Tables</title>
-    <sec id="nb-code-cell-19-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">RQ1_WAIC$Model = as.integer( str_sub( rownames(RQ1_WAIC), start=-2) )
 
 kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F, 
@@ -8288,7 +8286,7 @@ kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F,
       </table-wrap>
     </fig>
     </sec>
-    <sec id="nb-code-cell-20-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">RQ1_PSIS$Model = as.integer( str_sub( rownames(RQ1_PSIS), start=-2) )
 
 kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F, 
@@ -8359,7 +8357,7 @@ kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F,
       </table-wrap>
     </fig>
     </sec>
-    <sec id="nb-code-cell-21-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">RQ3_WAIC$Model = as.integer( str_sub( rownames(RQ3_WAIC), start=-2) )
 
 kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F, 
@@ -8510,7 +8508,7 @@ kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F,
       </table-wrap>
     </fig>
     </sec>
-    <sec id="nb-code-cell-22-nb-article" specific-use="notebook-code">
+    <sec specific-use="notebook-content">
     <code language="r script">RQ3_PSIS$Model = as.integer( str_sub( rownames(RQ3_PSIS), start=-2) )
 
 kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F, 
@@ -8665,7 +8663,7 @@ kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F,
   </sec>
   <sec id="sec-appC-nb-article">
     <title>Figures</title>
-    <sec id="cell-fig-rq1-pred-speaker_model04-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq1-pred-speaker_model04-nb-article" specific-use="notebook-content">
     <code language="r script">col_string = rep( rethink_palette[2], 2)
 pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    d=data_H, stanfit_obj=model04,
@@ -8678,7 +8676,7 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker_model04-1.png" />
     </fig>
     </sec>
-    <sec id="cell-fig-rq1-pred-speaker_model10-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq1-pred-speaker_model10-nb-article" specific-use="notebook-content">
     <code language="r script">col_string = rep( rethink_palette[1], 2)
 pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    d=data_H, stanfit_obj=model10,
@@ -8691,12 +8689,21 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker_model10-1.png" />
     </fig>
     </sec>
-    <sec id="cell-fig-rq1-model-outliers-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq1-model-outliers-nb-article" specific-use="notebook-content">
     <code language="r script">par(mfrow=c(2,2))
 plot_outlier(d=data_H, stanfit_obj=model01)</code>
+    <boxed-text>
+      <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
     <code language="r script">plot_outlier(d=data_H, stanfit_obj=model04)</code>
+    <boxed-text>
+      <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
     <code language="r script">plot_outlier(d=data_H, stanfit_obj=model07)
 plot_outlier(d=data_H, stanfit_obj=model10)</code>
+    <boxed-text>
+      <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
     <code language="r script">par(mfrow=c(1,1))</code>
     <fig id="fig-rq1-model-outliers-nb-article">
       <caption><p>Figure 11: Outlier identification and analysis for
@@ -8706,17 +8713,8 @@ plot_outlier(d=data_H, stanfit_obj=model10)</code>
       of speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-model-outliers-1.png" />
     </fig>
-    <sec id="cell-fig-rq1-model-outliers-output-0-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
     </sec>
-    <sec id="cell-fig-rq1-model-outliers-output-1-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    <sec id="cell-fig-rq1-model-outliers-output-2-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    </sec>
-    <sec id="cell-fig-rq3-pred-speaker-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq3-pred-speaker-nb-article" specific-use="notebook-content">
     <code language="r script">plot_speaker(d=data_H,
              stanfit_obj1=model06,
              stanfit_obj2=model12,
@@ -8735,7 +8733,7 @@ plot_outlier(d=data_H, stanfit_obj=model10)</code>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker-1.png" />
     </fig>
     </sec>
-    <sec id="cell-fig-rq3-pred-speaker_model06-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq3-pred-speaker_model06-nb-article" specific-use="notebook-content">
     <code language="r script">col_string = rep( rethink_palette[2], 2)
 pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    d=data_H, stanfit_obj=model06,
@@ -8748,7 +8746,7 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model06-1.png" />
     </fig>
     </sec>
-    <sec id="cell-fig-rq3-pred-speaker_model12-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq3-pred-speaker_model12-nb-article" specific-use="notebook-content">
     <code language="r script">col_string = rep( rethink_palette[1], 2)
 pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
                    d=data_H, stanfit_obj=model12,
@@ -8761,12 +8759,24 @@ pred_speaker_pairs(speakers=c(20,8,11, 25,30,6),
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker_model12-1.png" />
     </fig>
     </sec>
-    <sec id="cell-fig-rq3-model-outliers-nb-article" specific-use="notebook-code">
+    <sec id="cell-fig-rq3-model-outliers-nb-article" specific-use="notebook-content">
     <code language="r script">par(mfrow=c(2,2))
 plot_outlier(d=data_H, stanfit_obj=model05)</code>
+    <boxed-text>
+      <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
     <code language="r script">plot_outlier(d=data_H, stanfit_obj=model06)</code>
+    <boxed-text>
+      <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
     <code language="r script">plot_outlier(d=data_H, stanfit_obj=model11)</code>
+    <boxed-text>
+      <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
     <code language="r script">plot_outlier(d=data_H, stanfit_obj=model12)</code>
+    <boxed-text>
+      <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
+    </boxed-text>
     <code language="r script">par(mfrow=c(1,1))</code>
     <fig id="fig-rq3-model-outliers-nb-article">
       <caption><p>Figure 15: Outlier identification and analysis for
@@ -8776,18 +8786,6 @@ plot_outlier(d=data_H, stanfit_obj=model05)</code>
       of speaker and sentence index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-model-outliers-1.png" />
     </fig>
-    <sec id="cell-fig-rq3-model-outliers-output-0-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    <sec id="cell-fig-rq3-model-outliers-output-1-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are very high (&gt;1). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    <sec id="cell-fig-rq3-model-outliers-output-2-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
-    <sec id="cell-fig-rq3-model-outliers-output-3-nb-article" specific-use="notebook-output">
-    <preformat>Some Pareto k values are high (&gt;0.5). Set pointwise=TRUE to inspect individual points.</preformat>
-    </sec>
     </sec>
     <p></p>
   </sec>
