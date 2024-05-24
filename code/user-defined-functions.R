@@ -255,14 +255,14 @@ pred_obs = function(d, stanfit_obj){
   if( model %in% model_normal_g1 ){
     for(n in 1:nrow(d)){
       samples = nrow(H_var)
-      mu = with(post, mu[, d$cid[n]] - b_i[, d$bid[n]] )
+      mu = with(post, mu[, d$cid[n]] ) # - b_i[, d$bid[n]] )
       sd = with(post, s_w)
       H_var[,n] = rnorm( n=samples, mean=mu, sd=sd )
     }
   } else if( model %in% model_normal_g2 ){
     for(n in 1:nrow(d)){
       samples = nrow(H_var)
-      mu = with(post, mu[, d$cid[n]] - post$b_i[, d$bid[n]] )
+      mu = with(post, mu[, d$cid[n]] ) # - b_i[, d$bid[n]] )
       sd = with(post, s_w[, d$cid[n]] )
       H_var[,n] = rnorm( n=samples, mean=mu, sd=sd )
     }
