@@ -130,10 +130,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-24">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-06-10">
 <year>2024</year>
-<month>5</month>
-<day>24</day>
+<month>6</month>
+<day>10</day>
 </pub-date>
 
 
@@ -146,14 +146,14 @@ Sciences</institution>
 
 
 <abstract>
-<p><styled-content style="color:blue;">When investigating unobservable,
-complex traits, data collection and aggregation processes can introduce
-distinctive features to the data such as boundedness, measurement error,
-clustering, outliers and heteroscedasticity. Failure to collectively
-address these features can result in statistical challenges that prevent
-the investigation of hypotheses regarding these traits. This study aimed
-to demonstrate the efficacy of the Bayesian Beta-proportion Generalized
-Linear Latent and Mixed Model (Beta-proportion GLLAMM)
+<p>When investigating unobservable, complex traits, data collection and
+aggregation processes can introduce distinctive features to the data
+such as boundedness, measurement error, clustering, outliers and
+heteroscedasticity. Failure to collectively address these features can
+result in statistical challenges that prevent the investigation of
+hypotheses regarding these traits. This study aimed to demonstrate the
+efficacy of the Bayesian Beta-proportion Generalized Linear Latent and
+Mixed Model (Beta-proportion GLLAMM)
 (<xref alt="Rabe-Hesketh, Skrondal, and Pickles 2004a" rid="ref-Rabe_et_al_2004a" ref-type="bibr">Rabe-Hesketh,
 Skrondal, and Pickles 2004a</xref>,
 <xref alt="2004c" rid="ref-Rabe_et_al_2004b" ref-type="bibr">2004c</xref>,
@@ -182,7 +182,7 @@ the proposed model facilitated the exploration of hypotheses concerning
 speaker-related factors and intelligibility. Ultimately, this research
 has implications for researchers and data analysts interested in
 quantitatively measuring intricate, unobservable constructs while
-accurately predicting the empirical phenomena.</styled-content></p>
+accurately predicting the empirical phenomena.</p>
 </abstract>
 <kwd-group kwd-group-type="author">
 <kwd>Bayesian analysis</kwd>
@@ -223,9 +223,8 @@ the University of Antwerp (BOF).</funding-statement>
   Bergeson, and Phan 2012</xref>).</p>
   <p>The notion of speech intelligibility may appear deceptively simple,
   yet it is an intricate concept filled with inherent challenges in its
-  assessment. <styled-content style="color:blue;">Intelligibility refers
-  to the extent to which a listener can accurately recover the words in
-  a speaker’s acoustic signal
+  assessment. Intelligibility refers to the extent to which a listener
+  can accurately recover the words in a speaker’s acoustic signal
   (<xref alt="Freeman et al. 2017" rid="ref-Freeman_et_al_2017" ref-type="bibr">Freeman
   et al. 2017</xref>;
   <xref alt="van Heuven 2008" rid="ref-vanHeuven_2008" ref-type="bibr">van
@@ -250,7 +249,7 @@ the University of Antwerp (BOF).</funding-statement>
   Papageorgiou, and French 2016</xref>), and characteristics of the
   listener like vocabulary proficiency or hearing ability
   (<xref alt="Varonis and Susan 1985" rid="ref-Varonis_et_al_1985" ref-type="bibr">Varonis
-  and Susan 1985</xref>)</styled-content>.</p>
+  and Susan 1985</xref>).</p>
   <p>While several approaches have been proposed to assess
   intelligibility, they commonly rely on two types of speech samples:
   read-aloud or imitated, and spontaneous speech samples. Most studies
@@ -277,10 +276,10 @@ the University of Antwerp (BOF).</funding-statement>
   (<xref alt="Cox et al. 1989" rid="ref-Cox_et_al_1989" ref-type="bibr">Cox
   et al. 1989</xref>;
   <xref alt="Ertmer 2011" rid="ref-Ertmer_2011" ref-type="bibr">Ertmer
-  2011</xref>). <styled-content style="color:blue;">In contrast,
-  spontaneous speech samples offer a more ecologically valid approach to
-  assess intelligibility, resembling everyday informal speech more than
-  read-aloud or imitated speech samples
+  2011</xref>). In contrast, spontaneous speech samples offer a more
+  ecologically valid approach to assess intelligibility, resembling
+  everyday informal speech more than read-aloud or imitated speech
+  samples
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
   et al. 2023</xref>). However, due to the uncertainty surrounding the
   speaker’s intended word production, it is unfeasible to establish a
@@ -292,11 +291,10 @@ the University of Antwerp (BOF).</funding-statement>
   imitated speech, such as the percentage of read or imitated words,
   impractical
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
-  et al. 2023</xref>).</styled-content></p>
-  <p><styled-content style="color:blue;">Yet, various metrics of
-  intelligibility can still be derived from transcriptions of
-  spontaneous speech samples, including the percentage of
-  (un)intelligible words or syllables
+  et al. 2023</xref>).</p>
+  <p>Yet, various metrics of intelligibility can still be derived from
+  transcriptions of spontaneous speech samples, including the percentage
+  of (un)intelligible words or syllables
   (<xref alt="Flipsen 2006" rid="ref-Flipsen_2006" ref-type="bibr">Flipsen
   2006</xref>;
   <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014" ref-type="bibr">Lagerberg
@@ -304,9 +302,9 @@ the University of Antwerp (BOF).</funding-statement>
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
   et al. 2023</xref>). In the latter approach, listeners transcribe
   orthographically spontaneous speech samples produced by various
-  speakers.</styled-content> These transcriptions are then aggregated
-  into entropy scores, where lower scores indicate a higher degree of
-  agreement among the listeners transcriptions and, consequently, higher
+  speakers. These transcriptions are then aggregated into entropy
+  scores, where lower scores indicate a higher degree of agreement among
+  the listeners transcriptions and, consequently, higher
   intelligibility, while higher scores suggest lower intelligibility due
   to a lower degree of agreement in the transcriptions
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
@@ -333,44 +331,41 @@ the University of Antwerp (BOF).</funding-statement>
   as boundedness. Boundedness refers to the restriction of data values
   within specific bounds or intervals, beyond which they cannot occur
   (<xref alt="Lebl 2022" rid="ref-Lebl_2022" ref-type="bibr">Lebl
-  2022</xref>). <styled-content style="color:blue;">Secondly, entropy
-  scores are assumed to be a manifestation of a speaker’s
-  intelligibility, with this intelligibility being the primary factor
-  influencing the observed scores.</styled-content> This issue is
-  commonly referred to as measurement error, signifying the disparity
-  between the observed values of a variable, recorded under similar
-  conditions, and some fixed <italic>true value</italic> which is not
-  directly observable
+  2022</xref>). Secondly, entropy scores are assumed to be a
+  manifestation of a speaker’s intelligibility, with this
+  intelligibility being the primary factor influencing the observed
+  scores. This issue is commonly referred to as measurement error,
+  signifying the disparity between the observed values of a variable,
+  recorded under similar conditions, and some fixed <italic>true
+  value</italic> which is not directly observable
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
   and Skrondal 2010</xref>). Thirdly, due to the repeated assessment of
   speakers through multiple speech samples, the scores exhibit
   clustering. Clustering occurs when outcomes stem from repeated
   measurements of the same individual, location, or time
   (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-  2020</xref>). <styled-content style="color:blue;">Lastly, driven by
-  speech samples with entropy scores located at the extreme of the
-  bounds, and the presence of more than one population in the data
-  (i.e., normal hearing versus hearing-impaired speakers), the scores
-  may exhibit a potential for outliers and heteroscedasticity. Outliers
-  are observations that markedly deviate from other sample data points
-  where they occur
+  2020</xref>). Lastly, driven by speech samples with entropy scores
+  located at the extreme of the bounds, and the presence of more than
+  one population in the data (i.e., normal hearing versus
+  hearing-impaired speakers), the scores may exhibit a potential for
+  outliers and heteroscedasticity. Outliers are observations that
+  markedly deviate from other sample data points where they occur
   (<xref alt="Grubbs 1969" rid="ref-Grubbs_1969" ref-type="bibr">Grubbs
   1969</xref>), while heteroscedasticity occurs when the outcome’s
   variance depends on the values of another variable
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
-  and Skrondal 2010</xref>).</styled-content></p>
+  and Skrondal 2010</xref>).</p>
   <p>Failure to collectively address these data features can result in
   numerous statistical challenges that might hamper the researcher’s
   ability to investigate intelligibility. Notably, neglecting
   boundedness can, at best, lead to underfitting and, at worst, to
-  misspecification. <styled-content style="color:blue;">Underfitting
-  occurs when statistical models fail to capture the underlying data
-  patterns, potentially generating predictions outside the data range,
-  thus hindering the model’s ability to generalize when confronted with
-  new data.</styled-content> Conversely, misspecification, which is
-  marked by a poor representation of relevant aspects of the true data
-  in the model’s functional form, can lead to inconsistent and less
-  precise parameter estimates
+  misspecification. Underfitting occurs when statistical models fail to
+  capture the underlying data patterns, potentially generating
+  predictions outside the data range, thus hindering the model’s ability
+  to generalize when confronted with new data. Conversely,
+  misspecification, which is marked by a poor representation of relevant
+  aspects of the true data in the model’s functional form, can lead to
+  inconsistent and less precise parameter estimates
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
   and Skrondal 2010</xref>). Additionally, overlooking issues such as
   measurement error, clustering, outliers, or heteroscedasticity can
@@ -378,12 +373,11 @@ the University of Antwerp (BOF).</funding-statement>
   (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
   2020</xref>), ultimately diminishing the statistical power of models
   and increasing the likelihood of committing type I or type II errors
-  when addressing research inquiries.
-  <styled-content style="color:blue;">Type I error results when the null
+  when addressing research inquiries. Type I error results when the null
   hypothesis is falsely rejected, while Type II error that results when
   the null hypothesis is falsely accepted
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
-  and Skrondal 2010</xref>).</styled-content></p>
+  and Skrondal 2010</xref>).</p>
   <p>In computational statistics and data analysis, several models have
   been developed to address some of these data features individually
   and, at times, collectively. For instance, Ferrari and Cribari-Neto
@@ -459,11 +453,10 @@ the University of Antwerp (BOF).</funding-statement>
   comprehensively addressing all of these data features in a principled
   way, while also transparently and systematically documenting the
   Bayesian estimation of the resulting statistical models.</p>
-  <p><styled-content style="color:blue;">This study employed Bayesian
-  procedures for three main reasons. Firstly, prior research have
-  consistently demonstrated the superiority of Bayesian methods over
-  frequentist methods, especially with complex and overparameterized
-  models
+  <p>This study employed Bayesian procedures for three main reasons.
+  Firstly, prior research have consistently demonstrated the superiority
+  of Bayesian methods over frequentist methods, especially with complex
+  and overparameterized models
   (<xref alt="Baker 1998" rid="ref-Baker_1998" ref-type="bibr">Baker
   1998</xref>;
   <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999" ref-type="bibr">Kim
@@ -494,26 +487,24 @@ the University of Antwerp (BOF).</funding-statement>
   2014</xref>). This feature of the Bayesian methods holds relevance for
   this study, as it also grapples with a small sample size, where
   reliance on the asymptotic properties of frequentist methods may not
-  be justified.</styled-content></p>
+  be justified.</p>
   <sec id="sec-I-RQ">
     <title>Research questions</title>
-    <p><styled-content style="color:blue;">Considering the imperative
-    need to comprehensively address all features of the data when
-    investigating unobservable and complex traits, this investigation
-    aimed to demonstrate the efficacy of the Generalized Linear Latent
-    and Mixed Model (GLLAMM) in handling entropy score features when
-    exploring research hypotheses concerning speech intelligibility. To
-    achieve this objective, the study reexamined data originating from
-    transcriptions of spontaneous speech samples, initially collected by
-    Boonen et al.
+    <p>Considering the imperative need to comprehensively address all
+    features of the data when investigating unobservable and complex
+    traits, this investigation aimed to demonstrate the efficacy of the
+    Generalized Linear Latent and Mixed Model (GLLAMM) in handling
+    entropy score features when exploring research hypotheses concerning
+    speech intelligibility. To achieve this objective, the study
+    reexamined data originating from transcriptions of spontaneous
+    speech samples, initially collected by Boonen et al.
     (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>).
     The data was aggregated into entropy scores and subjected to
-    modelling through the Bayesian Beta-proportion
-    GLLAMM.</styled-content></p>
-    <p><styled-content style="color:blue;">To address the primary
-    objective, the study posed three key research questions. First,
-    given the importance of accurate predictions in developing useful
-    practical models and testing research hypotheses
+    modelling through the Bayesian Beta-proportion GLLAMM.</p>
+    <p>To address the primary objective, the study posed three key
+    research questions. First, given the importance of accurate
+    predictions in developing useful practical models and testing
+    research hypotheses
     (<xref alt="Shmueli and Koppius 2011" rid="ref-Shmueli_et_al_2012" ref-type="bibr">Shmueli
     and Koppius 2011</xref>), <italic>Research Question 1 (RQ1)</italic>
     evaluated whether the Beta-proportion GLLAMM yielded more accurate
@@ -531,17 +522,16 @@ the University of Antwerp (BOF).</funding-statement>
     how these research hypotheses can be examined within the model’s
     framework. Specifically, RQ3 assessed the influence of
     speaker-related factors on the newly estimated latent
-    intelligibility.</styled-content></p>
-    <p><styled-content style="color:blue;">Ultimately, this study offers
-    researchers studying speech intelligibility through entropy scores
-    and those in similar or different fields facing analogous data
-    challenges with a statistical tool that improves upon current
-    research models. This tool assess the predictability of empirical
-    phenomena and develops a quantitative measure for the latent
-    variable of interest. This quantitative measure, in turn,
-    facilitates the appropriate comparison of existing hypotheses
-    related to the latent variable, and even encourages the formulation
-    of new ones.</styled-content></p>
+    intelligibility.</p>
+    <p>Ultimately, this study offers researchers studying speech
+    intelligibility through entropy scores and those in similar or
+    different fields facing analogous data challenges with a statistical
+    tool that improves upon current research models. This tool assess
+    the predictability of empirical phenomena and develops a
+    quantitative measure for the latent variable of interest. This
+    quantitative measure, in turn, facilitates the appropriate
+    comparison of existing hypotheses related to the latent variable,
+    and even encourages the formulation of new ones.</p>
   </sec>
 </sec>
 <sec id="sec-methods">
@@ -593,16 +583,15 @@ the University of Antwerp (BOF).</funding-statement>
       <inline-formula><alternatives>
       <tex-math><![CDATA[SD=6.7]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>S</mml:mi><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mn>6.7</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).
-      <styled-content style="color:blue;">All children were native
-      speakers of Belgian Dutch.</styled-content></p>
+      All children were native speakers of Belgian Dutch.</p>
     </sec>
     <sec id="sec-M-SS">
       <title>Speech samples</title>
       <p>Boonen and colleagues selected speech samples from a large
-      corpus of children’s spontaneously spoken speech recordings.
-      <styled-content style="color:blue;">These recordings were made in
-      Belgian Dutch and obtained while the children narrated a story
-      prompted by the picture book “Frog, Where Are You?”
+      corpus of children’s spontaneously spoken speech recordings. These
+      recordings were made in Belgian Dutch and obtained while the
+      children narrated a story prompted by the picture book “Frog,
+      Where Are You?”
       (<xref alt="Mayer 1969" rid="ref-Mayer_1969" ref-type="bibr">Mayer
       1969</xref>) to a caregiver ‘unfamiliar with the story’. Before
       the actual recording, the children were allowed to skim over the
@@ -611,12 +600,11 @@ the University of Antwerp (BOF).</funding-statement>
       the CHAT format in the CLAN editor
       (<xref alt="MacWhinney 2020" rid="ref-MacWhinney_2020" ref-type="bibr">MacWhinney
       2020</xref>). These transcriptions were exclusively used in the
-      selection of appropriate speech samples.</styled-content> To
-      ensure the quality of the selection, Boonen and colleagues
-      excluded sentences containing syntactically ill-formed or
-      incomplete statements, with background noise, crosstalk, long
-      hesitations, revisions, or non-words. Finally, ten speech samples
-      were randomly chosen for each of the
+      selection of appropriate speech samples. To ensure the quality of
+      the selection, Boonen and colleagues excluded sentences containing
+      syntactically ill-formed or incomplete statements, with background
+      noise, crosstalk, long hesitations, revisions, or non-words.
+      Finally, ten speech samples were randomly chosen for each of the
       <inline-formula><alternatives>
       <tex-math><![CDATA[32]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>32</mml:mn></mml:math></alternatives></inline-formula>
@@ -649,7 +637,7 @@ the University of Antwerp (BOF).</funding-statement>
     </sec>
     <sec id="sec-M-TS">
       <title>Transcription task and entropy scores</title>
-      <p><styled-content style="color:blue;">Boonen et al.
+      <p>Boonen et al.
       (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>)
       distributed the <inline-formula><alternatives>
       <tex-math><![CDATA[320]]></tex-math>
@@ -683,15 +671,13 @@ the University of Antwerp (BOF).</funding-statement>
       speaker, and the output was manually checked and adjusted (if
       needed) in order to appropriately align the words. For more
       details on the random assignment and alignment procedures refer to
-      the original authors.</styled-content></p>
-      <p><styled-content style="color:blue;">Next, the aligned
-      transcriptions were aggregated by listener, yielding
-      <inline-formula><alternatives>
+      the original authors.]</p>
+      <p>Next, the aligned transcriptions were aggregated by listener,
+      yielding <inline-formula><alternatives>
       <tex-math><![CDATA[2,2634]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2634</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
-      entropy scores, one score per word for every
-      sentence.</styled-content> The entropy scores were calculated
-      following Shannon’s formula
+      entropy scores, one score per word for every sentence. The entropy
+      scores were calculated following Shannon’s formula
       (<xref alt="1948" rid="ref-Shannon_1948" ref-type="bibr">1948</xref>):</p>
       <p><styled-content id="eq-entropy"><disp-formula><alternatives>
       <tex-math><![CDATA[
@@ -766,13 +752,12 @@ the University of Antwerp (BOF).</funding-statement>
         transcriptions and entropy scores.
         <bold><italic>Note:</italic></bold> Extracted from Boonen et al.
         (<xref alt="2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">2023</xref>),
-        and slightly modified for illustrative purposes.
-        <styled-content style="color:blue;">Entropy scores were
-        calculated from words of the first sentence, produced by the
-        first speaker assigned to the first block, and transcribed by
-        five listeners <inline-formula><alternatives>
+        and slightly modified for illustrative purposes. Entropy scores
+        were calculated from words of the first sentence, produced by
+        the first speaker assigned to the first block, and transcribed
+        by five listeners <inline-formula><alternatives>
         <tex-math><![CDATA[\left( s=1, i=1, b=1, J=5 \right)]]></tex-math>
-        <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
+        <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
         Transcriptions are in Belgian Dutch followed by their English
         translation. <italic>[B]</italic> represent a blank space, and
         <italic>[X]</italic> an unidentifiable speech.</p></caption>
@@ -993,8 +978,7 @@ the University of Antwerp (BOF).</funding-statement>
       level can differ for each speaker, enhancing the model
       <italic>robustness</italic> to mild or moderate data departures
       from the normal distribution assumption, such as in the presence
-      of heteroscedasticity or outliers.
-      <styled-content style="color:blue;">Secondly,
+      of heteroscedasticity or outliers. Secondly,
       <xref alt="Equation 3" rid="eq-normal-LMM-linearpred">Equation 3</xref>
       reveals that the model assumes that no transformation is applied
       to the relationship between the average entropy and the linear
@@ -1033,7 +1017,7 @@ the University of Antwerp (BOF).</funding-statement>
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
       serving no particular purpose in the former case, and (2) the
-      assignment of prior distributions.</styled-content></p>
+      assignment of prior distributions.</p>
     </sec>
     <sec id="sec-M-SM-BGLLAMM">
       <title>Beta-proportion GLLAMM</title>
@@ -1116,9 +1100,8 @@ the University of Antwerp (BOF).</funding-statement>
       reveals that the <italic>dispersion</italic> of average entropy at
       the word level can differ for each speaker. This enhances the
       model’s robustness to mild or moderate data departures from the
-      beta-proportion distribution assumption.
-      <styled-content style="color:blue;">Secondly, in contrast with the
-      Normal LMM,
+      beta-proportion distribution assumption. Secondly, in contrast
+      with the Normal LMM,
       <xref alt="Equation 5" rid="eq-beta-GLLAMM-linpred">Equation 5</xref>
       shows the potential intelligibility of a speaker has a negative
       non-linear relationship with the entropy scores. The negative
@@ -1161,7 +1144,7 @@ the University of Antwerp (BOF).</funding-statement>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>
       assumes that different sentences measure potential intelligibility
       differently due to variations in word difficulties and their
-      interplay within the sentence.</styled-content></p>
+      interplay within the sentence.</p>
     </sec>
     <sec id="sec-M-SM-P">
       <title>Prior distributions</title>
@@ -1253,9 +1236,9 @@ the University of Antwerp (BOF).</funding-statement>
         <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>r</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>M</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mi>M</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>m</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>m</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>s</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>b</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mi>b</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:mi>α</mml:mi></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.3</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
         <fig id="tbl-fitted">
           <caption><p>Table 2: Fitted models.
-          <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-          <italic>Yes</italic> indicates the feature or parameter is
-          included in the model.</styled-content></p></caption>
+          <bold><italic>Note:</italic></bold> <italic>Yes</italic>
+          indicates the feature or parameter is included in the
+          model.</p></caption>
           <table-wrap>
             <table>
               <colgroup>
@@ -1497,10 +1480,9 @@ the University of Antwerp (BOF).</funding-statement>
     </sec>
     <sec id="sec-M-SM-MC">
       <title>Model comparison</title>
-      <p><styled-content style="color:blue;">This study compared the
-      fitted models using three criteria: the deviance information
-      criterion (<monospace>DIC</monospace>) introduced by Spiegelhalter
-      et al.
+      <p>This study compared the fitted models using three criteria: the
+      deviance information criterion (<monospace>DIC</monospace>)
+      introduced by Spiegelhalter et al.
       (<xref alt="2002" rid="ref-Spiegelhalter_et_al_2002" ref-type="bibr">2002</xref>),
       the widely applicable information criterion
       (<monospace>WAIC</monospace>) proposed by Watanabe
@@ -1522,14 +1504,12 @@ the University of Antwerp (BOF).</funding-statement>
       <italic>true</italic> distribution of the data. Specifically,
       <monospace>DIC</monospace> measures in-sample deviations, while
       <monospace>WAIC</monospace> and <monospace>PSIS</monospace> offer
-      an approximate measure of out-of-sample
-      deviations.</styled-content></p>
-      <p><styled-content style="color:blue;"><monospace>WAIC</monospace>
-      and <monospace>PSIS</monospace> are regarded as full Bayesian
-      criteria because they encompass all the information contained in
-      the parameter’s posterior distribution, effectively integrating
-      and reporting the inherent uncertainty in predictive accuracy
-      estimates. In addition to predictive accuracy,
+      an approximate measure of out-of-sample deviations.</p>
+      <p><monospace>WAIC</monospace> and <monospace>PSIS</monospace> are
+      regarded as full Bayesian criteria because they encompass all the
+      information contained in the parameter’s posterior distribution,
+      effectively integrating and reporting the inherent uncertainty in
+      predictive accuracy estimates. In addition to predictive accuracy,
       <monospace>PSIS</monospace> offers an extra benefit by identifying
       highly influential data points. To achieve this, the criterion
       employs a built-in warning system that flags observations that
@@ -1538,11 +1518,10 @@ the University of Antwerp (BOF).</funding-statement>
       exert more influence and render predictions less reliable compared
       to those that are relatively expected
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-      2020</xref>).</styled-content></p>
-      <p><styled-content style="color:blue;">However, since researchers
-      are mostly interested in comparing candidate models, it is the
-      distance between the models that is useful, rather than the
-      absolute value of the criteria (see
+      2020</xref>).</p>
+      <p>However, since researchers are mostly interested in comparing
+      candidate models, it is the distance between the models that is
+      useful, rather than the absolute value of the criteria (see
       <xref alt="McElreath 2020, 209, 223–24" rid="ref-McElreath_2020" ref-type="bibr">McElreath
       2020, 209, 223–24</xref>). Therefore, this study utilized the
       differences in <monospace>WAIC</monospace> and
@@ -1578,7 +1557,7 @@ the University of Antwerp (BOF).</funding-statement>
       <monospace>pPSIS</monospace> are roughly associated with the
       models’ number of parameters, while the
       <monospace>weight</monospace> of evidence summarizes the relative
-      support for each model.</styled-content></p>
+      support for each model.</p>
     </sec>
   </sec>
   <sec id="sec-M-SM-OS">
@@ -1591,9 +1570,8 @@ the University of Antwerp (BOF).</funding-statement>
     checklist (WAMBS checklist) developed by Depaoli and van de Schoot
     (<xref alt="2017" rid="ref-Depaoli_et_al_2017" ref-type="bibr">2017</xref>).
     This checklist outlines the ten crucial points that need careful
-    scrutiny when employing Bayesian inference procedures.
-    <styled-content style="color:blue;">The digital walk-through is
-    available at the following URL</styled-content>:
+    scrutiny when employing Bayesian inference procedures. The digital
+    walk-through is available at the following URL:
     <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
   </sec>
 </sec>
@@ -1641,7 +1619,7 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     extended this model by incorporating a robust feature.</p>
-    <p><styled-content style="color:blue;">The left panel of
+    <p>The left panel of
     <xref alt="Figure 1" rid="fig-rq1-waic-psis">Figure 1</xref>
     displays the models’ <monospace>DIC</monospace>,
     <monospace>WAIC</monospace>, and <monospace>PSIS</monospace> values
@@ -1653,17 +1631,16 @@ the University of Antwerp (BOF).</funding-statement>
     <xref alt="7" rid="tbl-rq1-psis">7</xref> provide similar
     information, while also reporting the <monospace>pWAIC</monospace>
     and <monospace>pPSIS</monospace> values and the
-    <monospace>weight</monospace> of evidence for each
-    model.</styled-content> Overall, all criteria consistently pointed
-    to Model <inline-formula><alternatives>
+    <monospace>weight</monospace> of evidence for each model. Overall,
+    all criteria consistently pointed to Model
+    <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     as the most plausible choice for the data. The model exhibits the
     lowest values for both <monospace>WAIC</monospace> and
     <monospace>PSIS</monospace>, establishing itself as the model with
     the least deviation from <italic>perfect</italic> predictive
-    accuracy among those under comparison.
-    <styled-content style="color:blue;">Additionally,
+    accuracy among those under comparison. Additionally,
     <xref alt="Figure 1" rid="fig-rq1-waic-psis">Figure 1</xref>
     visually demonstrates the non-overlapping uncertainty in both
     <monospace>dWAIC</monospace> and <monospace>dPSIS</monospace> values
@@ -1678,7 +1655,7 @@ the University of Antwerp (BOF).</funding-statement>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>7</mml:mn></mml:math></alternatives></inline-formula>
     when compared to Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</styled-content>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.
     This indicates that Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
@@ -1695,17 +1672,15 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
     <fig id="fig-rq1-waic-psis">
-      <caption><p>Figure 1:
-      <styled-content style="color:blue;">Comparison plot for selected
-      models. <bold><italic>Note:</italic></bold> Open, black and blue
-      points describe the posterior means for the criteria. Continuous
-      colored horizontal lines indicate the criteria associated
-      uncertainty.</styled-content></p></caption>
+      <caption><p>Figure 1: Comparison plot for selected models.
+      <bold><italic>Note:</italic></bold> Open, black and blue points
+      describe the posterior means for the criteria. Continuous colored
+      horizontal lines indicate the criteria associated
+      uncertainty.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-waic-psis-1.png" />
     </fig>
     <p>Upon closer examination, the reasons behind the observed
-    disparities in the models become more apparent.
-    <styled-content style="color:blue;">Specifically,
+    disparities in the models become more apparent. Specifically,
     <xref alt="Figure 2" rid="fig-rq1-pred-speaker">Figure 2</xref>
     demonstrates that the Normal LMM, as outlined in Model
     <inline-formula><alternatives>
@@ -1724,8 +1699,8 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>
-    that bore no resemblance to the actual data
-    densities.</styled-content> Furthermore, the top two panels in
+    that bore no resemblance to the actual data densities. Furthermore,
+    the top two panels in
     <xref alt="Figure 11" rid="fig-rq1-model-outliers">Figure 11</xref>
     reveal that misspecification in the Normal LMM causeed the model to
     be <italic>more surprised</italic> by extreme entropy scores,
@@ -1750,13 +1725,11 @@ the University of Antwerp (BOF).</funding-statement>
     scores, fostering more trust in the model’s estimates.</p>
     <fig id="fig-rq1-pred-speaker">
       <caption><p>Figure 2: Entropy scores prediction for selected
-      models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Black points show manifest entropy scores where darker points
-      indicate greater overlap. Orange dots and vertical lines show the
-      posterior mean and 95% HPDI derived from Model 4. Blue dots and
-      vertical lines show similar information from Model
-      10.</styled-content></p></caption>
+      models. <bold><italic>Note:</italic></bold> Black points show
+      manifest entropy scores where darker points indicate greater
+      overlap. Orange dots and vertical lines show the posterior mean
+      and 95% HPDI derived from Model 4. Blue dots and vertical lines
+      show similar information from Model 10.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker-1.png" />
     </fig>
   </sec>
@@ -1794,13 +1767,12 @@ the University of Antwerp (BOF).</funding-statement>
     multiple entropy scores.</p>
     <fig id="fig-rq2-si-model10">
       <caption><p>Figure 3: Model 10, latent potential intelligibility
-      of speakers.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Black dots and vertical lines show the posterior means and 95%
-      HPDI intervals.</styled-content></p></caption>
+      of speakers. <bold><italic>Note:</italic></bold> Black dots and
+      vertical lines show the posterior means and 95% HPDI
+      intervals.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq2-si-model10-1.png" />
     </fig>
-    <p><styled-content style="color:blue;"><xref alt="Figure 3" rid="fig-rq2-si-model10">Figure 3</xref>
+    <p><xref alt="Figure 3" rid="fig-rq2-si-model10">Figure 3</xref>
     displays the ranking of speakers in decreasing order based on the
     posterior means of the latent potential intelligibility. These
     estimates are accompanied by their associated
@@ -1820,7 +1792,7 @@ the University of Antwerp (BOF).</funding-statement>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>17</mml:mn></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[9]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>9</mml:mn></mml:math></alternatives></inline-formula>.</styled-content>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>9</mml:mn></mml:math></alternatives></inline-formula>.
     In contrast, the figure highlights speaker
     <inline-formula><alternatives>
     <tex-math><![CDATA[20]]></tex-math>
@@ -1835,12 +1807,11 @@ the University of Antwerp (BOF).</funding-statement>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[3]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>3</mml:mn></mml:math></alternatives></inline-formula>.
-    <styled-content style="color:blue;">Conversely, the full posterior
-    distribution for comparing potential intelligibility between the
-    least and most intelligible speakers against other selected speakers
-    is shown in
-    <xref alt="Figure 4" rid="fig-si_contr_model10">Figure 4</xref>.</styled-content>
-    The figure reveals that only the differences between speakers
+    Conversely, the full posterior distribution for comparing potential
+    intelligibility between the least and most intelligible speakers
+    against other selected speakers is shown in
+    <xref alt="Figure 4" rid="fig-si_contr_model10">Figure 4</xref>. The
+    figure reveals that only the differences between speakers
     <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>,
@@ -1872,21 +1843,20 @@ the University of Antwerp (BOF).</funding-statement>
     <fig id="fig-si_contr_model10">
       <caption><p>Figure 4: Model 10, potential intelligibility
       comparisons among selected speakers.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Shaded area describes the 95% HPDI.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> Shaded area describes the 95%
+      HPDI.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-si_contr_model10-1.png" />
     </fig>
   </sec>
   <sec id="sec-R-RQ3">
     <title>Testing the influence of speaker-related factors on
     intelligibility (RQ3)</title>
-    <p><styled-content style="color:blue;">This research question
-    illustrated how hypotheses on intelligibility can be examined within
-    the model’s framework.</styled-content> Specifically, the focus
-    centered on assessing the influence of speaker-related factors on
-    intelligibility, such as chronological age and hearing status.
-    <styled-content style="color:blue;">Notably, despite RQ1 indicating
-    the suitability of the Beta-proportion GLLAMM for entropy scores,
+    <p>This research question illustrated how hypotheses on
+    intelligibility can be examined within the model’s framework.
+    Specifically, the focus centered on assessing the influence of
+    speaker-related factors on intelligibility, such as chronological
+    age and hearing status. Notably, despite RQ1 indicating the
+    suitability of the Beta-proportion GLLAMM for entropy scores,
     existing statistical literature suggests that, in certain scenarios,
     models incorporating covariate adjustment exhibit robustness to
     misspecification in the functional form of the covariate-outcome
@@ -1898,7 +1868,7 @@ the University of Antwerp (BOF).</funding-statement>
     intelligibility of speakers, namely chronological age and hearing
     status. Furthermore, some models like the Normal LMMs, potentially
     exhibited misspecification in the covariate-outcome
-    relationship.</styled-content></p>
+    relationship.</p>
     <p>Similar to RQ1, all criteria consistently identified the
     Beta-proportion GLLAMM outlined in models
     <inline-formula><alternatives>
@@ -1954,12 +1924,11 @@ the University of Antwerp (BOF).</funding-statement>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</p>
     <fig id="fig-rq3-waic-psis">
-      <caption><p>Figure 5:
-      <styled-content style="color:blue;">Comparison plot for all
-      models. <bold><italic>Note:</italic></bold> Open, black and blue
-      points describe the posterior means for the criteria. Continuous
-      colored horizontal lines indicate the criteria associated
-      uncertainty.</styled-content></p></caption>
+      <caption><p>Figure 5: Comparison plot for all models.
+      <bold><italic>Note:</italic></bold> Open, black and blue points
+      describe the posterior means for the criteria. Continuous colored
+      horizontal lines indicate the criteria associated
+      uncertainty.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-waic-psis-1.png" />
     </fig>
     <p>A closer examination of two models within this comparison set
@@ -2100,8 +2069,8 @@ the University of Antwerp (BOF).</funding-statement>
     age range. The latter is evident in
     <xref alt="Figure 8" rid="fig-rq3-intelligibility-model12">Figure 8</xref>.</p>
     <fig id="tbl-parameter-model10">
-      <caption><p>Table 3: <styled-content style="color:blue;">Model 10,
-      parameter estimates and 95% HPDI.</styled-content></p></caption>
+      <caption><p>Table 3: Model 10, parameter estimates and 95%
+      HPDI.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2126,17 +2095,17 @@ the University of Antwerp (BOF).</funding-statement>
     <fig id="fig-rq3-intelligibility-model10">
       <caption><p>Figure 6: Model 10, Potential intelligibility per
       chronological age and hearing status.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Colored dots denote the posterior means, vertical lines describe
-      the 95% HPDI, thick discontinuous line indicate the regression
-      line, thin continuous lines denote regression lines samples from
-      the posterior distribution, and numbers indicate the speaker
-      index.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> Colored dots denote the
+      posterior means, vertical lines describe the 95% HPDI, thick
+      discontinuous line indicate the regression line, thin continuous
+      lines denote regression lines samples from the posterior
+      distribution, and numbers indicate the speaker
+      index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model10-1.png" />
     </fig>
     <fig id="tbl-parameter-model11">
-      <caption><p>Table 4: <styled-content style="color:blue;">Model 11,
-      parameter estimates and 95% HPDI.</styled-content></p></caption>
+      <caption><p>Table 4: Model 11, parameter estimates and 95%
+      HPDI.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2199,17 +2168,17 @@ the University of Antwerp (BOF).</funding-statement>
     <fig id="fig-rq3-intelligibility-model11">
       <caption><p>Figure 7: Model 11, Potential intelligibility per
       chronological age and hearing status.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Colored dots denote the posterior means, vertical lines describe
-      the 95% HPDI, thick discontinuous line indicate the regression
-      line, thin continuous lines denote regression lines samples from
-      the posterior distribution, and numbers indicate the speaker
-      index.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> Colored dots denote the
+      posterior means, vertical lines describe the 95% HPDI, thick
+      discontinuous line indicate the regression line, thin continuous
+      lines denote regression lines samples from the posterior
+      distribution, and numbers indicate the speaker
+      index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model11-1.png" />
     </fig>
     <fig id="tbl-parameter-model12">
-      <caption><p>Table 5: <styled-content style="color:blue;">Model 12,
-      parameter estimates and 95% HPDI.</styled-content></p></caption>
+      <caption><p>Table 5: Model 12, parameter estimates and 95%
+      HPDI.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2286,12 +2255,12 @@ the University of Antwerp (BOF).</funding-statement>
     <fig id="fig-rq3-intelligibility-model12">
       <caption><p>Figure 8: Model 12, Potential intelligibility per
       chronological age and hearing status.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Colored dots denote the posterior means, vertical lines describe
-      the 95% HPDI, thick discontinuous line indicate the regression
-      line, thin continuous lines denote regression lines samples from
-      the posterior distribution, and numbers indicate the speaker
-      index.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> Colored dots denote the
+      posterior means, vertical lines describe the 95% HPDI, thick
+      discontinuous line indicate the regression line, thin continuous
+      lines denote regression lines samples from the posterior
+      distribution, and numbers indicate the speaker
+      index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model12-1.png" />
     </fig>
   </sec>
@@ -2300,18 +2269,16 @@ the University of Antwerp (BOF).</funding-statement>
   <title>Discussion</title>
   <sec id="sec-D-F">
     <title>Findings</title>
-    <p><styled-content style="color:blue;">This study examined the
-    suitability of the Bayesian Beta-proportion GLLAMM for the
-    quantitative measuring and testing of research hypotheses related to
-    speech intelligibility using entropy scores.</styled-content> The
-    initial findings supported the assertion that Beta-proportion
-    GLLAMMs consistently outperformed Normal LMMs in predicting entropy
-    scores, underscoring its superior predictive performance.
-    <styled-content style="color:blue;">The results also emphasized that
-    models neglecting measurement error and boundedness in the outcomes
-    lead to underfitting and misspecification issues, even when robust
-    features are integrated.</styled-content> This was clearly
-    illustrated by the Normal LMMs.</p>
+    <p>This study examined the suitability of the Bayesian
+    Beta-proportion GLLAMM for the quantitative measuring and testing of
+    research hypotheses related to speech intelligibility using entropy
+    scores. The initial findings supported the assertion that
+    Beta-proportion GLLAMMs consistently outperformed Normal LMMs in
+    predicting entropy scores, underscoring its superior predictive
+    performance. The results also emphasized that models neglecting
+    measurement error and boundedness in the outcomes lead to
+    underfitting and misspecification issues, even when robust features
+    are integrated. This was clearly illustrated by the Normal LMMs.</p>
     <p>Secondly, the study showcased the Beta-proportion GLLAMM’s
     proficiency in estimating the latent potential intelligibility of
     speakers based on manifest entropy scores. Implemented under
@@ -2325,27 +2292,25 @@ the University of Antwerp (BOF).</funding-statement>
     estimates.</p>
     <p>Thirdly, the study illustrated how the proposed model assessed
     the impact of speaker-related factors on potential intelligibility.
-    <styled-content style="color:blue;">The results suggested that
-    multiple models were plausible for the observed entropy scores. This
-    indicated that different speaker-related factor hypotheses were
-    viable for the data, with some presenting contradictory conclusions
-    about the influence of these factors on intelligibility. However,
-    even without unequivocal support for one hypothesis, the divided
-    support among these models informed that certain statistical issues
-    may be hindering the models’ ability to distinguish among
-    individuals and, ultimately, among models. These issues may be
-    attributed to factors such as the insufficient sample size of
-    speakers, the inadequate representation of the population of
-    speakers, referred to as selection bias, and the imprecise
-    measurement of the latent variable of interest.</styled-content></p>
+    The results suggested that multiple models were plausible for the
+    observed entropy scores. This indicated that different
+    speaker-related factor hypotheses were viable for the data, with
+    some presenting contradictory conclusions about the influence of
+    these factors on intelligibility. However, even without unequivocal
+    support for one hypothesis, the divided support among these models
+    informed that certain statistical issues may be hindering the
+    models’ ability to distinguish among individuals and, ultimately,
+    among models. These issues may be attributed to factors such as the
+    insufficient sample size of speakers, the inadequate representation
+    of the population of speakers, referred to as selection bias, and
+    the imprecise measurement of the latent variable of interest.</p>
     <p>Ultimately, this study introduced researchers to innovative
-    statistical tools that enhanced existing research models.
-    <styled-content style="color:blue;">These tools not only assessed
-    the predictability of empirical phenomena but also quantitatively
-    measured the latent trait of interest, namely potential
-    intelligibility, facilitating the comparison of research hypotheses
-    related to this trait.</styled-content> However, the presented tools
-    introduce new challenges for researchers seeking their
+    statistical tools that enhanced existing research models. These
+    tools not only assessed the predictability of empirical phenomena
+    but also quantitatively measured the latent trait of interest,
+    namely potential intelligibility, facilitating the comparison of
+    research hypotheses related to this trait. However, the presented
+    tools introduce new challenges for researchers seeking their
     implementation. These challenges emerge from two distinct aspects:
     one methodological and the other practical. In the methodological
     domain, researchers need familiarity with Bayesian methods and the
@@ -2402,24 +2367,22 @@ the University of Antwerp (BOF).</funding-statement>
     diminished statistical power and a higher risk of type I or type II
     errors
     (<xref alt="McElreath 2020" rid="ref-McElreath_2020" ref-type="bibr">McElreath
-    2020</xref>). <styled-content style="color:blue;">Consequently,
-    future research should consider extending this study by conducting
-    formal sample size planning. This entails assessing the impact of
-    expanding the speakers’ pool on testing research hypotheses or
-    increasing the number of speech samples, transcriptions, and
-    listeners to enhance the precision of the potential intelligibility
-    estimates. With these insights, future investigations could
-    contemplate increasing the speaker sample with a group that
-    adequately represents the population of interest.</styled-content>
+    2020</xref>). Consequently, future research should consider
+    extending this study by conducting formal sample size planning. This
+    entails assessing the impact of expanding the speakers’ pool on
+    testing research hypotheses or increasing the number of speech
+    samples, transcriptions, and listeners to enhance the precision of
+    the potential intelligibility estimates. With these insights, future
+    investigations could contemplate increasing the speaker sample with
+    a group that adequately represents the population of interest.
     However, this must be done while mindful of the pragmatic
     limitations associated with transcription tasks, specifically
     considering the costs and time-intensiveness of the procedure.</p>
-    <p><styled-content style="color:blue;">Thirdly, the study presented
-    an illustrative example for the investigation of research hypotheses
-    within the model’s framework.</styled-content> However, it did not
-    offer an exhaustive evaluation of all factors influencing
-    intelligibility, which are thoroughly explored in the works of
-    Niparko et al.
+    <p>Thirdly, the study presented an illustrative example for the
+    investigation of research hypotheses within the model’s framework.
+    However, it did not offer an exhaustive evaluation of all factors
+    influencing intelligibility, which are thoroughly explored in the
+    works of Niparko et al.
     (<xref alt="2010" rid="ref-Niparko_et_al_2010" ref-type="bibr">2010</xref>),
     Boons et al.
     (<xref alt="2012" rid="ref-Boons_et_al_2012" ref-type="bibr">2012</xref>),
@@ -2446,10 +2409,9 @@ the University of Antwerp (BOF).</funding-statement>
     may be time-intensive and costly. Thus, exploring less
     time-intensive or more cost-effective procedures, that still offer
     comparable precision in intelligibility estimates, could benefit
-    both researchers and speech therapists alike.
-    <styled-content style="color:blue;">One example of such a method is
-    Comparative Judgment (CJ), where judges compare and score the
-    perceived intensity of a trait between two stimuli
+    both researchers and speech therapists alike. One example of such a
+    method is Comparative Judgment (CJ), where judges compare and score
+    the perceived intensity of a trait between two stimuli
     (<xref alt="Thurstone 1927" rid="ref-Thurstone_1927" ref-type="bibr">Thurstone
     1927</xref>). CJ has gained increasing attention in educational
     assessment, with several studies demonstrating its validity in
@@ -2477,8 +2439,7 @@ the University of Antwerp (BOF).</funding-statement>
     2015, 393–94</xref>). Furthermore, the application can be extended
     to other unexplored variants of the CJ method, such as Ordered CJ
     (<xref alt="Pritikin 2020" rid="ref-Pritikin_2020" ref-type="bibr">Pritikin
-    2020</xref>) or Multidimensional Dichotomous
-    CJ.</styled-content></p>
+    2020</xref>) or Multidimensional Dichotomous CJ.</p>
     <p>Conversely, a second avenue for exploration involves integrating
     diverse data types and evaluation methods to assess individuals’
     intelligibility. This can be accomplished by leveraging two features
@@ -2503,35 +2464,34 @@ the University of Antwerp (BOF).</funding-statement>
 </sec>
 <sec id="sec-conclusion">
   <title>Conclusion</title>
-  <p><styled-content style="color:blue;">This study have highlighted the
-  effectiveness of the Bayesian Beta-proportion GLLAMM to collectively
-  address several key data features when investigating unobservable and
-  complex traits. The study used speech intelligibility and entropy
-  scores as a motivating example. The results have demonstrated that the
-  proposed model consistently outperforms the Normal LMM in predicting
-  the empirical phenomena. Moreover, the model exhibits the ability to
-  quantify the latent potential intelligibility of speakers, allowing
-  for the ranking and comparison of individuals based on the latent
-  trait while accommodating associated uncertainties. Additionally, the
-  proposed model have facilitated the exploration of research hypotheses
+  <p>This study have highlighted the effectiveness of the Bayesian
+  Beta-proportion GLLAMM to collectively address several key data
+  features when investigating unobservable and complex traits. The study
+  used speech intelligibility and entropy scores as a motivating
+  example. The results have demonstrated that the proposed model
+  consistently outperforms the Normal LMM in predicting the empirical
+  phenomena. Moreover, the model exhibits the ability to quantify the
+  latent potential intelligibility of speakers, allowing for the ranking
+  and comparison of individuals based on the latent trait while
+  accommodating associated uncertainties. Additionally, the proposed
+  model have facilitated the exploration of research hypotheses
   concerning the influence of speaker-related factors on potential
   intelligibility, where the integration and comparison of these
   hypotheses within the model’s framework was a straightforward
-  task.</styled-content></p>
+  task.</p>
   <p>However, the introduction of these innovative statistical tools
   presents new challenges for researchers seeking implementation. These
   challenges encompass the principled formulation of assumptions about
   the data-generating processes and research inquiries, along with the
   need for familiarity with probabilistic programming languages (PPLs)
-  essential for implementing Bayesian methods.
-  <styled-content style="color:blue;">Nevertheless, the study suggests
-  several promising avenues for future research, including causal
-  hypothesis formulation, and the exploration and integration of novel
-  evaluation methods for assessing intelligibility. The insights derived
-  from this study hold implications for both researchers and data
-  analysts interested in quantitatively measuring intricate,
+  essential for implementing Bayesian methods. Nevertheless, the study
+  suggests several promising avenues for future research, including
+  causal hypothesis formulation, and the exploration and integration of
+  novel evaluation methods for assessing intelligibility. The insights
+  derived from this study hold implications for both researchers and
+  data analysts interested in quantitatively measuring intricate,
   unobservable constructs, while predicting accurately the empirical
-  phenomena.</styled-content></p>
+  phenomena.</p>
   <p></p>
 </sec>
 <sec id="declarations">
@@ -2546,14 +2506,12 @@ the University of Antwerp (BOF).</funding-statement>
   <p><bold>Consent to participate:</bold> Not applicable</p>
   <p><bold>Consent for publication:</bold> All authors have read and
   agreed to the published version of the manuscript.</p>
-  <p><bold>Availability of data and materials:</bold>
-  <styled-content style="color:blue;">The data is delivered upon
-  request.</styled-content></p>
-  <p><bold>Code availability:</bold>
-  <styled-content style="color:blue;">All the code utilized in this
+  <p><bold>Availability of data and materials:</bold> The data is
+  delivered upon request.</p>
+  <p><bold>Code availability:</bold> All the code utilized in this
   research is available in the different notebooks and
   <monospace>CODE LINKS</monospace> referenced in the digital document.
-  The digital document is located at:</styled-content>
+  The digital document is located at:
   <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link>.</p>
   <p><bold>Authors’ contributions:</bold>
   <italic>Conceptualization:</italic> S.G., S.dM., and J.M.R.E;
@@ -2567,23 +2525,21 @@ the University of Antwerp (BOF).</funding-statement>
   <italic>Validation:</italic> J.M.R.E.; <italic>Visualization:</italic>
   J.M.R.E.; <italic>Writing - original draft:</italic> J.M.R.E.;
   <italic>Writing - review &amp; editing:</italic> S.G. and S.dM.</p>
-  <p><styled-content style="color:blue;"><bold>Acknowledgements:</bold>
-  We express gratitude to Renaat van Uffelen for providing timely
-  expertise in enhancing the writing of this
-  document.</styled-content></p>
+  <p><bold>Acknowledgements:</bold> We express gratitude to Renaat van
+  Uffelen for providing timely expertise in enhancing the writing of
+  this document.</p>
   <p></p>
 </sec>
 <sec id="sec-appendix">
   <title>Appendix</title>
   <sec id="sec-appA">
     <title>Entropy scores calculation</title>
-    <p>This section exemplified the entropy calculation procedure.
-    <styled-content style="color:blue;">For that purpose, the words in
-    position two, three, four and five observed in
-    <xref alt="Table 1" rid="tbl-alignment">Table 1</xref> were used.
-    These words were assumed present in the first sentence, produced by
-    the first speaker assigned to the first block, and transcribed by
-    five listeners (<inline-formula><alternatives>
+    <p>This section exemplified the entropy calculation procedure. For
+    that purpose, the words in position two, three, four and five
+    observed in <xref alt="Table 1" rid="tbl-alignment">Table 1</xref>
+    were used. These words were assumed present in the first sentence,
+    produced by the first speaker assigned to the first block, and
+    transcribed by five listeners (<inline-formula><alternatives>
     <tex-math><![CDATA[w=\{2,3,4,5\}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>w</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     <inline-formula><alternatives>
@@ -2625,15 +2581,14 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.8, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    with an entropy score equal to:</styled-content></p>
+    with an entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
     H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.8</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.3109</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">For the fourth word, two
-    listeners identified the word type <italic>een</italic>
-    <inline-formula><alternatives>
+    <p>For the fourth word, two listeners identified the word type
+    <italic>een</italic> <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     one listener the word type <italic>de</italic>
@@ -2643,7 +2598,7 @@ the University of Antwerp (BOF).</funding-statement>
     and another the word <italic>geen</italic>
     <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j3})]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
     In addition, a blank space <italic>[B]</italic> is a symbol that
     defined the absence of a word in a space where a word was expected
     during the alignment procedure, as compared with other
@@ -2674,9 +2629,8 @@ the University of Antwerp (BOF).</funding-statement>
     H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
-    <styled-content style="color:blue;">For the fifth word, each
-    listener transcribed a different word.</styled-content> It is
-    important to highlight that when a listener did not identify a
+    For the fifth word, each listener transcribed a different word. It
+    is important to highlight that when a listener did not identify a
     complete word, or part of it, (s)he was instructed to write
     <italic>[X]</italic> in that position. However, for the calculation
     of the entropy score, if more than one listener marked an
@@ -2724,9 +2678,8 @@ the University of Antwerp (BOF).</funding-statement>
     H_{5111} = \frac{ -\left[ 5 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} = 1
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>5111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>5</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">Lastly, for the third word,
-    the first two listeners identified the word type
-    <italic>ziet</italic> <inline-formula><alternatives>
+    <p>Lastly, for the third word, the first two listeners identified
+    the word type <italic>ziet</italic> <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     the next two listeners identified the word type <italic>zag</italic>
@@ -2756,18 +2709,17 @@ the University of Antwerp (BOF).</funding-statement>
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.4, 0.4, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    with an entropy score equal to:</styled-content></p>
+    with an entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[
     H_{2111} = \frac{ -\left[ 2 \cdot 0.4 \cdot log_{2}(0.4) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.6555
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.6555</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">Importantly, the last example
-    showcased the major difference between entropy and measures of
-    accuracy based on the percentage of (un)intelligible words. Entropy
-    scores employ all word type proportions in their calculations,
-    effectively capturing the agreement and disagreement among
-    listeners’ word transcriptions
+    <p>Importantly, the last example showcased the major difference
+    between entropy and measures of accuracy based on the percentage of
+    (un)intelligible words. Entropy scores employ all word type
+    proportions in their calculations, effectively capturing the
+    agreement and disagreement among listeners’ word transcriptions
     (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023" ref-type="bibr">Boonen
     et al. 2023</xref>). In contrast, the percentage of (un)intelligible
     words discards most word type proportions in favor of
@@ -2780,17 +2732,16 @@ the University of Antwerp (BOF).</funding-statement>
     or by other similar percentages detailed in the works of Flipsen
     (<xref alt="2006" rid="ref-Flipsen_2006" ref-type="bibr">2006</xref>)
     and Lagerberg et al.
-    (<xref alt="2014" rid="ref-Lagerberg_et_al_2014" ref-type="bibr">2014</xref>).</styled-content></p>
+    (<xref alt="2014" rid="ref-Lagerberg_et_al_2014" ref-type="bibr">2014</xref>).</p>
     <p></p>
   </sec>
   <sec id="sec-appB">
     <title>Tables</title>
     <fig id="tbl-rq1-waic">
       <caption><p>Table 6: WAIC comparison for selected models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      The table is sorted based on <monospace>weight</monospace> from
-      most to least plausible model(s) for the
-      data.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> The table is sorted based on
+      <monospace>weight</monospace> from most to least plausible
+      model(s) for the data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2812,7 +2763,7 @@ the University of Antwerp (BOF).</funding-statement>
               <td align="right">-9630.63</td>
               <td align="right">276.64</td>
               <td align="right">0.00</td>
-              <td align="right">NA</td>
+              <td align="right"></td>
               <td align="right">55.52</td>
               <td align="right">1</td>
             </tr>
@@ -2852,10 +2803,9 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="tbl-rq1-psis">
       <caption><p>Table 7: PSIS comparison for selected models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      The table is sorted based on <monospace>weight</monospace> from
-      most to least plausible model(s) for the
-      data.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> The table is sorted based on
+      <monospace>weight</monospace> from most to least plausible
+      model(s) for the data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2877,7 +2827,7 @@ the University of Antwerp (BOF).</funding-statement>
               <td align="right">-9629.27</td>
               <td align="right">276.74</td>
               <td align="right">0.00</td>
-              <td align="right">NA</td>
+              <td align="right"></td>
               <td align="right">56.19</td>
               <td align="right">1</td>
             </tr>
@@ -2917,10 +2867,9 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="tbl-rq3-waic">
       <caption><p>Table 8: WAIC comparison for all models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      The table is sorted based on <monospace>weight</monospace> from
-      most to least plausible model(s) for the
-      data.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> The table is sorted based on
+      <monospace>weight</monospace> from most to least plausible
+      model(s) for the data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -2942,7 +2891,7 @@ the University of Antwerp (BOF).</funding-statement>
               <td align="right">-9632.24</td>
               <td align="right">276.80</td>
               <td align="right">0.00</td>
-              <td align="right">NA</td>
+              <td align="right"></td>
               <td align="right">54.63</td>
               <td align="right">0.46</td>
             </tr>
@@ -3062,10 +3011,9 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="tbl-rq3-psis">
       <caption><p>Table 9: PSIS comparison for all models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      The table is sorted based on <monospace>weight</monospace> from
-      most to least plausible model(s) for the
-      data.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> The table is sorted based on
+      <monospace>weight</monospace> from most to least plausible
+      model(s) for the data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -3087,7 +3035,7 @@ the University of Antwerp (BOF).</funding-statement>
               <td align="right">-9631.16</td>
               <td align="right">276.88</td>
               <td align="right">0.00</td>
-              <td align="right">NA</td>
+              <td align="right"></td>
               <td align="right">55.17</td>
               <td align="right">0.46</td>
             </tr>
@@ -3233,13 +3181,11 @@ the University of Antwerp (BOF).</funding-statement>
     </fig>
     <fig id="fig-rq3-pred-speaker">
       <caption><p>Figure 12: Entropy scores prediction for selected
-      models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Black points show manifest entropy scores where darker points
-      indicate greater overlap. Orange dots and vertical lines show the
-      posterior mean and 95% HPDI derived from Model 6. Blue dots and
-      vertical lines show similar information from Model
-      12.</styled-content></p></caption>
+      models. <bold><italic>Note:</italic></bold> Black points show
+      manifest entropy scores where darker points indicate greater
+      overlap. Orange dots and vertical lines show the posterior mean
+      and 95% HPDI derived from Model 6. Blue dots and vertical lines
+      show similar information from Model 12.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker-1.png" />
     </fig>
     <fig id="fig-rq3-pred-speaker_model06">
@@ -4862,14 +4808,14 @@ Sciences</institution>
 <corresp id="cor-1-nb-article">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 <abstract>
-<p><styled-content style="color:blue;">When investigating unobservable,
-complex traits, data collection and aggregation processes can introduce
-distinctive features to the data such as boundedness, measurement error,
-clustering, outliers and heteroscedasticity. Failure to collectively
-address these features can result in statistical challenges that prevent
-the investigation of hypotheses regarding these traits. This study aimed
-to demonstrate the efficacy of the Bayesian Beta-proportion Generalized
-Linear Latent and Mixed Model (Beta-proportion GLLAMM)
+<p>When investigating unobservable, complex traits, data collection and
+aggregation processes can introduce distinctive features to the data
+such as boundedness, measurement error, clustering, outliers and
+heteroscedasticity. Failure to collectively address these features can
+result in statistical challenges that prevent the investigation of
+hypotheses regarding these traits. This study aimed to demonstrate the
+efficacy of the Bayesian Beta-proportion Generalized Linear Latent and
+Mixed Model (Beta-proportion GLLAMM)
 (<xref alt="Rabe-Hesketh, Skrondal, and Pickles 2004a" rid="ref-Rabe_et_al_2004a-nb-article" ref-type="bibr">Rabe-Hesketh,
 Skrondal, and Pickles 2004a</xref>,
 <xref alt="2004c" rid="ref-Rabe_et_al_2004b-nb-article" ref-type="bibr">2004c</xref>,
@@ -4898,7 +4844,7 @@ the proposed model facilitated the exploration of hypotheses concerning
 speaker-related factors and intelligibility. Ultimately, this research
 has implications for researchers and data analysts interested in
 quantitatively measuring intricate, unobservable constructs while
-accurately predicting the empirical phenomena.</styled-content></p>
+accurately predicting the empirical phenomena.</p>
 </abstract>
 </front-stub>
 
@@ -5038,6 +4984,18 @@ The following object is masked from 'package:stats':
 <code language="r script"># load functions
 main_dir = '/home/josema/Desktop/1. Work/1 research/PhD Antwerp/#thesis/paper1'
 source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R') )</code>
+<boxed-text>
+  <preformat>Loading required package: docstring</preformat>
+</boxed-text>
+<boxed-text>
+  <preformat>
+Attaching package: 'docstring'</preformat>
+</boxed-text>
+<boxed-text>
+  <preformat>The following object is masked from 'package:utils':
+
+    ?</preformat>
+</boxed-text>
 </sec>
 <sec id="sec-introduction-nb-article">
   <title>Introduction</title>
@@ -5054,9 +5012,8 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   Bergeson, and Phan 2012</xref>).</p>
   <p>The notion of speech intelligibility may appear deceptively simple,
   yet it is an intricate concept filled with inherent challenges in its
-  assessment. <styled-content style="color:blue;">Intelligibility refers
-  to the extent to which a listener can accurately recover the words in
-  a speaker’s acoustic signal
+  assessment. Intelligibility refers to the extent to which a listener
+  can accurately recover the words in a speaker’s acoustic signal
   (<xref alt="Freeman et al. 2017" rid="ref-Freeman_et_al_2017-nb-article" ref-type="bibr">Freeman
   et al. 2017</xref>;
   <xref alt="van Heuven 2008" rid="ref-vanHeuven_2008-nb-article" ref-type="bibr">van
@@ -5081,7 +5038,7 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   Papageorgiou, and French 2016</xref>), and characteristics of the
   listener like vocabulary proficiency or hearing ability
   (<xref alt="Varonis and Susan 1985" rid="ref-Varonis_et_al_1985-nb-article" ref-type="bibr">Varonis
-  and Susan 1985</xref>)</styled-content>.</p>
+  and Susan 1985</xref>).</p>
   <p>While several approaches have been proposed to assess
   intelligibility, they commonly rely on two types of speech samples:
   read-aloud or imitated, and spontaneous speech samples. Most studies
@@ -5108,10 +5065,10 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   (<xref alt="Cox et al. 1989" rid="ref-Cox_et_al_1989-nb-article" ref-type="bibr">Cox
   et al. 1989</xref>;
   <xref alt="Ertmer 2011" rid="ref-Ertmer_2011-nb-article" ref-type="bibr">Ertmer
-  2011</xref>). <styled-content style="color:blue;">In contrast,
-  spontaneous speech samples offer a more ecologically valid approach to
-  assess intelligibility, resembling everyday informal speech more than
-  read-aloud or imitated speech samples
+  2011</xref>). In contrast, spontaneous speech samples offer a more
+  ecologically valid approach to assess intelligibility, resembling
+  everyday informal speech more than read-aloud or imitated speech
+  samples
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
   et al. 2023</xref>). However, due to the uncertainty surrounding the
   speaker’s intended word production, it is unfeasible to establish a
@@ -5123,11 +5080,10 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   imitated speech, such as the percentage of read or imitated words,
   impractical
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
-  et al. 2023</xref>).</styled-content></p>
-  <p><styled-content style="color:blue;">Yet, various metrics of
-  intelligibility can still be derived from transcriptions of
-  spontaneous speech samples, including the percentage of
-  (un)intelligible words or syllables
+  et al. 2023</xref>).</p>
+  <p>Yet, various metrics of intelligibility can still be derived from
+  transcriptions of spontaneous speech samples, including the percentage
+  of (un)intelligible words or syllables
   (<xref alt="Flipsen 2006" rid="ref-Flipsen_2006-nb-article" ref-type="bibr">Flipsen
   2006</xref>;
   <xref alt="Lagerberg et al. 2014" rid="ref-Lagerberg_et_al_2014-nb-article" ref-type="bibr">Lagerberg
@@ -5135,9 +5091,9 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
   et al. 2023</xref>). In the latter approach, listeners transcribe
   orthographically spontaneous speech samples produced by various
-  speakers.</styled-content> These transcriptions are then aggregated
-  into entropy scores, where lower scores indicate a higher degree of
-  agreement among the listeners transcriptions and, consequently, higher
+  speakers. These transcriptions are then aggregated into entropy
+  scores, where lower scores indicate a higher degree of agreement among
+  the listeners transcriptions and, consequently, higher
   intelligibility, while higher scores suggest lower intelligibility due
   to a lower degree of agreement in the transcriptions
   (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
@@ -5164,44 +5120,41 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   as boundedness. Boundedness refers to the restriction of data values
   within specific bounds or intervals, beyond which they cannot occur
   (<xref alt="Lebl 2022" rid="ref-Lebl_2022-nb-article" ref-type="bibr">Lebl
-  2022</xref>). <styled-content style="color:blue;">Secondly, entropy
-  scores are assumed to be a manifestation of a speaker’s
-  intelligibility, with this intelligibility being the primary factor
-  influencing the observed scores.</styled-content> This issue is
-  commonly referred to as measurement error, signifying the disparity
-  between the observed values of a variable, recorded under similar
-  conditions, and some fixed <italic>true value</italic> which is not
-  directly observable
+  2022</xref>). Secondly, entropy scores are assumed to be a
+  manifestation of a speaker’s intelligibility, with this
+  intelligibility being the primary factor influencing the observed
+  scores. This issue is commonly referred to as measurement error,
+  signifying the disparity between the observed values of a variable,
+  recorded under similar conditions, and some fixed <italic>true
+  value</italic> which is not directly observable
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
   and Skrondal 2010</xref>). Thirdly, due to the repeated assessment of
   speakers through multiple speech samples, the scores exhibit
   clustering. Clustering occurs when outcomes stem from repeated
   measurements of the same individual, location, or time
   (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-  2020</xref>). <styled-content style="color:blue;">Lastly, driven by
-  speech samples with entropy scores located at the extreme of the
-  bounds, and the presence of more than one population in the data
-  (i.e., normal hearing versus hearing-impaired speakers), the scores
-  may exhibit a potential for outliers and heteroscedasticity. Outliers
-  are observations that markedly deviate from other sample data points
-  where they occur
+  2020</xref>). Lastly, driven by speech samples with entropy scores
+  located at the extreme of the bounds, and the presence of more than
+  one population in the data (i.e., normal hearing versus
+  hearing-impaired speakers), the scores may exhibit a potential for
+  outliers and heteroscedasticity. Outliers are observations that
+  markedly deviate from other sample data points where they occur
   (<xref alt="Grubbs 1969" rid="ref-Grubbs_1969-nb-article" ref-type="bibr">Grubbs
   1969</xref>), while heteroscedasticity occurs when the outcome’s
   variance depends on the values of another variable
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
-  and Skrondal 2010</xref>).</styled-content></p>
+  and Skrondal 2010</xref>).</p>
   <p>Failure to collectively address these data features can result in
   numerous statistical challenges that might hamper the researcher’s
   ability to investigate intelligibility. Notably, neglecting
   boundedness can, at best, lead to underfitting and, at worst, to
-  misspecification. <styled-content style="color:blue;">Underfitting
-  occurs when statistical models fail to capture the underlying data
-  patterns, potentially generating predictions outside the data range,
-  thus hindering the model’s ability to generalize when confronted with
-  new data.</styled-content> Conversely, misspecification, which is
-  marked by a poor representation of relevant aspects of the true data
-  in the model’s functional form, can lead to inconsistent and less
-  precise parameter estimates
+  misspecification. Underfitting occurs when statistical models fail to
+  capture the underlying data patterns, potentially generating
+  predictions outside the data range, thus hindering the model’s ability
+  to generalize when confronted with new data. Conversely,
+  misspecification, which is marked by a poor representation of relevant
+  aspects of the true data in the model’s functional form, can lead to
+  inconsistent and less precise parameter estimates
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
   and Skrondal 2010</xref>). Additionally, overlooking issues such as
   measurement error, clustering, outliers, or heteroscedasticity can
@@ -5209,12 +5162,11 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
   2020</xref>), ultimately diminishing the statistical power of models
   and increasing the likelihood of committing type I or type II errors
-  when addressing research inquiries.
-  <styled-content style="color:blue;">Type I error results when the null
+  when addressing research inquiries. Type I error results when the null
   hypothesis is falsely rejected, while Type II error that results when
   the null hypothesis is falsely accepted
   (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt
-  and Skrondal 2010</xref>).</styled-content></p>
+  and Skrondal 2010</xref>).</p>
   <p>In computational statistics and data analysis, several models have
   been developed to address some of these data features individually
   and, at times, collectively. For instance, Ferrari and Cribari-Neto
@@ -5290,11 +5242,10 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   comprehensively addressing all of these data features in a principled
   way, while also transparently and systematically documenting the
   Bayesian estimation of the resulting statistical models.</p>
-  <p><styled-content style="color:blue;">This study employed Bayesian
-  procedures for three main reasons. Firstly, prior research have
-  consistently demonstrated the superiority of Bayesian methods over
-  frequentist methods, especially with complex and overparameterized
-  models
+  <p>This study employed Bayesian procedures for three main reasons.
+  Firstly, prior research have consistently demonstrated the superiority
+  of Bayesian methods over frequentist methods, especially with complex
+  and overparameterized models
   (<xref alt="Baker 1998" rid="ref-Baker_1998-nb-article" ref-type="bibr">Baker
   1998</xref>;
   <xref alt="Kim and Cohen 1999" rid="ref-Kim_et_al_1999-nb-article" ref-type="bibr">Kim
@@ -5325,26 +5276,24 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
   2014</xref>). This feature of the Bayesian methods holds relevance for
   this study, as it also grapples with a small sample size, where
   reliance on the asymptotic properties of frequentist methods may not
-  be justified.</styled-content></p>
+  be justified.</p>
   <sec id="sec-I-RQ-nb-article">
     <title>Research questions</title>
-    <p><styled-content style="color:blue;">Considering the imperative
-    need to comprehensively address all features of the data when
-    investigating unobservable and complex traits, this investigation
-    aimed to demonstrate the efficacy of the Generalized Linear Latent
-    and Mixed Model (GLLAMM) in handling entropy score features when
-    exploring research hypotheses concerning speech intelligibility. To
-    achieve this objective, the study reexamined data originating from
-    transcriptions of spontaneous speech samples, initially collected by
-    Boonen et al.
+    <p>Considering the imperative need to comprehensively address all
+    features of the data when investigating unobservable and complex
+    traits, this investigation aimed to demonstrate the efficacy of the
+    Generalized Linear Latent and Mixed Model (GLLAMM) in handling
+    entropy score features when exploring research hypotheses concerning
+    speech intelligibility. To achieve this objective, the study
+    reexamined data originating from transcriptions of spontaneous
+    speech samples, initially collected by Boonen et al.
     (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>).
     The data was aggregated into entropy scores and subjected to
-    modelling through the Bayesian Beta-proportion
-    GLLAMM.</styled-content></p>
-    <p><styled-content style="color:blue;">To address the primary
-    objective, the study posed three key research questions. First,
-    given the importance of accurate predictions in developing useful
-    practical models and testing research hypotheses
+    modelling through the Bayesian Beta-proportion GLLAMM.</p>
+    <p>To address the primary objective, the study posed three key
+    research questions. First, given the importance of accurate
+    predictions in developing useful practical models and testing
+    research hypotheses
     (<xref alt="Shmueli and Koppius 2011" rid="ref-Shmueli_et_al_2012-nb-article" ref-type="bibr">Shmueli
     and Koppius 2011</xref>), <italic>Research Question 1 (RQ1)</italic>
     evaluated whether the Beta-proportion GLLAMM yielded more accurate
@@ -5362,17 +5311,16 @@ source( file.path( main_dir, 'paper1_manuscript/code', 'user-defined-functions.R
     how these research hypotheses can be examined within the model’s
     framework. Specifically, RQ3 assessed the influence of
     speaker-related factors on the newly estimated latent
-    intelligibility.</styled-content></p>
-    <p><styled-content style="color:blue;">Ultimately, this study offers
-    researchers studying speech intelligibility through entropy scores
-    and those in similar or different fields facing analogous data
-    challenges with a statistical tool that improves upon current
-    research models. This tool assess the predictability of empirical
-    phenomena and develops a quantitative measure for the latent
-    variable of interest. This quantitative measure, in turn,
-    facilitates the appropriate comparison of existing hypotheses
-    related to the latent variable, and even encourages the formulation
-    of new ones.</styled-content></p>
+    intelligibility.</p>
+    <p>Ultimately, this study offers researchers studying speech
+    intelligibility through entropy scores and those in similar or
+    different fields facing analogous data challenges with a statistical
+    tool that improves upon current research models. This tool assess
+    the predictability of empirical phenomena and develops a
+    quantitative measure for the latent variable of interest. This
+    quantitative measure, in turn, facilitates the appropriate
+    comparison of existing hypotheses related to the latent variable,
+    and even encourages the formulation of new ones.</p>
   </sec>
 </sec>
 <sec id="sec-methods-nb-article">
@@ -5435,16 +5383,15 @@ data_H = data.frame(dlist[var_int])
       <inline-formula><alternatives>
       <tex-math><![CDATA[SD=6.7]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>S</mml:mi><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mn>6.7</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>).
-      <styled-content style="color:blue;">All children were native
-      speakers of Belgian Dutch.</styled-content></p>
+      All children were native speakers of Belgian Dutch.</p>
     </sec>
     <sec id="sec-M-SS-nb-article">
       <title>Speech samples</title>
       <p>Boonen and colleagues selected speech samples from a large
-      corpus of children’s spontaneously spoken speech recordings.
-      <styled-content style="color:blue;">These recordings were made in
-      Belgian Dutch and obtained while the children narrated a story
-      prompted by the picture book “Frog, Where Are You?”
+      corpus of children’s spontaneously spoken speech recordings. These
+      recordings were made in Belgian Dutch and obtained while the
+      children narrated a story prompted by the picture book “Frog,
+      Where Are You?”
       (<xref alt="Mayer 1969" rid="ref-Mayer_1969-nb-article" ref-type="bibr">Mayer
       1969</xref>) to a caregiver ‘unfamiliar with the story’. Before
       the actual recording, the children were allowed to skim over the
@@ -5453,12 +5400,11 @@ data_H = data.frame(dlist[var_int])
       the CHAT format in the CLAN editor
       (<xref alt="MacWhinney 2020" rid="ref-MacWhinney_2020-nb-article" ref-type="bibr">MacWhinney
       2020</xref>). These transcriptions were exclusively used in the
-      selection of appropriate speech samples.</styled-content> To
-      ensure the quality of the selection, Boonen and colleagues
-      excluded sentences containing syntactically ill-formed or
-      incomplete statements, with background noise, crosstalk, long
-      hesitations, revisions, or non-words. Finally, ten speech samples
-      were randomly chosen for each of the
+      selection of appropriate speech samples. To ensure the quality of
+      the selection, Boonen and colleagues excluded sentences containing
+      syntactically ill-formed or incomplete statements, with background
+      noise, crosstalk, long hesitations, revisions, or non-words.
+      Finally, ten speech samples were randomly chosen for each of the
       <inline-formula><alternatives>
       <tex-math><![CDATA[32]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>32</mml:mn></mml:math></alternatives></inline-formula>
@@ -5491,7 +5437,7 @@ data_H = data.frame(dlist[var_int])
     </sec>
     <sec id="sec-M-TS-nb-article">
       <title>Transcription task and entropy scores</title>
-      <p><styled-content style="color:blue;">Boonen et al.
+      <p>Boonen et al.
       (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>)
       distributed the <inline-formula><alternatives>
       <tex-math><![CDATA[320]]></tex-math>
@@ -5525,15 +5471,13 @@ data_H = data.frame(dlist[var_int])
       speaker, and the output was manually checked and adjusted (if
       needed) in order to appropriately align the words. For more
       details on the random assignment and alignment procedures refer to
-      the original authors.</styled-content></p>
-      <p><styled-content style="color:blue;">Next, the aligned
-      transcriptions were aggregated by listener, yielding
-      <inline-formula><alternatives>
+      the original authors.]</p>
+      <p>Next, the aligned transcriptions were aggregated by listener,
+      yielding <inline-formula><alternatives>
       <tex-math><![CDATA[2,2634]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2634</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
-      entropy scores, one score per word for every
-      sentence.</styled-content> The entropy scores were calculated
-      following Shannon’s formula
+      entropy scores, one score per word for every sentence. The entropy
+      scores were calculated following Shannon’s formula
       (<xref alt="1948" rid="ref-Shannon_1948-nb-article" ref-type="bibr">1948</xref>):</p>
       <p><styled-content id="eq-entropy-nb-article"><disp-formula><alternatives>
       <tex-math><![CDATA[
@@ -5608,13 +5552,12 @@ data_H = data.frame(dlist[var_int])
         transcriptions and entropy scores.
         <bold><italic>Note:</italic></bold> Extracted from Boonen et al.
         (<xref alt="2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">2023</xref>),
-        and slightly modified for illustrative purposes.
-        <styled-content style="color:blue;">Entropy scores were
-        calculated from words of the first sentence, produced by the
-        first speaker assigned to the first block, and transcribed by
-        five listeners <inline-formula><alternatives>
+        and slightly modified for illustrative purposes. Entropy scores
+        were calculated from words of the first sentence, produced by
+        the first speaker assigned to the first block, and transcribed
+        by five listeners <inline-formula><alternatives>
         <tex-math><![CDATA[\left( s=1, i=1, b=1, J=5 \right)]]></tex-math>
-        <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
+        <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
         Transcriptions are in Belgian Dutch followed by their English
         translation. <italic>[B]</italic> represent a blank space, and
         <italic>[X]</italic> an unidentifiable speech.</p></caption>
@@ -5835,8 +5778,7 @@ data_H = data.frame(dlist[var_int])
       level can differ for each speaker, enhancing the model
       <italic>robustness</italic> to mild or moderate data departures
       from the normal distribution assumption, such as in the presence
-      of heteroscedasticity or outliers.
-      <styled-content style="color:blue;">Secondly,
+      of heteroscedasticity or outliers. Secondly,
       <xref alt="Equation 3" rid="eq-normal-LMM-linearpred-nb-article">Equation 3</xref>
       reveals that the model assumes that no transformation is applied
       to the relationship between the average entropy and the linear
@@ -5875,7 +5817,7 @@ data_H = data.frame(dlist[var_int])
       <tex-math><![CDATA[\alpha]]></tex-math>
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>α</mml:mi></mml:math></alternatives></inline-formula>
       serving no particular purpose in the former case, and (2) the
-      assignment of prior distributions.</styled-content></p>
+      assignment of prior distributions.</p>
     </sec>
     <sec id="sec-M-SM-BGLLAMM-nb-article">
       <title>Beta-proportion GLLAMM</title>
@@ -5958,9 +5900,8 @@ data_H = data.frame(dlist[var_int])
       reveals that the <italic>dispersion</italic> of average entropy at
       the word level can differ for each speaker. This enhances the
       model’s robustness to mild or moderate data departures from the
-      beta-proportion distribution assumption.
-      <styled-content style="color:blue;">Secondly, in contrast with the
-      Normal LMM,
+      beta-proportion distribution assumption. Secondly, in contrast
+      with the Normal LMM,
       <xref alt="Equation 5" rid="eq-beta-GLLAMM-linpred-nb-article">Equation 5</xref>
       shows the potential intelligibility of a speaker has a negative
       non-linear relationship with the entropy scores. The negative
@@ -6003,7 +5944,7 @@ data_H = data.frame(dlist[var_int])
       <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:msub><mml:mi>u</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math></alternatives></inline-formula>
       assumes that different sentences measure potential intelligibility
       differently due to variations in word difficulties and their
-      interplay within the sentence.</styled-content></p>
+      interplay within the sentence.</p>
     </sec>
     <sec id="sec-M-SM-P-nb-article">
       <title>Prior distributions</title>
@@ -6095,9 +6036,9 @@ data_H = data.frame(dlist[var_int])
         <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>r</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>M</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mi>M</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>m</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>e</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>m</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>s</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Exponential</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mi>b</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mi>b</mml:mi></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:mi>α</mml:mi></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.05</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>α</mml:mi><mml:mrow><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.3</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right" style="text-align: right"><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>H</mml:mi><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mtd><mml:mtd columnalign="left" style="text-align: left"><mml:mo>∼</mml:mo><mml:mtext mathvariant="normal">Normal</mml:mtext><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0.1</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable><mml:mspace width="2.0em"></mml:mspace><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></styled-content></p>
         <fig id="tbl-fitted-nb-article">
           <caption><p>Table 2: Fitted models.
-          <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-          <italic>Yes</italic> indicates the feature or parameter is
-          included in the model.</styled-content></p></caption>
+          <bold><italic>Note:</italic></bold> <italic>Yes</italic>
+          indicates the feature or parameter is included in the
+          model.</p></caption>
           <table-wrap>
             <table>
               <colgroup>
@@ -6339,10 +6280,9 @@ data_H = data.frame(dlist[var_int])
     </sec>
     <sec id="sec-M-SM-MC-nb-article">
       <title>Model comparison</title>
-      <p><styled-content style="color:blue;">This study compared the
-      fitted models using three criteria: the deviance information
-      criterion (<monospace>DIC</monospace>) introduced by Spiegelhalter
-      et al.
+      <p>This study compared the fitted models using three criteria: the
+      deviance information criterion (<monospace>DIC</monospace>)
+      introduced by Spiegelhalter et al.
       (<xref alt="2002" rid="ref-Spiegelhalter_et_al_2002-nb-article" ref-type="bibr">2002</xref>),
       the widely applicable information criterion
       (<monospace>WAIC</monospace>) proposed by Watanabe
@@ -6364,14 +6304,12 @@ data_H = data.frame(dlist[var_int])
       <italic>true</italic> distribution of the data. Specifically,
       <monospace>DIC</monospace> measures in-sample deviations, while
       <monospace>WAIC</monospace> and <monospace>PSIS</monospace> offer
-      an approximate measure of out-of-sample
-      deviations.</styled-content></p>
-      <p><styled-content style="color:blue;"><monospace>WAIC</monospace>
-      and <monospace>PSIS</monospace> are regarded as full Bayesian
-      criteria because they encompass all the information contained in
-      the parameter’s posterior distribution, effectively integrating
-      and reporting the inherent uncertainty in predictive accuracy
-      estimates. In addition to predictive accuracy,
+      an approximate measure of out-of-sample deviations.</p>
+      <p><monospace>WAIC</monospace> and <monospace>PSIS</monospace> are
+      regarded as full Bayesian criteria because they encompass all the
+      information contained in the parameter’s posterior distribution,
+      effectively integrating and reporting the inherent uncertainty in
+      predictive accuracy estimates. In addition to predictive accuracy,
       <monospace>PSIS</monospace> offers an extra benefit by identifying
       highly influential data points. To achieve this, the criterion
       employs a built-in warning system that flags observations that
@@ -6380,11 +6318,10 @@ data_H = data.frame(dlist[var_int])
       exert more influence and render predictions less reliable compared
       to those that are relatively expected
       (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-      2020</xref>).</styled-content></p>
-      <p><styled-content style="color:blue;">However, since researchers
-      are mostly interested in comparing candidate models, it is the
-      distance between the models that is useful, rather than the
-      absolute value of the criteria (see
+      2020</xref>).</p>
+      <p>However, since researchers are mostly interested in comparing
+      candidate models, it is the distance between the models that is
+      useful, rather than the absolute value of the criteria (see
       <xref alt="McElreath 2020, 209, 223–24" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
       2020, 209, 223–24</xref>). Therefore, this study utilized the
       differences in <monospace>WAIC</monospace> and
@@ -6420,7 +6357,7 @@ data_H = data.frame(dlist[var_int])
       <monospace>pPSIS</monospace> are roughly associated with the
       models’ number of parameters, while the
       <monospace>weight</monospace> of evidence summarizes the relative
-      support for each model.</styled-content></p>
+      support for each model.</p>
     </sec>
   </sec>
   <sec id="sec-M-SM-OS-nb-article">
@@ -6433,9 +6370,8 @@ data_H = data.frame(dlist[var_int])
     checklist (WAMBS checklist) developed by Depaoli and van de Schoot
     (<xref alt="2017" rid="ref-Depaoli_et_al_2017-nb-article" ref-type="bibr">2017</xref>).
     This checklist outlines the ten crucial points that need careful
-    scrutiny when employing Bayesian inference procedures.
-    <styled-content style="color:blue;">The digital walk-through is
-    available at the following URL</styled-content>:
+    scrutiny when employing Bayesian inference procedures. The digital
+    walk-through is available at the following URL:
     <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link></p>
   </sec>
 </sec>
@@ -6493,7 +6429,7 @@ for(i in 1:12){
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     extended this model by incorporating a robust feature.</p>
-    <p><styled-content style="color:blue;">The left panel of
+    <p>The left panel of
     <xref alt="Figure 1" rid="fig-rq1-waic-psis-nb-article">Figure 1</xref>
     displays the models’ <monospace>DIC</monospace>,
     <monospace>WAIC</monospace>, and <monospace>PSIS</monospace> values
@@ -6505,17 +6441,16 @@ for(i in 1:12){
     <xref alt="9" rid="tbl-rq1-psis-nb-article">9</xref> provide similar
     information, while also reporting the <monospace>pWAIC</monospace>
     and <monospace>pPSIS</monospace> values and the
-    <monospace>weight</monospace> of evidence for each
-    model.</styled-content> Overall, all criteria consistently pointed
-    to Model <inline-formula><alternatives>
+    <monospace>weight</monospace> of evidence for each model. Overall,
+    all criteria consistently pointed to Model
+    <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
     as the most plausible choice for the data. The model exhibits the
     lowest values for both <monospace>WAIC</monospace> and
     <monospace>PSIS</monospace>, establishing itself as the model with
     the least deviation from <italic>perfect</italic> predictive
-    accuracy among those under comparison.
-    <styled-content style="color:blue;">Additionally,
+    accuracy among those under comparison. Additionally,
     <xref alt="Figure 1" rid="fig-rq1-waic-psis-nb-article">Figure 1</xref>
     visually demonstrates the non-overlapping uncertainty in both
     <monospace>dWAIC</monospace> and <monospace>dPSIS</monospace> values
@@ -6530,7 +6465,7 @@ for(i in 1:12){
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>7</mml:mn></mml:math></alternatives></inline-formula>
     when compared to Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.</styled-content>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>.
     This indicates that Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
@@ -6587,18 +6522,16 @@ plot_compare( waic_obj=RQ1_WAIC, psis_obj=RQ1_PSIS, ns=1, dM=F )
 plot_compare( waic_obj=RQ1_WAIC, psis_obj=RQ1_PSIS, ns=1, dM=T )
 par(mfrow=c(1,1))</code>
     <fig id="fig-rq1-waic-psis-nb-article">
-      <caption><p>Figure 1:
-      <styled-content style="color:blue;">Comparison plot for selected
-      models. <bold><italic>Note:</italic></bold> Open, black and blue
-      points describe the posterior means for the criteria. Continuous
-      colored horizontal lines indicate the criteria associated
-      uncertainty.</styled-content></p></caption>
+      <caption><p>Figure 1: Comparison plot for selected models.
+      <bold><italic>Note:</italic></bold> Open, black and blue points
+      describe the posterior means for the criteria. Continuous colored
+      horizontal lines indicate the criteria associated
+      uncertainty.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-waic-psis-1.png" />
     </fig>
     </sec>
     <p>Upon closer examination, the reasons behind the observed
-    disparities in the models become more apparent.
-    <styled-content style="color:blue;">Specifically,
+    disparities in the models become more apparent. Specifically,
     <xref alt="Figure 2" rid="fig-rq1-pred-speaker-nb-article">Figure 2</xref>
     demonstrates that the Normal LMM, as outlined in Model
     <inline-formula><alternatives>
@@ -6617,8 +6550,8 @@ par(mfrow=c(1,1))</code>
     <inline-formula><alternatives>
     <tex-math><![CDATA[4]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>4</mml:mn></mml:math></alternatives></inline-formula>
-    that bore no resemblance to the actual data
-    densities.</styled-content> Furthermore, the top two panels in
+    that bore no resemblance to the actual data densities. Furthermore,
+    the top two panels in
     <xref alt="Figure 11" rid="fig-rq1-model-outliers-nb-article">Figure 11</xref>
     reveal that misspecification in the Normal LMM causeed the model to
     be <italic>more surprised</italic> by extreme entropy scores,
@@ -6650,13 +6583,11 @@ par(mfrow=c(1,1))</code>
              leg=c('model 04','model 10'))</code>
     <fig id="fig-rq1-pred-speaker-nb-article">
       <caption><p>Figure 2: Entropy scores prediction for selected
-      models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Black points show manifest entropy scores where darker points
-      indicate greater overlap. Orange dots and vertical lines show the
-      posterior mean and 95% HPDI derived from Model 4. Blue dots and
-      vertical lines show similar information from Model
-      10.</styled-content></p></caption>
+      models. <bold><italic>Note:</italic></bold> Black points show
+      manifest entropy scores where darker points indicate greater
+      overlap. Orange dots and vertical lines show the posterior mean
+      and 95% HPDI derived from Model 4. Blue dots and vertical lines
+      show similar information from Model 10.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq1-pred-speaker-1.png" />
     </fig>
     </sec>
@@ -6988,10 +6919,9 @@ par(mfrow=c(1,1))</code>
         p=0.95, decreasing=T)</code>
     <fig id="fig-rq2-si-model10-nb-article">
       <caption><p>Figure 3: Model 10, latent potential intelligibility
-      of speakers.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Black dots and vertical lines show the posterior means and 95%
-      HPDI intervals.</styled-content></p></caption>
+      of speakers. <bold><italic>Note:</italic></bold> Black dots and
+      vertical lines show the posterior means and 95% HPDI
+      intervals.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq2-si-model10-1.png" />
     </fig>
     </sec>
@@ -7001,7 +6931,7 @@ SI = SI[order(SI$mean, decreasing=T), ]
 SI = round(SI, 3)
 SI$HPDI = paste0('[', SI$HPDI_lower, ', ', SI$HPDI_upper,']')</code>
     </sec>
-    <p><styled-content style="color:blue;"><xref alt="Figure 3" rid="fig-rq2-si-model10-nb-article">Figure 3</xref>
+    <p><xref alt="Figure 3" rid="fig-rq2-si-model10-nb-article">Figure 3</xref>
     displays the ranking of speakers in decreasing order based on the
     posterior means of the latent potential intelligibility. These
     estimates are accompanied by their associated
@@ -7021,7 +6951,7 @@ SI$HPDI = paste0('[', SI$HPDI_lower, ', ', SI$HPDI_upper,']')</code>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>17</mml:mn></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[9]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>9</mml:mn></mml:math></alternatives></inline-formula>.</styled-content>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>9</mml:mn></mml:math></alternatives></inline-formula>.
     In contrast, the figure highlights speaker
     <inline-formula><alternatives>
     <tex-math><![CDATA[20]]></tex-math>
@@ -7036,12 +6966,11 @@ SI$HPDI = paste0('[', SI$HPDI_lower, ', ', SI$HPDI_upper,']')</code>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[3]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>3</mml:mn></mml:math></alternatives></inline-formula>.
-    <styled-content style="color:blue;">Conversely, the full posterior
-    distribution for comparing potential intelligibility between the
-    least and most intelligible speakers against other selected speakers
-    is shown in
-    <xref alt="Figure 4" rid="fig-si_contr_model10-nb-article">Figure 4</xref>.</styled-content>
-    The figure reveals that only the differences between speakers
+    Conversely, the full posterior distribution for comparing potential
+    intelligibility between the least and most intelligible speakers
+    against other selected speakers is shown in
+    <xref alt="Figure 4" rid="fig-si_contr_model10-nb-article">Figure 4</xref>. The
+    figure reveals that only the differences between speakers
     <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>,
@@ -7145,8 +7074,8 @@ par(mfrow=c(1,1))</code>
     <fig id="fig-si_contr_model10-nb-article">
       <caption><p>Figure 4: Model 10, potential intelligibility
       comparisons among selected speakers.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Shaded area describes the 95% HPDI.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> Shaded area describes the 95%
+      HPDI.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-si_contr_model10-1.png" />
     </fig>
     </sec>
@@ -7154,13 +7083,12 @@ par(mfrow=c(1,1))</code>
   <sec id="sec-R-RQ3-nb-article">
     <title>Testing the influence of speaker-related factors on
     intelligibility (RQ3)</title>
-    <p><styled-content style="color:blue;">This research question
-    illustrated how hypotheses on intelligibility can be examined within
-    the model’s framework.</styled-content> Specifically, the focus
-    centered on assessing the influence of speaker-related factors on
-    intelligibility, such as chronological age and hearing status.
-    <styled-content style="color:blue;">Notably, despite RQ1 indicating
-    the suitability of the Beta-proportion GLLAMM for entropy scores,
+    <p>This research question illustrated how hypotheses on
+    intelligibility can be examined within the model’s framework.
+    Specifically, the focus centered on assessing the influence of
+    speaker-related factors on intelligibility, such as chronological
+    age and hearing status. Notably, despite RQ1 indicating the
+    suitability of the Beta-proportion GLLAMM for entropy scores,
     existing statistical literature suggests that, in certain scenarios,
     models incorporating covariate adjustment exhibit robustness to
     misspecification in the functional form of the covariate-outcome
@@ -7172,7 +7100,7 @@ par(mfrow=c(1,1))</code>
     intelligibility of speakers, namely chronological age and hearing
     status. Furthermore, some models like the Normal LMMs, potentially
     exhibited misspecification in the covariate-outcome
-    relationship.</styled-content></p>
+    relationship.</p>
     <p>Similar to RQ1, all criteria consistently identified the
     Beta-proportion GLLAMM outlined in models
     <inline-formula><alternatives>
@@ -7278,12 +7206,11 @@ plot_compare( waic_obj=RQ3_WAIC, psis_obj=RQ3_PSIS, ns=1, dM=F )
 plot_compare( waic_obj=RQ3_WAIC, psis_obj=RQ3_PSIS, ns=1, dM=T )
 par(mfrow=c(1,1))</code>
     <fig id="fig-rq3-waic-psis-nb-article">
-      <caption><p>Figure 5:
-      <styled-content style="color:blue;">Comparison plot for all
-      models. <bold><italic>Note:</italic></bold> Open, black and blue
-      points describe the posterior means for the criteria. Continuous
-      colored horizontal lines indicate the criteria associated
-      uncertainty.</styled-content></p></caption>
+      <caption><p>Figure 5: Comparison plot for all models.
+      <bold><italic>Note:</italic></bold> Open, black and blue points
+      describe the posterior means for the criteria. Continuous colored
+      horizontal lines indicate the criteria associated
+      uncertainty.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-waic-psis-1.png" />
     </fig>
     </sec>
@@ -7444,8 +7371,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
        escape=F, digits=3,
        col.names=c('Parameter','Posterior mean','95% HPDI') )</code>
     <fig id="tbl-parameter-model10-nb-article">
-      <caption><p>Table 5: <styled-content style="color:blue;">Model 10,
-      parameter estimates and 95% HPDI.</styled-content></p></caption>
+      <caption><p>Table 5: Model 10, parameter estimates and 95%
+      HPDI.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -7474,12 +7401,12 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <fig id="fig-rq3-intelligibility-model10-nb-article">
       <caption><p>Figure 6: Model 10, Potential intelligibility per
       chronological age and hearing status.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Colored dots denote the posterior means, vertical lines describe
-      the 95% HPDI, thick discontinuous line indicate the regression
-      line, thin continuous lines denote regression lines samples from
-      the posterior distribution, and numbers indicate the speaker
-      index.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> Colored dots denote the
+      posterior means, vertical lines describe the 95% HPDI, thick
+      discontinuous line indicate the regression line, thin continuous
+      lines denote regression lines samples from the posterior
+      distribution, and numbers indicate the speaker
+      index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model10-1.png" />
     </fig>
     </sec>
@@ -7517,8 +7444,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
        escape=F, digits=3,
        col.names=c('Parameter','Posterior mean','95% HPDI') )</code>
     <fig id="tbl-parameter-model11-nb-article">
-      <caption><p>Table 6: <styled-content style="color:blue;">Model 11,
-      parameter estimates and 95% HPDI.</styled-content></p></caption>
+      <caption><p>Table 6: Model 11, parameter estimates and 95%
+      HPDI.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -7585,12 +7512,12 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <fig id="fig-rq3-intelligibility-model11-nb-article">
       <caption><p>Figure 7: Model 11, Potential intelligibility per
       chronological age and hearing status.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Colored dots denote the posterior means, vertical lines describe
-      the 95% HPDI, thick discontinuous line indicate the regression
-      line, thin continuous lines denote regression lines samples from
-      the posterior distribution, and numbers indicate the speaker
-      index.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> Colored dots denote the
+      posterior means, vertical lines describe the 95% HPDI, thick
+      discontinuous line indicate the regression line, thin continuous
+      lines denote regression lines samples from the posterior
+      distribution, and numbers indicate the speaker
+      index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model11-1.png" />
     </fig>
     </sec>
@@ -7633,8 +7560,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
        escape=F, digits=3,
        col.names=c('Parameter','Posterior mean','95% HPDI') )</code>
     <fig id="tbl-parameter-model12-nb-article">
-      <caption><p>Table 7: <styled-content style="color:blue;">Model 12,
-      parameter estimates and 95% HPDI.</styled-content></p></caption>
+      <caption><p>Table 7: Model 12, parameter estimates and 95%
+      HPDI.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -7715,12 +7642,12 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <fig id="fig-rq3-intelligibility-model12-nb-article">
       <caption><p>Figure 8: Model 12, Potential intelligibility per
       chronological age and hearing status.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Colored dots denote the posterior means, vertical lines describe
-      the 95% HPDI, thick discontinuous line indicate the regression
-      line, thin continuous lines denote regression lines samples from
-      the posterior distribution, and numbers indicate the speaker
-      index.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> Colored dots denote the
+      posterior means, vertical lines describe the 95% HPDI, thick
+      discontinuous line indicate the regression line, thin continuous
+      lines denote regression lines samples from the posterior
+      distribution, and numbers indicate the speaker
+      index.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-intelligibility-model12-1.png" />
     </fig>
     </sec>
@@ -7730,18 +7657,16 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
   <title>Discussion</title>
   <sec id="sec-D-F-nb-article">
     <title>Findings</title>
-    <p><styled-content style="color:blue;">This study examined the
-    suitability of the Bayesian Beta-proportion GLLAMM for the
-    quantitative measuring and testing of research hypotheses related to
-    speech intelligibility using entropy scores.</styled-content> The
-    initial findings supported the assertion that Beta-proportion
-    GLLAMMs consistently outperformed Normal LMMs in predicting entropy
-    scores, underscoring its superior predictive performance.
-    <styled-content style="color:blue;">The results also emphasized that
-    models neglecting measurement error and boundedness in the outcomes
-    lead to underfitting and misspecification issues, even when robust
-    features are integrated.</styled-content> This was clearly
-    illustrated by the Normal LMMs.</p>
+    <p>This study examined the suitability of the Bayesian
+    Beta-proportion GLLAMM for the quantitative measuring and testing of
+    research hypotheses related to speech intelligibility using entropy
+    scores. The initial findings supported the assertion that
+    Beta-proportion GLLAMMs consistently outperformed Normal LMMs in
+    predicting entropy scores, underscoring its superior predictive
+    performance. The results also emphasized that models neglecting
+    measurement error and boundedness in the outcomes lead to
+    underfitting and misspecification issues, even when robust features
+    are integrated. This was clearly illustrated by the Normal LMMs.</p>
     <p>Secondly, the study showcased the Beta-proportion GLLAMM’s
     proficiency in estimating the latent potential intelligibility of
     speakers based on manifest entropy scores. Implemented under
@@ -7755,27 +7680,25 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     estimates.</p>
     <p>Thirdly, the study illustrated how the proposed model assessed
     the impact of speaker-related factors on potential intelligibility.
-    <styled-content style="color:blue;">The results suggested that
-    multiple models were plausible for the observed entropy scores. This
-    indicated that different speaker-related factor hypotheses were
-    viable for the data, with some presenting contradictory conclusions
-    about the influence of these factors on intelligibility. However,
-    even without unequivocal support for one hypothesis, the divided
-    support among these models informed that certain statistical issues
-    may be hindering the models’ ability to distinguish among
-    individuals and, ultimately, among models. These issues may be
-    attributed to factors such as the insufficient sample size of
-    speakers, the inadequate representation of the population of
-    speakers, referred to as selection bias, and the imprecise
-    measurement of the latent variable of interest.</styled-content></p>
+    The results suggested that multiple models were plausible for the
+    observed entropy scores. This indicated that different
+    speaker-related factor hypotheses were viable for the data, with
+    some presenting contradictory conclusions about the influence of
+    these factors on intelligibility. However, even without unequivocal
+    support for one hypothesis, the divided support among these models
+    informed that certain statistical issues may be hindering the
+    models’ ability to distinguish among individuals and, ultimately,
+    among models. These issues may be attributed to factors such as the
+    insufficient sample size of speakers, the inadequate representation
+    of the population of speakers, referred to as selection bias, and
+    the imprecise measurement of the latent variable of interest.</p>
     <p>Ultimately, this study introduced researchers to innovative
-    statistical tools that enhanced existing research models.
-    <styled-content style="color:blue;">These tools not only assessed
-    the predictability of empirical phenomena but also quantitatively
-    measured the latent trait of interest, namely potential
-    intelligibility, facilitating the comparison of research hypotheses
-    related to this trait.</styled-content> However, the presented tools
-    introduce new challenges for researchers seeking their
+    statistical tools that enhanced existing research models. These
+    tools not only assessed the predictability of empirical phenomena
+    but also quantitatively measured the latent trait of interest,
+    namely potential intelligibility, facilitating the comparison of
+    research hypotheses related to this trait. However, the presented
+    tools introduce new challenges for researchers seeking their
     implementation. These challenges emerge from two distinct aspects:
     one methodological and the other practical. In the methodological
     domain, researchers need familiarity with Bayesian methods and the
@@ -7832,24 +7755,22 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     diminished statistical power and a higher risk of type I or type II
     errors
     (<xref alt="McElreath 2020" rid="ref-McElreath_2020-nb-article" ref-type="bibr">McElreath
-    2020</xref>). <styled-content style="color:blue;">Consequently,
-    future research should consider extending this study by conducting
-    formal sample size planning. This entails assessing the impact of
-    expanding the speakers’ pool on testing research hypotheses or
-    increasing the number of speech samples, transcriptions, and
-    listeners to enhance the precision of the potential intelligibility
-    estimates. With these insights, future investigations could
-    contemplate increasing the speaker sample with a group that
-    adequately represents the population of interest.</styled-content>
+    2020</xref>). Consequently, future research should consider
+    extending this study by conducting formal sample size planning. This
+    entails assessing the impact of expanding the speakers’ pool on
+    testing research hypotheses or increasing the number of speech
+    samples, transcriptions, and listeners to enhance the precision of
+    the potential intelligibility estimates. With these insights, future
+    investigations could contemplate increasing the speaker sample with
+    a group that adequately represents the population of interest.
     However, this must be done while mindful of the pragmatic
     limitations associated with transcription tasks, specifically
     considering the costs and time-intensiveness of the procedure.</p>
-    <p><styled-content style="color:blue;">Thirdly, the study presented
-    an illustrative example for the investigation of research hypotheses
-    within the model’s framework.</styled-content> However, it did not
-    offer an exhaustive evaluation of all factors influencing
-    intelligibility, which are thoroughly explored in the works of
-    Niparko et al.
+    <p>Thirdly, the study presented an illustrative example for the
+    investigation of research hypotheses within the model’s framework.
+    However, it did not offer an exhaustive evaluation of all factors
+    influencing intelligibility, which are thoroughly explored in the
+    works of Niparko et al.
     (<xref alt="2010" rid="ref-Niparko_et_al_2010-nb-article" ref-type="bibr">2010</xref>),
     Boons et al.
     (<xref alt="2012" rid="ref-Boons_et_al_2012-nb-article" ref-type="bibr">2012</xref>),
@@ -7876,10 +7797,9 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     may be time-intensive and costly. Thus, exploring less
     time-intensive or more cost-effective procedures, that still offer
     comparable precision in intelligibility estimates, could benefit
-    both researchers and speech therapists alike.
-    <styled-content style="color:blue;">One example of such a method is
-    Comparative Judgment (CJ), where judges compare and score the
-    perceived intensity of a trait between two stimuli
+    both researchers and speech therapists alike. One example of such a
+    method is Comparative Judgment (CJ), where judges compare and score
+    the perceived intensity of a trait between two stimuli
     (<xref alt="Thurstone 1927" rid="ref-Thurstone_1927-nb-article" ref-type="bibr">Thurstone
     1927</xref>). CJ has gained increasing attention in educational
     assessment, with several studies demonstrating its validity in
@@ -7907,8 +7827,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     2015, 393–94</xref>). Furthermore, the application can be extended
     to other unexplored variants of the CJ method, such as Ordered CJ
     (<xref alt="Pritikin 2020" rid="ref-Pritikin_2020-nb-article" ref-type="bibr">Pritikin
-    2020</xref>) or Multidimensional Dichotomous
-    CJ.</styled-content></p>
+    2020</xref>) or Multidimensional Dichotomous CJ.</p>
     <p>Conversely, a second avenue for exploration involves integrating
     diverse data types and evaluation methods to assess individuals’
     intelligibility. This can be accomplished by leveraging two features
@@ -7933,35 +7852,34 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
 </sec>
 <sec id="sec-conclusion-nb-article">
   <title>Conclusion</title>
-  <p><styled-content style="color:blue;">This study have highlighted the
-  effectiveness of the Bayesian Beta-proportion GLLAMM to collectively
-  address several key data features when investigating unobservable and
-  complex traits. The study used speech intelligibility and entropy
-  scores as a motivating example. The results have demonstrated that the
-  proposed model consistently outperforms the Normal LMM in predicting
-  the empirical phenomena. Moreover, the model exhibits the ability to
-  quantify the latent potential intelligibility of speakers, allowing
-  for the ranking and comparison of individuals based on the latent
-  trait while accommodating associated uncertainties. Additionally, the
-  proposed model have facilitated the exploration of research hypotheses
+  <p>This study have highlighted the effectiveness of the Bayesian
+  Beta-proportion GLLAMM to collectively address several key data
+  features when investigating unobservable and complex traits. The study
+  used speech intelligibility and entropy scores as a motivating
+  example. The results have demonstrated that the proposed model
+  consistently outperforms the Normal LMM in predicting the empirical
+  phenomena. Moreover, the model exhibits the ability to quantify the
+  latent potential intelligibility of speakers, allowing for the ranking
+  and comparison of individuals based on the latent trait while
+  accommodating associated uncertainties. Additionally, the proposed
+  model have facilitated the exploration of research hypotheses
   concerning the influence of speaker-related factors on potential
   intelligibility, where the integration and comparison of these
   hypotheses within the model’s framework was a straightforward
-  task.</styled-content></p>
+  task.</p>
   <p>However, the introduction of these innovative statistical tools
   presents new challenges for researchers seeking implementation. These
   challenges encompass the principled formulation of assumptions about
   the data-generating processes and research inquiries, along with the
   need for familiarity with probabilistic programming languages (PPLs)
-  essential for implementing Bayesian methods.
-  <styled-content style="color:blue;">Nevertheless, the study suggests
-  several promising avenues for future research, including causal
-  hypothesis formulation, and the exploration and integration of novel
-  evaluation methods for assessing intelligibility. The insights derived
-  from this study hold implications for both researchers and data
-  analysts interested in quantitatively measuring intricate,
+  essential for implementing Bayesian methods. Nevertheless, the study
+  suggests several promising avenues for future research, including
+  causal hypothesis formulation, and the exploration and integration of
+  novel evaluation methods for assessing intelligibility. The insights
+  derived from this study hold implications for both researchers and
+  data analysts interested in quantitatively measuring intricate,
   unobservable constructs, while predicting accurately the empirical
-  phenomena.</styled-content></p>
+  phenomena.</p>
   <p></p>
 </sec>
 <sec id="declarations-nb-article">
@@ -7976,14 +7894,12 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
   <p><bold>Consent to participate:</bold> Not applicable</p>
   <p><bold>Consent for publication:</bold> All authors have read and
   agreed to the published version of the manuscript.</p>
-  <p><bold>Availability of data and materials:</bold>
-  <styled-content style="color:blue;">The data is delivered upon
-  request.</styled-content></p>
-  <p><bold>Code availability:</bold>
-  <styled-content style="color:blue;">All the code utilized in this
+  <p><bold>Availability of data and materials:</bold> The data is
+  delivered upon request.</p>
+  <p><bold>Code availability:</bold> All the code utilized in this
   research is available in the different notebooks and
   <monospace>CODE LINKS</monospace> referenced in the digital document.
-  The digital document is located at:</styled-content>
+  The digital document is located at:
   <ext-link ext-link-type="uri" xlink:href="https://jriveraespejo.github.io/paper1_manuscript/">https://jriveraespejo.github.io/paper1_manuscript/</ext-link>.</p>
   <p><bold>Authors’ contributions:</bold>
   <italic>Conceptualization:</italic> S.G., S.dM., and J.M.R.E;
@@ -7997,23 +7913,21 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
   <italic>Validation:</italic> J.M.R.E.; <italic>Visualization:</italic>
   J.M.R.E.; <italic>Writing - original draft:</italic> J.M.R.E.;
   <italic>Writing - review &amp; editing:</italic> S.G. and S.dM.</p>
-  <p><styled-content style="color:blue;"><bold>Acknowledgements:</bold>
-  We express gratitude to Renaat van Uffelen for providing timely
-  expertise in enhancing the writing of this
-  document.</styled-content></p>
+  <p><bold>Acknowledgements:</bold> We express gratitude to Renaat van
+  Uffelen for providing timely expertise in enhancing the writing of
+  this document.</p>
   <p></p>
 </sec>
 <sec id="sec-appendix-nb-article">
   <title>Appendix</title>
   <sec id="sec-appA-nb-article">
     <title>Entropy scores calculation</title>
-    <p>This section exemplified the entropy calculation procedure.
-    <styled-content style="color:blue;">For that purpose, the words in
-    position two, three, four and five observed in
-    <xref alt="Table 1" rid="tbl-alignment-nb-article">Table 1</xref> were used.
-    These words were assumed present in the first sentence, produced by
-    the first speaker assigned to the first block, and transcribed by
-    five listeners (<inline-formula><alternatives>
+    <p>This section exemplified the entropy calculation procedure. For
+    that purpose, the words in position two, three, four and five
+    observed in <xref alt="Table 1" rid="tbl-alignment-nb-article">Table 1</xref>
+    were used. These words were assumed present in the first sentence,
+    produced by the first speaker assigned to the first block, and
+    transcribed by five listeners (<inline-formula><alternatives>
     <tex-math><![CDATA[w=\{2,3,4,5\}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>w</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mn>4</mml:mn><mml:mo>,</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     <inline-formula><alternatives>
@@ -8055,15 +7969,14 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.8, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    with an entropy score equal to:</styled-content></p>
+    with an entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[ 
     H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.8</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.8</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.3109</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">For the fourth word, two
-    listeners identified the word type <italic>een</italic>
-    <inline-formula><alternatives>
+    <p>For the fourth word, two listeners identified the word type
+    <italic>een</italic> <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     one listener the word type <italic>de</italic>
@@ -8073,7 +7986,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     and another the word <italic>geen</italic>
     <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j3})]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.</styled-content>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>.
     In addition, a blank space <italic>[B]</italic> is a symbol that
     defined the absence of a word in a space where a word was expected
     during the alignment procedure, as compared with other
@@ -8104,9 +8017,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>4111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.8277</mml:mn></mml:mrow></mml:math></alternatives></disp-formula>
-    <styled-content style="color:blue;">For the fifth word, each
-    listener transcribed a different word.</styled-content> It is
-    important to highlight that when a listener did not identify a
+    For the fifth word, each listener transcribed a different word. It
+    is important to highlight that when a listener did not identify a
     complete word, or part of it, (s)he was instructed to write
     <italic>[X]</italic> in that position. However, for the calculation
     of the entropy score, if more than one listener marked an
@@ -8154,9 +8066,8 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     H_{5111} = \frac{ -\left[ 5 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} = 1
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>5111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>5</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">Lastly, for the third word,
-    the first two listeners identified the word type
-    <italic>ziet</italic> <inline-formula><alternatives>
+    <p>Lastly, for the third word, the first two listeners identified
+    the word type <italic>ziet</italic> <inline-formula><alternatives>
     <tex-math><![CDATA[(T_{j1})]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
     the next two listeners identified the word type <italic>zag</italic>
@@ -8186,18 +8097,17 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     <inline-formula><alternatives>
     <tex-math><![CDATA[\{ 0.4, 0.4, 0.2 \}]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mo stretchy="false" form="prefix">{</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.4</mml:mn><mml:mo>,</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="false" form="postfix">}</mml:mo></mml:mrow></mml:math></alternatives></inline-formula>,
-    with an entropy score equal to:</styled-content></p>
+    with an entropy score equal to:</p>
     <p><disp-formula><alternatives>
     <tex-math><![CDATA[
     H_{2111} = \frac{ -\left[ 2 \cdot 0.4 \cdot log_{2}(0.4) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.6555
     ]]></tex-math>
     <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mn>2111</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>−</mml:mi><mml:mrow><mml:mo stretchy="true" form="prefix">[</mml:mo><mml:mn>2</mml:mn><mml:mo>⋅</mml:mo><mml:mn>0.4</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.4</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.2</mml:mn><mml:mo>⋅</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>0.2</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow><mml:mo stretchy="true" form="postfix">]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="true" form="prefix">(</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="true" form="postfix">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>≈</mml:mo><mml:mn>0.6555</mml:mn></mml:mrow></mml:math></alternatives></disp-formula></p>
-    <p><styled-content style="color:blue;">Importantly, the last example
-    showcased the major difference between entropy and measures of
-    accuracy based on the percentage of (un)intelligible words. Entropy
-    scores employ all word type proportions in their calculations,
-    effectively capturing the agreement and disagreement among
-    listeners’ word transcriptions
+    <p>Importantly, the last example showcased the major difference
+    between entropy and measures of accuracy based on the percentage of
+    (un)intelligible words. Entropy scores employ all word type
+    proportions in their calculations, effectively capturing the
+    agreement and disagreement among listeners’ word transcriptions
     (<xref alt="Boonen et al. 2023" rid="ref-Boonen_et_al_2023-nb-article" ref-type="bibr">Boonen
     et al. 2023</xref>). In contrast, the percentage of (un)intelligible
     words discards most word type proportions in favor of
@@ -8210,7 +8120,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     or by other similar percentages detailed in the works of Flipsen
     (<xref alt="2006" rid="ref-Flipsen_2006-nb-article" ref-type="bibr">2006</xref>)
     and Lagerberg et al.
-    (<xref alt="2014" rid="ref-Lagerberg_et_al_2014-nb-article" ref-type="bibr">2014</xref>).</styled-content></p>
+    (<xref alt="2014" rid="ref-Lagerberg_et_al_2014-nb-article" ref-type="bibr">2014</xref>).</p>
     <p></p>
   </sec>
   <sec id="sec-appB-nb-article">
@@ -8222,10 +8132,9 @@ kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq1-waic-nb-article">
       <caption><p>Table 8: WAIC comparison for selected models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      The table is sorted based on <monospace>weight</monospace> from
-      most to least plausible model(s) for the
-      data.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> The table is sorted based on
+      <monospace>weight</monospace> from most to least plausible
+      model(s) for the data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8247,7 +8156,7 @@ kable( round( RQ1_WAIC[,c(8,1:7)], 3), row.names=F,
               <td align="right">-9630.63</td>
               <td align="right">276.64</td>
               <td align="right">0.00</td>
-              <td align="right">NA</td>
+              <td align="right"></td>
               <td align="right">55.52</td>
               <td align="right">1</td>
             </tr>
@@ -8293,10 +8202,9 @@ kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq1-psis-nb-article">
       <caption><p>Table 9: PSIS comparison for selected models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      The table is sorted based on <monospace>weight</monospace> from
-      most to least plausible model(s) for the
-      data.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> The table is sorted based on
+      <monospace>weight</monospace> from most to least plausible
+      model(s) for the data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8318,7 +8226,7 @@ kable( round( RQ1_PSIS[,c(8,1:7)], 3), row.names=F,
               <td align="right">-9629.27</td>
               <td align="right">276.74</td>
               <td align="right">0.00</td>
-              <td align="right">NA</td>
+              <td align="right"></td>
               <td align="right">56.19</td>
               <td align="right">1</td>
             </tr>
@@ -8364,10 +8272,9 @@ kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq3-waic-nb-article">
       <caption><p>Table 10: WAIC comparison for all models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      The table is sorted based on <monospace>weight</monospace> from
-      most to least plausible model(s) for the
-      data.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> The table is sorted based on
+      <monospace>weight</monospace> from most to least plausible
+      model(s) for the data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8389,7 +8296,7 @@ kable( round( RQ3_WAIC[,c(8,1:7)], 3), row.names=F,
               <td align="right">-9632.24</td>
               <td align="right">276.80</td>
               <td align="right">0.00</td>
-              <td align="right">NA</td>
+              <td align="right"></td>
               <td align="right">54.63</td>
               <td align="right">0.46</td>
             </tr>
@@ -8515,10 +8422,9 @@ kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F,
        align='crrrrrrr', escape=F, digits=2 )</code>
     <fig id="tbl-rq3-psis-nb-article">
       <caption><p>Table 11: PSIS comparison for all models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      The table is sorted based on <monospace>weight</monospace> from
-      most to least plausible model(s) for the
-      data.</styled-content></p></caption>
+      <bold><italic>Note:</italic></bold> The table is sorted based on
+      <monospace>weight</monospace> from most to least plausible
+      model(s) for the data.</p></caption>
       <table-wrap>
         <table>
           <thead>
@@ -8540,7 +8446,7 @@ kable( round( RQ3_PSIS[,c(8,1:7)], 3), row.names=F,
               <td align="right">-9631.16</td>
               <td align="right">276.88</td>
               <td align="right">0.00</td>
-              <td align="right">NA</td>
+              <td align="right"></td>
               <td align="right">55.17</td>
               <td align="right">0.46</td>
             </tr>
@@ -8723,13 +8629,11 @@ plot_outlier(d=data_H, stanfit_obj=model10)</code>
              leg=c('model 06','model 12'))</code>
     <fig id="fig-rq3-pred-speaker-nb-article">
       <caption><p>Figure 12: Entropy scores prediction for selected
-      models.
-      <styled-content style="color:blue;"><bold><italic>Note:</italic></bold>
-      Black points show manifest entropy scores where darker points
-      indicate greater overlap. Orange dots and vertical lines show the
-      posterior mean and 95% HPDI derived from Model 6. Blue dots and
-      vertical lines show similar information from Model
-      12.</styled-content></p></caption>
+      models. <bold><italic>Note:</italic></bold> Black points show
+      manifest entropy scores where darker points indicate greater
+      overlap. Orange dots and vertical lines show the posterior mean
+      and 95% HPDI derived from Model 6. Blue dots and vertical lines
+      show similar information from Model 12.</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-rq3-pred-speaker-1.png" />
     </fig>
     </sec>

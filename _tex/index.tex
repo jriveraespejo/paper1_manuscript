@@ -92,6 +92,20 @@
 \def\fps@figure{htbp}
 \makeatother
 
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -187,7 +201,7 @@ Linguistics},,postcodesep={}}
 
         
 \begin{abstract}
-{When investigating unobservable, complex traits, data collection and
+When investigating unobservable, complex traits, data collection and
 aggregation processes can introduce distinctive features to the data
 such as boundedness, measurement error, clustering, outliers and
 heteroscedasticity. Failure to collectively address these features can
@@ -216,7 +230,7 @@ the proposed model facilitated the exploration of hypotheses concerning
 speaker-related factors and intelligibility. Ultimately, this research
 has implications for researchers and data analysts interested in
 quantitatively measuring intricate, unobservable constructs while
-accurately predicting the empirical phenomena.}
+accurately predicting the empirical phenomena.
 \end{abstract}
 
 
@@ -244,8 +258,8 @@ speech therapy or cochlear implantation \citep{Chin_et_al_2012}.
 
 The notion of speech intelligibility may appear deceptively simple, yet
 it is an intricate concept filled with inherent challenges in its
-assessment. {Intelligibility refers to the extent to which a listener
-can accurately recover the words in a speaker's acoustic signal
+assessment. Intelligibility refers to the extent to which a listener can
+accurately recover the words in a speaker's acoustic signal
 \citep{Freeman_et_al_2017, vanHeuven_2008, Whitehill_et_al_2004}.
 Furthermore, achieving intelligible spoken language requires to master
 all core components of speech perception, cognitive processing,
@@ -257,7 +271,7 @@ the attributes of the communicative environment such as background noise
 \citep{Munro_et_al_1998} or accent
 \citep{Jenkins_2000, Ockey_et_al_2016}, and characteristics of the
 listener like vocabulary proficiency or hearing ability
-\citep{Varonis_et_al_1985}}.
+\citep{Varonis_et_al_1985}.
 
 While several approaches have been proposed to assess intelligibility,
 they commonly rely on two types of speech samples: read-aloud or
@@ -272,7 +286,7 @@ identification of it, as exemplified by multiple studies such as
 \citet{Khwaileh_et_al_2010}, and \citet{Montag_et_al_2014}. However, it
 has been demonstrated that these controlled speech samples exhibit
 limited efficacy in predicting intelligibility among hearing-impaired
-individuals \citep{Cox_et_al_1989, Ertmer_2011}. {In contrast,
+individuals \citep{Cox_et_al_1989, Ertmer_2011}. In contrast,
 spontaneous speech samples offer a more ecologically valid approach to
 assess intelligibility, resembling everyday informal speech more than
 read-aloud or imitated speech samples \citep{Boonen_et_al_2023}.
@@ -281,15 +295,15 @@ production, it is unfeasible to establish a word target for these
 samples \citep{Flipsen_2006, Lagerberg_et_al_2014}. This renders
 conventional accuracy metrics from imitated speech, such as the
 percentage of read or imitated words, impractical
-\citep{Boonen_et_al_2023}.}
+\citep{Boonen_et_al_2023}.
 
-{Yet, various metrics of intelligibility can still be derived from
+Yet, various metrics of intelligibility can still be derived from
 transcriptions of spontaneous speech samples, including the percentage
 of (un)intelligible words or syllables
 \citep{Flipsen_2006, Lagerberg_et_al_2014}, as well as entropy scores
 \citep{Boonen_et_al_2023}. In the latter approach, listeners transcribe
 orthographically spontaneous speech samples produced by various
-speakers.} These transcriptions are then aggregated into entropy scores,
+speakers. These transcriptions are then aggregated into entropy scores,
 where lower scores indicate a higher degree of agreement among the
 listeners transcriptions and, consequently, higher intelligibility,
 while higher scores suggest lower intelligibility due to a lower degree
@@ -312,9 +326,9 @@ presence of outliers and heteroscedasticity. Firstly, entropy scores are
 confined to the interval between zero and one, a phenomenon known as
 boundedness. Boundedness refers to the restriction of data values within
 specific bounds or intervals, beyond which they cannot occur
-\citep{Lebl_2022}. {Secondly, entropy scores are assumed to be a
+\citep{Lebl_2022}. Secondly, entropy scores are assumed to be a
 manifestation of a speaker's intelligibility, with this intelligibility
-being the primary factor influencing the observed scores.} This issue is
+being the primary factor influencing the observed scores. This issue is
 commonly referred to as measurement error, signifying the disparity
 between the observed values of a variable, recorded under similar
 conditions, and some fixed \emph{true value} which is not directly
@@ -322,7 +336,7 @@ observable \citep{Everitt_et_al_2010}. Thirdly, due to the repeated
 assessment of speakers through multiple speech samples, the scores
 exhibit clustering. Clustering occurs when outcomes stem from repeated
 measurements of the same individual, location, or time
-\citep{McElreath_2020}. {Lastly, driven by speech samples with entropy
+\citep{McElreath_2020}. Lastly, driven by speech samples with entropy
 scores located at the extreme of the bounds, and the presence of more
 than one population in the data (i.e., normal hearing versus
 hearing-impaired speakers), the scores may exhibit a potential for
@@ -330,16 +344,16 @@ outliers and heteroscedasticity. Outliers are observations that markedly
 deviate from other sample data points where they occur
 \citep{Grubbs_1969}, while heteroscedasticity occurs when the outcome's
 variance depends on the values of another variable
-\citep{Everitt_et_al_2010}.}
+\citep{Everitt_et_al_2010}.
 
 Failure to collectively address these data features can result in
 numerous statistical challenges that might hamper the researcher's
 ability to investigate intelligibility. Notably, neglecting boundedness
 can, at best, lead to underfitting and, at worst, to misspecification.
-{Underfitting occurs when statistical models fail to capture the
+Underfitting occurs when statistical models fail to capture the
 underlying data patterns, potentially generating predictions outside the
 data range, thus hindering the model's ability to generalize when
-confronted with new data.} Conversely, misspecification, which is marked
+confronted with new data. Conversely, misspecification, which is marked
 by a poor representation of relevant aspects of the true data in the
 model's functional form, can lead to inconsistent and less precise
 parameter estimates \citep{Everitt_et_al_2010}. Additionally,
@@ -347,10 +361,10 @@ overlooking issues such as measurement error, clustering, outliers, or
 heteroscedasticity can lead to biased and less precise parameter
 estimates \citep{McElreath_2020}, ultimately diminishing the statistical
 power of models and increasing the likelihood of committing type I or
-type II errors when addressing research inquiries. {Type I error results
+type II errors when addressing research inquiries. Type I error results
 when the null hypothesis is falsely rejected, while Type II error that
 results when the null hypothesis is falsely accepted
-\citep{Everitt_et_al_2010}.}
+\citep{Everitt_et_al_2010}.
 
 In computational statistics and data analysis, several models have been
 developed to address some of these data features individually and, at
@@ -395,18 +409,17 @@ features in a principled way, while also transparently and
 systematically documenting the Bayesian estimation of the resulting
 statistical models.
 
-{This study employed Bayesian procedures for three main reasons.
-Firstly, prior research have consistently demonstrated the superiority
-of Bayesian methods over frequentist methods, especially with complex
-and overparameterized models \citep{Baker_1998, Kim_et_al_1999}, such as
-the GLLAMM used in this study. Overparameterized models are those with
-more parameters than observations for estimation
-\citep{Everitt_et_al_2010}. Secondly, the Bayesian approach enabled the
-incorporation of prior information, thereby constraining certain
-parameters within specified bounds. This feature addressed issues such
-as non-convergence or improper parameter estimation common in complex
-models under frequentist methods
-\citep{Martin_et_al_1975, Seaman_et_al_2011}. An example is the
+This study employed Bayesian procedures for three main reasons. Firstly,
+prior research have consistently demonstrated the superiority of
+Bayesian methods over frequentist methods, especially with complex and
+overparameterized models \citep{Baker_1998, Kim_et_al_1999}, such as the
+GLLAMM used in this study. Overparameterized models are those with more
+parameters than observations for estimation \citep{Everitt_et_al_2010}.
+Secondly, the Bayesian approach enabled the incorporation of prior
+information, thereby constraining certain parameters within specified
+bounds. This feature addressed issues such as non-convergence or
+improper parameter estimation common in complex models under frequentist
+methods \citep{Martin_et_al_1975, Seaman_et_al_2011}. An example is the
 estimation of negative variances for random effects in hierarchical
 models \citep{Holmes_et_al_2019}, a problem resolved in this study
 through the utilization of prior distributions. Lastly, Bayesian methods
@@ -414,11 +427,11 @@ have exhibited proficiency in drawing inferences from small sample sizes
 \citep{Baldwin_et_al_2013, Lambert_et_al_2005, Depaoli_2014}. This
 feature of the Bayesian methods holds relevance for this study, as it
 also grapples with a small sample size, where reliance on the asymptotic
-properties of frequentist methods may not be justified.}
+properties of frequentist methods may not be justified.
 
 \subsection{Research questions}\label{sec-I-RQ}
 
-{Considering the imperative need to comprehensively address all features
+Considering the imperative need to comprehensively address all features
 of the data when investigating unobservable and complex traits, this
 investigation aimed to demonstrate the efficacy of the Generalized
 Linear Latent and Mixed Model (GLLAMM) in handling entropy score
@@ -427,9 +440,9 @@ intelligibility. To achieve this objective, the study reexamined data
 originating from transcriptions of spontaneous speech samples, initially
 collected by \citet{Boonen_et_al_2023}. The data was aggregated into
 entropy scores and subjected to modelling through the Bayesian
-Beta-proportion GLLAMM.}
+Beta-proportion GLLAMM.
 
-{To address the primary objective, the study posed three key research
+To address the primary objective, the study posed three key research
 questions. First, given the importance of accurate predictions in
 developing useful practical models and testing research hypotheses
 \citep{Shmueli_et_al_2012}, \emph{Research Question 1 (RQ1)} evaluated
@@ -444,9 +457,9 @@ recognizing that research involves developing and comparing hypotheses,
 \emph{Research Question 3 (RQ3)} illustrated how these research
 hypotheses can be examined within the model's framework. Specifically,
 RQ3 assessed the influence of speaker-related factors on the newly
-estimated latent intelligibility.}
+estimated latent intelligibility.
 
-{Ultimately, this study offers researchers studying speech
+Ultimately, this study offers researchers studying speech
 intelligibility through entropy scores and those in similar or different
 fields facing analogous data challenges with a statistical tool that
 improves upon current research models. This tool assess the
@@ -454,7 +467,7 @@ predictability of empirical phenomena and develops a quantitative
 measure for the latent variable of interest. This quantitative measure,
 in turn, facilitates the appropriate comparison of existing hypotheses
 related to the latent variable, and even encourages the formulation of
-new ones.}
+new ones.
 
 \section{Methods}\label{sec-methods}
 
@@ -472,29 +485,29 @@ normal hearing children (NH) and \(16\) hearing-impaired children with
 cochlear implants (HI/CI). At the time of the collection of the speech
 samples, the NH group were between \(68\) and \(104\) months old
 (\(M=86.3\), \(SD=9.0\)), while HI/CI group were between \(78\) and
-\(98\) months old (\(M=86.3\), \(SD=6.7\)). {All children were native
-speakers of Belgian Dutch.}
+\(98\) months old (\(M=86.3\), \(SD=6.7\)). All children were native
+speakers of Belgian Dutch.
 
 \subsubsection{Speech samples}\label{sec-M-SS}
 
 Boonen and colleagues selected speech samples from a large corpus of
-children's spontaneously spoken speech recordings. {These recordings
-were made in Belgian Dutch and obtained while the children narrated a
-story prompted by the picture book ``Frog, Where Are You?''
-\citep{Mayer_1969} to a caregiver `unfamiliar with the story'. Before
-the actual recording, the children were allowed to skim over the booklet
-and examine the pictures. Prior to the selection of the samples, the
-recordings were orthographically transcribed using the CHAT format in
-the CLAN editor \citep{MacWhinney_2020}. These transcriptions were
-exclusively used in the selection of appropriate speech samples.} To
-ensure the quality of the selection, Boonen and colleagues excluded
-sentences containing syntactically ill-formed or incomplete statements,
-with background noise, crosstalk, long hesitations, revisions, or
-non-words. Finally, ten speech samples were randomly chosen for each of
-the \(32\) selected speakers. Each of these samples comprised a single
-sentence with a length of three to eleven words (\(M=7.1\), \(SD=1.1\)).
-The process resulted in a total of \(320\) selected sentences
-collectively comprising \(2,263\) words.
+children's spontaneously spoken speech recordings. These recordings were
+made in Belgian Dutch and obtained while the children narrated a story
+prompted by the picture book ``Frog, Where Are You?'' \citep{Mayer_1969}
+to a caregiver `unfamiliar with the story'. Before the actual recording,
+the children were allowed to skim over the booklet and examine the
+pictures. Prior to the selection of the samples, the recordings were
+orthographically transcribed using the CHAT format in the CLAN editor
+\citep{MacWhinney_2020}. These transcriptions were exclusively used in
+the selection of appropriate speech samples. To ensure the quality of
+the selection, Boonen and colleagues excluded sentences containing
+syntactically ill-formed or incomplete statements, with background
+noise, crosstalk, long hesitations, revisions, or non-words. Finally,
+ten speech samples were randomly chosen for each of the \(32\) selected
+speakers. Each of these samples comprised a single sentence with a
+length of three to eleven words (\(M=7.1\), \(SD=1.1\)). The process
+resulted in a total of \(320\) selected sentences collectively
+comprising \(2,263\) words.
 
 \subsubsection{Listeners}\label{sec-M-L}
 
@@ -505,7 +518,7 @@ speech of hearing-impaired speakers.
 
 \subsubsection{Transcription task and entropy scores}\label{sec-M-TS}
 
-{\citet{Boonen_et_al_2023} distributed the \(320\) speech samples and
+\citet{Boonen_et_al_2023} distributed the \(320\) speech samples and
 \(105\) listeners into five blocks through random allocation. Each block
 comprised \(21\) listeners and \(64\) sentences with no overlap between
 the blocks. The listeners were tasked with transcribing each sentence,
@@ -518,10 +531,10 @@ presented in Table~\ref{tbl-alignment}. This alignment process was
 repeated for each sentence from every speaker, and the output was
 manually checked and adjusted (if needed) in order to appropriately
 align the words. For more details on the random assignment and alignment
-procedures refer to the original authors.}
+procedures refer to the original authors.{]}
 
-{Next, the aligned transcriptions were aggregated by listener, yielding
-\(2,2634\) entropy scores, one score per word for every sentence.} The
+Next, the aligned transcriptions were aggregated by listener, yielding
+\(2,2634\) entropy scores, one score per word for every sentence. The
 entropy scores were calculated following Shannon's formula
 \citeyearpar{Shannon_1948}:
 
@@ -564,9 +577,9 @@ recommended by \citet{McElreath_2020}.
 \caption{Hypothetical alignment of word transcriptions and entropy
 scores. \textbf{\emph{Note:}} Extracted from Boonen et al.
 \citeyearpar{Boonen_et_al_2023}, and slightly modified for illustrative
-purposes. {Entropy scores were calculated from words of the first
+purposes. Entropy scores were calculated from words of the first
 sentence, produced by the first speaker assigned to the first block, and
-transcribed by five listeners \(\left( s=1, i=1, b=1, J=5 \right)\).}
+transcribed by five listeners \(\left( s=1, i=1, b=1, J=5 \right)\).
 Transcriptions are in Belgian Dutch followed by their English
 translation. \emph{{[}B{]}} represent a blank space, and \emph{{[}X{]}}
 an unidentifiable speech.}\label{tbl-alignment}\tabularnewline
@@ -683,7 +696,7 @@ equations. Firstly, Equation~\ref{eq-normal-LMM-likelihood} indicates
 that the variability of the average entropy at the word level can differ
 for each speaker, enhancing the model \emph{robustness} to mild or
 moderate data departures from the normal distribution assumption, such
-as in the presence of heteroscedasticity or outliers. {Secondly,
+as in the presence of heteroscedasticity or outliers. Secondly,
 Equation~\ref{eq-normal-LMM-linearpred} reveals that the model assumes
 that no transformation is applied to the relationship between the
 average entropy and the linear combination of speakers' characteristics.
@@ -704,7 +717,7 @@ contrast, in this study, the overparameterized model facilitates: (1)
 the comparison between the specific parameter interpretations of the
 Normal LMM and the Beta-proportion GLLAMM, with \(\alpha\) serving no
 particular purpose in the former case, and (2) the assignment of prior
-distributions.}
+distributions.
 
 \subsubsection{Beta-proportion GLLAMM}\label{sec-M-SM-BGLLAMM}
 
@@ -755,7 +768,7 @@ Equation~\ref{eq-beta-GLLAMM-likelihood} reveals that the
 \emph{dispersion} of average entropy at the word level can differ for
 each speaker. This enhances the model's robustness to mild or moderate
 data departures from the beta-proportion distribution assumption.
-{Secondly, in contrast with the Normal LMM,
+Secondly, in contrast with the Normal LMM,
 Equation~\ref{eq-beta-GLLAMM-linpred} shows the potential
 intelligibility of a speaker has a negative non-linear relationship with
 the entropy scores. The negative relationship explicitly highlights the
@@ -777,7 +790,7 @@ of unexplained variability. The term \(e_{i}\) represents inherent
 differences in potential intelligibility among different speakers. The
 term \(u_{i}\) assumes that different sentences measure potential
 intelligibility differently due to variations in word difficulties and
-their interplay within the sentence.}
+their interplay within the sentence.
 
 \subsubsection{Prior distributions}\label{sec-M-SM-P}
 
@@ -862,9 +875,9 @@ a_{b} &\sim \text{Normal} \left( m_{b}, s_{b} \right) \\
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1717}}
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1414}}
   >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.2020}}@{}}
-\caption{Fitted models. {\textbf{\emph{Note:}} \emph{Yes} indicates the
+\caption{Fitted models. \textbf{\emph{Note:}} \emph{Yes} indicates the
 feature or parameter is included in the
-model.}}\label{tbl-fitted}\tabularnewline
+model.}\label{tbl-fitted}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\centering
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -995,8 +1008,8 @@ in the accompanying digital walk-through document for reader inspection
 
 \subsubsection{Model comparison}\label{sec-M-SM-MC}
 
-{This study compared the fitted models using three criteria: the
-deviance information criterion (\texttt{DIC}) introduced by
+This study compared the fitted models using three criteria: the deviance
+information criterion (\texttt{DIC}) introduced by
 \citet{Spiegelhalter_et_al_2002}, the widely applicable information
 criterion (\texttt{WAIC}) proposed by \citet{Watanabe_2013}, and the
 Pareto Smoothing Importance Sampling criterion (\texttt{PSIS}) developed
@@ -1008,9 +1021,9 @@ Kullback-Leibler divergence \citep{Kullback_et_al_1951}, which measures
 the degree to which a probabilistic model accurately represents the
 \emph{true} distribution of the data. Specifically, \texttt{DIC}
 measures in-sample deviations, while \texttt{WAIC} and \texttt{PSIS}
-offer an approximate measure of out-of-sample deviations.}
+offer an approximate measure of out-of-sample deviations.
 
-{\texttt{WAIC} and \texttt{PSIS} are regarded as full Bayesian criteria
+\texttt{WAIC} and \texttt{PSIS} are regarded as full Bayesian criteria
 because they encompass all the information contained in the parameter's
 posterior distribution, effectively integrating and reporting the
 inherent uncertainty in predictive accuracy estimates. In addition to
@@ -1020,9 +1033,9 @@ criterion employs a built-in warning system that flags observations that
 make out-of-sample predictions unreliable. The rationale is that
 observations that are relatively unlikely, according to the model, exert
 more influence and render predictions less reliable compared to those
-that are relatively expected \citep{McElreath_2020}.}
+that are relatively expected \citep{McElreath_2020}.
 
-{However, since researchers are mostly interested in comparing candidate
+However, since researchers are mostly interested in comparing candidate
 models, it is the distance between the models that is useful, rather
 than the absolute value of the criteria
 \citep[see][209, 223-224]{McElreath_2020}. Therefore, this study
@@ -1044,7 +1057,7 @@ models' complexity penalization, as well as their associated weight of
 evidence. The complexity penalization values \texttt{pWAIC} and
 \texttt{pPSIS} are roughly associated with the models' number of
 parameters, while the \texttt{weight} of evidence summarizes the
-relative support for each model.}
+relative support for each model.
 
 \subsection{Open Science Statement}\label{sec-M-SM-OS}
 
@@ -1055,8 +1068,8 @@ study. Furthermore, the walk-through meticulously follows the
 When-to-Worry-and-How-to-Avoid-the-Misuse-of-Bayesian-Statistics
 checklist (WAMBS checklist) developed by \citet{Depaoli_et_al_2017}.
 This checklist outlines the ten crucial points that need careful
-scrutiny when employing Bayesian inference procedures. {The digital
-walk-through is available at the following URL}:
+scrutiny when employing Bayesian inference procedures. The digital
+walk-through is available at the following URL:
 \url{https://jriveraespejo.github.io/paper1_manuscript/}
 
 \section{Results}\label{sec-results}
@@ -1080,24 +1093,24 @@ Beta-proportion GLLAMM that deals with boundedness, measurement error
 and data clustering, and Model \(10\) extended this model by
 incorporating a robust feature.
 
-{The left panel of Figure~\ref{fig-rq1-waic-psis} displays the models'
+The left panel of Figure~\ref{fig-rq1-waic-psis} displays the models'
 \texttt{DIC}, \texttt{WAIC}, and \texttt{PSIS} values with their
 corresponding uncertainty intervals. In contrast, the right panel of the
 figure shows the models' \texttt{dWAIC} and \texttt{dPSIS} values with
 their corresponding uncertainty intervals. Table~\ref{tbl-rq1-waic} and
 \ref{tbl-rq1-psis} provide similar information, while also reporting the
 \texttt{pWAIC} and \texttt{pPSIS} values and the \texttt{weight} of
-evidence for each model.} Overall, all criteria consistently pointed to
+evidence for each model. Overall, all criteria consistently pointed to
 Model \(10\) as the most plausible choice for the data. The model
 exhibits the lowest values for both \texttt{WAIC} and \texttt{PSIS},
 establishing itself as the model with the least deviation from
 \emph{perfect} predictive accuracy among those under comparison.
-{Additionally, Figure~\ref{fig-rq1-waic-psis} visually demonstrates the
+Additionally, Figure~\ref{fig-rq1-waic-psis} visually demonstrates the
 non-overlapping uncertainty in both \texttt{dWAIC} and \texttt{dPSIS}
-values for Models \(1\), \(4\), and \(7\) when compared to Model
-\(10\).} This indicates that Model \(10\) significantly deviateed the
-least from \emph{perfect} predictive accuracy when compared to the rest
-of the models. Lastly, the \texttt{weight} of evidence in
+values for Models \(1\), \(4\), and \(7\) when compared to Model \(10\).
+This indicates that Model \(10\) significantly deviateed the least from
+\emph{perfect} predictive accuracy when compared to the rest of the
+models. Lastly, the \texttt{weight} of evidence in
 Table~\ref{tbl-rq1-waic} and \ref{tbl-rq1-psis} underscored that
 \(100\%\) of the evidence aligned with and supported Model \(10\).
 
@@ -1110,15 +1123,15 @@ Table~\ref{tbl-rq1-waic} and \ref{tbl-rq1-psis} underscored that
 
 }
 
-\caption{\label{fig-rq1-waic-psis}{Comparison plot for selected models.
+\caption{\label{fig-rq1-waic-psis}Comparison plot for selected models.
 \textbf{\emph{Note:}} Open, black and blue points describe the posterior
 means for the criteria. Continuous colored horizontal lines indicate the
-criteria associated uncertainty.}}
+criteria associated uncertainty.}
 
 \end{figure}%
 
 Upon closer examination, the reasons behind the observed disparities in
-the models become more apparent. {Specifically,
+the models become more apparent. Specifically,
 Figure~\ref{fig-rq1-pred-speaker} demonstrates that the Normal LMM, as
 outlined in Model \(4\), failed to adequately capture the data's
 underlying patterns, resulting in predictions that were physically
@@ -1127,7 +1140,7 @@ Probability Density Intervals (HPDI) extending beyond the expected zero
 to one outcome range. Further insight into this lack of fit is provided
 by Figure~\ref{fig-rq1-pred-speaker_model04}. The figure displays score
 prediction densities for Model \(4\) that bore no resemblance to the
-actual data densities.} Furthermore, the top two panels in
+actual data densities. Furthermore, the top two panels in
 Figure~\ref{fig-rq1-model-outliers} reveal that misspecification in the
 Normal LMM causeed the model to be \emph{more surprised} by extreme
 entropy scores, leading to their identification as highly unlikely and
@@ -1156,11 +1169,11 @@ estimates.
 }
 
 \caption{\label{fig-rq1-pred-speaker}Entropy scores prediction for
-selected models. {\textbf{\emph{Note:}} Black points show manifest
+selected models. \textbf{\emph{Note:}} Black points show manifest
 entropy scores where darker points indicate greater overlap. Orange dots
 and vertical lines show the posterior mean and 95\% HPDI derived from
 Model 4. Blue dots and vertical lines show similar information from
-Model 10.}}
+Model 10.}
 
 \end{figure}%
 
@@ -1198,22 +1211,22 @@ estimates resulting from its measurement using multiple entropy scores.
 }
 
 \caption{\label{fig-rq2-si-model10}Model 10, latent potential
-intelligibility of speakers. {\textbf{\emph{Note:}} Black dots and
-vertical lines show the posterior means and 95\% HPDI intervals.}}
+intelligibility of speakers. \textbf{\emph{Note:}} Black dots and
+vertical lines show the posterior means and 95\% HPDI intervals.}
 
 \end{figure}%
 
-{Figure~\ref{fig-rq2-si-model10} displays the ranking of speakers in
+Figure~\ref{fig-rq2-si-model10} displays the ranking of speakers in
 decreasing order based on the posterior means of the latent potential
 intelligibility. These estimates are accompanied by their associated
 \(95\%\) HPDI. The figure indicates that speaker \(6\) stands out as the
 least intelligible in the sample, followed further behind by speaker
-\(1\), \(17\) and \(9\).} In contrast, the figure highlights speaker
+\(1\), \(17\) and \(9\). In contrast, the figure highlights speaker
 \(20\) as the most intelligible, closely followed by speakers \(23\),
-\(31\) and \(3\). {Conversely, the full posterior distribution for
+\(31\) and \(3\). Conversely, the full posterior distribution for
 comparing potential intelligibility between the least and most
 intelligible speakers against other selected speakers is shown in
-Figure~\ref{fig-si_contr_model10}.} The figure reveals that only the
+Figure~\ref{fig-si_contr_model10}. The figure reveals that only the
 differences between speakers \(6\), \(1\), \(17\), and \(9\), along with
 the difference between speakers \(20\) and \(3\) are statistically
 significant, as their associated \(95\%\) HPDI did not overlap with zero
@@ -1231,18 +1244,18 @@ Section~\ref{sec-M-SM-OS} Open Science Statement).
 }
 
 \caption{\label{fig-si_contr_model10}Model 10, potential intelligibility
-comparisons among selected speakers. {\textbf{\emph{Note:}} Shaded area
-describes the 95\% HPDI.}}
+comparisons among selected speakers. \textbf{\emph{Note:}} Shaded area
+describes the 95\% HPDI.}
 
 \end{figure}%
 
 \subsection{Testing the influence of speaker-related factors on
 intelligibility (RQ3)}\label{sec-R-RQ3}
 
-{This research question illustrated how hypotheses on intelligibility
-can be examined within the model's framework.} Specifically, the focus
+This research question illustrated how hypotheses on intelligibility can
+be examined within the model's framework. Specifically, the focus
 centered on assessing the influence of speaker-related factors on
-intelligibility, such as chronological age and hearing status. {Notably,
+intelligibility, such as chronological age and hearing status. Notably,
 despite RQ1 indicating the suitability of the Beta-proportion GLLAMM for
 entropy scores, existing statistical literature suggests that, in
 certain scenarios, models incorporating covariate adjustment exhibit
@@ -1253,7 +1266,7 @@ characterized by different covariate adjustments on entropy scores or
 the latent potential intelligibility of speakers, namely chronological
 age and hearing status. Furthermore, some models like the Normal LMMs,
 potentially exhibited misspecification in the covariate-outcome
-relationship.}
+relationship.
 
 Similar to RQ1, all criteria consistently identified the Beta-proportion
 GLLAMM outlined in models \(11\), \(12\) and \(10\) as the most
@@ -1281,10 +1294,10 @@ and lastly, by Model \(10\).
 
 }
 
-\caption{\label{fig-rq3-waic-psis}{Comparison plot for all models.
+\caption{\label{fig-rq3-waic-psis}Comparison plot for all models.
 \textbf{\emph{Note:}} Open, black and blue points describe the posterior
 means for the criteria. Continuous colored horizontal lines indicate the
-criteria associated uncertainty.}}
+criteria associated uncertainty.}
 
 \end{figure}%
 
@@ -1349,8 +1362,8 @@ Figure~\ref{fig-rq3-intelligibility-model12}.
 
 \begin{longtable}[]{@{}ccc@{}}
 
-\caption{\label{tbl-parameter-model10}{Model 10, parameter estimates and
-95\% HPDI.}}
+\caption{\label{tbl-parameter-model10}Model 10, parameter estimates and
+95\% HPDI.}
 
 \tabularnewline
 
@@ -1375,18 +1388,18 @@ Parameter & Posterior mean & 95\% HPDI \\
 
 \caption{\label{fig-rq3-intelligibility-model10}Model 10, Potential
 intelligibility per chronological age and hearing status.
-{\textbf{\emph{Note:}} Colored dots denote the posterior means, vertical
+\textbf{\emph{Note:}} Colored dots denote the posterior means, vertical
 lines describe the 95\% HPDI, thick discontinuous line indicate the
 regression line, thin continuous lines denote regression lines samples
 from the posterior distribution, and numbers indicate the speaker
-index.}}
+index.}
 
 \end{figure}%
 
 \begin{longtable}[]{@{}ccc@{}}
 
-\caption{\label{tbl-parameter-model11}{Model 11, parameter estimates and
-95\% HPDI.}}
+\caption{\label{tbl-parameter-model11}Model 11, parameter estimates and
+95\% HPDI.}
 
 \tabularnewline
 
@@ -1417,18 +1430,18 @@ Contrasts & & \\
 
 \caption{\label{fig-rq3-intelligibility-model11}Model 11, Potential
 intelligibility per chronological age and hearing status.
-{\textbf{\emph{Note:}} Colored dots denote the posterior means, vertical
+\textbf{\emph{Note:}} Colored dots denote the posterior means, vertical
 lines describe the 95\% HPDI, thick discontinuous line indicate the
 regression line, thin continuous lines denote regression lines samples
 from the posterior distribution, and numbers indicate the speaker
-index.}}
+index.}
 
 \end{figure}%
 
 \begin{longtable}[]{@{}ccc@{}}
 
-\caption{\label{tbl-parameter-model12}{Model 12, parameter estimates and
-95\% HPDI.}}
+\caption{\label{tbl-parameter-model12}Model 12, parameter estimates and
+95\% HPDI.}
 
 \tabularnewline
 
@@ -1461,11 +1474,11 @@ Contrasts & & \\
 
 \caption{\label{fig-rq3-intelligibility-model12}Model 12, Potential
 intelligibility per chronological age and hearing status.
-{\textbf{\emph{Note:}} Colored dots denote the posterior means, vertical
+\textbf{\emph{Note:}} Colored dots denote the posterior means, vertical
 lines describe the 95\% HPDI, thick discontinuous line indicate the
 regression line, thin continuous lines denote regression lines samples
 from the posterior distribution, and numbers indicate the speaker
-index.}}
+index.}
 
 \end{figure}%
 
@@ -1473,15 +1486,15 @@ index.}}
 
 \subsection{Findings}\label{sec-D-F}
 
-{This study examined the suitability of the Bayesian Beta-proportion
+This study examined the suitability of the Bayesian Beta-proportion
 GLLAMM for the quantitative measuring and testing of research hypotheses
-related to speech intelligibility using entropy scores.} The initial
+related to speech intelligibility using entropy scores. The initial
 findings supported the assertion that Beta-proportion GLLAMMs
 consistently outperformed Normal LMMs in predicting entropy scores,
-underscoring its superior predictive performance. {The results also
+underscoring its superior predictive performance. The results also
 emphasized that models neglecting measurement error and boundedness in
 the outcomes lead to underfitting and misspecification issues, even when
-robust features are integrated.} This was clearly illustrated by the
+robust features are integrated. This was clearly illustrated by the
 Normal LMMs.
 
 Secondly, the study showcased the Beta-proportion GLLAMM's proficiency
@@ -1496,7 +1509,7 @@ the proposed model accounted for the inherent uncertainty in the
 intelligibility estimates.
 
 Thirdly, the study illustrated how the proposed model assessed the
-impact of speaker-related factors on potential intelligibility. {The
+impact of speaker-related factors on potential intelligibility. The
 results suggested that multiple models were plausible for the observed
 entropy scores. This indicated that different speaker-related factor
 hypotheses were viable for the data, with some presenting contradictory
@@ -1508,14 +1521,14 @@ individuals and, ultimately, among models. These issues may be
 attributed to factors such as the insufficient sample size of speakers,
 the inadequate representation of the population of speakers, referred to
 as selection bias, and the imprecise measurement of the latent variable
-of interest.}
+of interest.
 
 Ultimately, this study introduced researchers to innovative statistical
-tools that enhanced existing research models. {These tools not only
+tools that enhanced existing research models. These tools not only
 assessed the predictability of empirical phenomena but also
 quantitatively measured the latent trait of interest, namely potential
 intelligibility, facilitating the comparison of research hypotheses
-related to this trait.} However, the presented tools introduce new
+related to this trait. However, the presented tools introduce new
 challenges for researchers seeking their implementation. These
 challenges emerge from two distinct aspects: one methodological and the
 other practical. In the methodological domain, researchers need
@@ -1564,20 +1577,20 @@ covariates ranges, leading to biased and imprecise parameter estimates
 \citep{Everitt_et_al_2010}. Moreover, fueled by the reduced measurement
 precision, these issues can result in models with diminished statistical
 power and a higher risk of type I or type II errors
-\citep{McElreath_2020}. {Consequently, future research should consider
+\citep{McElreath_2020}. Consequently, future research should consider
 extending this study by conducting formal sample size planning. This
 entails assessing the impact of expanding the speakers' pool on testing
 research hypotheses or increasing the number of speech samples,
 transcriptions, and listeners to enhance the precision of the potential
 intelligibility estimates. With these insights, future investigations
 could contemplate increasing the speaker sample with a group that
-adequately represents the population of interest.} However, this must be
+adequately represents the population of interest. However, this must be
 done while mindful of the pragmatic limitations associated with
 transcription tasks, specifically considering the costs and
 time-intensiveness of the procedure.
 
-{Thirdly, the study presented an illustrative example for the
-investigation of research hypotheses within the model's framework.}
+Thirdly, the study presented an illustrative example for the
+investigation of research hypotheses within the model's framework.
 However, it did not offer an exhaustive evaluation of all factors
 influencing intelligibility, which are thoroughly explored in the works
 of \citet{Niparko_et_al_2010}, \citet{Boons_et_al_2012},
@@ -1598,7 +1611,7 @@ of transcription tasks imply that the procedure may be time-intensive
 and costly. Thus, exploring less time-intensive or more cost-effective
 procedures, that still offer comparable precision in intelligibility
 estimates, could benefit both researchers and speech therapists alike.
-{One example of such a method is Comparative Judgment (CJ), where judges
+One example of such a method is Comparative Judgment (CJ), where judges
 compare and score the perceived intensity of a trait between two stimuli
 \citep{Thurstone_1927}. CJ has gained increasing attention in
 educational assessment, with several studies demonstrating its validity
@@ -1614,7 +1627,7 @@ extending their application. For instance, researchers can perform
 retrospective power analysis to ascertain the power of the study's
 claims \citep[see][393-394]{Kruschke_2015}. Furthermore, the application
 can be extended to other unexplored variants of the CJ method, such as
-Ordered CJ \citep{Pritikin_2020} or Multidimensional Dichotomous CJ.}
+Ordered CJ \citep{Pritikin_2020} or Multidimensional Dichotomous CJ.
 
 Conversely, a second avenue for exploration involves integrating diverse
 data types and evaluation methods to assess individuals'
@@ -1636,7 +1649,7 @@ construct validity by those evaluation methods.
 
 \section{Conclusion}\label{sec-conclusion}
 
-{This study have highlighted the effectiveness of the Bayesian
+This study have highlighted the effectiveness of the Bayesian
 Beta-proportion GLLAMM to collectively address several key data features
 when investigating unobservable and complex traits. The study used
 speech intelligibility and entropy scores as a motivating example. The
@@ -1649,20 +1662,20 @@ associated uncertainties. Additionally, the proposed model have
 facilitated the exploration of research hypotheses concerning the
 influence of speaker-related factors on potential intelligibility, where
 the integration and comparison of these hypotheses within the model's
-framework was a straightforward task.}
+framework was a straightforward task.
 
 However, the introduction of these innovative statistical tools presents
 new challenges for researchers seeking implementation. These challenges
 encompass the principled formulation of assumptions about the
 data-generating processes and research inquiries, along with the need
 for familiarity with probabilistic programming languages (PPLs)
-essential for implementing Bayesian methods. {Nevertheless, the study
+essential for implementing Bayesian methods. Nevertheless, the study
 suggests several promising avenues for future research, including causal
 hypothesis formulation, and the exploration and integration of novel
 evaluation methods for assessing intelligibility. The insights derived
 from this study hold implications for both researchers and data analysts
 interested in quantitatively measuring intricate, unobservable
-constructs, while predicting accurately the empirical phenomena.}
+constructs, while predicting accurately the empirical phenomena.
 
 \newpage{}
 
@@ -1684,12 +1697,12 @@ approval is required.
 \textbf{Consent for publication:} All authors have read and agreed to
 the published version of the manuscript.
 
-\textbf{Availability of data and materials:} {The data is delivered upon
-request.}
+\textbf{Availability of data and materials:} The data is delivered upon
+request.
 
-\textbf{Code availability:} {All the code utilized in this research is
+\textbf{Code availability:} All the code utilized in this research is
 available in the different notebooks and \texttt{CODE\ LINKS} referenced
-in the digital document. The digital document is located at:}
+in the digital document. The digital document is located at:
 \url{https://jriveraespejo.github.io/paper1_manuscript/}.
 
 \textbf{Authors' contributions:} \emph{Conceptualization:} S.G., S.dM.,
@@ -1702,9 +1715,9 @@ J.M.R.E; \emph{Project administration:} S.G. and S.dM.;
 \emph{Visualization:} J.M.R.E.; \emph{Writing - original draft:}
 J.M.R.E.; \emph{Writing - review \& editing:} S.G. and S.dM.
 
-{\textbf{Acknowledgements:} We express gratitude to Renaat van Uffelen
+\textbf{Acknowledgements:} We express gratitude to Renaat van Uffelen
 for providing timely expertise in enhancing the writing of this
-document.}
+document.
 
 \newpage{}
 
@@ -1712,7 +1725,7 @@ document.}
 
 \subsection{Entropy scores calculation}\label{sec-appA}
 
-This section exemplified the entropy calculation procedure. {For that
+This section exemplified the entropy calculation procedure. For that
 purpose, the words in position two, three, four and five observed in
 Table~\ref{tbl-alignment} were used. These words were assumed present in
 the first sentence, produced by the first speaker assigned to the first
@@ -1722,15 +1735,15 @@ identified the word type \emph{jongen} \((T_{j1})\), while the last
 identified the word type \emph{hond} \((T_{j2})\). Therefore, two word
 types were identified (\(K=2\)), with proportions equal to
 \(\{ p_{1}, p_{2} \}\) \(=\) \(\{ 4/5, 1/5 \}\) \(=\)
-\(\{ 0.8, 0.2 \}\), with an entropy score equal to:}
+\(\{ 0.8, 0.2 \}\), with an entropy score equal to:
 
 \[ 
 H_{2111} = \frac{ -\left[ 0.8 \cdot log_{2}(0.8) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.3109
 \]
 
-{For the fourth word, two listeners identified the word type \emph{een}
+For the fourth word, two listeners identified the word type \emph{een}
 \((T_{j1})\), one listener the word type \emph{de} \((T_{j2})\), and
-another the word \emph{geen} \((T_{j3})\).} In addition, a blank space
+another the word \emph{geen} \((T_{j3})\). In addition, a blank space
 \emph{{[}B{]}} is a symbol that defined the absence of a word in a space
 where a word was expected during the alignment procedure, as compared
 with other transcriptions. Notice that for calculation purposes, because
@@ -1742,14 +1755,14 @@ a different word type. Consequently four word types were registered
 
 \[ 
 H_{4111} = \frac{ -\left[ 0.4 \cdot log_{2}(0.4) + 3 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.8277
-\] {For the fifth word, each listener transcribed a different word.} It
-is important to highlight that when a listener did not identify a
-complete word, or part of it, (s)he was instructed to write
-\emph{{[}X{]}} in that position. However, for the calculation of the
-entropy score, if more than one listener marked an unidentifiable word
-with \emph{{[}X{]}}, each one of them was considered a different word
-type. This was done to avoid the artificial reduction of the entropy
-score, as \emph{{[}X{]}} values already indicated the word's lack of
+\] For the fifth word, each listener transcribed a different word. It is
+important to highlight that when a listener did not identify a complete
+word, or part of it, (s)he was instructed to write \emph{{[}X{]}} in
+that position. However, for the calculation of the entropy score, if
+more than one listener marked an unidentifiable word with
+\emph{{[}X{]}}, each one of them was considered a different word type.
+This was done to avoid the artificial reduction of the entropy score, as
+\emph{{[}X{]}} values already indicated the word's lack of
 intelligibility. . Consequently, five word types were observed,
 \(T_{j1}=\)\emph{kikker}, \(T_{j2}=\)\emph{{[}X{]}},
 \(T_{j3}=\)\emph{kokkin}, \(T_{j4}=\)\emph{kikkers},
@@ -1762,19 +1775,19 @@ intelligibility. . Consequently, five word types were observed,
 H_{5111} = \frac{ -\left[ 5 \cdot 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} = 1
 \]
 
-{Lastly, for the third word, the first two listeners identified the word
+Lastly, for the third word, the first two listeners identified the word
 type \emph{ziet} \((T_{j1})\), the next two listeners identified the
 word type \emph{zag} \((T_{j2})\), while the last one identified the
 word type \emph{zoekt} \((T_{j3})\). Consequently, three word types were
 identified (\(K=3\)), with proportions equal to
 \(\{ p_{1}, p_{2}, p_{3} \}\) \(=\) \(\{ 2/5, 2/5, 1/5 \}\) \(=\)
-\(\{ 0.4, 0.4, 0.2 \}\), with an entropy score equal to:}
+\(\{ 0.4, 0.4, 0.2 \}\), with an entropy score equal to:
 
 \[
 H_{2111} = \frac{ -\left[ 2 \cdot 0.4 \cdot log_{2}(0.4) + 0.2 \cdot log_{2}(0.2) \right] }{ log_{2}(5)} \approx 0.6555
 \]
 
-{Importantly, the last example showcased the major difference between
+Importantly, the last example showcased the major difference between
 entropy and measures of accuracy based on the percentage of
 (un)intelligible words. Entropy scores employ all word type proportions
 in their calculations, effectively capturing the agreement and
@@ -1785,7 +1798,7 @@ disagreement among listeners' word transcriptions
 agreement percentage could be reflected by the proportion of the most
 frequent word, i.e., \(\text{max}\{ 0.4, 0.4, 0.2 \}=0.4\), or by other
 similar percentages detailed in the works of \citet{Flipsen_2006} and
-\citet{Lagerberg_et_al_2014}.}
+\citet{Lagerberg_et_al_2014}.
 
 \newpage{}
 
@@ -1794,8 +1807,8 @@ similar percentages detailed in the works of \citet{Flipsen_2006} and
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq1-waic}WAIC comparison for selected models.
-{\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
-most to least plausible model(s) for the data.}}
+\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
+most to least plausible model(s) for the data.}
 
 \tabularnewline
 
@@ -1805,7 +1818,7 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-10 & -9741.66 & -9630.63 & 276.64 & 0.00 & NA & 55.52 & 1 \\
+10 & -9741.66 & -9630.63 & 276.64 & 0.00 & & 55.52 & 1 \\
 7 & -9649.54 & -9586.00 & 274.50 & 44.63 & 17.89 & 31.77 & 0 \\
 4 & -2670.62 & -2024.84 & 127.02 & 7605.78 & 263.22 & 322.89 & 0 \\
 1 & -2278.68 & -1761.10 & 101.80 & 7869.53 & 266.54 & 258.79 & 0 \\
@@ -1815,8 +1828,8 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq1-psis}PSIS comparison for selected models.
-{\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
-most to least plausible model(s) for the data.}}
+\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
+most to least plausible model(s) for the data.}
 
 \tabularnewline
 
@@ -1826,7 +1839,7 @@ Model & DIC & PSIS & SE & dPSIS & dSE & pPSIS & weight \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-10 & -9741.66 & -9629.27 & 276.74 & 0.00 & NA & 56.19 & 1 \\
+10 & -9741.66 & -9629.27 & 276.74 & 0.00 & & 56.19 & 1 \\
 7 & -9649.54 & -9585.92 & 274.56 & 43.36 & 17.67 & 31.81 & 0 \\
 4 & -2670.62 & -2007.66 & 128.57 & 7621.61 & 263.60 & 331.48 & 0 \\
 1 & -2278.68 & -1753.71 & 102.09 & 7875.57 & 266.54 & 262.48 & 0 \\
@@ -1836,8 +1849,8 @@ Model & DIC & PSIS & SE & dPSIS & dSE & pPSIS & weight \\
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq3-waic}WAIC comparison for all models.
-{\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
-most to least plausible model(s) for the data.}}
+\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
+most to least plausible model(s) for the data.}
 
 \tabularnewline
 
@@ -1847,7 +1860,7 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-11 & -9741.51 & -9632.24 & 276.80 & 0.00 & NA & 54.63 & 0.46 \\
+11 & -9741.51 & -9632.24 & 276.80 & 0.00 & & 54.63 & 0.46 \\
 12 & -9741.49 & -9631.66 & 276.82 & 0.58 & 1.00 & 54.91 & 0.34 \\
 10 & -9741.66 & -9630.63 & 276.64 & 1.61 & 2.97 & 55.52 & 0.20 \\
 9 & -9649.15 & -9586.67 & 274.35 & 45.56 & 18.01 & 31.24 & 0.00 \\
@@ -1865,8 +1878,8 @@ Model & DIC & WAIC & SE & dWAIC & dSE & pWAIC & weight \\
 \begin{longtable}[]{@{}crrrrrrr@{}}
 
 \caption{\label{tbl-rq3-psis}PSIS comparison for all models.
-{\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
-most to least plausible model(s) for the data.}}
+\textbf{\emph{Note:}} The table is sorted based on \texttt{weight} from
+most to least plausible model(s) for the data.}
 
 \tabularnewline
 
@@ -1876,7 +1889,7 @@ Model & DIC & PSIS & SE & dPSIS & dSE & pPSIS & weight \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-11 & -9741.51 & -9631.16 & 276.88 & 0.00 & NA & 55.17 & 0.46 \\
+11 & -9741.51 & -9631.16 & 276.88 & 0.00 & & 55.17 & 0.46 \\
 12 & -9741.49 & -9630.70 & 276.90 & 0.47 & 1.01 & 55.39 & 0.36 \\
 10 & -9741.66 & -9629.27 & 276.74 & 1.89 & 2.84 & 56.19 & 0.18 \\
 9 & -9649.15 & -9586.58 & 274.41 & 44.58 & 17.91 & 31.28 & 0.00 \\
@@ -1952,11 +1965,11 @@ and sentence index.}
 }
 
 \caption{\label{fig-rq3-pred-speaker}Entropy scores prediction for
-selected models. {\textbf{\emph{Note:}} Black points show manifest
+selected models. \textbf{\emph{Note:}} Black points show manifest
 entropy scores where darker points indicate greater overlap. Orange dots
 and vertical lines show the posterior mean and 95\% HPDI derived from
 Model 6. Blue dots and vertical lines show similar information from
-Model 12.}}
+Model 12.}
 
 \end{figure}%
 
