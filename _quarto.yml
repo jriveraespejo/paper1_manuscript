@@ -5,9 +5,9 @@ manuscript:
   article: index.qmd
   meca-bundle: "manuscript1-meca.zip"
   code-links:
-  - text: Submission Manuscript
-    icon: filetype-pdf
-    href: manual_renderization/index.pdf
+  #- text: Submission Manuscript
+  #  icon: filetype-pdf
+  #  href: manual_renderization/index.pdf
   - text: Additional Notebook
     icon: filetype-html
     href: https://jriveraespejo.github.io/betaprop.walkthrough.github.io/
