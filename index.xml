@@ -2,13 +2,14 @@
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
 and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 
-<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="article-journal">
 
 <front>
 <journal-meta>
 <journal-id></journal-id>
 
 <journal-title-group>
+<journal-title>Behavior Research Methods</journal-title>
 </journal-title-group>
 <issn></issn>
 
@@ -19,6 +20,7 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 
 
 <article-meta>
+<article-id pub-id-type="doi">10.3758/s13428-024-02457-6</article-id>
 
 
 <title-group>
@@ -130,10 +132,10 @@ Sciences</institution>
 <corresp id="cor-1">JoseManuel.RiveraEspejo@uantwerpen.be</corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-06-10">
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-07-15">
 <year>2024</year>
-<month>6</month>
-<day>10</day>
+<month>7</month>
+<day>15</day>
 </pub-date>
 
 
@@ -671,11 +673,11 @@ the University of Antwerp (BOF).</funding-statement>
       speaker, and the output was manually checked and adjusted (if
       needed) in order to appropriately align the words. For more
       details on the random assignment and alignment procedures refer to
-      the original authors.]</p>
+      the original authors.</p>
       <p>Next, the aligned transcriptions were aggregated by listener,
       yielding <inline-formula><alternatives>
-      <tex-math><![CDATA[2,2634]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2634</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
+      <tex-math><![CDATA[2,263]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>263</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
       entropy scores, one score per word for every sentence. The entropy
       scores were calculated following Shannon’s formula
       (<xref alt="1948" rid="ref-Shannon_1948" ref-type="bibr">1948</xref>):</p>
@@ -1659,7 +1661,7 @@ the University of Antwerp (BOF).</funding-statement>
     This indicates that Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    significantly deviateed the least from <italic>perfect</italic>
+    significantly deviated the least from <italic>perfect</italic>
     predictive accuracy when compared to the rest of the models. Lastly,
     the <monospace>weight</monospace> of evidence in
     <xref alt="Table 6" rid="tbl-rq1-waic">Table 6</xref> and
@@ -1872,11 +1874,11 @@ the University of Antwerp (BOF).</funding-statement>
     <p>Similar to RQ1, all criteria consistently identified the
     Beta-proportion GLLAMM outlined in models
     <inline-formula><alternatives>
-    <tex-math><![CDATA[11]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>,
-    <inline-formula><alternatives>
     <tex-math><![CDATA[12]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>,
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[11]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
@@ -1936,7 +1938,7 @@ the University of Antwerp (BOF).</funding-statement>
     Normal LMM, as outlined in Model <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>,
-    continueed to face challenges in capturing underlying data patterns,
+    continued to face challenges in capturing underlying data patterns,
     resulting in predictions that are physically inconsistent, falling
     outside the outcome’s range. Additionally, the model persisted in
     identifying highly unlikely and influential observations, making it
@@ -2358,7 +2360,7 @@ the University of Antwerp (BOF).</funding-statement>
     may be attributed to factors such as the insufficient sample size of
     speakers, the inadequate representation of the populations of
     speakers (referred to as selection bias), and the imprecise
-    measurement of the latent variable. Small sample size and selection
+    measurement of the latent variable. Small sample sizes and selection
     bias yield data with limited outcome and covariates ranges, leading
     to biased and imprecise parameter estimates
     (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010" ref-type="bibr">Everitt
@@ -5471,11 +5473,11 @@ data_H = data.frame(dlist[var_int])
       speaker, and the output was manually checked and adjusted (if
       needed) in order to appropriately align the words. For more
       details on the random assignment and alignment procedures refer to
-      the original authors.]</p>
+      the original authors.</p>
       <p>Next, the aligned transcriptions were aggregated by listener,
       yielding <inline-formula><alternatives>
-      <tex-math><![CDATA[2,2634]]></tex-math>
-      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2634</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
+      <tex-math><![CDATA[2,263]]></tex-math>
+      <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>263</mml:mn></mml:mrow></mml:math></alternatives></inline-formula>
       entropy scores, one score per word for every sentence. The entropy
       scores were calculated following Shannon’s formula
       (<xref alt="1948" rid="ref-Shannon_1948-nb-article" ref-type="bibr">1948</xref>):</p>
@@ -6469,7 +6471,7 @@ for(i in 1:12){
     This indicates that Model <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
-    significantly deviateed the least from <italic>perfect</italic>
+    significantly deviated the least from <italic>perfect</italic>
     predictive accuracy when compared to the rest of the models. Lastly,
     the <monospace>weight</monospace> of evidence in
     <xref alt="Table 8" rid="tbl-rq1-waic-nb-article">Table 8</xref> and
@@ -7104,11 +7106,11 @@ par(mfrow=c(1,1))</code>
     <p>Similar to RQ1, all criteria consistently identified the
     Beta-proportion GLLAMM outlined in models
     <inline-formula><alternatives>
-    <tex-math><![CDATA[11]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>,
-    <inline-formula><alternatives>
     <tex-math><![CDATA[12]]></tex-math>
-    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>12</mml:mn></mml:math></alternatives></inline-formula>,
+    <inline-formula><alternatives>
+    <tex-math><![CDATA[11]]></tex-math>
+    <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>11</mml:mn></mml:math></alternatives></inline-formula>
     and <inline-formula><alternatives>
     <tex-math><![CDATA[10]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>10</mml:mn></mml:math></alternatives></inline-formula>
@@ -7219,7 +7221,7 @@ par(mfrow=c(1,1))</code>
     Normal LMM, as outlined in Model <inline-formula><alternatives>
     <tex-math><![CDATA[6]]></tex-math>
     <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mn>6</mml:mn></mml:math></alternatives></inline-formula>,
-    continueed to face challenges in capturing underlying data patterns,
+    continued to face challenges in capturing underlying data patterns,
     resulting in predictions that are physically inconsistent, falling
     outside the outcome’s range. Additionally, the model persisted in
     identifying highly unlikely and influential observations, making it
@@ -7746,7 +7748,7 @@ kable( model_tab[,vars_tab], row.names=F, align='ccc',
     may be attributed to factors such as the insufficient sample size of
     speakers, the inadequate representation of the populations of
     speakers (referred to as selection bias), and the imprecise
-    measurement of the latent variable. Small sample size and selection
+    measurement of the latent variable. Small sample sizes and selection
     bias yield data with limited outcome and covariates ranges, leading
     to biased and imprecise parameter estimates
     (<xref alt="Everitt and Skrondal 2010" rid="ref-Everitt_et_al_2010-nb-article" ref-type="bibr">Everitt

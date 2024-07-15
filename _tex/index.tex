@@ -92,20 +92,6 @@
 \def\fps@figure{htbp}
 \makeatother
 
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{wrapfig}
-\usepackage{float}
-\usepackage{colortbl}
-\usepackage{pdflscape}
-\usepackage{tabu}
-\usepackage{threeparttable}
-\usepackage{threeparttablex}
-\usepackage[normalem]{ulem}
-\usepackage{makecell}
-\usepackage{xcolor}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -148,6 +134,7 @@
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
 \journal{Behavior Research Methods}
+
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -170,6 +157,7 @@ models, robust regression models.},
   citecolor={Blue},
   urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
+
 
 \setlength{\parindent}{6pt}
 \begin{document}
@@ -246,6 +234,7 @@ latent and mixed models \sep
 \end{keyword}
 \end{frontmatter}
     
+
 \section{Introduction}\label{sec-introduction}
 
 Intelligibility is at the core of successful, felicitous communication.
@@ -531,10 +520,10 @@ presented in Table~\ref{tbl-alignment}. This alignment process was
 repeated for each sentence from every speaker, and the output was
 manually checked and adjusted (if needed) in order to appropriately
 align the words. For more details on the random assignment and alignment
-procedures refer to the original authors.{]}
+procedures refer to the original authors.
 
 Next, the aligned transcriptions were aggregated by listener, yielding
-\(2,2634\) entropy scores, one score per word for every sentence. The
+\(2,263\) entropy scores, one score per word for every sentence. The
 entropy scores were calculated following Shannon's formula
 \citeyearpar{Shannon_1948}:
 
@@ -1108,7 +1097,7 @@ establishing itself as the model with the least deviation from
 Additionally, Figure~\ref{fig-rq1-waic-psis} visually demonstrates the
 non-overlapping uncertainty in both \texttt{dWAIC} and \texttt{dPSIS}
 values for Models \(1\), \(4\), and \(7\) when compared to Model \(10\).
-This indicates that Model \(10\) significantly deviateed the least from
+This indicates that Model \(10\) significantly deviated the least from
 \emph{perfect} predictive accuracy when compared to the rest of the
 models. Lastly, the \texttt{weight} of evidence in
 Table~\ref{tbl-rq1-waic} and \ref{tbl-rq1-psis} underscored that
@@ -1269,7 +1258,7 @@ potentially exhibited misspecification in the covariate-outcome
 relationship.
 
 Similar to RQ1, all criteria consistently identified the Beta-proportion
-GLLAMM outlined in models \(11\), \(12\) and \(10\) as the most
+GLLAMM outlined in models \(12\), \(11\) and \(10\) as the most
 plausible models for the data. The models exhibited the lowest values
 for both \texttt{WAIC} and \texttt{PSIS}, establishing them as the least
 deviating models among those under comparison. In addition,
@@ -1303,7 +1292,7 @@ criteria associated uncertainty.}
 
 A closer examination of two models within this comparison set reveals
 the reasons behind the largest observed disparities. The Normal LMM, as
-outlined in Model \(6\), continueed to face challenges in capturing
+outlined in Model \(6\), continued to face challenges in capturing
 underlying data patterns, resulting in predictions that are physically
 inconsistent, falling outside the outcome's range. Additionally, the
 model persisted in identifying highly unlikely and influential
@@ -1572,11 +1561,11 @@ one of the models among the compared set. This outcome may be attributed
 to factors such as the insufficient sample size of speakers, the
 inadequate representation of the populations of speakers (referred to as
 selection bias), and the imprecise measurement of the latent variable.
-Small sample size and selection bias yield data with limited outcome and
-covariates ranges, leading to biased and imprecise parameter estimates
-\citep{Everitt_et_al_2010}. Moreover, fueled by the reduced measurement
-precision, these issues can result in models with diminished statistical
-power and a higher risk of type I or type II errors
+Small sample sizes and selection bias yield data with limited outcome
+and covariates ranges, leading to biased and imprecise parameter
+estimates \citep{Everitt_et_al_2010}. Moreover, fueled by the reduced
+measurement precision, these issues can result in models with diminished
+statistical power and a higher risk of type I or type II errors
 \citep{McElreath_2020}. Consequently, future research should consider
 extending this study by conducting formal sample size planning. This
 entails assessing the impact of expanding the speakers' pool on testing
@@ -2027,6 +2016,7 @@ and sentence index.}
 
 \renewcommand{\bibsection}{}
 \bibliography{references.bib}
+
 
 
 
